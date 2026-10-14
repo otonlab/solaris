@@ -1,0 +1,152 @@
+{
+ "schema": 1,
+ "packId": "earth-tiles-japan",
+ "version": 2,
+ "title": "日本周辺の地表タイル（cube-sphere L5・L6・約 1.2〜0.6 km/px）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:399"
+ ],
+ "sizeBytes": 5463956,
+ "installedBytes": 5463956,
+ "assets": [
+  {
+   "id": "tiles:399:albedo:japan",
+   "kind": "tiled",
+   "target": "naif:399",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "cube",
+   "tileSize": 256,
+   "border": 2,
+   "minLevel": 5,
+   "levels": 6,
+   "maxWidth": 64512,
+   "pathTemplate": "tiles/albedo_L{z}_f{face}.utb",
+   "files": [
+    "tiles/albedo_L5_f1.utb",
+    "tiles/albedo_L5_f2.utb",
+    "tiles/albedo_L5_f4.utb",
+    "tiles/albedo_L6_f1.utb",
+    "tiles/albedo_L6_f2.utb",
+    "tiles/albedo_L6_f4.utb"
+   ],
+   "credits": [
+    "nasa-bmng-base-200407"
+   ],
+   "sparse": true
+  },
+  {
+   "id": "tiles:399:normal:japan",
+   "kind": "tiled",
+   "target": "naif:399",
+   "slot": "normal",
+   "format": "jpg",
+   "projection": "cube",
+   "tileSize": 256,
+   "border": 2,
+   "minLevel": 5,
+   "levels": 6,
+   "maxWidth": 64512,
+   "pathTemplate": "tiles/normal_L{z}_f{face}.utb",
+   "files": [
+    "tiles/normal_L5_f1.utb",
+    "tiles/normal_L5_f2.utb",
+    "tiles/normal_L5_f4.utb",
+    "tiles/normal_L6_f1.utb",
+    "tiles/normal_L6_f2.utb",
+    "tiles/normal_L6_f4.utb"
+   ],
+   "credits": [
+    "noaa-etopo2022"
+   ],
+   "sparse": true
+  }
+ ],
+ "files": [
+  {
+   "path": "tiles/albedo_L5_f1.utb",
+   "bytes": 29532,
+   "sha256": "b209010bd6f86b4eb83fb44e69aed9c0efe5ea50e2b68c197c5b59653aef7d16"
+  },
+  {
+   "path": "tiles/albedo_L5_f2.utb",
+   "bytes": 114640,
+   "sha256": "f3d41d26de3fe05f3521711deb464be71e3127a53e38955c26fbe654f9b9f3ff"
+  },
+  {
+   "path": "tiles/albedo_L5_f4.utb",
+   "bytes": 219908,
+   "sha256": "126269e426deaec03af159652307761fa1a3b3b5801f14ac71ce705b6df2217b"
+  },
+  {
+   "path": "tiles/albedo_L6_f1.utb",
+   "bytes": 92655,
+   "sha256": "4bf2c1331e75622a1d7c171d8448b61fb67712cb6506bc9c268129d05103d5d7"
+  },
+  {
+   "path": "tiles/albedo_L6_f2.utb",
+   "bytes": 393858,
+   "sha256": "41065ab06215400523691f8dbb7457c5dbd6e514f2c68f7d7c294cd37332f0e4"
+  },
+  {
+   "path": "tiles/albedo_L6_f4.utb",
+   "bytes": 676839,
+   "sha256": "2c2ea62f83ce69e6ef1748e000cdb247eee01de4758054b8dcb661c78099e687"
+  },
+  {
+   "path": "tiles/normal_L5_f1.utb",
+   "bytes": 92467,
+   "sha256": "dee26f16db74eeca3a3e231b8139039a0ea52762aa7d03ed57baeab077b8365a"
+  },
+  {
+   "path": "tiles/normal_L5_f2.utb",
+   "bytes": 304535,
+   "sha256": "0b3bb9638f89c70be46475daa6371987b1569ec9bb658d7c3470f730018d978c"
+  },
+  {
+   "path": "tiles/normal_L5_f4.utb",
+   "bytes": 769566,
+   "sha256": "05f84bcd37220c800ede4532a8c8482e240ac0aa4c993aeb3da9300e968e1f1e"
+  },
+  {
+   "path": "tiles/normal_L6_f1.utb",
+   "bytes": 229479,
+   "sha256": "b53cd793abd51f4b42ab16f5771da488c7fce1deedd1983d42b41e784095d736"
+  },
+  {
+   "path": "tiles/normal_L6_f2.utb",
+   "bytes": 761718,
+   "sha256": "6f58ab757971cbf14c2519ec373184bf7ed28e3445848b196e329358ae877fae"
+  },
+  {
+   "path": "tiles/normal_L6_f4.utb",
+   "bytes": 1778759,
+   "sha256": "1c1b647c638403a95415f7d0843f915d6206e9328e7c8138baea3f4a2487074e"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-bmng-base-200407",
+   "title": "Blue Marble: Next Generation – Base Map (July 2004, 21600×10800)（500 m 版の区画 D1：東経 90〜180°・北緯 0〜90°）",
+   "source": "NASA Earth Observatory（Reto Stöckli）。cube-sphere のタイル（L3・L4）に投影し直した。日本周辺（北緯 20〜47°・東経 122〜155°）だけを L5・L6 に（tools/pipeline/make_earth_tiles_japan.py）",
+   "license": "NASA（著作権の対象外。NASA の画像・メディア利用指針に従い、出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/"
+  },
+  {
+   "id": "noaa-etopo2022",
+   "title": "ETOPO 2022 Global Relief Model (60 arc-second, surface)",
+   "source": "NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74（60″の地表面の標高から傾きと海の割合を計算し、cube-sphere のタイルに投影し直した。誇張なし）",
+   "license": "CC0-1.0（米国で著作権の対象外・NOAA は権利を放棄）",
+   "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model"
+  }
+ ],
+ "info": {
+  "titleEasy": "日本をくわしく見る",
+  "description": "日本の近くに寄ったときの地表（約 0.6 km/px・日本周辺だけ）。世界全体は今までの細かさのまま",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-06"
+ }
+}

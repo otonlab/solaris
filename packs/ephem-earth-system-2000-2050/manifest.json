@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "packId": "ephem-earth-system-2000-2050",
+ "version": 1,
+ "title": "地球―月系の暦 2000〜2050年（月／地球中心）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:301"
+ ],
+ "sizeBytes": 602776,
+ "installedBytes": 602776,
+ "assets": [
+  {
+   "id": "ephem:301:399:2000-2050",
+   "kind": "ephem",
+   "target": "naif:301",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "301.bin"
+   ],
+   "credits": [
+    "jpl-horizons-de441-moon"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:399",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — Moon (301)                      {source: DE441} / Earth (399)                     {source: DE441}",
+     "retrievedUtc": "2026-10-01T05:16:00+00:00",
+     "fitMaxKm": 0.036982,
+     "holdoutMaxKm": 0.025193,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 3.92e-09,
+     "boundaryJumpMaxKmS": 9.32e-14,
+     "sampleStep": "12h"
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "301.bin",
+   "bytes": 602776,
+   "sha256": "3143bb79af9d8d5687bc4ec0e9a6c314162f865cf36a4a053355e802bfae3a38"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons-de441-moon",
+   "title": "JPL Horizons On-Line Ephemeris System（DE441）からのチェビシェフ当てはめ（原点：地球の中心）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ]
+}

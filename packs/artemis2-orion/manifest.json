@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "packId": "artemis2-orion",
+ "version": 1,
+ "title": "アルテミス2号：オリオン宇宙船（外と中）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:artemis2-orion",
+  "use:artemis2-orion-cabin"
+ ],
+ "sizeBytes": 1674468,
+ "installedBytes": 1674468,
+ "assets": [
+  {
+   "id": "artemis2-orion-exterior",
+   "kind": "model",
+   "target": "use:artemis2-orion",
+   "slot": "model",
+   "files": [
+    "orion.glb"
+   ],
+   "credits": [
+    "orion-model",
+    "nasa-refs"
+   ],
+   "format": "glb"
+  },
+  {
+   "id": "artemis2-orion-cabin",
+   "kind": "model",
+   "target": "use:artemis2-orion-cabin",
+   "slot": "model",
+   "files": [
+    "orion_cabin.glb"
+   ],
+   "credits": [
+    "orion-model",
+    "nasa-refs"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "orion.glb",
+   "bytes": 419008,
+   "sha256": "2f519f2440d28e632bff330f4be95575a643dbda79b925e22e9519b9682c2df7"
+  },
+  {
+   "path": "orion_cabin.glb",
+   "bytes": 1255460,
+   "sha256": "60c6a17c1b045ff660de7092bca0ab6888c6e040a9f928211e6f75f6b765d47e"
+  }
+ ],
+ "credits": [
+  {
+   "id": "orion-model",
+   "title": "Orion (Artemis II) exterior and cabin reconstruction",
+   "source": "SOLARIS（NASA の写真・Orion Reference Guide の寸法から作った再現 CG・細部は推定）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/humans-in-space/orion-spacecraft/orion-media-resources/"
+  },
+  {
+   "id": "nasa-refs",
+   "title": "NASA photographs of Orion (Artemis II) used as modeling references",
+   "source": "NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/"
+  }
+ ],
+ "info": {
+  "titleEasy": "オリオン宇宙船の形と船内",
+  "description": "NASA の写真と寸法から SOLARIS が作ったオリオン（Artemis II）の外の形と船内。細かい所は推定。",
+  "category": "other",
+  "updatedUtc": "2026-10-11"
+ }
+}

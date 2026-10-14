@@ -1,0 +1,222 @@
+{
+ "schema": 1,
+ "packId": "earth-tiles",
+ "version": 1,
+ "title": "地球の地表タイル（cube-sphere L3・L4・約 2.4 km/px）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:399"
+ ],
+ "sizeBytes": 31399623,
+ "installedBytes": 31399623,
+ "assets": [
+  {
+   "id": "tiles:399:albedo",
+   "kind": "tiled",
+   "target": "naif:399",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "cube",
+   "tileSize": 256,
+   "border": 2,
+   "minLevel": 3,
+   "levels": 4,
+   "maxWidth": 16128,
+   "pathTemplate": "tiles/albedo_L{z}_f{face}.utb",
+   "files": [
+    "tiles/albedo_L3_f0.utb",
+    "tiles/albedo_L3_f1.utb",
+    "tiles/albedo_L3_f2.utb",
+    "tiles/albedo_L3_f3.utb",
+    "tiles/albedo_L3_f4.utb",
+    "tiles/albedo_L3_f5.utb",
+    "tiles/albedo_L4_f0.utb",
+    "tiles/albedo_L4_f1.utb",
+    "tiles/albedo_L4_f2.utb",
+    "tiles/albedo_L4_f3.utb",
+    "tiles/albedo_L4_f4.utb",
+    "tiles/albedo_L4_f5.utb"
+   ],
+   "credits": [
+    "nasa-bmng-base-200407"
+   ]
+  },
+  {
+   "id": "tiles:399:normal",
+   "kind": "tiled",
+   "target": "naif:399",
+   "slot": "normal",
+   "format": "jpg",
+   "projection": "cube",
+   "tileSize": 256,
+   "border": 2,
+   "minLevel": 3,
+   "levels": 4,
+   "maxWidth": 16128,
+   "pathTemplate": "tiles/normal_L{z}_f{face}.utb",
+   "files": [
+    "tiles/normal_L3_f0.utb",
+    "tiles/normal_L3_f1.utb",
+    "tiles/normal_L3_f2.utb",
+    "tiles/normal_L3_f3.utb",
+    "tiles/normal_L3_f4.utb",
+    "tiles/normal_L3_f5.utb",
+    "tiles/normal_L4_f0.utb",
+    "tiles/normal_L4_f1.utb",
+    "tiles/normal_L4_f2.utb",
+    "tiles/normal_L4_f3.utb",
+    "tiles/normal_L4_f4.utb",
+    "tiles/normal_L4_f5.utb"
+   ],
+   "credits": [
+    "noaa-etopo2022"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "tiles/albedo_L3_f0.utb",
+   "bytes": 348158,
+   "sha256": "9a331d1b8a635d8dac117fb64b3b654d7ea13fdd3ccd55631f0f5c515cac930f"
+  },
+  {
+   "path": "tiles/albedo_L3_f1.utb",
+   "bytes": 109052,
+   "sha256": "3a7f65b4fc8977ea5d0538fee1ae27331a89163568ea992e6559975078d4ea85"
+  },
+  {
+   "path": "tiles/albedo_L3_f2.utb",
+   "bytes": 369557,
+   "sha256": "47bf2cd7c4c98dbb62c6f762962c5ef50248aea75c24099c8e23c11120bf89e7"
+  },
+  {
+   "path": "tiles/albedo_L3_f3.utb",
+   "bytes": 270785,
+   "sha256": "d96f6e06fa51d5d356d9880ffafb72ae965563990d72c94cdf5819e6dab8cdae"
+  },
+  {
+   "path": "tiles/albedo_L3_f4.utb",
+   "bytes": 592798,
+   "sha256": "bf67fa004d6970f6b63cf9113f16cf76eacbe9af018305e60b7b1365820b1a85"
+  },
+  {
+   "path": "tiles/albedo_L3_f5.utb",
+   "bytes": 169993,
+   "sha256": "e4f7475e79dde6990a2cb26bfca5063390b4e63319921c39481a4167754ab04e"
+  },
+  {
+   "path": "tiles/albedo_L4_f0.utb",
+   "bytes": 1213780,
+   "sha256": "0e2863624a6ff20017383aa970918c8d2ba74d327e22bbf74a5b02a49ac09926"
+  },
+  {
+   "path": "tiles/albedo_L4_f1.utb",
+   "bytes": 356931,
+   "sha256": "eb02726126a3f25db8169c663c21b7e6a4903fc9fc76ec3cbde6ce28563baf69"
+  },
+  {
+   "path": "tiles/albedo_L4_f2.utb",
+   "bytes": 1292470,
+   "sha256": "aca174bdc6d44d30c5d3dbc2111c19f6c1118de2026c8bfbc673d03eb07fd955"
+  },
+  {
+   "path": "tiles/albedo_L4_f3.utb",
+   "bytes": 984793,
+   "sha256": "ea080a602961b02a6178e0b26d58cd89f162c26600b3093fc6fca4a56ddd7c46"
+  },
+  {
+   "path": "tiles/albedo_L4_f4.utb",
+   "bytes": 2117480,
+   "sha256": "d8e766bf660521e18c37b63f2760b2a14374d893dd366056d54881db7f7c0fa4"
+  },
+  {
+   "path": "tiles/albedo_L4_f5.utb",
+   "bytes": 579781,
+   "sha256": "307b4922a06defbf8489bc6e92a02111b8a361cc9c0adc783e513ed7a381c15d"
+  },
+  {
+   "path": "tiles/normal_L3_f0.utb",
+   "bytes": 808599,
+   "sha256": "26077a23e043c41755e8bb5cbf1b1c7ee4593683d181f71e4ad21da6b2d27802"
+  },
+  {
+   "path": "tiles/normal_L3_f1.utb",
+   "bytes": 233471,
+   "sha256": "853d9a25dc567d4b47ee740600c7e656f6f18c6bcdd594a22dd7ff286467b205"
+  },
+  {
+   "path": "tiles/normal_L3_f2.utb",
+   "bytes": 936564,
+   "sha256": "50e41e54f68bb60f016f054f22d9c0bb916d1c097163337d4886e7eeb3526d72"
+  },
+  {
+   "path": "tiles/normal_L3_f3.utb",
+   "bytes": 695214,
+   "sha256": "bd44e09273a516b9c906a0f4def86c888cb2da8ccfcf38005177e31af25b5694"
+  },
+  {
+   "path": "tiles/normal_L3_f4.utb",
+   "bytes": 1538212,
+   "sha256": "b6d228d35d550a6db522ec194b360cd69f12cbd76baa30197c10b479d8b0f688"
+  },
+  {
+   "path": "tiles/normal_L3_f5.utb",
+   "bytes": 321283,
+   "sha256": "c7f67095b413ab431a81282d5ec024d94391206ae2284e5ed5014d8a592cac60"
+  },
+  {
+   "path": "tiles/normal_L4_f0.utb",
+   "bytes": 3353562,
+   "sha256": "fb73913d755c0a92161440a9c3c925baf82ea183851a8a82e2143aff57f33c1b"
+  },
+  {
+   "path": "tiles/normal_L4_f1.utb",
+   "bytes": 823463,
+   "sha256": "d2de7f0471717598dd03ff2434a28a9a315d1c93206b0e1504be32a92eaeda19"
+  },
+  {
+   "path": "tiles/normal_L4_f2.utb",
+   "bytes": 3773900,
+   "sha256": "19303d63140c568dc24ed9b50cfab8c135a18ec8c3df21369ca51c6e4721c9f9"
+  },
+  {
+   "path": "tiles/normal_L4_f3.utb",
+   "bytes": 2855964,
+   "sha256": "77cfcd52ea38a031070beccf804114acc595639d34356739a3e839b3cad791f1"
+  },
+  {
+   "path": "tiles/normal_L4_f4.utb",
+   "bytes": 6439758,
+   "sha256": "4e6f9bf05354d6cebebac2cef65b986aa25d0ac7e1e62fc24ad7ac06f23230bb"
+  },
+  {
+   "path": "tiles/normal_L4_f5.utb",
+   "bytes": 1214055,
+   "sha256": "57ecd7bf1ea11ad2ef512b0d6c3cf01ff0867a338ca3d369ea4cd4704957fa7c"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-bmng-base-200407",
+   "title": "Blue Marble: Next Generation – Base Map (July 2004, 21600×10800)",
+   "source": "NASA Earth Observatory（Reto Stöckli）。cube-sphere のタイル（L3・L4）に投影し直した",
+   "license": "NASA（著作権の対象外。NASA の画像・メディア利用指針に従い、出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/"
+  },
+  {
+   "id": "noaa-etopo2022",
+   "title": "ETOPO 2022 Global Relief Model (60 arc-second, surface)",
+   "source": "NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74（60″の地表面の標高から傾きと海の割合を計算し、cube-sphere のタイルに投影し直した。誇張なし）",
+   "license": "CC0-1.0（米国で著作権の対象外・NOAA は権利を放棄）",
+   "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model"
+  }
+ ],
+ "info": {
+  "titleEasy": "地球の近くの地表を高精細にする",
+  "description": "地球に近づいたとき、見えている場所だけを細かい画像と地形の陰影に切りかえます（約 2 km）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-03"
+ }
+}

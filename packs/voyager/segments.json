@@ -1,0 +1,189 @@
+{
+ "-31": [
+  {
+   "kind": "design",
+   "source": "ST1",
+   "fromUtc": "1977-09-05T13:58:36",
+   "toUtc": "1979-01-31T23:59:10",
+   "startTdb": -704412035.617,
+   "endTdb": -660052800.0,
+   "designCorrectionKm": [
+    0.0,
+    10548.7
+   ]
+  },
+  {
+   "kind": "reconstructed",
+   "source": "J1",
+   "fromUtc": "1979-01-31T23:59:10",
+   "toUtc": "1979-03-18T23:59:10",
+   "startTdb": -660052800.0,
+   "endTdb": -656078400.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "design",
+   "source": "ST1",
+   "fromUtc": "1979-03-18T23:59:10",
+   "toUtc": "1980-08-06T23:59:09",
+   "startTdb": -656078400.0,
+   "endTdb": -612273600.0,
+   "designCorrectionKm": [
+    1793.8,
+    15032.7
+   ]
+  },
+  {
+   "kind": "reconstructed",
+   "source": "S1",
+   "fromUtc": "1980-08-06T23:59:09",
+   "toUtc": "1980-11-19T23:59:09",
+   "startTdb": -612273600.0,
+   "endTdb": -603201600.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "design",
+   "source": "ST1",
+   "fromUtc": "1980-11-19T23:59:09",
+   "toUtc": "1980-12-31T23:59:09",
+   "startTdb": -603201600.0,
+   "endTdb": -599572800.0,
+   "designCorrectionKm": [
+    10996.1,
+    65176.8
+   ]
+  },
+  {
+   "kind": "tracking",
+   "source": "X1",
+   "fromUtc": "1980-12-31T23:59:09",
+   "toUtc": "1992-04-24T14:04:00",
+   "startTdb": -599572800.0,
+   "endTdb": -242603701.8144525,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "predicted",
+   "source": "X1",
+   "fromUtc": "1992-04-24T14:04:00",
+   "toUtc": "2050-12-31T00:00:00",
+   "startTdb": -242603701.8144525,
+   "endTdb": 1609329669.183877,
+   "designCorrectionKm": null
+  }
+ ],
+ "-32": [
+  {
+   "kind": "design",
+   "source": "ST2",
+   "fromUtc": "1977-08-20T15:31:44",
+   "toUtc": "1979-06-04T16:59:10",
+   "startTdb": -705788847.817,
+   "endTdb": -649364400.0,
+   "designCorrectionKm": [
+    0.0,
+    3717.9
+   ]
+  },
+  {
+   "kind": "reconstructed",
+   "source": "J2",
+   "fromUtc": "1979-06-04T16:59:10",
+   "toUtc": "1979-07-20T23:59:10",
+   "startTdb": -649364400.0,
+   "endTdb": -645364800.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "design",
+   "source": "ST2",
+   "fromUtc": "1979-07-20T23:59:10",
+   "toUtc": "1981-06-07T23:59:09",
+   "startTdb": -645364800.0,
+   "endTdb": -585921600.0,
+   "designCorrectionKm": [
+    559.2,
+    5440.1
+   ]
+  },
+  {
+   "kind": "reconstructed",
+   "source": "S2",
+   "fromUtc": "1981-06-07T23:59:09",
+   "toUtc": "1981-09-21T23:59:08",
+   "startTdb": -585921600.0,
+   "endTdb": -576763200.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "design",
+   "source": "ST2",
+   "fromUtc": "1981-09-21T23:59:08",
+   "toUtc": "1985-08-21T23:59:05",
+   "startTdb": -576763200.0,
+   "endTdb": -453211200.0,
+   "designCorrectionKm": [
+    10535.4,
+    12497.5
+   ]
+  },
+  {
+   "kind": "reconstructed",
+   "source": "U2",
+   "fromUtc": "1985-08-21T23:59:05",
+   "toUtc": "1986-02-13T23:59:05",
+   "startTdb": -453211200.0,
+   "endTdb": -438004800.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "design",
+   "source": "ST2",
+   "fromUtc": "1986-02-13T23:59:05",
+   "toUtc": "1988-11-12T23:59:04",
+   "startTdb": -438004800.0,
+   "endTdb": -351345600.0,
+   "designCorrectionKm": [
+    8992.9,
+    13686.5
+   ]
+  },
+  {
+   "kind": "reconstructed",
+   "source": "N2",
+   "fromUtc": "1988-11-12T23:59:04",
+   "toUtc": "1989-08-29T07:59:04",
+   "startTdb": -351345600.0,
+   "endTdb": -326347200.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "tracking",
+   "source": "N2+X2",
+   "fromUtc": "1989-08-29T07:59:04",
+   "toUtc": "1989-10-01T11:49:04",
+   "startTdb": -326347200.0,
+   "endTdb": -323482200.0,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "tracking",
+   "source": "X2",
+   "fromUtc": "1989-10-01T11:49:04",
+   "toUtc": "1992-10-30T18:05:00",
+   "startTdb": -323482200.0,
+   "endTdb": -226259640.81749395,
+   "designCorrectionKm": null
+  },
+  {
+   "kind": "predicted",
+   "source": "X2",
+   "fromUtc": "1992-10-30T18:05:00",
+   "toUtc": "2050-12-31T00:00:00",
+   "startTdb": -226259640.81749395,
+   "endTdb": 1609329669.183877,
+   "designCorrectionKm": null
+  }
+ ]
+}

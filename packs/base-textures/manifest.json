@@ -1,0 +1,139 @@
+{
+ "schema": 1,
+ "packId": "base-textures",
+ "version": 3,
+ "title": "標準テクスチャ（2K・地球は昼・夜景・雲・海のマスク）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:399"
+ ],
+ "sizeBytes": 1027589,
+ "installedBytes": 1027589,
+ "assets": [
+  {
+   "id": "tex:399:albedo:2k",
+   "kind": "image",
+   "target": "naif:399",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "earth_albedo_2k.jpg"
+   ],
+   "credits": [
+    "nasa-bmng-base-200407"
+   ],
+   "month": 7,
+   "surface": {
+    "observed": "2004年7月（月ごとの地図の7月）",
+    "instrument": "Terra／Aqua MODIS（Blue Marble Next Generation）",
+    "colorType": "true-color",
+    "note": "雲は別の層（実際の雲 または 2002年の代表の雲）"
+   }
+  },
+  {
+   "id": "tex:399:night:2k",
+   "kind": "image",
+   "target": "naif:399",
+   "slot": "night",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "earth_night_2k.jpg"
+   ],
+   "credits": [
+    "nasa-blackmarble-2016"
+   ]
+  },
+  {
+   "id": "tex:399:clouds:2k",
+   "kind": "image",
+   "target": "naif:399",
+   "slot": "clouds",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "earth_clouds_2k.jpg"
+   ],
+   "credits": [
+    "nasa-bluemarble-2002-clouds"
+   ]
+  },
+  {
+   "id": "tex:399:specular:2k",
+   "kind": "image",
+   "target": "naif:399",
+   "slot": "specular",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "earth_water_2k.jpg"
+   ],
+   "credits": [
+    "noaa-etopo2022"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "earth_albedo_2k.jpg",
+   "bytes": 251491,
+   "sha256": "e4126e9c825685513369806d8e83aa659a755ef6ec69865a8950bc5f05222a9a"
+  },
+  {
+   "path": "earth_night_2k.jpg",
+   "bytes": 103681,
+   "sha256": "988ee455132929087711530b0cb35064164e9bf35b0f6049076099cda200bd87"
+  },
+  {
+   "path": "earth_clouds_2k.jpg",
+   "bytes": 542350,
+   "sha256": "79591294a47e309cf5eb504ccc57b3d96e6ba3c0e453ddc7ae3205279e5b90a4"
+  },
+  {
+   "path": "earth_water_2k.jpg",
+   "bytes": 130067,
+   "sha256": "29e2c8fe6350b61a7b34ec39d4f5fef7174e0be15130ac5c455e81ed88cd9128"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-bmng-base-200407",
+   "title": "Blue Marble: Next Generation – Base Map (July 2004)",
+   "source": "NASA Earth Observatory（Reto Stöckli）",
+   "license": "NASA（著作権の対象外。NASA の画像・メディア利用指針に従い、出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/"
+  },
+  {
+   "id": "nasa-blackmarble-2016",
+   "title": "Earth at Night / Black Marble 2016 (grayscale, 3 km)",
+   "source": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA GSFC",
+   "license": "NASA（著作権の対象外。NASA の画像・メディア利用指針に従い、出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/"
+  },
+  {
+   "id": "nasa-bluemarble-2002-clouds",
+   "title": "The Blue Marble (2002) – Clouds (cloud_combined_2048)",
+   "source": "NASA Goddard Space Flight Center（Image by Reto Stöckli）",
+   "license": "NASA（著作権の対象外。NASA の画像・メディア利用指針に従い、出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/"
+  },
+  {
+   "id": "noaa-etopo2022",
+   "title": "ETOPO 2022 Global Relief Model (60 arc-second, surface)",
+   "source": "NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74（海のマスクは標高 ≤ 0 m から作った）",
+   "license": "CC0-1.0（米国で著作権の対象外・NOAA は権利を放棄）",
+   "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model"
+  }
+ ]
+}

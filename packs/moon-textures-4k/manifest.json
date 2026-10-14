@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "packId": "moon-textures-4k",
+ "version": 1,
+ "title": "月面（4K・色と凹凸・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:301"
+ ],
+ "sizeBytes": 4280409,
+ "installedBytes": 4280409,
+ "assets": [
+  {
+   "id": "tex:301:albedo:4k",
+   "kind": "image",
+   "target": "naif:301",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 4096,
+   "height": 2048,
+   "files": [
+    "moon_albedo_4k.jpg"
+   ],
+   "credits": [
+    "nasa-svs-4720"
+   ]
+  },
+  {
+   "id": "tex:301:normal:4k",
+   "kind": "image",
+   "target": "naif:301",
+   "slot": "normal",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 4096,
+   "height": 2048,
+   "files": [
+    "moon_normal_4k.jpg"
+   ],
+   "credits": [
+    "nasa-svs-4720"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "moon_albedo_4k.jpg",
+   "bytes": 1786643,
+   "sha256": "27d8244c01cabc1b43678b7f87b210c1e1c76bc0fa71dffc7efe312f2218ba03"
+  },
+  {
+   "path": "moon_normal_4k.jpg",
+   "bytes": 2493766,
+   "sha256": "79fbc97e3418a694879fa05cb6dad8a71ae29ecc44ab5557479cf182b3e8df0b"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-svs-4720",
+   "title": "CGI Moon Kit（lroc_color_poles_4k・ldem_16_uint）",
+   "source": "NASA's Scientific Visualization Studio（LRO LROC WAC モザイク・LOLA 高さ）。凹凸の画像は高さから作った法線（tools/pipeline/make_moon_textures.py）",
+   "license": "Public domain（NASA SVS・クレジット表示）",
+   "url": "https://svs.gsfc.nasa.gov/4720"
+  }
+ ],
+ "info": {
+  "titleEasy": "高精細な月を追加する",
+  "description": "月面の色と凹凸を 4K（4096×2048）にする。月の学習でクレーターがくっきり見える",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-02"
+ }
+}

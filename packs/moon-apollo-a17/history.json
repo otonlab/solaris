@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "siteId": "apollo17",
+ "records": [
+  {
+   "schema": 2,
+   "eventId": "apollo17-landing",
+   "siteId": "apollo17",
+   "phase": "landing",
+   "epochUtc": "1972-12-11T19:54:57Z",
+   "validFor": {
+    "kind": "instant",
+    "toleranceSeconds": 0.5
+   },
+   "time": {
+    "inputScale": "UTC",
+    "tdbMinusUtcSeconds": 43.183358,
+    "julianDateTdb": 2441663.3303261963
+   },
+   "frame": {
+    "observer": "apollo17 LM 30.77230 deg E, 20.19110 deg N, altitude 0 km on Moon",
+    "bodyFixedFrame": "MEAN_ME",
+    "localAxes": "east-up-north",
+    "directionType": "airless-apparent-topocentric"
+   },
+   "sky": {
+    "earth": [
+     -0.6146724972703164,
+     0.7105673504285348,
+     -0.3424496482761295
+    ],
+    "sun": [
+     0.9679049537847829,
+     0.23089877920025467,
+     -0.09922577388314545
+    ],
+    "earthAltDeg": 45.281095284,
+    "earthAzDeg": 240.876710699,
+    "sunAltDeg": 13.3499924,
+    "sunAzDeg": 95.853287925,
+    "earthVisible": true,
+    "earthDistanceKm": 388710.75715,
+    "earthIlluminatedFraction": 0.6995756
+   },
+   "earthSurfaceOrientation": {
+    "status": "unsupported",
+    "reasonJa": "地球円盤の方向・距離・満ち欠けだけを収録しています。当時の地球の自転姿勢は収録していないため、大陸模様の向きは表示しません。"
+   },
+   "source": {
+    "system": "JPL Horizons",
+    "ephemeris": "DE441",
+    "retrievedUtc": "2026-10-10T13:38:00Z",
+    "apiUrlEarth": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27399%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40301%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2730.77230%2C20.19110%2C0%27&TLIST=%271972-Dec-11%2019%3A54%3A57%27&TLIST_TYPE=%27CAL%27&TIME_TYPE=%27UT%27&TIME_DIGITS=%27SECONDS%27&ANG_FORMAT=%27DEG%27&APPARENT=%27AIRLESS%27&RANGE_UNITS=%27KM%27&QUANTITIES=%274%2C10%2C20%2C30%27&CSV_FORMAT=%27YES%27&EXTRA_PREC=%27YES%27",
+    "apiUrlSun": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2710%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40301%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2730.77230%2C20.19110%2C0%27&TLIST=%271972-Dec-11%2019%3A54%3A57%27&TLIST_TYPE=%27CAL%27&TIME_TYPE=%27UT%27&TIME_DIGITS=%27SECONDS%27&ANG_FORMAT=%27DEG%27&APPARENT=%27AIRLESS%27&RANGE_UNITS=%27KM%27&QUANTITIES=%274%2C20%2C30%27&CSV_FORMAT=%27YES%27&EXTRA_PREC=%27YES%27",
+    "earthRow": "1972-Dec-11 19:54:57.000,*,i,  240.876710699,      45.281095284,   69.95756,  3.8871075715E+05, -0.0528451,     43.183358,",
+    "sunRow": "1972-Dec-11 19:54:57.000,*,i,   95.853287925,      13.349992400,  1.4712436158E+08,  0.6626375,     43.183358,"
+   }
+  },
+  {
+   "schema": 2,
+   "eventId": "apollo17-liftoff",
+   "siteId": "apollo17",
+   "phase": "liftoff",
+   "epochUtc": "1972-12-14T22:54:37Z",
+   "validFor": {
+    "kind": "instant",
+    "toleranceSeconds": 0.5
+   },
+   "time": {
+    "inputScale": "UTC",
+    "tdbMinusUtcSeconds": 43.183444,
+    "julianDateTdb": 2441666.4550947156
+   },
+   "frame": {
+    "observer": "apollo17 LM 30.77230 deg E, 20.19110 deg N, altitude 0 km on Moon",
+    "bodyFixedFrame": "MEAN_ME",
+    "localAxes": "east-up-north",
+    "directionType": "airless-apparent-topocentric"
+   },
+   "sky": {
+    "earth": [
+     -0.606673109812608,
+     0.6969716623515801,
+     -0.3823326296684263
+    ],
+    "sun": [
+     0.6082612829817584,
+     0.7407761662436027,
+     -0.28507697758818706
+    ],
+    "earthAltDeg": 44.184542186,
+    "earthAzDeg": 237.780380624,
+    "sunAltDeg": 47.797575058,
+    "sunAzDeg": 115.111321042,
+    "earthVisible": true,
+    "earthDistanceKm": 372425.54649,
+    "earthIlluminatedFraction": 0.3730297
+   },
+   "earthSurfaceOrientation": {
+    "status": "unsupported",
+    "reasonJa": "地球円盤の方向・距離・満ち欠けだけを収録しています。当時の地球の自転姿勢は収録していないため、大陸模様の向きは表示しません。"
+   },
+   "source": {
+    "system": "JPL Horizons",
+    "ephemeris": "DE441",
+    "retrievedUtc": "2026-10-10T13:38:02Z",
+    "apiUrlEarth": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27399%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40301%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2730.77230%2C20.19110%2C0%27&TLIST=%271972-Dec-14%2022%3A54%3A37%27&TLIST_TYPE=%27CAL%27&TIME_TYPE=%27UT%27&TIME_DIGITS=%27SECONDS%27&ANG_FORMAT=%27DEG%27&APPARENT=%27AIRLESS%27&RANGE_UNITS=%27KM%27&QUANTITIES=%274%2C10%2C20%2C30%27&CSV_FORMAT=%27YES%27&EXTRA_PREC=%27YES%27",
+    "apiUrlSun": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2710%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40301%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%2730.77230%2C20.19110%2C0%27&TLIST=%271972-Dec-14%2022%3A54%3A37%27&TLIST_TYPE=%27CAL%27&TIME_TYPE=%27UT%27&TIME_DIGITS=%27SECONDS%27&ANG_FORMAT=%27DEG%27&APPARENT=%27AIRLESS%27&RANGE_UNITS=%27KM%27&QUANTITIES=%274%2C20%2C30%27&CSV_FORMAT=%27YES%27&EXTRA_PREC=%27YES%27",
+    "earthRow": "1972-Dec-14 22:54:37.000,*,i,  237.780380624,      44.184542186,   37.30297,  3.7242554649E+05, -0.0630245,     43.183444,",
+    "sunRow": "1972-Dec-14 22:54:37.000,*,i,  115.111321042,      47.797575058,  1.4732280672E+08,  0.7405091,     43.183444,"
+   }
+  }
+ ]
+}

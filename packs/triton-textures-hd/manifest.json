@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "packId": "triton-textures-hd",
+ "version": 1,
+ "title": "トリトン（2K・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:801"
+ ],
+ "sizeBytes": 153510,
+ "installedBytes": 153510,
+ "assets": [
+  {
+   "id": "tex:801:albedo:2k",
+   "kind": "image",
+   "target": "naif:801",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "triton_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-triton-color-600m"
+   ],
+   "surface": {
+    "observed": "1989年",
+    "instrument": "ボイジャー2号",
+    "colorType": "monochrome",
+    "note": "北側（約3割）は写っていないので灰色。はっきり写っているのは全体の3分の1ほど"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "triton_albedo_2k.webp",
+   "bytes": 153510,
+   "sha256": "d04a3be3c9a6929f5c7e788eacd5e593258ebfafa79128d930c55bb56e57a7e9"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-triton-color-600m",
+   "title": "Triton Voyager 2 Global Color Mosaic 600m",
+   "source": "U.S. Geological Survey Astrogeology Science Center／Lunar and Planetary Institute（P. Schenk）・NASA/JPL（ボイジャー2号 1989）。アプリでは明るさだけを白黒で使う（色は強調色のため）。北の写っていない所は灰色で埋めた",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m"
+  }
+ ],
+ "info": {
+  "titleEasy": "トリトンを高精細にする",
+  "description": "トリトンに近づいたときの表面（2048×1024・ボイジャー2号 1989年）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-06"
+ }
+}

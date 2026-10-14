@@ -1,0 +1,482 @@
+{
+ "schema": 1,
+ "packId": "moon-surface-basic",
+ "version": 2,
+ "title": "月面探検 基本パック",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:moon-surface:apollo11",
+  "use:moon-surface:apollo12",
+  "use:moon-surface:apollo14",
+  "use:moon-surface:apollo15",
+  "use:moon-surface:apollo16",
+  "use:moon-surface:apollo17",
+  "use:moon-surface:tycho",
+  "use:moon-surface:copernicus",
+  "use:moon-surface:shackleton"
+ ],
+ "sizeBytes": 1149076,
+ "installedBytes": 1149076,
+ "assets": [
+  {
+   "id": "moon-surface-apollo11-height",
+   "kind": "image",
+   "target": "use:moon-surface:apollo11",
+   "slot": "height",
+   "files": [
+    "moon-surface-apollo11/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-apollo11-photo",
+   "kind": "image",
+   "target": "use:moon-surface:apollo11",
+   "slot": "photo",
+   "files": [
+    "moon-surface-apollo11/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-apollo11:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 1000,
+   "height": 562
+  },
+  {
+   "id": "moon-surface-apollo12-height",
+   "kind": "image",
+   "target": "use:moon-surface:apollo12",
+   "slot": "height",
+   "files": [
+    "moon-surface-apollo12/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-apollo12-photo",
+   "kind": "image",
+   "target": "use:moon-surface:apollo12",
+   "slot": "photo",
+   "files": [
+    "moon-surface-apollo12/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-apollo12:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 900,
+   "height": 900
+  },
+  {
+   "id": "moon-surface-apollo14-height",
+   "kind": "image",
+   "target": "use:moon-surface:apollo14",
+   "slot": "height",
+   "files": [
+    "moon-surface-apollo14/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-apollo14-photo",
+   "kind": "image",
+   "target": "use:moon-surface:apollo14",
+   "slot": "photo",
+   "files": [
+    "moon-surface-apollo14/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-apollo14:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 900,
+   "height": 900
+  },
+  {
+   "id": "moon-surface-apollo15-height",
+   "kind": "image",
+   "target": "use:moon-surface:apollo15",
+   "slot": "height",
+   "files": [
+    "moon-surface-apollo15/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-apollo15-photo",
+   "kind": "image",
+   "target": "use:moon-surface:apollo15",
+   "slot": "photo",
+   "files": [
+    "moon-surface-apollo15/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-apollo15:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 640,
+   "height": 640
+  },
+  {
+   "id": "moon-surface-apollo16-height",
+   "kind": "image",
+   "target": "use:moon-surface:apollo16",
+   "slot": "height",
+   "files": [
+    "moon-surface-apollo16/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-apollo16-photo",
+   "kind": "image",
+   "target": "use:moon-surface:apollo16",
+   "slot": "photo",
+   "files": [
+    "moon-surface-apollo16/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-apollo16:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 900,
+   "height": 900
+  },
+  {
+   "id": "moon-surface-apollo17-height",
+   "kind": "image",
+   "target": "use:moon-surface:apollo17",
+   "slot": "height",
+   "files": [
+    "moon-surface-apollo17/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-apollo17-photo",
+   "kind": "image",
+   "target": "use:moon-surface:apollo17",
+   "slot": "photo",
+   "files": [
+    "moon-surface-apollo17/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-apollo17:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 900,
+   "height": 900
+  },
+  {
+   "id": "moon-surface-tycho-height",
+   "kind": "image",
+   "target": "use:moon-surface:tycho",
+   "slot": "height",
+   "files": [
+    "moon-surface-tycho/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-tycho-photo",
+   "kind": "image",
+   "target": "use:moon-surface:tycho",
+   "slot": "photo",
+   "files": [
+    "moon-surface-tycho/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-tycho:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 900,
+   "height": 900
+  },
+  {
+   "id": "moon-surface-copernicus-height",
+   "kind": "image",
+   "target": "use:moon-surface:copernicus",
+   "slot": "height",
+   "files": [
+    "moon-surface-copernicus/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-copernicus-photo",
+   "kind": "image",
+   "target": "use:moon-surface:copernicus",
+   "slot": "photo",
+   "files": [
+    "moon-surface-copernicus/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-copernicus:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 637,
+   "height": 701
+  },
+  {
+   "id": "moon-surface-shackleton-height",
+   "kind": "image",
+   "target": "use:moon-surface:shackleton",
+   "slot": "height",
+   "files": [
+    "moon-surface-shackleton/height.png"
+   ],
+   "credits": [
+    "lola"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 129,
+   "height": 129
+  },
+  {
+   "id": "moon-surface-shackleton-photo",
+   "kind": "image",
+   "target": "use:moon-surface:shackleton",
+   "slot": "photo",
+   "files": [
+    "moon-surface-shackleton/photo.webp"
+   ],
+   "credits": [
+    "moon-surface-shackleton:photo"
+   ],
+   "format": "webp",
+   "projection": "flat",
+   "width": 600,
+   "height": 596
+  }
+ ],
+ "files": [
+  {
+   "path": "moon-surface-apollo11/height.png",
+   "bytes": 25974,
+   "sha256": "83faaf99d6300f09f9c0f26b450ca09b13ac2a0fb5e432ae7a0dc85d558845e9"
+  },
+  {
+   "path": "moon-surface-apollo11/photo.webp",
+   "bytes": 139038,
+   "sha256": "7ad295acdb87682179172d101d78f57ed98257ab73fbdead67c41270acfeaa0b"
+  },
+  {
+   "path": "moon-surface-apollo12/height.png",
+   "bytes": 25217,
+   "sha256": "598c48708561516fe6616b1732d926bdef59c0be9060f94e7dc6aaceb27cd26c"
+  },
+  {
+   "path": "moon-surface-apollo12/photo.webp",
+   "bytes": 93632,
+   "sha256": "8490a78b111e8ea979bbc260af85ecd584f03cab7bf7da2f1694b20c22420084"
+  },
+  {
+   "path": "moon-surface-apollo14/height.png",
+   "bytes": 26087,
+   "sha256": "1945a6a37c646ea6cec86e7040f61ec21d7c91a50b49d0bc8e2510d7f8c5710c"
+  },
+  {
+   "path": "moon-surface-apollo14/photo.webp",
+   "bytes": 115696,
+   "sha256": "6c0bdac68804a2a65fdd7673bd910203edd540a4395023c90aad08abf059f8b9"
+  },
+  {
+   "path": "moon-surface-apollo15/height.png",
+   "bytes": 27567,
+   "sha256": "8f7673f4784201abe56bf406e47cb9e27a874f1ff0604bab66e0601e96cf809a"
+  },
+  {
+   "path": "moon-surface-apollo15/photo.webp",
+   "bytes": 61844,
+   "sha256": "df3733eae9bef1584378bbfc1d443fc9c36502de022bdcee4ccda8e01f6c3c05"
+  },
+  {
+   "path": "moon-surface-apollo16/height.png",
+   "bytes": 27712,
+   "sha256": "629e0908efa7a509f70f6c1c133cc73145d7959978380c5b41a18a8b874f1a68"
+  },
+  {
+   "path": "moon-surface-apollo16/photo.webp",
+   "bytes": 146704,
+   "sha256": "2a4e75fbb66897899ca44984353113d5c79b7626d2543814dbefad11dd9a4cda"
+  },
+  {
+   "path": "moon-surface-apollo17/height.png",
+   "bytes": 27207,
+   "sha256": "2873448e9d95b9a4e805ecd504a48bf9a268b073c4b02aabfa7b2ebbf0e0cfa7"
+  },
+  {
+   "path": "moon-surface-apollo17/photo.webp",
+   "bytes": 75776,
+   "sha256": "712db4f49469335f1b3b63b2bd109732a45d108735ae2ba4adb63c8e4ab96302"
+  },
+  {
+   "path": "moon-surface-tycho/height.png",
+   "bytes": 29171,
+   "sha256": "4142bc6abd8c0074540b0bc21db56e5d6c41c603612bb2aaa4fc9ea097467486"
+  },
+  {
+   "path": "moon-surface-tycho/photo.webp",
+   "bytes": 141370,
+   "sha256": "f9c53eaef7b2bf316e29228566630d066f5a58b57dee66c896f32698c05cdc41"
+  },
+  {
+   "path": "moon-surface-copernicus/height.png",
+   "bytes": 26481,
+   "sha256": "f40b3996e267749c44fda3f540fb7c36755a81175cdbc3495c36e1ba303d92b9"
+  },
+  {
+   "path": "moon-surface-copernicus/photo.webp",
+   "bytes": 84900,
+   "sha256": "fa7c7a4b38e27e8e417434fe6d7c5cbfcdc4497b2ec85642a9512d3393d54dc5"
+  },
+  {
+   "path": "moon-surface-shackleton/height.png",
+   "bytes": 29622,
+   "sha256": "f8e251b25e2d216f8a1b6e68e4e4968b69135a1d225432578804d44e76ca4161"
+  },
+  {
+   "path": "moon-surface-shackleton/photo.webp",
+   "bytes": 45078,
+   "sha256": "5c1e39d626349a8e7c777e744b5edf4e6df486f0e79f0316cde617c329404561"
+  }
+ ],
+ "credits": [
+  {
+   "id": "lola",
+   "title": "Lunar Reconnaissance Orbiter LOLA gridded elevation",
+   "source": "NASA Scientific Visualization Studio CGI Moon Kit",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://svs.gsfc.nasa.gov/4720/"
+  },
+  {
+   "id": "moon-surface-apollo11:photo",
+   "title": "Apollo 11 Landing Site",
+   "source": "NASA/GSFC/Arizona State University (LRO)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/resource/apollo-11-landing-site/"
+  },
+  {
+   "id": "moon-surface-apollo12:photo",
+   "title": "AS12-48-7133：サーベイヤー3号とイントレピッド",
+   "source": "NASA (Apollo)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/a12/images12.html"
+  },
+  {
+   "id": "moon-surface-apollo14:photo",
+   "title": "AS14-66-9277：アンタレス",
+   "source": "NASA (Apollo)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/a14/images14.html"
+  },
+  {
+   "id": "moon-surface-apollo15:photo",
+   "title": "Apollo 15 Landing Site",
+   "source": "NASA (Apollo 15)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/resource/apollo-15-on-the-moon/"
+  },
+  {
+   "id": "moon-surface-apollo16:photo",
+   "title": "AS16-113-18339：ヤング飛行士とオライオン",
+   "source": "NASA (Apollo)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/a16/images16.html"
+  },
+  {
+   "id": "moon-surface-apollo17:photo",
+   "title": "Apollo 17 / Taurus-Littrow",
+   "source": "NASA/GSFC/Arizona State University (LRO)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/resource/taurus-littrow-valley/"
+  },
+  {
+   "id": "moon-surface-tycho:photo",
+   "title": "Tycho Crater",
+   "source": "NASA Goddard/Arizona State University (LRO)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/resource/tycho-craters-central-peak-on-the-moon/"
+  },
+  {
+   "id": "moon-surface-copernicus:photo",
+   "title": "Copernicus Crater",
+   "source": "NASA / Lunar and Planetary Institute (Apollo 17)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/resource/copernicus-crater/"
+  },
+  {
+   "id": "moon-surface-shackleton:photo",
+   "title": "Shackleton Crater",
+   "source": "NASA/GSFC/Arizona State University (LRO/LOLA)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/image-detail/faces-of-shackleton/"
+  }
+ ],
+ "info": {
+  "titleEasy": "月面探検：9つの場所の遠くの地形と写真",
+  "description": "NASA LRO/LOLA の実測標高（約1.9 km/画素）と写真。アポロ着陸地点の近くの地形・着陸船は、ミッションごとの追加データにあります。",
+  "category": "other",
+  "updatedUtc": "2026-10-10"
+ }
+}

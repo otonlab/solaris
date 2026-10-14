@@ -1,0 +1,520 @@
+{
+ "schema": 1,
+ "packId": "ephem-1610",
+ "version": 1,
+ "title": "暦 1609-12-25〜1610-02-05（ガリレオの観測の再現用：太陽・8惑星・ガリレオ衛星）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:10",
+  "naif:199",
+  "naif:299",
+  "naif:399",
+  "naif:499",
+  "naif:599",
+  "naif:699",
+  "naif:799",
+  "naif:899",
+  "naif:501",
+  "naif:502",
+  "naif:503",
+  "naif:504"
+ ],
+ "sizeBytes": 66856,
+ "installedBytes": 66856,
+ "assets": [
+  {
+   "id": "ephem:10:1610",
+   "kind": "ephem",
+   "target": "naif:10",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "10.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Sun (10)                        {source: DE441} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:38:12+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 1e-06,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 3.73e-10,
+     "boundaryJumpMaxKmS": 1.03e-13
+    }
+   }
+  },
+  {
+   "id": "ephem:199:1610",
+   "kind": "ephem",
+   "target": "naif:199",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "199.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Mercury (199)                   {source: DE441} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:38:28+00:00",
+     "fitMaxKm": 9e-06,
+     "holdoutMaxKm": 0.002473,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 7.49e-08,
+     "boundaryJumpMaxKmS": 1.09e-11
+    }
+   }
+  },
+  {
+   "id": "ephem:299:1610",
+   "kind": "ephem",
+   "target": "naif:299",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "299.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Venus (299)                     {source: DE441} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:38:48+00:00",
+     "fitMaxKm": 7e-06,
+     "holdoutMaxKm": 0.001807,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 9.69e-08,
+     "boundaryJumpMaxKmS": 1.85e-11
+    }
+   }
+  },
+  {
+   "id": "ephem:399:1610",
+   "kind": "ephem",
+   "target": "naif:399",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "399.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Earth (399)                     {source: DE441} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:39:05+00:00",
+     "fitMaxKm": 6e-06,
+     "holdoutMaxKm": 0.001443,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 1.08e-07,
+     "boundaryJumpMaxKmS": 3.31e-11
+    }
+   }
+  },
+  {
+   "id": "ephem:499:1610",
+   "kind": "ephem",
+   "target": "naif:499",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "499.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Mars (499)                      {source: mar099} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:39:23+00:00",
+     "fitMaxKm": 0.001029,
+     "holdoutMaxKm": 0.001604,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 2.15e-07,
+     "boundaryJumpMaxKmS": 3.84e-11
+    }
+   }
+  },
+  {
+   "id": "ephem:599:1610",
+   "kind": "ephem",
+   "target": "naif:599",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "599.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — Jupiter (599)                   {source: jup365_merged} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:39:39+00:00",
+     "fitMaxKm": 0.006301,
+     "holdoutMaxKm": 0.006644,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 3.18e-06,
+     "boundaryJumpMaxKmS": 1.28e-09
+    }
+   }
+  },
+  {
+   "id": "ephem:699:1610",
+   "kind": "ephem",
+   "target": "naif:699",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "699.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Saturn Barycenter (6)           {source: DE441} / Solar System Barycenter (0)     {source: DE441}（1610年は本体の中心の暦が無いため系の重心 6 で代用。本体の中心とは数百 km 以内の差）",
+     "retrievedUtc": "2026-10-01T12:41:27+00:00",
+     "fitMaxKm": 2e-06,
+     "holdoutMaxKm": 0.000497,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 1.18e-06,
+     "boundaryJumpMaxKmS": 2.03e-10
+    }
+   }
+  },
+  {
+   "id": "ephem:799:1610",
+   "kind": "ephem",
+   "target": "naif:799",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "799.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Uranus (799)                    {source: ura184_merged} / Solar System Barycenter (0)     {source: DE441}",
+     "retrievedUtc": "2026-10-01T12:41:42+00:00",
+     "fitMaxKm": 0.032429,
+     "holdoutMaxKm": 0.029117,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 2.88e-06,
+     "boundaryJumpMaxKmS": 5.88e-10
+    }
+   }
+  },
+  {
+   "id": "ephem:899:1610",
+   "kind": "ephem",
+   "target": "naif:899",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "899.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Neptune Barycenter (8)          {source: DE441} / Solar System Barycenter (0)     {source: DE441}（1610年は本体の中心の暦が無いため系の重心 8 で代用。本体の中心とは数百 km 以内の差）",
+     "retrievedUtc": "2026-10-01T12:42:32+00:00",
+     "fitMaxKm": 8e-06,
+     "holdoutMaxKm": 0.000329,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 3.82e-06,
+     "boundaryJumpMaxKmS": 7.02e-10
+    }
+   }
+  },
+  {
+   "id": "ephem:501:1610",
+   "kind": "ephem",
+   "target": "naif:501",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "501.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Io (501)                        {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T12:42:51+00:00",
+     "fitMaxKm": 0.064688,
+     "holdoutMaxKm": 0.044643,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 1.68e-08,
+     "boundaryJumpMaxKmS": 1.67e-12
+    }
+   }
+  },
+  {
+   "id": "ephem:502:1610",
+   "kind": "ephem",
+   "target": "naif:502",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "502.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — Europa (502)                    {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T12:43:08+00:00",
+     "fitMaxKm": 0.165981,
+     "holdoutMaxKm": 0.134278,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 1.93e-08,
+     "boundaryJumpMaxKmS": 3.96e-12
+    }
+   }
+  },
+  {
+   "id": "ephem:503:1610",
+   "kind": "ephem",
+   "target": "naif:503",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "503.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Ganymede (503)                  {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T12:43:28+00:00",
+     "fitMaxKm": 0.141374,
+     "holdoutMaxKm": 0.105115,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 3.52e-08,
+     "boundaryJumpMaxKmS": 8.14e-13
+    }
+   }
+  },
+  {
+   "id": "ephem:504:1610",
+   "kind": "ephem",
+   "target": "naif:504",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "504.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -12307809600.0,
+    "endTdb": -12304180800.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — Callisto (504)                  {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T12:43:43+00:00",
+     "fitMaxKm": 0.05949,
+     "holdoutMaxKm": 0.058154,
+     "holdoutN": 100,
+     "boundaryJumpMaxKm": 2.24e-08,
+     "boundaryJumpMaxKmS": 5.63e-13
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "10.bin",
+   "bytes": 4600,
+   "sha256": "d3b4a8e80ec2c5c9b8ba2b350661c6281dd8568676a35f89a07a73e53487f180"
+  },
+  {
+   "path": "199.bin",
+   "bytes": 4600,
+   "sha256": "56ccf96519d3889dc8aa12405955944b23c310697d34937efb6865de43ca49be"
+  },
+  {
+   "path": "299.bin",
+   "bytes": 4600,
+   "sha256": "f859d2ab283fc869d29cfc14d3fe367c903cee0ab6fe6687dabed1457a932440"
+  },
+  {
+   "path": "399.bin",
+   "bytes": 4600,
+   "sha256": "a502612c1fee8a31762b9711c0b524cb6c02d916081aabad4c56b2284c8b1bb0"
+  },
+  {
+   "path": "499.bin",
+   "bytes": 4600,
+   "sha256": "ff0baa0bc0210bc7485160a016defca4368cdc0c21d89c01e3404dcd499f4a2f"
+  },
+  {
+   "path": "599.bin",
+   "bytes": 5608,
+   "sha256": "5fbecfe9e510e1c5265db85f4f9879865369765df820790f49f393d9e1478518"
+  },
+  {
+   "path": "699.bin",
+   "bytes": 4600,
+   "sha256": "488059a2719b894dea4e61537a21a7217978576e8034aa5eb65d4ff7c5805ecb"
+  },
+  {
+   "path": "799.bin",
+   "bytes": 4600,
+   "sha256": "52d4efc259d895f54e71e3a5a9632b0522a6bc24cf0e6e3607944040743c407c"
+  },
+  {
+   "path": "899.bin",
+   "bytes": 4600,
+   "sha256": "2e97ff12908a234b864b61d05af8b4660b8e173e9c4f5c2defc0a11db7667e66"
+  },
+  {
+   "path": "501.bin",
+   "bytes": 8632,
+   "sha256": "2875cc2ff233d65669854e353abeda7adb019fbce81808032dec3b32d0fb40f9"
+  },
+  {
+   "path": "502.bin",
+   "bytes": 6616,
+   "sha256": "78aa8a38faf89e94d7fd928598315d3f70359034eed86d2fe917aac78a38d901"
+  },
+  {
+   "path": "503.bin",
+   "bytes": 4600,
+   "sha256": "3c757fc15615af4a25a7e6e2160d86cc12a34f73db1f296b47e71720bcaf7dc1"
+  },
+  {
+   "path": "504.bin",
+   "bytes": 4600,
+   "sha256": "43a0cb2b67a4980de8873ba6c2eeb5606ca6c305d038416aac5c5a0e09a6acab"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons",
+   "title": "JPL Horizons On-Line Ephemeris System（DE441・jup365）からのチェビシェフ当てはめ。土星・海王星は1749年より前の本体の暦が無いため系の重心で代用",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ]
+}

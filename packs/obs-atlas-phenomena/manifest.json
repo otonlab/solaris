@@ -1,0 +1,546 @@
+{
+ "schema": 1,
+ "packId": "obs-atlas-phenomena",
+ "version": 1,
+ "title": "観測図鑑（ブラックホール・超新星残骸・その他）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:nasa-gsfc-20171208-archive-e002183:std",
+  "use:obs-img:nasa-pia06907:std",
+  "use:obs-img:nasa-pia06908:std",
+  "use:obs-img:nasa-pia20865:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e002148:std",
+  "use:obs-img:nasa-pia21087:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001370:std",
+  "use:obs-img:nasa-hubble-spies-big-bang-frontiers-22202541749-o:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000791:std",
+  "use:obs-img:nasa-potw1903a:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001983:std",
+  "use:obs-img:nasa-pia20920:std",
+  "use:obs-img:nasa-pia17835:std",
+  "use:obs-img:nasa-potw1853a:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001281:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000497:std",
+  "use:obs-img:nasa-pia15480:std",
+  "use:obs-img:nasa-pia11213:std"
+ ],
+ "sizeBytes": 2246454,
+ "installedBytes": 2246454,
+ "assets": [
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002183",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002183:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1211,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002183_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002183"
+   ]
+  },
+  {
+   "id": "std:nasa-pia06907",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia06907:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 750,
+   "height": 750,
+   "files": [
+    "images/nasa-pia06907_std.webp"
+   ],
+   "credits": [
+    "nasa-pia06907"
+   ]
+  },
+  {
+   "id": "std:nasa-pia06908",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia06908:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia06908_std.webp"
+   ],
+   "credits": [
+    "nasa-pia06908"
+   ]
+  },
+  {
+   "id": "std:nasa-pia20865",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia20865:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia20865_std.webp"
+   ],
+   "credits": [
+    "nasa-pia20865"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002148",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002148:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002148_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002148"
+   ]
+  },
+  {
+   "id": "std:nasa-pia21087",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia21087:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1300,
+   "height": 1300,
+   "files": [
+    "images/nasa-pia21087_std.webp"
+   ],
+   "credits": [
+    "nasa-pia21087"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001370",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001370:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1280,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001370_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001370"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-spies-big-bang-frontiers-22202541749-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-spies-big-bang-frontiers-22202541749-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1108,
+   "files": [
+    "images/nasa-hubble-spies-big-bang-frontiers-22202541749-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-spies-big-bang-frontiers-22202541749-o"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000791",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000791:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1263,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000791_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000791"
+   ]
+  },
+  {
+   "id": "std:nasa-potw1903a",
+   "kind": "image",
+   "target": "use:obs-img:nasa-potw1903a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1141,
+   "files": [
+    "images/nasa-potw1903a_std.webp"
+   ],
+   "credits": [
+    "nasa-potw1903a"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001983",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001983:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1580,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001983_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001983"
+   ]
+  },
+  {
+   "id": "std:nasa-pia20920",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia20920:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1233,
+   "height": 693,
+   "files": [
+    "images/nasa-pia20920_std.webp"
+   ],
+   "credits": [
+    "nasa-pia20920"
+   ]
+  },
+  {
+   "id": "std:nasa-pia17835",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia17835:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1005,
+   "height": 1005,
+   "files": [
+    "images/nasa-pia17835_std.webp"
+   ],
+   "credits": [
+    "nasa-pia17835"
+   ]
+  },
+  {
+   "id": "std:nasa-potw1853a",
+   "kind": "image",
+   "target": "use:obs-img:nasa-potw1853a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1554,
+   "height": 1600,
+   "files": [
+    "images/nasa-potw1853a_std.webp"
+   ],
+   "credits": [
+    "nasa-potw1853a"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001281",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001281:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 674,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001281_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001281"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000497",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000497:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1349,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000497_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000497"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15480",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15480:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1333,
+   "files": [
+    "images/nasa-pia15480_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15480"
+   ]
+  },
+  {
+   "id": "std:nasa-pia11213",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia11213:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1213,
+   "files": [
+    "images/nasa-pia11213_std.webp"
+   ],
+   "credits": [
+    "nasa-pia11213"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002183_std.webp",
+   "bytes": 148778,
+   "sha256": "62c82284c3e8dc8c3e1548369ab5dcf75dfe7eac3905e2161393c8745c57c54a"
+  },
+  {
+   "path": "images/nasa-pia06907_std.webp",
+   "bytes": 22224,
+   "sha256": "ff941a7428d54e4684a7aca5452eab220ad54216912ad072286b7b06aae0cecd"
+  },
+  {
+   "path": "images/nasa-pia06908_std.webp",
+   "bytes": 73768,
+   "sha256": "6e7c2af07b41b976e6be186d46e874418091b01ec947ea5551c4a0f15f2bf4be"
+  },
+  {
+   "path": "images/nasa-pia20865_std.webp",
+   "bytes": 116508,
+   "sha256": "e1748085eff55dcb141036e9a64348d89669f83f3c8ce176c2d9fb3b225a1e85"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002148_std.webp",
+   "bytes": 86190,
+   "sha256": "ca46d1eb22a047a8ef11a8e7d6f6838894a7c4aa65e00a9d3374198de0a57802"
+  },
+  {
+   "path": "images/nasa-pia21087_std.webp",
+   "bytes": 24120,
+   "sha256": "23658530e28ba93c3042ffb674de081287230ef249adc3141b63254f92790a8a"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001370_std.webp",
+   "bytes": 85680,
+   "sha256": "8c3b4d7eb73ead33318361c924d65f8c522b32d1bde3c9d1a03b2a7dffc7eba9"
+  },
+  {
+   "path": "images/nasa-hubble-spies-big-bang-frontiers-22202541749-o_std.webp",
+   "bytes": 149368,
+   "sha256": "f69429e84aa2faf68c6f44ec3b1916619e9647c2c617234e23692d6eeb93b39f"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000791_std.webp",
+   "bytes": 73588,
+   "sha256": "b09ce36b325ecc8b858a39e3316e1cbc66c06e371b87069380b46929ee95af75"
+  },
+  {
+   "path": "images/nasa-potw1903a_std.webp",
+   "bytes": 90466,
+   "sha256": "fc2769d33867b847555d1bcdf5f7635deabd6cfceb6481182debd2a0c34101f3"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001983_std.webp",
+   "bytes": 181810,
+   "sha256": "1ccf23950c87eeb4c78e391217d29682d559d33a14744acaf4faa85934f528ae"
+  },
+  {
+   "path": "images/nasa-pia20920_std.webp",
+   "bytes": 113512,
+   "sha256": "f963e2d13bd66c8b2d371dff3ecdc1935985468e426388126cb6d8ca30d73627"
+  },
+  {
+   "path": "images/nasa-pia17835_std.webp",
+   "bytes": 29456,
+   "sha256": "886b53e284c9095b2648bdb37a5eda150b07bd423b837e877afb7725d49bd7b2"
+  },
+  {
+   "path": "images/nasa-potw1853a_std.webp",
+   "bytes": 363804,
+   "sha256": "ba6b2141d57c63923353aaa5403534d2feb6ef3867aaf22bde3efa1613c9b5c0"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001281_std.webp",
+   "bytes": 102426,
+   "sha256": "9bf3375d4caa940a39e7276d37c21fc382a5ec790a049d4a77e2c4de3e6a412a"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000497_std.webp",
+   "bytes": 112224,
+   "sha256": "0e25735d3f7351e63c551b857aa50b82bcfeeba328d28722858b98b4d358490a"
+  },
+  {
+   "path": "images/nasa-pia15480_std.webp",
+   "bytes": 407192,
+   "sha256": "2d5c14907e1e3d2813e74e52c89b578a01c08303fe7ae27818cf591ba327a9e5"
+  },
+  {
+   "path": "images/nasa-pia11213_std.webp",
+   "bytes": 65340,
+   "sha256": "84f456747b3b81ca153d72ef287c327f855b656c07ca71ec248d7d0bac6ea485"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-gsfc-20171208-archive-e002183",
+   "title": "Cassiopeia A supernova",
+   "source": "NASA Image and Video Library：NASA/DOE/Fermi LAT Collaboration, CXC/SAO/JPL-Caltech/Steward/O. Krause et al., and NRAO/AUI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002183"
+  },
+  {
+   "id": "nasa-pia06907",
+   "title": "Three Great Eyes on Kepler Supernova   Remnant",
+   "source": "NASA Image and Video Library：NASA/ESA/Johns Hopkins University",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA06907"
+  },
+  {
+   "id": "nasa-pia06908",
+   "title": "Kepler Supernova Remnant: A View from Chandra X-Ray Observatory",
+   "source": "NASA Image and Video Library：Chandra X-Ray Observatory",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA06908"
+  },
+  {
+   "id": "nasa-pia20865",
+   "title": "A Black Hole Choir.",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA20865"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e002148",
+   "title": "Winds of Change",
+   "source": "NASA Image and Video Library：X-ray (NASA/CXC/ MIT/C.Canizares, D.Evans et al), Optical (NASA/STScI), Radio (NSF/ NRAO/VLA)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002148"
+  },
+  {
+   "id": "nasa-pia21087",
+   "title": "Galaxy IC 3639 with Obscured Active Galactic Nucleus",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ESO/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA21087"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001370",
+   "title": "Hubble and Chandra Find Evidence for Densest Galaxy in Nearby Universe",
+   "source": "NASA Image and Video Library：NASA, ESA, CXC, and J. Strader (Michigan State University)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001370"
+  },
+  {
+   "id": "nasa-hubble-spies-big-bang-frontiers-22202541749-o",
+   "title": "Hubble Frontier Fields view of MACSJ0717.5+3745",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-spies-big-bang-frontiers_22202541749_o"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000791",
+   "title": "Hubble Sees A Smiling Lens",
+   "source": "NASA Image and Video Library：NASA/ESA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000791"
+  },
+  {
+   "id": "nasa-potw1903a",
+   "title": "Peering into the past",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA, M. Gladders et al; Acknowledgment: Judy Schmidt",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/potw1903a"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001983",
+   "title": "Galaxy Cluster Abell 1689",
+   "source": "NASA Image and Video Library：NASA, ESA, E. Jullo (JPL/LAM), P. Natarajan (Yale) and J-P. Kneib (LAM)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001983"
+  },
+  {
+   "id": "nasa-pia20920",
+   "title": "Pandora Cluster Seen by Spitzer",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA20920"
+  },
+  {
+   "id": "nasa-pia17835",
+   "title": "Dark Disks Around Young Stars",
+   "source": "NASA Image and Video Library：NASA/Hubble/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA17835"
+  },
+  {
+   "id": "nasa-potw1853a",
+   "title": "Hubble Captures Smoking Gun of a Newborn Star",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/potw1853a"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001281",
+   "title": "Hubble Sees a Stellar \"Sneezing Fit\"",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA, Acknowledgement: Gilles Chapdelaine",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001281"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000497",
+   "title": "Hubble Sees the Force Awakening in a Newborn Star",
+   "source": "NASA Image and Video Library：NASA/ESA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000497"
+  },
+  {
+   "id": "nasa-pia15480",
+   "title": "Echoes of a Stellar Ending",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/UCLA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15480"
+  },
+  {
+   "id": "nasa-pia11213",
+   "title": "Supernova Flashback",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/E. Dwek and R. Arendt",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA11213"
+  }
+ ],
+ "info": {
+  "category": "observation-images",
+  "titleEasy": "観測図鑑（ブラックホール・超新星残骸・その他）",
+  "description": "公式アーカイブで権利と出典を確認した実観測画像"
+ }
+}

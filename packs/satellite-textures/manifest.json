@@ -1,0 +1,831 @@
+{
+ "schema": 1,
+ "packId": "satellite-textures",
+ "version": 2,
+ "title": "衛星の標準テクスチャ（各衛星の LOW・MEDIUM）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:501",
+  "naif:502",
+  "naif:503",
+  "naif:504",
+  "naif:601",
+  "naif:602",
+  "naif:603",
+  "naif:604",
+  "naif:605",
+  "naif:606",
+  "naif:608",
+  "naif:401",
+  "naif:402",
+  "naif:801"
+ ],
+ "sizeBytes": 2042194,
+ "installedBytes": 2042194,
+ "assets": [
+  {
+   "id": "tex:501:albedo:512",
+   "kind": "image",
+   "target": "naif:501",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "io_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-io-clrmerge-1km"
+   ],
+   "surface": {
+    "observed": "1979年（ボイジャー）・1996〜2001年（ガリレオ）",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "enhanced",
+    "note": "火山の噴火で模様は変わる。今のイオとは違う所がある"
+   }
+  },
+  {
+   "id": "tex:501:albedo:1k",
+   "kind": "image",
+   "target": "naif:501",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "io_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-io-clrmerge-1km"
+   ],
+   "surface": {
+    "observed": "1979年（ボイジャー）・1996〜2001年（ガリレオ）",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "enhanced",
+    "note": "火山の噴火で模様は変わる。今のイオとは違う所がある"
+   }
+  },
+  {
+   "id": "tex:502:albedo:512",
+   "kind": "image",
+   "target": "naif:502",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "europa_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-europa-500m"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome",
+    "note": "南極のまわり（南緯83°より南）は写っていないので灰色"
+   }
+  },
+  {
+   "id": "tex:502:albedo:1k",
+   "kind": "image",
+   "target": "naif:502",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "europa_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-europa-500m"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome",
+    "note": "南極のまわり（南緯83°より南）は写っていないので灰色"
+   }
+  },
+  {
+   "id": "tex:503:albedo:512",
+   "kind": "image",
+   "target": "naif:503",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "ganymede_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-ganymede-1km"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:503:albedo:1k",
+   "kind": "image",
+   "target": "naif:503",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "ganymede_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-ganymede-1km"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:504:albedo:512",
+   "kind": "image",
+   "target": "naif:504",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "callisto_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-callisto-1km"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:504:albedo:1k",
+   "kind": "image",
+   "target": "naif:504",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "callisto_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-callisto-1km"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:601:albedo:512",
+   "kind": "image",
+   "target": "naif:601",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "mimas_albedo_512.webp"
+   ],
+   "credits": [
+    "nasa-pia17214"
+   ],
+   "surface": {
+    "observed": "2004〜2017年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:601:albedo:1k",
+   "kind": "image",
+   "target": "naif:601",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "mimas_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-pia17214"
+   ],
+   "surface": {
+    "observed": "2004〜2017年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:602:albedo:512",
+   "kind": "image",
+   "target": "naif:602",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "enceladus_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-enceladus-110m"
+   ],
+   "surface": {
+    "observed": "2005〜2010年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:602:albedo:1k",
+   "kind": "image",
+   "target": "naif:602",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "enceladus_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-enceladus-110m"
+   ],
+   "surface": {
+    "observed": "2005〜2010年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:603:albedo:512",
+   "kind": "image",
+   "target": "naif:603",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "tethys_albedo_512.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:603:albedo:1k",
+   "kind": "image",
+   "target": "naif:603",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "tethys_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:604:albedo:512",
+   "kind": "image",
+   "target": "naif:604",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "dione_albedo_512.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:604:albedo:1k",
+   "kind": "image",
+   "target": "naif:604",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "dione_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:605:albedo:512",
+   "kind": "image",
+   "target": "naif:605",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "rhea_albedo_512.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:605:albedo:1k",
+   "kind": "image",
+   "target": "naif:605",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "rhea_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:606:albedo:256",
+   "kind": "image",
+   "target": "naif:606",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 256,
+   "height": 128,
+   "files": [
+    "titan_albedo_256.webp"
+   ],
+   "credits": [
+    "nasa-pia06230"
+   ],
+   "surface": {
+    "observed": "2004年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "uniform",
+    "note": "厚いもやで地表は見えない。もやの平均の色の一様な球（地表の地図は使っていない）"
+   }
+  },
+  {
+   "id": "tex:608:albedo:512",
+   "kind": "image",
+   "target": "naif:608",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "iapetus_albedo_512.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:608:albedo:1k",
+   "kind": "image",
+   "target": "naif:608",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "iapetus_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:401:albedo:512",
+   "kind": "image",
+   "target": "naif:401",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "phobos_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-phobos-viking-5m"
+   ],
+   "surface": {
+    "observed": "1976〜1980年",
+    "instrument": "バイキング周回機",
+    "colorType": "monochrome",
+    "note": "本当はいびつな形（13×11×9 km）。アプリでは球で表示"
+   }
+  },
+  {
+   "id": "tex:401:albedo:1k",
+   "kind": "image",
+   "target": "naif:401",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "phobos_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-phobos-viking-5m"
+   ],
+   "surface": {
+    "observed": "1976〜1980年",
+    "instrument": "バイキング周回機",
+    "colorType": "monochrome",
+    "note": "本当はいびつな形（13×11×9 km）。アプリでは球で表示"
+   }
+  },
+  {
+   "id": "tex:402:albedo:512",
+   "kind": "image",
+   "target": "naif:402",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "deimos_albedo_512.webp"
+   ],
+   "credits": [
+    "pds-stooke-deimos"
+   ],
+   "surface": {
+    "observed": "1977年・2009年",
+    "instrument": "バイキング周回機・マーズ・リコネサンス・オービター",
+    "colorType": "monochrome",
+    "note": "本当はいびつな形（8×6×5 km）。アプリでは球で表示"
+   }
+  },
+  {
+   "id": "tex:402:albedo:1k",
+   "kind": "image",
+   "target": "naif:402",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "deimos_albedo_1k.webp"
+   ],
+   "credits": [
+    "pds-stooke-deimos"
+   ],
+   "surface": {
+    "observed": "1977年・2009年",
+    "instrument": "バイキング周回機・マーズ・リコネサンス・オービター",
+    "colorType": "monochrome",
+    "note": "本当はいびつな形（8×6×5 km）。アプリでは球で表示"
+   }
+  },
+  {
+   "id": "tex:801:albedo:512",
+   "kind": "image",
+   "target": "naif:801",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "triton_albedo_512.webp"
+   ],
+   "credits": [
+    "usgs-triton-color-600m"
+   ],
+   "surface": {
+    "observed": "1989年",
+    "instrument": "ボイジャー2号",
+    "colorType": "monochrome",
+    "note": "北側（約3割）は写っていないので灰色。はっきり写っているのは全体の3分の1ほど"
+   }
+  },
+  {
+   "id": "tex:801:albedo:1k",
+   "kind": "image",
+   "target": "naif:801",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "triton_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-triton-color-600m"
+   ],
+   "surface": {
+    "observed": "1989年",
+    "instrument": "ボイジャー2号",
+    "colorType": "monochrome",
+    "note": "北側（約3割）は写っていないので灰色。はっきり写っているのは全体の3分の1ほど"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "io_albedo_512.webp",
+   "bytes": 27958,
+   "sha256": "4ea699a7b5a84988cb937a74d3cd0cadce4348e0a97e82ed5c133a6102a464df"
+  },
+  {
+   "path": "io_albedo_1k.webp",
+   "bytes": 77644,
+   "sha256": "c39d2c8ab226d04af8da1c051202f74b4dc6352ea104b84ffa62a2f6f27acbc2"
+  },
+  {
+   "path": "europa_albedo_512.webp",
+   "bytes": 27840,
+   "sha256": "c6b05d515f6ee3ca9f403559fcf24c9b419a25b1a68f24dc5c9bc1e3e465d41b"
+  },
+  {
+   "path": "europa_albedo_1k.webp",
+   "bytes": 115330,
+   "sha256": "4e48fa6742c99f83dbd079d64c91be6af3ca3c8a07ffe0b823ee1123bb80a328"
+  },
+  {
+   "path": "ganymede_albedo_512.webp",
+   "bytes": 20270,
+   "sha256": "54df5e8a32103d13c9a3370d3207bb8363cbdbeaf45ca2a8960584826c06d112"
+  },
+  {
+   "path": "ganymede_albedo_1k.webp",
+   "bytes": 77916,
+   "sha256": "7bec9b064593094feb6c81262ea6964cb29cf811c3c82e7a5b2423646503b03b"
+  },
+  {
+   "path": "callisto_albedo_512.webp",
+   "bytes": 21708,
+   "sha256": "ea32ab4a090c2c2fd004690b5f07708d4a6b211a852f2e52d1c56c1689e1a642"
+  },
+  {
+   "path": "callisto_albedo_1k.webp",
+   "bytes": 81392,
+   "sha256": "5cf44fec89bec4aff301f7ba2be29f8b91ea53696ad0551d5ec811bc66089a61"
+  },
+  {
+   "path": "mimas_albedo_512.webp",
+   "bytes": 54082,
+   "sha256": "2d6a757758da6381a73dc24d6e23e833591e1561723e08ae7136ea1e8d961467"
+  },
+  {
+   "path": "mimas_albedo_1k.webp",
+   "bytes": 168524,
+   "sha256": "f8143e43ae76e998eb697a00bfb0ea40ff9b8b5e848baf35c261e32ce42d36dd"
+  },
+  {
+   "path": "enceladus_albedo_512.webp",
+   "bytes": 39864,
+   "sha256": "f8677d6a16ce18a4025c66a9e217eb7a6ca428f2be4cb56770817293ca1ada0f"
+  },
+  {
+   "path": "enceladus_albedo_1k.webp",
+   "bytes": 193470,
+   "sha256": "d5b7f730aa178e67959a024d0cb97ff676b604cc6c8f1aac992cca51c20ef614"
+  },
+  {
+   "path": "tethys_albedo_512.webp",
+   "bytes": 51314,
+   "sha256": "9f962319c82506f103cd68675e4712714155656f08ba06e9bb0ae818e24084a0"
+  },
+  {
+   "path": "tethys_albedo_1k.webp",
+   "bytes": 205338,
+   "sha256": "6ec40c3af8a43c7170e6bafae2ffc0ee4c6bdacc8e9d995843116f59d3ea854e"
+  },
+  {
+   "path": "dione_albedo_512.webp",
+   "bytes": 41694,
+   "sha256": "8db457397d34e316bde5d97d482fab08f2d8ab3ee1c24909845bc9c9f086b497"
+  },
+  {
+   "path": "dione_albedo_1k.webp",
+   "bytes": 168872,
+   "sha256": "5ba4b2e828c036436d6b8c2596cd6b171d066ce2f72322d4ef58b6abc155e293"
+  },
+  {
+   "path": "rhea_albedo_512.webp",
+   "bytes": 50386,
+   "sha256": "c0be6201e71c76b0b6195a8ab874e7d9cc3ee4c3f1945bcb20e57198014a3fd8"
+  },
+  {
+   "path": "rhea_albedo_1k.webp",
+   "bytes": 202754,
+   "sha256": "31db0083e111982a6e757864485825d03d8e81327b09f9880ec74f4d3a99ae27"
+  },
+  {
+   "path": "titan_albedo_256.webp",
+   "bytes": 140,
+   "sha256": "50f2727d256c8fc6f2fe095e903cd108136ff0225a57ee5fe2ac9cf3d5efe5a4"
+  },
+  {
+   "path": "iapetus_albedo_512.webp",
+   "bytes": 31084,
+   "sha256": "3f04795a2d6bfbe58d456d8e587e531eb6709bbac023bfacc39e5f0bca759007"
+  },
+  {
+   "path": "iapetus_albedo_1k.webp",
+   "bytes": 110664,
+   "sha256": "2e3e7bd60af63ac98af8a3a4eb079cfdd1ee1d3801d2bcced65ded0ed0cc6b9f"
+  },
+  {
+   "path": "phobos_albedo_512.webp",
+   "bytes": 36172,
+   "sha256": "e2906cd521dd62b19940e220cd00a6be344cffab8a4d2c0381fe9b4effb24eaf"
+  },
+  {
+   "path": "phobos_albedo_1k.webp",
+   "bytes": 122466,
+   "sha256": "f330bfee75d04e4908aea67687566e75ec606ba0cbb5fa46a172d6a94923ca9f"
+  },
+  {
+   "path": "deimos_albedo_512.webp",
+   "bytes": 12574,
+   "sha256": "d95da958306e96c67b8235fa12db47815d2de2003a8f24ac9c09052779c5858c"
+  },
+  {
+   "path": "deimos_albedo_1k.webp",
+   "bytes": 41294,
+   "sha256": "8ccc1d052dc9ae485711007ca4158bb953543b185d7efd494f983ed5097a065f"
+  },
+  {
+   "path": "triton_albedo_512.webp",
+   "bytes": 14544,
+   "sha256": "9f5a4f579bde67cbe5dc0c10b63c704647f9a591ed6ef28e9164f3d409685bb6"
+  },
+  {
+   "path": "triton_albedo_1k.webp",
+   "bytes": 46900,
+   "sha256": "c310b53da805fd55c86b088c24d20141b2dbf4370d37b85cb80eacd384e08d54"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-io-clrmerge-1km",
+   "title": "Io Galileo SSI / Voyager Color Merged Global Mosaic 1km",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL（ボイジャー 1979 年とガリレオ 1996〜2001 年の画像の合成。色はガリレオの色の比を白黒のモザイクに重ねた強調色）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km"
+  },
+  {
+   "id": "usgs-europa-500m",
+   "title": "Europa Voyager - Galileo SSI Global Mosaic 500m",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL（T. Becker ほか）。南緯 83° より南は写っていない（アプリでは灰色で埋めた）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/europa_voyager_galileo_ssi_global_mosaic_500m"
+  },
+  {
+   "id": "usgs-ganymede-1km",
+   "title": "Ganymede Voyager - Galileo SSI Global Mosaic 1km",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_global_mosaic_1km"
+  },
+  {
+   "id": "usgs-callisto-1km",
+   "title": "Callisto Voyager - Galileo SSI Global Mosaic 1km",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/callisto_voyager_galileo_ssi_global_mosaic_1km"
+  },
+  {
+   "id": "nasa-pia17214",
+   "title": "Mimas Global Map - June 2017（PIA17214）",
+   "source": "NASA/JPL-Caltech/Space Science Institute/Lunar and Planetary Institute（カッシーニ ISS）",
+   "license": "Public domain（NASA Photojournal・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/mimas-global-map-june-2017/"
+  },
+  {
+   "id": "usgs-enceladus-110m",
+   "title": "Enceladus Cassini Global Mosaic 110m",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL/Space Science Institute（カッシーニ ISS 2005〜2010）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/enceladus_cassini_global_mosaic_110m"
+  },
+  {
+   "id": "nasa-schenk-2014-saturn-moons",
+   "title": "Color Maps of Tethys / Dione / Rhea / Iapetus - 2014（PIA18439・PIA18434・PIA18438・PIA18436・P. Schenk）",
+   "source": "NASA/JPL-Caltech/Space Science Institute/Lunar and Planetary Institute（カッシーニ ISS）。アプリでは色を使わず明るさ（リニアの輝度）だけを白黒で使う（色地図は紫外〜赤外の強調色のため）",
+   "license": "Public domain（NASA Photojournal・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/color-maps-of-iapetus-2014/"
+  },
+  {
+   "id": "nasa-pia06230",
+   "title": "Titan's Atmosphere in Natural Color（PIA06230）",
+   "source": "NASA/JPL/Space Science Institute（カッシーニ ISS の自然色の円盤の写真）。円盤の平均の色だけを使う（地図ではない）",
+   "license": "Public domain（NASA Photojournal・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/titans-atmosphere-in-natural-color/"
+  },
+  {
+   "id": "usgs-phobos-viking-5m",
+   "title": "Phobos Viking Global Mosaic 5m（DLR control）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／P. Stooke（バイキング周回機 1976〜1980）・DLR の制御網",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/phobos_viking_global_mosaic_5m"
+  },
+  {
+   "id": "pds-stooke-deimos",
+   "title": "Stooke Small Bodies Maps V3.0：deimos_cyl_viking_mro",
+   "source": "NASA PDS Small Bodies Node／P. Stooke（バイキング 1977・MRO HiRISE 2009 の画像から作った地図）",
+   "license": "Public domain（NASA PDS・出典を表記）",
+   "url": "https://sbn.psi.edu/pds/resource/stookemaps.html"
+  },
+  {
+   "id": "usgs-triton-color-600m",
+   "title": "Triton Voyager 2 Global Color Mosaic 600m",
+   "source": "U.S. Geological Survey Astrogeology Science Center／Lunar and Planetary Institute（P. Schenk）・NASA/JPL（ボイジャー2号 1989）。アプリでは明るさだけを白黒で使う（色は強調色のため）。北の写っていない所は灰色で埋めた",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m"
+  }
+ ]
+}

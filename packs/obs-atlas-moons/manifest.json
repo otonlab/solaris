@@ -1,0 +1,604 @@
+{
+ "schema": 1,
+ "packId": "obs-atlas-moons",
+ "version": 1,
+ "title": "観測図鑑（月・自然衛星）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:nasa-gsfc-20171208-archive-e000496:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001129:std",
+  "use:obs-img:nasa-pia23237:std",
+  "use:obs-img:nasa-pia23236:std",
+  "use:obs-img:nasa-pia00845:std",
+  "use:obs-img:nasa-pia02515:std",
+  "use:obs-img:nasa-pia02509:std",
+  "use:obs-img:nasa-pia00834:std",
+  "use:obs-img:nasa-pia21444:std",
+  "use:obs-img:nasa-pia24895:std",
+  "use:obs-img:nasa-pia24681:std",
+  "use:obs-img:nasa-pia24792:std",
+  "use:obs-img:nasa-pia23987:std",
+  "use:obs-img:nasa-pia13896:std",
+  "use:obs-img:nasa-pia00517:std",
+  "use:obs-img:nasa-pia00601:std",
+  "use:obs-img:nasa-pia14591:std",
+  "use:obs-img:nasa-pia16177:std",
+  "use:obs-img:nasa-pia14908:std",
+  "use:obs-img:nasa-pia12662:std"
+ ],
+ "sizeBytes": 2799758,
+ "installedBytes": 2799758,
+ "assets": [
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000496",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000496:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 952,
+   "height": 952,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000496_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000496"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001129",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001129:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 700,
+   "height": 700,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001129_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001129"
+   ]
+  },
+  {
+   "id": "std:nasa-pia23237",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia23237:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1222,
+   "height": 988,
+   "files": [
+    "images/nasa-pia23237_std.webp"
+   ],
+   "credits": [
+    "nasa-pia23237"
+   ]
+  },
+  {
+   "id": "std:nasa-pia23236",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia23236:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 991,
+   "files": [
+    "images/nasa-pia23236_std.webp"
+   ],
+   "credits": [
+    "nasa-pia23236"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00845",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00845:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1300,
+   "files": [
+    "images/nasa-pia00845_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00845"
+   ]
+  },
+  {
+   "id": "std:nasa-pia02515",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia02515:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1157,
+   "height": 841,
+   "files": [
+    "images/nasa-pia02515_std.webp"
+   ],
+   "credits": [
+    "nasa-pia02515"
+   ]
+  },
+  {
+   "id": "std:nasa-pia02509",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia02509:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 959,
+   "height": 581,
+   "files": [
+    "images/nasa-pia02509_std.webp"
+   ],
+   "credits": [
+    "nasa-pia02509"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00834",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00834:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1279,
+   "height": 676,
+   "files": [
+    "images/nasa-pia00834_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00834"
+   ]
+  },
+  {
+   "id": "std:nasa-pia21444",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia21444:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 967,
+   "files": [
+    "images/nasa-pia21444_std.webp"
+   ],
+   "credits": [
+    "nasa-pia21444"
+   ]
+  },
+  {
+   "id": "std:nasa-pia24895",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia24895:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1100,
+   "height": 600,
+   "files": [
+    "images/nasa-pia24895_std.webp"
+   ],
+   "credits": [
+    "nasa-pia24895"
+   ]
+  },
+  {
+   "id": "std:nasa-pia24681",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia24681:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1030,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia24681_std.webp"
+   ],
+   "credits": [
+    "nasa-pia24681"
+   ]
+  },
+  {
+   "id": "std:nasa-pia24792",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia24792:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia24792_std.webp"
+   ],
+   "credits": [
+    "nasa-pia24792"
+   ]
+  },
+  {
+   "id": "std:nasa-pia23987",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia23987:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1151,
+   "height": 1160,
+   "files": [
+    "images/nasa-pia23987_std.webp"
+   ],
+   "credits": [
+    "nasa-pia23987"
+   ]
+  },
+  {
+   "id": "std:nasa-pia13896",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia13896:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 898,
+   "files": [
+    "images/nasa-pia13896_std.webp"
+   ],
+   "credits": [
+    "nasa-pia13896"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00517",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00517:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1476,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia00517_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00517"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00601",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00601:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 543,
+   "files": [
+    "images/nasa-pia00601_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00601"
+   ]
+  },
+  {
+   "id": "std:nasa-pia14591",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia14591:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 999,
+   "height": 815,
+   "files": [
+    "images/nasa-pia14591_std.webp"
+   ],
+   "credits": [
+    "nasa-pia14591"
+   ]
+  },
+  {
+   "id": "std:nasa-pia16177",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia16177:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 769,
+   "files": [
+    "images/nasa-pia16177_std.webp"
+   ],
+   "credits": [
+    "nasa-pia16177"
+   ]
+  },
+  {
+   "id": "std:nasa-pia14908",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia14908:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 889,
+   "files": [
+    "images/nasa-pia14908_std.webp"
+   ],
+   "credits": [
+    "nasa-pia14908"
+   ]
+  },
+  {
+   "id": "std:nasa-pia12662",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia12662:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1015,
+   "height": 990,
+   "files": [
+    "images/nasa-pia12662_std.webp"
+   ],
+   "credits": [
+    "nasa-pia12662"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000496_std.webp",
+   "bytes": 73592,
+   "sha256": "cb5470c06b97182feb9662fde9b6086b89ae6c8cff74d376184af9904dbaeb45"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001129_std.webp",
+   "bytes": 12554,
+   "sha256": "fa8a0b655537fc9bafd1d6c969960247fe80a3efb794be6fd7e0b32ffe7a5d49"
+  },
+  {
+   "path": "images/nasa-pia23237_std.webp",
+   "bytes": 176816,
+   "sha256": "3dfa72e3c444993bd7e358c441d25392699a06a1f52cb7570beacc6cb9ddaa1b"
+  },
+  {
+   "path": "images/nasa-pia23236_std.webp",
+   "bytes": 222098,
+   "sha256": "5f294c5d32193288f93467966f4e602c1b7d0bbebc1da8fe91032a280f4226a4"
+  },
+  {
+   "path": "images/nasa-pia00845_std.webp",
+   "bytes": 55766,
+   "sha256": "5fd54512b3bd60d0fe5365425412e0cb0f9e07806feacbff633ed1b207569b98"
+  },
+  {
+   "path": "images/nasa-pia02515_std.webp",
+   "bytes": 44822,
+   "sha256": "42ada0cef047a7c054ea35b21ae5e64b3f79adcce324101a8fa187fa7fecaf7e"
+  },
+  {
+   "path": "images/nasa-pia02509_std.webp",
+   "bytes": 11142,
+   "sha256": "206bf84e9df57fbbfe89766a6ba7a36f212df6d0665571aa0ea92b8c64e10384"
+  },
+  {
+   "path": "images/nasa-pia00834_std.webp",
+   "bytes": 58116,
+   "sha256": "626598b997bbba35eef328ceddf6a5de3f558ae322dc68b2cf8ab2f7fe16dffe"
+  },
+  {
+   "path": "images/nasa-pia21444_std.webp",
+   "bytes": 379412,
+   "sha256": "750c2d6ac8655896a446ea617f3c1da3ba6b92707fc9b99213cedb39e5ea92ad"
+  },
+  {
+   "path": "images/nasa-pia24895_std.webp",
+   "bytes": 26322,
+   "sha256": "0baad84a14d87b473c48a6ed4b900679bc950953e3c593eedb2517e4bf89232b"
+  },
+  {
+   "path": "images/nasa-pia24681_std.webp",
+   "bytes": 272476,
+   "sha256": "d411bb9430bd68e7857eacc6009e7736a127f65d844c1b94f8606d01b57b28f6"
+  },
+  {
+   "path": "images/nasa-pia24792_std.webp",
+   "bytes": 215146,
+   "sha256": "2e01d23f37c1a23852b4a0a8b031d2cd10078d5826d0f136e8ecf9b6c6efd436"
+  },
+  {
+   "path": "images/nasa-pia23987_std.webp",
+   "bytes": 110194,
+   "sha256": "579fa408e1034f18de02026c8f37bf565f0b8001b82667c7cf5d6031f424325e"
+  },
+  {
+   "path": "images/nasa-pia13896_std.webp",
+   "bytes": 317062,
+   "sha256": "0a30f24a1f1e6844fe298cb3d402b0d55eba47a502948c9d8dc461753768b88e"
+  },
+  {
+   "path": "images/nasa-pia00517_std.webp",
+   "bytes": 441894,
+   "sha256": "b92e423d75687849c718146a3b21fc5f99766c4c863fba76e2de3915a014415d"
+  },
+  {
+   "path": "images/nasa-pia00601_std.webp",
+   "bytes": 79744,
+   "sha256": "10e0155c47b52c806dec83d822910353a31c599a1b12bd94fbd7282bcbc9906a"
+  },
+  {
+   "path": "images/nasa-pia14591_std.webp",
+   "bytes": 4148,
+   "sha256": "6dac4bf1d10622438826db5f1df4afb2b6f911bdecbd2984e0f3458171a26fec"
+  },
+  {
+   "path": "images/nasa-pia16177_std.webp",
+   "bytes": 154262,
+   "sha256": "276bb69a2938b277def1834c8acae12898cc320972134792f78f0d8b8380e630"
+  },
+  {
+   "path": "images/nasa-pia14908_std.webp",
+   "bytes": 118264,
+   "sha256": "93b36f52048f719506c33cef13b2e24f8f8350c6dc355aac373b5aed281a6db8"
+  },
+  {
+   "path": "images/nasa-pia12662_std.webp",
+   "bytes": 25928,
+   "sha256": "794d4c1608a033e2167b54e6ae382884df6c0f319f0b8e50c910aa10eb1703b1"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-gsfc-20171208-archive-e000496",
+   "title": "NASA Releases New High-Resolution Earthrise Image",
+   "source": "NASA Image and Video Library：NASA/Goddard/Arizona State University",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000496"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001129",
+   "title": "Lunar Satellite Snaps Image of Earth",
+   "source": "NASA Image and Video Library：NASA/Goddard/Arizona State University",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001129"
+  },
+  {
+   "id": "nasa-pia23237",
+   "title": "Graben on the Moon",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA23237"
+  },
+  {
+   "id": "nasa-pia23236",
+   "title": "Lobate Scarps on the Moon",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA23236"
+  },
+  {
+   "id": "nasa-pia00845",
+   "title": "NIMS: hotspots on Io during G2 continued",
+   "source": "NASA Image and Video Library：NASA/JPL",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00845"
+  },
+  {
+   "id": "nasa-pia02515",
+   "title": "Io Prometheus Regions as Viewed by Galileo NIMS",
+   "source": "NASA Image and Video Library：NASA/JPL",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA02515"
+  },
+  {
+   "id": "nasa-pia02509",
+   "title": "Galileo Near-Infrared Mapping Spectrometer Detects Active Lava Flows at Prometheus Volcano, Io",
+   "source": "NASA Image and Video Library：NASA/JPL",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA02509"
+  },
+  {
+   "id": "nasa-pia00834",
+   "title": "NIMS G1 Observation of Europa",
+   "source": "NASA Image and Video Library：NASA/JPL",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00834"
+  },
+  {
+   "id": "nasa-pia21444",
+   "title": "Europa Plumes Located near Warm Spot on Europa",
+   "source": "NASA Image and Video Library：NASA/ESA/W. Sparks STScI/USGS Astrogeology Science Center",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA21444"
+  },
+  {
+   "id": "nasa-pia24895",
+   "title": "Three Views of Europa",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA24895"
+  },
+  {
+   "id": "nasa-pia24681",
+   "title": "Juno's Ganymede Close-up",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/SwRI/MSSS",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA24681"
+  },
+  {
+   "id": "nasa-pia24792",
+   "title": "Ganymede Coverage by the JIRAM Instrument Aboard Juno",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/SwRI/ASI/INAF/JIRAM/USGS",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA24792"
+  },
+  {
+   "id": "nasa-pia23987",
+   "title": "Ganymede's North Pole with Gridlines",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/SwRI/ASI/INAF/JIRAM",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA23987"
+  },
+  {
+   "id": "nasa-pia13896",
+   "title": "Titan and Callisto",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ASI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA13896"
+  },
+  {
+   "id": "nasa-pia00517",
+   "title": "Asgard Impact Structure on Callisto",
+   "source": "NASA Image and Video Library：NASA/JPL/DLR",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00517"
+  },
+  {
+   "id": "nasa-pia00601",
+   "title": "The Galilean Satellites",
+   "source": "NASA Image and Video Library：NASA/JPL/DLR",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00601"
+  },
+  {
+   "id": "nasa-pia14591",
+   "title": "Welcome Disruption",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Space Science Institute",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA14591"
+  },
+  {
+   "id": "nasa-pia16177",
+   "title": "Glowing Titan",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Space Science Institute",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA16177"
+  },
+  {
+   "id": "nasa-pia14908",
+   "title": "Map of Titan - April 2011",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Space Science Institute",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA14908"
+  },
+  {
+   "id": "nasa-pia12662",
+   "title": "Shadow from Unseen Moon",
+   "source": "NASA Image and Video Library：NASA/JPL/Space Science Institute",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA12662"
+  }
+ ],
+ "info": {
+  "category": "observation-images",
+  "titleEasy": "観測図鑑（月・自然衛星）",
+  "description": "公式アーカイブで権利と出典を確認した実観測画像"
+ }
+}

@@ -1,0 +1,402 @@
+{
+ "schema": 1,
+ "packId": "obs-images-hubble-jwst",
+ "version": 2,
+ "title": "観測画像（星が生まれる所：星雲）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:heic1501a:std",
+  "use:obs-img:weic2216a:std",
+  "use:obs-img:weic2205a:std",
+  "use:obs-img:eso1250a:std",
+  "use:obs-img:heic1808a:std",
+  "use:obs-img:heic1808b:std",
+  "use:obs-img:eso0930a:std",
+  "use:obs-img:eso1504a:std",
+  "use:obs-img:eso0202a:std",
+  "use:obs-img:heic1307a:std",
+  "use:obs-img:weic2411a:std",
+  "use:obs-img:eso0102a:std",
+  "use:obs-img:eso0102b:std"
+ ],
+ "sizeBytes": 4744838,
+ "installedBytes": 4744838,
+ "assets": [
+  {
+   "id": "std:heic1501a",
+   "kind": "image",
+   "target": "use:obs-img:heic1501a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1534,
+   "height": 1600,
+   "files": [
+    "images/heic1501a_std.webp"
+   ],
+   "credits": [
+    "heic1501a"
+   ]
+  },
+  {
+   "id": "std:weic2216a",
+   "kind": "image",
+   "target": "use:obs-img:weic2216a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1200,
+   "height": 1200,
+   "files": [
+    "images/weic2216a_std.webp"
+   ],
+   "credits": [
+    "weic2216a"
+   ]
+  },
+  {
+   "id": "std:weic2205a",
+   "kind": "image",
+   "target": "use:obs-img:weic2205a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 927,
+   "files": [
+    "images/weic2205a_std.webp"
+   ],
+   "credits": [
+    "weic2205a"
+   ]
+  },
+  {
+   "id": "std:eso1250a",
+   "kind": "image",
+   "target": "use:obs-img:eso1250a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1491,
+   "height": 1600,
+   "files": [
+    "images/eso1250a_std.webp"
+   ],
+   "credits": [
+    "eso1250a"
+   ]
+  },
+  {
+   "id": "std:heic1808a",
+   "kind": "image",
+   "target": "use:obs-img:heic1808a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1269,
+   "height": 1600,
+   "files": [
+    "images/heic1808a_std.webp"
+   ],
+   "credits": [
+    "heic1808a"
+   ]
+  },
+  {
+   "id": "std:heic1808b",
+   "kind": "image",
+   "target": "use:obs-img:heic1808b:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1269,
+   "height": 1600,
+   "files": [
+    "images/heic1808b_std.webp"
+   ],
+   "credits": [
+    "heic1808b"
+   ]
+  },
+  {
+   "id": "std:eso0930a",
+   "kind": "image",
+   "target": "use:obs-img:eso0930a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 973,
+   "height": 1600,
+   "files": [
+    "images/eso0930a_std.webp"
+   ],
+   "credits": [
+    "eso0930a"
+   ]
+  },
+  {
+   "id": "std:eso1504a",
+   "kind": "image",
+   "target": "use:obs-img:eso1504a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1128,
+   "files": [
+    "images/eso1504a_std.webp"
+   ],
+   "credits": [
+    "eso1504a"
+   ]
+  },
+  {
+   "id": "std:eso0202a",
+   "kind": "image",
+   "target": "use:obs-img:eso0202a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1555,
+   "height": 1600,
+   "files": [
+    "images/eso0202a_std.webp"
+   ],
+   "credits": [
+    "eso0202a"
+   ]
+  },
+  {
+   "id": "std:heic1307a",
+   "kind": "image",
+   "target": "use:obs-img:heic1307a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1531,
+   "height": 1600,
+   "files": [
+    "images/heic1307a_std.webp"
+   ],
+   "credits": [
+    "heic1307a"
+   ]
+  },
+  {
+   "id": "std:weic2411a",
+   "kind": "image",
+   "target": "use:obs-img:weic2411a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1589,
+   "height": 1600,
+   "files": [
+    "images/weic2411a_std.webp"
+   ],
+   "credits": [
+    "weic2411a"
+   ]
+  },
+  {
+   "id": "std:eso0102a",
+   "kind": "image",
+   "target": "use:obs-img:eso0102a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/eso0102a_std.webp"
+   ],
+   "credits": [
+    "eso0102a"
+   ]
+  },
+  {
+   "id": "std:eso0102b",
+   "kind": "image",
+   "target": "use:obs-img:eso0102b:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1590,
+   "files": [
+    "images/eso0102b_std.webp"
+   ],
+   "credits": [
+    "eso0102b"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/heic1501a_std.webp",
+   "bytes": 145608,
+   "sha256": "5330b1171e0b073570475f9a8aa2f1b5616da5400b5929cc527e8179aa14beca"
+  },
+  {
+   "path": "images/weic2216a_std.webp",
+   "bytes": 406224,
+   "sha256": "985f0f342824023a04dd9ca64abfd06ef5914d83f90adcd106cf635b42fcb229"
+  },
+  {
+   "path": "images/weic2205a_std.webp",
+   "bytes": 229454,
+   "sha256": "f3e2c4c6e3fb0679ee78bdeec1813f34e3b8880739da3bde514828ab3102a9b1"
+  },
+  {
+   "path": "images/eso1250a_std.webp",
+   "bytes": 526338,
+   "sha256": "a9d0338dd1db89fbcc994934a2940925d4f73b5dfea066bac28035b8774e4477"
+  },
+  {
+   "path": "images/heic1808a_std.webp",
+   "bytes": 96456,
+   "sha256": "37ab286ccfb06c6c3cbc2cff977203d9cad6e3ec68ceb28b625c437ff24d5f71"
+  },
+  {
+   "path": "images/heic1808b_std.webp",
+   "bytes": 321544,
+   "sha256": "74635172192e401c42e2b0be2608e893c8086cf7d0182700125908df8f0ef8b7"
+  },
+  {
+   "path": "images/eso0930a_std.webp",
+   "bytes": 126372,
+   "sha256": "e9983929e3dd5d74d813d6431f8fae6151a05a3128f85a6ff5d6673aa66f551c"
+  },
+  {
+   "path": "images/eso1504a_std.webp",
+   "bytes": 917046,
+   "sha256": "9e5fff11ca2c18ea011c2aa297fc3af9e03ceebb38b34cd576d7e23d15d63308"
+  },
+  {
+   "path": "images/eso0202a_std.webp",
+   "bytes": 515320,
+   "sha256": "8d5c9ac25e8a049d37c8c879c19d8780bebcf99cdb9cbbaee1f904df155889d9"
+  },
+  {
+   "path": "images/heic1307a_std.webp",
+   "bytes": 140926,
+   "sha256": "e1eb8e530959cb79e2533bf2cb76d19d67ce65b94b0be7b3619c460aa45bb0b1"
+  },
+  {
+   "path": "images/weic2411a_std.webp",
+   "bytes": 94808,
+   "sha256": "ddb6003bd56cbda2b5364928e8b358ef6893c9dd69927bec8283f43db5a784d9"
+  },
+  {
+   "path": "images/eso0102a_std.webp",
+   "bytes": 709314,
+   "sha256": "d56706ffec8c9e9971e8d6c22ce5ff656838f7db9376b69a445321b4f7377e1e"
+  },
+  {
+   "path": "images/eso0102b_std.webp",
+   "bytes": 515428,
+   "sha256": "f05b55330216762f6628f4b186a42f37918944a304ce3e66643726b8484d4757"
+  }
+ ],
+ "credits": [
+  {
+   "id": "heic1501a",
+   "title": "New view of the Pillars of Creation — visible",
+   "source": "ESA/Hubble：NASA, ESA/Hubble and the Hubble Heritage Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1501a/"
+  },
+  {
+   "id": "weic2216a",
+   "title": "Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation (Cropped)",
+   "source": "ESA/Webb：NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2216a/"
+  },
+  {
+   "id": "weic2205a",
+   "title": "NIRCam Image of the “Cosmic Cliffs” in Carina",
+   "source": "ESA/Webb：NASA, ESA, CSA, and STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2205a/"
+  },
+  {
+   "id": "eso1250a",
+   "title": "The Carina Nebula imaged by the VLT Survey Telescope",
+   "source": "ESO：ESO. Acknowledgement: VPHAS+ Consortium/Cambridge Astronomical Survey Unit",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1250a/"
+  },
+  {
+   "id": "heic1808a",
+   "title": "Hubble's 28th birthday picture: The Lagoon Nebula",
+   "source": "ESA/Hubble：NASA, ESA, STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1808a/"
+  },
+  {
+   "id": "heic1808b",
+   "title": "Infrared view of the Lagoon Nebula",
+   "source": "ESA/Hubble：NASA, ESA, STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1808b/"
+  },
+  {
+   "id": "eso0930a",
+   "title": "The Trifid Nebula",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0930a/"
+  },
+  {
+   "id": "eso1504a",
+   "title": "VISTA views the Trifid Nebula and reveals hidden variable stars",
+   "source": "ESO：ESO/VVV consortium/D. Minniti",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1504a/"
+  },
+  {
+   "id": "eso0202a",
+   "title": "The Horsehead Nebula*",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0202a/"
+  },
+  {
+   "id": "heic1307a",
+   "title": "New infrared view of the Horsehead Nebula — Hubble’s 23rd anniversary image",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage Team (AURA / STScI)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1307a/"
+  },
+  {
+   "id": "weic2411a",
+   "title": "Horsehead Nebula (NIRCam image)",
+   "source": "ESA/Webb：ESA/Webb, NASA, CSA, K. Misselt (University of Arizona) and A. Abergel (IAS/University Paris-Saclay, CNRS)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2411a/"
+  },
+  {
+   "id": "eso0102a",
+   "title": "How to become a star",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0102a/"
+  },
+  {
+   "id": "eso0102b",
+   "title": "Bok globule B68",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0102b/"
+  }
+ ],
+ "info": {
+  "titleEasy": "星が生まれる所（星雲）の観測画像を追加する",
+  "description": "わし星雲・イータカリーナ星雲・干潟星雲・三裂星雲・馬頭星雲・バーナード68（可視光と赤外線でくらべる）",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-04"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "packId": "mars-moons-textures-hd",
+ "version": 1,
+ "title": "火星の衛星（2K・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:401"
+ ],
+ "sizeBytes": 392244,
+ "installedBytes": 392244,
+ "assets": [
+  {
+   "id": "tex:401:albedo:2k",
+   "kind": "image",
+   "target": "naif:401",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "phobos_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-phobos-viking-5m"
+   ],
+   "surface": {
+    "observed": "1976〜1980年",
+    "instrument": "バイキング周回機",
+    "colorType": "monochrome",
+    "note": "本当はいびつな形（13×11×9 km）。アプリでは球で表示"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "phobos_albedo_2k.webp",
+   "bytes": 392244,
+   "sha256": "fd7c259b96aeec58f9ff570c1e0f969e805806227d71baf9a084791a36d1debe"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-phobos-viking-5m",
+   "title": "Phobos Viking Global Mosaic 5m（DLR control）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／P. Stooke（バイキング周回機 1976〜1980）・DLR の制御網",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/phobos_viking_global_mosaic_5m"
+  }
+ ],
+ "info": {
+  "titleEasy": "火星の衛星を高精細にする",
+  "description": "フォボスに近づいたときの表面（2048×1024・バイキングの観測 1976〜1980年）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-06"
+ }
+}

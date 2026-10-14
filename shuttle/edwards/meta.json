@@ -1,0 +1,70 @@
+{
+ "near": {
+  "bbox": [
+   -117.92293005829194,
+   34.872927927927925,
+   -117.74706994170805,
+   35.017072072072075
+  ],
+  "colorPx": 1600,
+  "demPx": 513
+ },
+ "mid": {
+  "bbox": [
+   -118.25929829145973,
+   34.60603663963964,
+   -117.37999770854027,
+   35.32675736036036
+  ],
+  "colorPx": 2048,
+  "demPx": 513
+ },
+ "hrefM": 692.631103515625,
+ "demUnit": "dm",
+ "demOffset": 32768,
+ "sources": {
+  "color": {
+   "name": "Copernicus Sentinel-2 L2A (B04/B03/B02 surface reflectance, 10 m)",
+   "date": "2026-10-09",
+   "items": [
+    "S2B_MSIL2A_20260919T182939_R027_T11SMU_20260919T223532",
+    "S2B_MSIL2A_20261009T183259_R027_T11SLU_20261009T234230",
+    "S2B_MSIL2A_20261009T183259_R027_T11SMU_20261009T234230",
+    "S2C_MSIL2A_20261004T183221_R027_T11SLV_20261004T230904",
+    "S2C_MSIL2A_20261004T183221_R027_T11SMV_20261004T230904"
+   ],
+   "license": "Copernicus Sentinel data terms (free; attribution: Contains modified Copernicus Sentinel data 2026)",
+   "via": "Microsoft Planetary Computer"
+  },
+  "dem": {
+   "name": "USGS 3DEP (1/3 arc-second near, 1 arc-second mid)",
+   "items": [
+    "n35w118-1",
+    "n35w118-13",
+    "n35w119-1",
+    "n36w118-1",
+    "n36w118-13",
+    "n36w119-1"
+   ],
+   "license": "Public domain (USGS)",
+   "datum": "NAVD88 (m)",
+   "via": "Microsoft Planetary Computer 3dep-seamless"
+  }
+ },
+ "missing": {
+  "near": {
+   "firstDay": 0.0,
+   "filledFrom": [],
+   "remaining": 0.0
+  },
+  "mid": {
+   "firstDay": 0.12029218673706055,
+   "filledFrom": [
+    "2026-10-04",
+    "2026-09-19"
+   ],
+   "remaining": 0.0
+  }
+ },
+ "note": "地表の画像は現代（撮影日）のもの＝1981 年の写真ではない。地形と乾湖の形は観測データ。滑走路 23 の線は描画側で 1981 年の資料に合わせて描く"
+}

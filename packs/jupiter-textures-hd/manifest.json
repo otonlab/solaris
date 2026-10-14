@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "packId": "jupiter-textures-hd",
+ "version": 1,
+ "title": "木星（3600 px・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:599"
+ ],
+ "sizeBytes": 362934,
+ "installedBytes": 362934,
+ "assets": [
+  {
+   "id": "tex:599:albedo:3600",
+   "kind": "image",
+   "target": "naif:599",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 3600,
+   "height": 1800,
+   "files": [
+    "jupiter_albedo_3600.webp"
+   ],
+   "credits": [
+    "nasa-pia07782"
+   ],
+   "surface": {
+    "observed": "2000年12月",
+    "instrument": "カッシーニ（狭角カメラ）",
+    "colorType": "approx-natural",
+    "note": "雲の模様と大赤斑の位置は撮影したときのまま（今の木星とは違う）"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "jupiter_albedo_3600.webp",
+   "bytes": 362934,
+   "sha256": "c497dd924c46f4142a745f54b3987419a8c78431f1d0aa785a3493cb863e1178"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-pia07782",
+   "title": "Cassini's Best Maps of Jupiter (Cylindrical Map) PIA07782",
+   "source": "NASA/JPL/Space Science Institute（2000-12-11〜12・狭角カメラ 36 枚・751/451 nm の2色の近似自然色）。アプリ用に化成緯度へ並べ直した",
+   "license": "Public domain（NASA・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map"
+  }
+ ],
+ "info": {
+  "titleEasy": "高精細な木星を追加する",
+  "description": "木星に近づいたときの雲の模様（カッシーニ 2000年12月・原本の大きさ 3600×1800）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-05"
+ }
+}

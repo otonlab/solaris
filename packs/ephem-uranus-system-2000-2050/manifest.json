@@ -1,0 +1,232 @@
+{
+ "schema": 1,
+ "packId": "ephem-uranus-system-2000-2050",
+ "version": 1,
+ "title": "天王星系の暦 2000〜2050年（アリエル・ウンブリエル・チタニア・オベロン・ミランダ／天王星中心）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:701",
+  "naif:702",
+  "naif:703",
+  "naif:704",
+  "naif:705"
+ ],
+ "sizeBytes": 10958720,
+ "installedBytes": 10958720,
+ "assets": [
+  {
+   "id": "ephem:701:799:2000-2050",
+   "kind": "ephem",
+   "target": "naif:701",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "701.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 22,
+    "accuracy": {
+     "reference": "JPL Horizons API — Ariel (701)                     {source: ura184_merged} / Uranus (799)                    {source: ura184_merged}",
+     "retrievedUtc": "2026-10-05T14:22:06+00:00",
+     "fitMaxKm": 0.09504,
+     "holdoutMaxKm": 0.083912,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 2.01e-08,
+     "boundaryJumpMaxKmS": 6.28e-13,
+     "sampleStep": "3h"
+    }
+   }
+  },
+  {
+   "id": "ephem:702:799:2000-2050",
+   "kind": "ephem",
+   "target": "naif:702",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "702.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Umbriel (702)                   {source: ura184_merged} / Uranus (799)                    {source: ura184_merged}",
+     "retrievedUtc": "2026-10-05T14:14:38+00:00",
+     "fitMaxKm": 0.116096,
+     "holdoutMaxKm": 0.087694,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.78e-08,
+     "boundaryJumpMaxKmS": 3.87e-13,
+     "sampleStep": "6h"
+    }
+   }
+  },
+  {
+   "id": "ephem:703:799:2000-2050",
+   "kind": "ephem",
+   "target": "naif:703",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "703.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — Titania (703)                   {source: ura184_merged} / Uranus (799)                    {source: ura184_merged}",
+     "retrievedUtc": "2026-10-05T14:15:09+00:00",
+     "fitMaxKm": 0.125411,
+     "holdoutMaxKm": 0.080732,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.2e-08,
+     "boundaryJumpMaxKmS": 1.98e-13,
+     "sampleStep": "6h"
+    }
+   }
+  },
+  {
+   "id": "ephem:704:799:2000-2050",
+   "kind": "ephem",
+   "target": "naif:704",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "704.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — Oberon (704)                    {source: ura184_merged} / Uranus (799)                    {source: ura184_merged}",
+     "retrievedUtc": "2026-10-05T14:15:34+00:00",
+     "fitMaxKm": 0.081533,
+     "holdoutMaxKm": 0.051795,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 7.82e-09,
+     "boundaryJumpMaxKmS": 3.04e-13,
+     "sampleStep": "6h"
+    }
+   }
+  },
+  {
+   "id": "ephem:705:799:2000-2050",
+   "kind": "ephem",
+   "target": "naif:705",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "705.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API — Miranda (705)                   {source: ura184_merged} / Uranus (799)                    {source: ura184_merged}",
+     "retrievedUtc": "2026-10-05T14:23:20+00:00",
+     "fitMaxKm": 0.104435,
+     "holdoutMaxKm": 0.07816,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.4e-09,
+     "boundaryJumpMaxKmS": 7.05e-13,
+     "sampleStep": "3h"
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "701.bin",
+   "bytes": 2520496,
+   "sha256": "2b79a48be9ab16cfb92893e93c7b673ad1f5786c1d7e47313f62b0211c24c440"
+  },
+  {
+   "path": "702.bin",
+   "bytes": 1862992,
+   "sha256": "2b84a295d24ed11597b769ed1c25872fd8ad3e9889197aa0008a56a7f9d9b910"
+  },
+  {
+   "path": "703.bin",
+   "bytes": 1205488,
+   "sha256": "cd4af6f9254d3a5f78c3b193753e2c248fbf24468e757a6d3d3ccb4737693b63"
+  },
+  {
+   "path": "704.bin",
+   "bytes": 1205488,
+   "sha256": "3831c3ddd04a9ded0db21e7a15f584cd7af57dd87636b9c58e705a9b3812695c"
+  },
+  {
+   "path": "705.bin",
+   "bytes": 4164256,
+   "sha256": "32297727324f103037f539c73ea4b461b704d89164e24a5dbaef0ff3a35b6cce"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons-sat",
+   "title": "JPL Horizons On-Line Ephemeris System（天王星系の衛星暦）からのチェビシェフ当てはめ（原点：天王星の中心）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ],
+ "info": {
+  "titleEasy": "天王星の衛星を追加する",
+  "description": "天王星の主な5衛星（ミランダ・アリエル・ウンブリエル・チタニア・オベロン）の暦（2000〜2050年）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-06"
+ }
+}

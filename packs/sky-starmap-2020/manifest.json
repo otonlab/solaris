@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "packId": "sky-starmap-2020",
+ "version": 1,
+ "title": "背景の全天の星空（4K）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:sky"
+ ],
+ "sizeBytes": 2338010,
+ "installedBytes": 2338010,
+ "assets": [
+  {
+   "id": "sky:starmap2020:4k",
+   "kind": "image",
+   "target": "use:sky",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 4096,
+   "height": 2048,
+   "files": [
+    "starmap_2020_4k.jpg"
+   ],
+   "credits": [
+    "nasa-svs-4851"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "starmap_2020_4k.jpg",
+   "bytes": 2338010,
+   "sha256": "361335c03a8733c64ceb4fd9a1b7c618312b1125b9740a935c22ca9fba70dde6"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-svs-4851",
+   "title": "Deep Star Maps 2020（starmap_2020_4k）",
+   "source": "NASA/Goddard Space Flight Center Scientific Visualization Studio. Gaia DR2: ESA/Gaia/DPAC.",
+   "license": "NASA media usage guidelines（クレジット表示）・Gaia DR2: ESA/Gaia/DPAC",
+   "url": "https://svs.gsfc.nasa.gov/4851"
+  }
+ ]
+}

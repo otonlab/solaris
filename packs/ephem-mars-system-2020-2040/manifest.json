@@ -1,0 +1,115 @@
+{
+ "schema": 1,
+ "packId": "ephem-mars-system-2020-2040",
+ "version": 1,
+ "title": "火星系の暦 2020〜2040年（フォボス・ダイモス／火星中心）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:401",
+  "naif:402"
+ ],
+ "sizeBytes": 8152712,
+ "installedBytes": 8152712,
+ "assets": [
+  {
+   "id": "ephem:401:499:2020-2040",
+   "kind": "ephem",
+   "target": "naif:401",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "401.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 631108800.0,
+    "endTdb": 1262260800.0,
+    "center": "naif:499",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 43200.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API — Phobos (401)                    {source: mar099} / Mars (499)                      {source: mar099}",
+     "retrievedUtc": "2026-10-05T23:57:12+00:00",
+     "fitMaxKm": 0.094109,
+     "holdoutMaxKm": 0.085908,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.42e-08,
+     "boundaryJumpMaxKmS": 2.25e-13,
+     "sampleStep": "15m"
+    }
+   }
+  },
+  {
+   "id": "ephem:402:499:2020-2040",
+   "kind": "ephem",
+   "target": "naif:402",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "402.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 631108800.0,
+    "endTdb": 1262260800.0,
+    "center": "naif:499",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Deimos (402)                    {source: mar099} / Mars (499)                      {source: mar099}",
+     "retrievedUtc": "2026-10-05T21:25:42+00:00",
+     "fitMaxKm": 0.023272,
+     "holdoutMaxKm": 0.018578,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 2.46e-09,
+     "boundaryJumpMaxKmS": 4.89e-14,
+     "sampleStep": "3h"
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "401.bin",
+   "bytes": 6662224,
+   "sha256": "79560986083c6e40ce845614968a6eea9570154837dff6d4745a889dc879833e"
+  },
+  {
+   "path": "402.bin",
+   "bytes": 1490488,
+   "sha256": "86e02dd333121c08b5d46360c272e53c33fd9456d99210fbdff53e18de2552e0"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons-sat",
+   "title": "JPL Horizons On-Line Ephemeris System（火星系の衛星暦 MAR099）からのチェビシェフ当てはめ（原点：火星の中心）。期間は 2020〜2040 年だけ（フォボスの公転が速く、50 年分は大きすぎるため・2026-10-06 オトン承認）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ],
+ "info": {
+  "titleEasy": "火星の衛星を追加する",
+  "description": "フォボスとダイモスの暦（2020〜2040年・この期間の外では表示しません）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-06"
+ }
+}

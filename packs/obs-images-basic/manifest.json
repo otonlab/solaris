@@ -1,0 +1,112 @@
+{
+ "schema": 1,
+ "packId": "obs-images-basic",
+ "version": 2,
+ "title": "観測画像（有名な天体 基本パック）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:heic0601a:std",
+  "use:obs-img:potw1726a:std",
+  "use:obs-img:heic0516a:std"
+ ],
+ "sizeBytes": 133474,
+ "installedBytes": 133474,
+ "assets": [
+  {
+   "id": "std:heic0601a",
+   "kind": "image",
+   "target": "use:obs-img:heic0601a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/heic0601a_std.webp"
+   ],
+   "credits": [
+    "heic0601a"
+   ]
+  },
+  {
+   "id": "std:potw1726a",
+   "kind": "image",
+   "target": "use:obs-img:potw1726a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/potw1726a_std.webp"
+   ],
+   "credits": [
+    "potw1726a"
+   ]
+  },
+  {
+   "id": "std:heic0516a",
+   "kind": "image",
+   "target": "use:obs-img:heic0516a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 369,
+   "height": 403,
+   "files": [
+    "images/heic0516a_std.webp"
+   ],
+   "credits": [
+    "heic0516a"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/heic0601a_std.webp",
+   "bytes": 106494,
+   "sha256": "9508072193a49a96e228f31f7e3f7f528b308c176fa0f755bb8af930277fbc7d"
+  },
+  {
+   "path": "images/potw1726a_std.webp",
+   "bytes": 17412,
+   "sha256": "ce91f85fb1c3b41f95c314b1a480b3de22e8880e29e7dfeec9829204d08e0274"
+  },
+  {
+   "path": "images/heic0516a_std.webp",
+   "bytes": 9568,
+   "sha256": "d470c5c08cfbc27e8f4019caa633b96f8207e2a212e67fff7b7f6c0b513d124d"
+  }
+ ],
+ "credits": [
+  {
+   "id": "heic0601a",
+   "title": "Hubble's sharpest view of the Orion Nebula",
+   "source": "ESA/Hubble：NASA, ESA, M. Robberto (Space Telescope Science Institute / ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0601a/"
+  },
+  {
+   "id": "potw1726a",
+   "title": "Betelgeuse captured by ALMA",
+   "source": "ESO：ALMA (ESO/NAOJ/NRAO)/E. O’Gorman/P. Kervella",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/potw1726a/"
+  },
+  {
+   "id": "heic0516a",
+   "title": "The Dog Star, Sirius A, and its tiny companion",
+   "source": "ESA/Hubble：NASA, ESA, H. Bond (STScI), and M. Barstow (University of Leicester)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0516a/"
+  }
+ ],
+ "info": {
+  "titleEasy": "観測画像（有名な天体）",
+  "description": "オリオン大星雲・すばる・ベテルギウス・シリウス",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-04"
+ }
+}

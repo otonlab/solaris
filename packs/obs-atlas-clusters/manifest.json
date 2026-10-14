@@ -1,0 +1,604 @@
+{
+ "schema": 1,
+ "packId": "obs-atlas-clusters",
+ "version": 1,
+ "title": "観測図鑑（星団）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:nasa-pia09262:std",
+  "use:obs-img:nasa-pia09263:std",
+  "use:obs-img:nasa-pia10372:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000161:std",
+  "use:obs-img:nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o:std",
+  "use:obs-img:nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000191:std",
+  "use:obs-img:nasa-pia04221:std",
+  "use:obs-img:nasa-hubble-sees-a-youthful-cluster-20330747093-o:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001017:std",
+  "use:obs-img:nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000846:std",
+  "use:obs-img:nasa-pia13014:std",
+  "use:obs-img:nasa-pia11984:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000129:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001921:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000123:std",
+  "use:obs-img:nasa-pia04200:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000262:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001894:std"
+ ],
+ "sizeBytes": 6787078,
+ "installedBytes": 6787078,
+ "assets": [
+  {
+   "id": "std:nasa-pia09262",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09262:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia09262_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09262"
+   ]
+  },
+  {
+   "id": "std:nasa-pia09263",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09263:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia09263_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09263"
+   ]
+  },
+  {
+   "id": "std:nasa-pia10372",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia10372:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1400,
+   "height": 1400,
+   "files": [
+    "images/nasa-pia10372_std.webp"
+   ],
+   "credits": [
+    "nasa-pia10372"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000161",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000161:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 943,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000161_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000161"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1143,
+   "files": [
+    "images/nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1142,
+   "files": [
+    "images/nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000191",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000191:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1292,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000191_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000191"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04221",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04221:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 758,
+   "height": 580,
+   "files": [
+    "images/nasa-pia04221_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04221"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-sees-a-youthful-cluster-20330747093-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-sees-a-youthful-cluster-20330747093-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 753,
+   "files": [
+    "images/nasa-hubble-sees-a-youthful-cluster-20330747093-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-sees-a-youthful-cluster-20330747093-o"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001017",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001017:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1308,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001017_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001017"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1091,
+   "files": [
+    "images/nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000846",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000846:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1265,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000846_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000846"
+   ]
+  },
+  {
+   "id": "std:nasa-pia13014",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia13014:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 837,
+   "files": [
+    "images/nasa-pia13014_std.webp"
+   ],
+   "credits": [
+    "nasa-pia13014"
+   ]
+  },
+  {
+   "id": "std:nasa-pia11984",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia11984:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia11984_std.webp"
+   ],
+   "credits": [
+    "nasa-pia11984"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000129",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000129:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 646,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000129_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000129"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001921",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001921:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1141,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001921_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001921"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000123",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000123:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1219,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000123_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000123"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04200",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04200:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1142,
+   "files": [
+    "images/nasa-pia04200_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04200"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000262",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000262:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1072,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000262_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000262"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001894",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001894:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1192,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001894_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001894"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/nasa-pia09262_std.webp",
+   "bytes": 234958,
+   "sha256": "d253450d492b398c91b46b3c77ef12be59641c4dff850cd532a4fcdfaba90fbe"
+  },
+  {
+   "path": "images/nasa-pia09263_std.webp",
+   "bytes": 167734,
+   "sha256": "ea4800c007f2826587f49fda2fb212175cc9afb6d191257b4de8274aa92964b1"
+  },
+  {
+   "path": "images/nasa-pia10372_std.webp",
+   "bytes": 301742,
+   "sha256": "f46faf8f8d6784e44f30f6ae4749ce55284e8898d527fc5ddc0d49ca7bc93ea6"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000161_std.webp",
+   "bytes": 282574,
+   "sha256": "89d5c158ba4fcc3c4784119a687d5ac0b8893c7b7113d0b5576563fd55a61519"
+  },
+  {
+   "path": "images/nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o_std.webp",
+   "bytes": 356408,
+   "sha256": "cde352ba43d1b358bccc0cc1c84c8a6b7ef4297f590e0bdf6b2d6c9f2b56ce3b"
+  },
+  {
+   "path": "images/nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o_std.webp",
+   "bytes": 428768,
+   "sha256": "d7ef3025d10f278a8f98b7a13e76dd3cd3454fde57402cd084cc91cf8998499d"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000191_std.webp",
+   "bytes": 648180,
+   "sha256": "956d4451d8ea6a57bac71b44ce6f23b0bab5a690b15c5a231bbe2ca05da0d3e7"
+  },
+  {
+   "path": "images/nasa-pia04221_std.webp",
+   "bytes": 140994,
+   "sha256": "fa9c8a8357d93c6301c392d60d4fe5e165ee7892076c34a5edc0eb8ef88965c0"
+  },
+  {
+   "path": "images/nasa-hubble-sees-a-youthful-cluster-20330747093-o_std.webp",
+   "bytes": 346226,
+   "sha256": "a29e96eb1b73f1842c2458cca65e90215c5aa2f635473871aaa15b97b854040a"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001017_std.webp",
+   "bytes": 651378,
+   "sha256": "86ed4ee8dcaa1d82400a5b598a2c1045bd4d1f8357d543af9f797085b6309c95"
+  },
+  {
+   "path": "images/nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o_std.webp",
+   "bytes": 395242,
+   "sha256": "b59ed1cc71b0a97016251f211b7d71200b87caaf605870279b48a35147ad55fb"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000846_std.webp",
+   "bytes": 238712,
+   "sha256": "12ab93c302ff84932be21a1d0407eb12ea0ab5500c95618270021018b8246ec6"
+  },
+  {
+   "path": "images/nasa-pia13014_std.webp",
+   "bytes": 268986,
+   "sha256": "218e92543d12aa209cfc91dfe0b0ac5a5131aaab67de181ff93e417991bea19f"
+  },
+  {
+   "path": "images/nasa-pia11984_std.webp",
+   "bytes": 512592,
+   "sha256": "51d3bc0248bb007d8487da95abaaeafbb9d132e52b5c166ff20847237b7b3be7"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000129_std.webp",
+   "bytes": 292216,
+   "sha256": "42aa3982c069a39837ac4c8b6235dff34beae43f8f128fb0b48a573fddab52ac"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001921_std.webp",
+   "bytes": 131644,
+   "sha256": "e716a9129246d7a30ff51663fe8cc720502b2a61ac546a2aed389e3b76d2d3d4"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000123_std.webp",
+   "bytes": 273720,
+   "sha256": "10247317fc0e76d19d0d5e261808a14fc674ceefb5e5486a3afea6e620a95506"
+  },
+  {
+   "path": "images/nasa-pia04200_std.webp",
+   "bytes": 261116,
+   "sha256": "e0807f7d33a2d2d6651d40c70e311039af2cc873bad189a30d04b8ec2ae493a6"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000262_std.webp",
+   "bytes": 269006,
+   "sha256": "b0cff3b666130105f2b5b83d79f8f9db37491b13dec6f60b45274c10a4429cb5"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001894_std.webp",
+   "bytes": 584882,
+   "sha256": "c6cfdd4156218137a508cea85762a9d2b96985b6b31488cbb73f3f7f273c1ccd"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-pia09262",
+   "title": "Pink Pleiades",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09262"
+  },
+  {
+   "id": "nasa-pia09263",
+   "title": "The Seven Sisters Pose for Spitzer",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09263"
+  },
+  {
+   "id": "nasa-pia10372",
+   "title": "Omega Centauri Looks Radiant in Infrared",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/NOAO/AURA/NSF",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA10372"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000161",
+   "title": "Hubble Takes Flight with the Toucan and the Cluster",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000161"
+  },
+  {
+   "id": "nasa-hubble-peers-into-the-most-crowded-place-in-the-milky-way-18051161100-o",
+   "title": "The most crowded place in the Milky Way",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-peers-into-the-most-crowded-place-in-the-milky-way_18051161100_o"
+  },
+  {
+   "id": "nasa-hubble-uncovering-the-secrets-of-the-quintuplet-cluster-19779352405-o",
+   "title": "Uncovering the secrets of the Quintuplet Cluster",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-uncovering-the-secrets-of-the-quintuplet-cluster_19779352405_o"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000191",
+   "title": "Hubble Admires a Youthful Globular Star Cluster",
+   "source": "NASA Image and Video Library：ESA/Hubble& NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000191"
+  },
+  {
+   "id": "nasa-pia04221",
+   "title": "Galaxy NGC 1850",
+   "source": "NASA Image and Video Library：NASA, ESA, and Martino Romaniello European Southern Observatory, Germany",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04221"
+  },
+  {
+   "id": "nasa-hubble-sees-a-youthful-cluster-20330747093-o",
+   "title": "A youthful cluster",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-sees-a-youthful-cluster_20330747093_o"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001017",
+   "title": "Hubble Revisits a Globular Cluster’s Age",
+   "source": "NASA Image and Video Library：ESA and NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001017"
+  },
+  {
+   "id": "nasa-hubble-checks-out-a-home-for-old-stars-23521659649-o",
+   "title": "A home for old stars",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-checks-out-a-home-for-old-stars_23521659649_o"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000846",
+   "title": "Hubble Sees an Ancient Globular Cluster",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA, Acknowledgement: Gilles Chapdelaine",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000846"
+  },
+  {
+   "id": "nasa-pia13014",
+   "title": "Soul Nebula",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/UCLA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA13014"
+  },
+  {
+   "id": "nasa-pia11984",
+   "title": "Kepler Diamond Mine of Stars",
+   "source": "NASA Image and Video Library：NASA/Ames/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA11984"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000129",
+   "title": "Hubble Spotlights a Celestial Sidekick",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000129"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001921",
+   "title": "NASA's Hubble Zooms in on a Space Oddity",
+   "source": "NASA Image and Video Library：NASA, ESA, W. Keel (University of Alabama), and the Galaxy Zoo Team",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001921"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000123",
+   "title": "Hubble Hones In on a Hypergiant's Home",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000123"
+  },
+  {
+   "id": "nasa-pia04200",
+   "title": "Doradus Nebula",
+   "source": "NASA Image and Video Library：NASA, N. Walborn and J. Ma`iz-Apell`aniz (Space Telescope Science Institute), R. Barb`a (La Plata Observatory, La Plata, Argentina)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04200"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000262",
+   "title": "Hubble Views a Galaxy Fit to Burst",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA, Acknowledgement: Judy Schmidt",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000262"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001894",
+   "title": "A Star-Formation Laboratory",
+   "source": "NASA Image and Video Library：NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001894"
+  }
+ ],
+ "info": {
+  "category": "observation-images",
+  "titleEasy": "観測図鑑（星団）",
+  "description": "公式アーカイブで権利と出典を確認した実観測画像"
+ }
+}

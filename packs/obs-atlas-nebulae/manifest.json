@@ -1,0 +1,1184 @@
+{
+ "schema": 1,
+ "packId": "obs-atlas-nebulae",
+ "version": 1,
+ "title": "観測図鑑（星雲）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:nasa-pia04227:std",
+  "use:obs-img:nasa-pia13959:std",
+  "use:obs-img:nasa-pia08656:std",
+  "use:obs-img:nasa-pia08653:std",
+  "use:obs-img:nasa-pia15635:std",
+  "use:obs-img:nasa-pia08654:std",
+  "use:obs-img:nasa-pia17257:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e002152:std",
+  "use:obs-img:nasa-pia15985:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001963:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e002153:std",
+  "use:obs-img:nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o:std",
+  "use:obs-img:nasa-pia09108:std",
+  "use:obs-img:nasa-pia09109:std",
+  "use:obs-img:nasa-pia09107:std",
+  "use:obs-img:nasa-pia24577:std",
+  "use:obs-img:nasa-pia14728:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001955:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000671:std",
+  "use:obs-img:nasa-pia07225:std",
+  "use:obs-img:nasa-pia07226:std",
+  "use:obs-img:nasa-pia04215:std",
+  "use:obs-img:nasa-pia18905:std",
+  "use:obs-img:nasa-pia09178:std",
+  "use:obs-img:nasa-pia03678:std",
+  "use:obs-img:nasa-pia14417:std",
+  "use:obs-img:nasa-pia07343:std",
+  "use:obs-img:nasa-pia14443:std",
+  "use:obs-img:nasa-southern-ring-nebula:std",
+  "use:obs-img:nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e002155:std",
+  "use:obs-img:nasa-pia04249:std",
+  "use:obs-img:nasa-pia14442:std",
+  "use:obs-img:nasa-pia17552:std",
+  "use:obs-img:nasa-pia11827:std",
+  "use:obs-img:nasa-pia04214:std",
+  "use:obs-img:nasa-pia13446:std",
+  "use:obs-img:nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000134:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000034:std"
+ ],
+ "sizeBytes": 6718976,
+ "installedBytes": 6718976,
+ "assets": [
+  {
+   "id": "std:nasa-pia04227",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04227:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1074,
+   "height": 895,
+   "files": [
+    "images/nasa-pia04227_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04227"
+   ]
+  },
+  {
+   "id": "std:nasa-pia13959",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia13959:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1556,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia13959_std.webp"
+   ],
+   "credits": [
+    "nasa-pia13959"
+   ]
+  },
+  {
+   "id": "std:nasa-pia08656",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08656:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 960,
+   "files": [
+    "images/nasa-pia08656_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08656"
+   ]
+  },
+  {
+   "id": "std:nasa-pia08653",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08653:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 859,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia08653_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08653"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15635",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15635:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1597,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia15635_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15635"
+   ]
+  },
+  {
+   "id": "std:nasa-pia08654",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08654:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1490,
+   "files": [
+    "images/nasa-pia08654_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08654"
+   ]
+  },
+  {
+   "id": "std:nasa-pia17257",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia17257:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia17257_std.webp"
+   ],
+   "credits": [
+    "nasa-pia17257"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002152",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002152:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 769,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002152_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002152"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15985",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15985:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1473,
+   "files": [
+    "images/nasa-pia15985_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15985"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001963",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001963:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 756,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001963_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001963"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002153",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002153:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 769,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002153_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002153"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1236,
+   "files": [
+    "images/nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o"
+   ]
+  },
+  {
+   "id": "std:nasa-pia09108",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09108:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1400,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia09108_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09108"
+   ]
+  },
+  {
+   "id": "std:nasa-pia09109",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09109:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1490,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia09109_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09109"
+   ]
+  },
+  {
+   "id": "std:nasa-pia09107",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09107:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1400,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia09107_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09107"
+   ]
+  },
+  {
+   "id": "std:nasa-pia24577",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia24577:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 900,
+   "files": [
+    "images/nasa-pia24577_std.webp"
+   ],
+   "credits": [
+    "nasa-pia24577"
+   ]
+  },
+  {
+   "id": "std:nasa-pia14728",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia14728:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1290,
+   "files": [
+    "images/nasa-pia14728_std.webp"
+   ],
+   "credits": [
+    "nasa-pia14728"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001955",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001955:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 818,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001955_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001955"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000671",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000671:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1202,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000671_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000671"
+   ]
+  },
+  {
+   "id": "std:nasa-pia07225",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia07225:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1040,
+   "files": [
+    "images/nasa-pia07225_std.webp"
+   ],
+   "credits": [
+    "nasa-pia07225"
+   ]
+  },
+  {
+   "id": "std:nasa-pia07226",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia07226:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 798,
+   "files": [
+    "images/nasa-pia07226_std.webp"
+   ],
+   "credits": [
+    "nasa-pia07226"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04215",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04215:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 853,
+   "height": 620,
+   "files": [
+    "images/nasa-pia04215_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04215"
+   ]
+  },
+  {
+   "id": "std:nasa-pia18905",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia18905:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 973,
+   "files": [
+    "images/nasa-pia18905_std.webp"
+   ],
+   "credits": [
+    "nasa-pia18905"
+   ]
+  },
+  {
+   "id": "std:nasa-pia09178",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09178:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1331,
+   "files": [
+    "images/nasa-pia09178_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09178"
+   ]
+  },
+  {
+   "id": "std:nasa-pia03678",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia03678:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1430,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia03678_std.webp"
+   ],
+   "credits": [
+    "nasa-pia03678"
+   ]
+  },
+  {
+   "id": "std:nasa-pia14417",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia14417:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 800,
+   "files": [
+    "images/nasa-pia14417_std.webp"
+   ],
+   "credits": [
+    "nasa-pia14417"
+   ]
+  },
+  {
+   "id": "std:nasa-pia07343",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia07343:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1313,
+   "files": [
+    "images/nasa-pia07343_std.webp"
+   ],
+   "credits": [
+    "nasa-pia07343"
+   ]
+  },
+  {
+   "id": "std:nasa-pia14443",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia14443:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1215,
+   "height": 1241,
+   "files": [
+    "images/nasa-pia14443_std.webp"
+   ],
+   "credits": [
+    "nasa-pia14443"
+   ]
+  },
+  {
+   "id": "std:nasa-southern-ring-nebula",
+   "kind": "image",
+   "target": "use:obs-img:nasa-southern-ring-nebula:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 742,
+   "files": [
+    "images/nasa-southern-ring-nebula_std.webp"
+   ],
+   "credits": [
+    "nasa-southern-ring-nebula"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 936,
+   "files": [
+    "images/nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002155",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002155:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1417,
+   "height": 1417,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002155_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002155"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04249",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04249:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1262,
+   "height": 750,
+   "files": [
+    "images/nasa-pia04249_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04249"
+   ]
+  },
+  {
+   "id": "std:nasa-pia14442",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia14442:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1280,
+   "files": [
+    "images/nasa-pia14442_std.webp"
+   ],
+   "credits": [
+    "nasa-pia14442"
+   ]
+  },
+  {
+   "id": "std:nasa-pia17552",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia17552:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 899,
+   "files": [
+    "images/nasa-pia17552_std.webp"
+   ],
+   "credits": [
+    "nasa-pia17552"
+   ]
+  },
+  {
+   "id": "std:nasa-pia11827",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia11827:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia11827_std.webp"
+   ],
+   "credits": [
+    "nasa-pia11827"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04214",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04214:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1280,
+   "files": [
+    "images/nasa-pia04214_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04214"
+   ]
+  },
+  {
+   "id": "std:nasa-pia13446",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia13446:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1200,
+   "files": [
+    "images/nasa-pia13446_std.webp"
+   ],
+   "credits": [
+    "nasa-pia13446"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1323,
+   "files": [
+    "images/nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000134",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000134:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1175,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000134_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000134"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000034",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000034:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1524,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000034_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000034"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/nasa-pia04227_std.webp",
+   "bytes": 29114,
+   "sha256": "62766681eda58063da1a87ed7b6c4ddcc7cca141afec456b480fdfe039f0a774"
+  },
+  {
+   "path": "images/nasa-pia13959_std.webp",
+   "bytes": 71110,
+   "sha256": "6554dfc3f0ee654302686d8ae6438c16ffd7feb4f1bccaf82515d807fa70561e"
+  },
+  {
+   "path": "images/nasa-pia08656_std.webp",
+   "bytes": 84466,
+   "sha256": "d07473189f42487900bf9aaf2a09dd513bd2e6fb14dfda450ae94e44e8b8fcba"
+  },
+  {
+   "path": "images/nasa-pia08653_std.webp",
+   "bytes": 64872,
+   "sha256": "57c3f9b6c97813d8761b6ec47546f8a0c5d4fd43190f87bd514f412d8efb8508"
+  },
+  {
+   "path": "images/nasa-pia15635_std.webp",
+   "bytes": 229802,
+   "sha256": "4f822a1dacc01928cc220d174f1b7498ce595a6d67f09d264ecf508685c9b05f"
+  },
+  {
+   "path": "images/nasa-pia08654_std.webp",
+   "bytes": 113322,
+   "sha256": "7de482c12f20edb6ddfc5c85121dc5aa9199d8144f17e82835381c774d86b672"
+  },
+  {
+   "path": "images/nasa-pia17257_std.webp",
+   "bytes": 598046,
+   "sha256": "f30cad101283149a91aa2203bb71bca072e2301e4e20f37f62eb1364758ad0bf"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002152_std.webp",
+   "bytes": 54212,
+   "sha256": "de088d8cead1d3d12c84cac039d1c68b2a37e0ef82061786c2ea89b69aa560a3"
+  },
+  {
+   "path": "images/nasa-pia15985_std.webp",
+   "bytes": 234256,
+   "sha256": "e5956cafabf41f54d821720f0b102f9c342bc7ff0500ab6c0e96c91e90bfcbce"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001963_std.webp",
+   "bytes": 123060,
+   "sha256": "dca3190656872f373356ec67d0a6273d26306822800f5f60a19ced4fc828d0eb"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002153_std.webp",
+   "bytes": 65168,
+   "sha256": "8f1bbb7235c123103e56c44e15858ac286a00ddcce826e87c007ccc94b95f427"
+  },
+  {
+   "path": "images/nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o_std.webp",
+   "bytes": 25504,
+   "sha256": "2130742930c29323e41e4296ea438506f36badbe4ef6338168aa919f55897cb8"
+  },
+  {
+   "path": "images/nasa-pia09108_std.webp",
+   "bytes": 597108,
+   "sha256": "9bad7528dde1e7c2b30b3949dfe2f13508c5898125ba975d54e9fabf2f9e85aa"
+  },
+  {
+   "path": "images/nasa-pia09109_std.webp",
+   "bytes": 221960,
+   "sha256": "764d8b65c131a558ec930df05175dfca65e4e57d216d502ecb5f0fa382eb3e73"
+  },
+  {
+   "path": "images/nasa-pia09107_std.webp",
+   "bytes": 471782,
+   "sha256": "9ee67883e2ef7ebb7dca1d9b2b8590c5ce6b1445cedb9e8091fb876e42eb7ad8"
+  },
+  {
+   "path": "images/nasa-pia24577_std.webp",
+   "bytes": 455916,
+   "sha256": "475c2c263afa1b5005ef50c5fdd73143b1805c5ab367eec0b2e77aec097798cf"
+  },
+  {
+   "path": "images/nasa-pia14728_std.webp",
+   "bytes": 356024,
+   "sha256": "47fbeb7f70078a6cf2cd9044955689c9d3c0807b26d405383bf4ea6b2536cdfe"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001955_std.webp",
+   "bytes": 79054,
+   "sha256": "0372a5e311f5a81ed9fcb15aacd97d80ac6e0fa3b6fc4c07f66cb9538432a23e"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000671_std.webp",
+   "bytes": 87558,
+   "sha256": "d613ebba32b9408e11fc108a0590969af3724749c5926c19b0e7ec6277af8c51"
+  },
+  {
+   "path": "images/nasa-pia07225_std.webp",
+   "bytes": 298296,
+   "sha256": "3083b7a6236fce5c2617448d8f5c2a6e27da9bd4d1eb7b0c18e02cbb8cebd9bf"
+  },
+  {
+   "path": "images/nasa-pia07226_std.webp",
+   "bytes": 166850,
+   "sha256": "8f3ddb53dade9f84c22730c843f6bacfd08770114c0829a756ba4a0497b57a1f"
+  },
+  {
+   "path": "images/nasa-pia04215_std.webp",
+   "bytes": 29474,
+   "sha256": "1b1deac005e1092409a21f30a5de8a3b0fb16679daf398fb0f470c10b400e958"
+  },
+  {
+   "path": "images/nasa-pia18905_std.webp",
+   "bytes": 68618,
+   "sha256": "5845517c52d8456077d3c2ba65239ec5118c00ccdd7971a16b1c4aebd73750f6"
+  },
+  {
+   "path": "images/nasa-pia09178_std.webp",
+   "bytes": 348214,
+   "sha256": "4ba56ac26b494a3d9dbd9c97b1b0d4afca873f416bf1a088aed3397b39338c1d"
+  },
+  {
+   "path": "images/nasa-pia03678_std.webp",
+   "bytes": 256342,
+   "sha256": "60d330aeade7edc5336a1016cb23b63464b3180f3deb301a4aa725a9d7070005"
+  },
+  {
+   "path": "images/nasa-pia14417_std.webp",
+   "bytes": 197274,
+   "sha256": "63c9e24a9fb6c349aa40789ee5ae8b153fa56b3bcc98388ed3c39bf4f714af26"
+  },
+  {
+   "path": "images/nasa-pia07343_std.webp",
+   "bytes": 120350,
+   "sha256": "91f936afa1062d01408815435ad23e10ea0fa024fb91f713b647a263fa008386"
+  },
+  {
+   "path": "images/nasa-pia14443_std.webp",
+   "bytes": 30012,
+   "sha256": "78e232806ec3b9993e971212125b826509d686c058a8e7f1d855b2280d61111a"
+  },
+  {
+   "path": "images/nasa-southern-ring-nebula_std.webp",
+   "bytes": 85878,
+   "sha256": "75ffe67ea27ea7e1797e85bfae5981ddba4faf5fcc131cad360e879a13db819a"
+  },
+  {
+   "path": "images/nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o_std.webp",
+   "bytes": 58732,
+   "sha256": "c68f8c629b286ca827030270357949cb2b6cec9dbf6fe66255cec2eac0322684"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002155_std.webp",
+   "bytes": 61096,
+   "sha256": "ee3de321adf5dcf7b65974db9bf317cfed88b36a79a56878c9b3338a84946535"
+  },
+  {
+   "path": "images/nasa-pia04249_std.webp",
+   "bytes": 40996,
+   "sha256": "f6deac3366f2c35e9bf9c184964e8e7c22b69e41aae95c28b07b26106e130b09"
+  },
+  {
+   "path": "images/nasa-pia14442_std.webp",
+   "bytes": 141436,
+   "sha256": "47ca33c29e79c07915a3a3d68af41f258297207328a3509ef70df033baf2e607"
+  },
+  {
+   "path": "images/nasa-pia17552_std.webp",
+   "bytes": 115054,
+   "sha256": "23adb4e2db4ad46603eede4bcdfcaf4e00f2cff3ae8578483d485f99a660b4f9"
+  },
+  {
+   "path": "images/nasa-pia11827_std.webp",
+   "bytes": 135544,
+   "sha256": "f9cb72bfcf4fb0da1db5ac16f388a876d3d502462d8c68e4f7213c29be82d8b0"
+  },
+  {
+   "path": "images/nasa-pia04214_std.webp",
+   "bytes": 109186,
+   "sha256": "29c8f84ac951fe457fdb74070ed1e2607988c895d88de87b8beb653a262b9110"
+  },
+  {
+   "path": "images/nasa-pia13446_std.webp",
+   "bytes": 233740,
+   "sha256": "a05e0f43f74b88dc1005dd8b542f20f68ff3d053744572f9f8204bdebb6d5337"
+  },
+  {
+   "path": "images/nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o_std.webp",
+   "bytes": 165598,
+   "sha256": "b545b8c74dc15ca7427b2174c5f5010b13be195c5d642aa11e74e20eaba09e74"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000134_std.webp",
+   "bytes": 45258,
+   "sha256": "2a30e13ecdd4452cc16889cc97be34a0a1238ff74754f841f2c96b2a86845a76"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000034_std.webp",
+   "bytes": 48694,
+   "sha256": "b3e6a1076eb2516ed8412448c5ab630a6780aedf29586a07c4e6e5f1f06b42ef"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-pia04227",
+   "title": "Orion Nebula and Bow Shock",
+   "source": "NASA Image and Video Library：NASA and the Hubble Heritage Team STScI/AURA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04227"
+  },
+  {
+   "id": "nasa-pia13959",
+   "title": "Orion Rainbow of Infrared Light",
+   "source": "NASA Image and Video Library：NASA/ESA/JPL-Caltech/IRAM",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA13959"
+  },
+  {
+   "id": "nasa-pia08656",
+   "title": "Infrared Spotlight on Orion Sword",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/IRAS /H. McCallon",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08656"
+  },
+  {
+   "id": "nasa-pia08653",
+   "title": "The Sword of Orion",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ. of Toledo",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08653"
+  },
+  {
+   "id": "nasa-pia15635",
+   "title": "A Different View of the Flame Nebula",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/UCLA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15635"
+  },
+  {
+   "id": "nasa-pia08654",
+   "title": "The Infrared Hunter",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ. of Toledo/NOAO",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08654"
+  },
+  {
+   "id": "nasa-pia17257",
+   "title": "The Tortured Clouds of Eta Carinae",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA17257"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e002152",
+   "title": "Carina Nebula Detail",
+   "source": "NASA Image and Video Library：NASA, ESA, N. Smith (University of California, Berkeley), and The Hubble Heritage Team (STScI/AURA) / N. Smith (University of California, Berkeley) and NOAO/AURA/NSF",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002152"
+  },
+  {
+   "id": "nasa-pia15985",
+   "title": "Hubble Captures View of Mystic Mountain",
+   "source": "NASA Image and Video Library：NASA/ESA/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15985"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001963",
+   "title": "Hubble Captures Cosmic Ice Sculptures",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001963"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e002153",
+   "title": "hs-2007-16-e-full_jpg",
+   "source": "NASA Image and Video Library：NASA, ESA, N. Smith (University of California, Berkeley), and The Hubble Heritage Team (STScI/AURA) / N. Smith (University of California, Berkeley) and NOAO/AURA/NSF",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002153"
+  },
+  {
+   "id": "nasa-hubble-observes-one-of-a-kind-star-nicknamed-nasty-17754652960-o",
+   "title": "Hubble Observes One-of-a-Kind Star Nicknamed ‘Nasty’",
+   "source": "NASA Image and Video Library：NASA/Hubble",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-observes-one-of-a-kind-star-nicknamed-nasty_17754652960_o"
+  },
+  {
+   "id": "nasa-pia09108",
+   "title": "Eagle Nebula Flaunts its Infrared Feathers",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ Institut dAstrophysique Spatiale",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09108"
+  },
+  {
+   "id": "nasa-pia09109",
+   "title": "Unwrapping the Pillars",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/STScI/ Institut dAstrophysique Spatiale",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09109"
+  },
+  {
+   "id": "nasa-pia09107",
+   "title": "Cosmic Epic Unfolds in Infrared",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/STScI/ Institut dAstrophysique Spatiale",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09107"
+  },
+  {
+   "id": "nasa-pia24577",
+   "title": "Four Famous Nebulae",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA24577"
+  },
+  {
+   "id": "nasa-pia14728",
+   "title": "Into the Depths of the Lagoon Nebula",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA14728"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001955",
+   "title": "Hubble reveals heart of Lagoon Nebula",
+   "source": "NASA Image and Video Library：NASA, ESA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001955"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000671",
+   "title": "Stormy seas in Sagittarius",
+   "source": "NASA Image and Video Library：NASA, ESA, J. Trauger (Jet Propulson Laboratory)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000671"
+  },
+  {
+   "id": "nasa-pia07225",
+   "title": "New Views of a Familiar Beauty",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/NOAO",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA07225"
+  },
+  {
+   "id": "nasa-pia07226",
+   "title": "Stellar Incubators Seen Cooking up Stars",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/NOAO/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA07226"
+  },
+  {
+   "id": "nasa-pia04215",
+   "title": "Horsehead Nebula",
+   "source": "NASA Image and Video Library：JPL/NASA, NOAO, ESA and The Hubble Heritage Team, STScI/AURA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04215"
+  },
+  {
+   "id": "nasa-pia18905",
+   "title": "Horsehead of a Different Color",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA18905"
+  },
+  {
+   "id": "nasa-pia09178",
+   "title": "Comets Kick up Dust in Helix Nebula",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ.of Ariz.",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09178"
+  },
+  {
+   "id": "nasa-pia03678",
+   "title": "The Mark of a Dying Star",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ESA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA03678"
+  },
+  {
+   "id": "nasa-pia14417",
+   "title": "Weighing in on the Dumbbell Nebula",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Harvard-Smithsonian CfA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA14417"
+  },
+  {
+   "id": "nasa-pia07343",
+   "title": "Ring Beholds a Delicate Flower",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Harvard-Smithsonian CfA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA07343"
+  },
+  {
+   "id": "nasa-pia14443",
+   "title": "Looking Down a Barrel of Gas at a Doomed Star",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ESA, the Hubble Heritage Team STScI/AURA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA14443"
+  },
+  {
+   "id": "nasa-southern-ring-nebula",
+   "title": "James Webb Space Telescope Southern Ring Nebula (NIRCam and MIRI Images Side by Side)",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/southern_ring_nebula"
+  },
+  {
+   "id": "nasa-hubble-sees-a-dying-stars-final-moments-20149292766-o",
+   "title": "The long goodbye",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-sees-a-dying-stars-final-moments_20149292766_o"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e002155",
+   "title": "Cat's Eye Nebula",
+   "source": "NASA Image and Video Library：NASA, ESA, HEIC, and The Hubble Heritage Team (STScI/AURA) Acknowledgment: R. Corradi (Isaac Newton Group of Telescopes, Spain) and Z. Tsvetanov (NASA)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002155"
+  },
+  {
+   "id": "nasa-pia04249",
+   "title": "Close-up of M27, the Dumbbell Nebula",
+   "source": "NASA Image and Video Library：NASA/JPL/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04249"
+  },
+  {
+   "id": "nasa-pia14442",
+   "title": "Hubble Finds an Hourglass Nebula around a Dying Star",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ESA, the Hubble Heritage Team STScI/AURA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA14442"
+  },
+  {
+   "id": "nasa-pia17552",
+   "title": "Death Beckons Three Aging Stars",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Harvard-Smithsonian CfA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA17552"
+  },
+  {
+   "id": "nasa-pia11827",
+   "title": "Galactic Dust Bunnies Found to Contain Carbon After All",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA11827"
+  },
+  {
+   "id": "nasa-pia04214",
+   "title": "Mysterious object He2-90",
+   "source": "NASA Image and Video Library：NASA, Raghvendra Sahai NASA Jet Propulsion Laboratory, Lars-Ake Nyman European Southern Observatory Chile & Onsala Space Observatory, Sweden",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04214"
+  },
+  {
+   "id": "nasa-pia13446",
+   "title": "A Dying Star in a Different Light",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/UCLA/DSS",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA13446"
+  },
+  {
+   "id": "nasa-hubble-view-of-a-nitrogen-rich-nebula-19178136615-o",
+   "title": "A nitrogen-rich nebula",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-view-of-a-nitrogen-rich-nebula_19178136615_o"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000134",
+   "title": "Hubble sniffs out a brilliant star death in a “rotten egg” nebula",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA, Acknowledgement: Judy Schmidt",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000134"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000034",
+   "title": "Hubble’s Spirograph",
+   "source": "NASA Image and Video Library：NASA and The Hubble Heritage Team (STScI/AURA)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000034"
+  }
+ ],
+ "info": {
+  "category": "observation-images",
+  "titleEasy": "観測図鑑（星雲）",
+  "description": "公式アーカイブで権利と出典を確認した実観測画像"
+ }
+}

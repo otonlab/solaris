@@ -1,0 +1,193 @@
+{
+ "schema": 1,
+ "packId": "ephem-jupiter-system-2000-2050",
+ "version": 1,
+ "title": "木星系の暦 2000〜2050年（イオ・エウロパ・ガニメデ・カリスト／木星中心）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:501",
+  "naif:502",
+  "naif:503",
+  "naif:504"
+ ],
+ "sizeBytes": 10684696,
+ "installedBytes": 10684696,
+ "assets": [
+  {
+   "id": "ephem:501:599:2000-2050",
+   "kind": "ephem",
+   "target": "naif:501",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "501.bin"
+   ],
+   "credits": [
+    "jpl-horizons-jup365"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Io (501)                        {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T03:03:03+00:00",
+     "fitMaxKm": 0.114624,
+     "holdoutMaxKm": 0.088862,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.75e-08,
+     "boundaryJumpMaxKmS": 1.22e-12,
+     "sampleStep": "3h"
+    }
+   }
+  },
+  {
+   "id": "ephem:502:599:2000-2050",
+   "kind": "ephem",
+   "target": "naif:502",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "502.bin"
+   ],
+   "credits": [
+    "jpl-horizons-jup365"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Europa (502)                    {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T03:03:39+00:00",
+     "fitMaxKm": 0.06746,
+     "holdoutMaxKm": 0.06036,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.01e-08,
+     "boundaryJumpMaxKmS": 1.92e-12,
+     "sampleStep": "3h"
+    }
+   }
+  },
+  {
+   "id": "ephem:503:599:2000-2050",
+   "kind": "ephem",
+   "target": "naif:503",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "503.bin"
+   ],
+   "credits": [
+    "jpl-horizons-jup365"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Ganymede (503)                  {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T02:59:43+00:00",
+     "fitMaxKm": 0.112495,
+     "holdoutMaxKm": 0.098463,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 2.12e-08,
+     "boundaryJumpMaxKmS": 1.58e-12,
+     "sampleStep": "6h"
+    }
+   }
+  },
+  {
+   "id": "ephem:504:599:2000-2050",
+   "kind": "ephem",
+   "target": "naif:504",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "504.bin"
+   ],
+   "credits": [
+    "jpl-horizons-jup365"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 24,
+    "accuracy": {
+     "reference": "JPL Horizons API — Callisto (504)                  {source: jup365_merged} / Jupiter (599)                   {source: jup365_merged}",
+     "retrievedUtc": "2026-10-01T02:59:59+00:00",
+     "fitMaxKm": 0.121714,
+     "holdoutMaxKm": 0.097735,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 3.71e-08,
+     "boundaryJumpMaxKmS": 2.71e-12,
+     "sampleStep": "6h"
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "501.bin",
+   "bytes": 3725920,
+   "sha256": "bc1f57bf086cf1dc1507f7b4bddc9e414f2989abc9b292c9a9cb5aac2d17af22"
+  },
+  {
+   "path": "502.bin",
+   "bytes": 3725920,
+   "sha256": "19f82323062ee797b260f22831685e9fc60110fb8c01570c31a704e13b57d01a"
+  },
+  {
+   "path": "503.bin",
+   "bytes": 1862992,
+   "sha256": "3d9a6421fa1cc5364daa5b1ffe324af42bc3e20b2b67ee942b51ca26db1462c9"
+  },
+  {
+   "path": "504.bin",
+   "bytes": 1369864,
+   "sha256": "12469622d805d4c6083c1cf195bdc8469b2a9c06e3c9f94c465fcd6ac80ce0e3"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons-jup365",
+   "title": "JPL Horizons On-Line Ephemeris System（jup365）からのチェビシェフ当てはめ（原点：木星の中心）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ],
+ "info": {
+  "titleEasy": "木星の衛星を追加する",
+  "description": "木星の4大衛星（イオ・エウロパ・ガニメデ・カリスト）の暦（2000〜2050年）。木星に近づくと衛星が動く",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-01"
+ }
+}

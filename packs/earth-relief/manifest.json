@@ -1,0 +1,135 @@
+{
+ "schema": 1,
+ "packId": "earth-relief",
+ "version": 1,
+ "title": "地球の実地形（ETOPO 2022 の標高・cube-sphere L3・L4・約 4.9 km 間隔）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:399"
+ ],
+ "sizeBytes": 14346058,
+ "installedBytes": 14346058,
+ "assets": [
+  {
+   "id": "relief:399:height",
+   "kind": "tiled",
+   "target": "naif:399",
+   "slot": "height",
+   "format": "jpg",
+   "projection": "cube",
+   "tileSize": 129,
+   "border": 0,
+   "minLevel": 3,
+   "levels": 4,
+   "maxWidth": 8192,
+   "pathTemplate": "relief/height_L{z}_f{face}.utb",
+   "coarse": {
+    "path": "relief/global_2048.bin",
+    "width": 2048,
+    "height": 1024
+   },
+   "files": [
+    "relief/height_L3_f0.utb",
+    "relief/height_L3_f1.utb",
+    "relief/height_L3_f2.utb",
+    "relief/height_L3_f3.utb",
+    "relief/height_L3_f4.utb",
+    "relief/height_L3_f5.utb",
+    "relief/height_L4_f0.utb",
+    "relief/height_L4_f1.utb",
+    "relief/height_L4_f2.utb",
+    "relief/height_L4_f3.utb",
+    "relief/height_L4_f4.utb",
+    "relief/height_L4_f5.utb",
+    "relief/global_2048.bin"
+   ],
+   "credits": [
+    "noaa-etopo2022"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "relief/height_L3_f0.utb",
+   "bytes": 614082,
+   "sha256": "26a7dc2f3a0f0e72d6ab0fee1d6d2e00b82ad4de2dd31b5dd83794c1deefc06c"
+  },
+  {
+   "path": "relief/height_L3_f1.utb",
+   "bytes": 102270,
+   "sha256": "494d15f18667a691ad1ade135a7aeffd608431881f1df3c90577b49977b77768"
+  },
+  {
+   "path": "relief/height_L3_f2.utb",
+   "bytes": 527306,
+   "sha256": "b02afd73f2981b78432852eefe1ee336d43078692a0526854c2072417fea86a1"
+  },
+  {
+   "path": "relief/height_L3_f3.utb",
+   "bytes": 445544,
+   "sha256": "e1f0792b15925d980290faf65dae7c5961b3c73b15e5223ebfb4db00ee4f50cf"
+  },
+  {
+   "path": "relief/height_L3_f4.utb",
+   "bytes": 819764,
+   "sha256": "7b92e7e95e37ea68024a9bd1809eaa77273dfcead50f0990086c380f907df14c"
+  },
+  {
+   "path": "relief/height_L3_f5.utb",
+   "bytes": 241621,
+   "sha256": "50acf32c1da1c6a68aa7d0c03c9d5cb10623a16abf0995cb9a7fb8c75aebe371"
+  },
+  {
+   "path": "relief/height_L4_f0.utb",
+   "bytes": 2255216,
+   "sha256": "51f3d419ee150da5e2ee2a8da0de15ed83638d8dc0ef3dfcc4a99939007c2125"
+  },
+  {
+   "path": "relief/height_L4_f1.utb",
+   "bytes": 369893,
+   "sha256": "6a22f8ce9e65479aea45cba5904f325fa811b5ca697f1dec582300216a8f91a5"
+  },
+  {
+   "path": "relief/height_L4_f2.utb",
+   "bytes": 1944055,
+   "sha256": "31c3b8b51216d03b7614e1fc29e0ab4221351cfbeca7d522c2e0b6501b000f44"
+  },
+  {
+   "path": "relief/height_L4_f3.utb",
+   "bytes": 1639818,
+   "sha256": "e67e14ac98dd13b0cab63a45555f3f43701b089dfa2eb0b8d50502e71f26a292"
+  },
+  {
+   "path": "relief/height_L4_f4.utb",
+   "bytes": 3056619,
+   "sha256": "b215c52623a4984112f079dd49afba9b758a0428a8ab6419ec2d6717bfa9f3cd"
+  },
+  {
+   "path": "relief/height_L4_f5.utb",
+   "bytes": 846756,
+   "sha256": "11dce73f8a764358def844724894584a04a97687a2c1f71e5e77f860471a4f25"
+  },
+  {
+   "path": "relief/global_2048.bin",
+   "bytes": 1483114,
+   "sha256": "22d71425848c3b2761216a0bc7df58de9939aa26b6fe5f935a6fa2684f0d2914"
+  }
+ ],
+ "credits": [
+  {
+   "id": "noaa-etopo2022",
+   "title": "ETOPO 2022 Global Relief Model (60 arc-second, surface)",
+   "source": "NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74（60″の地表面の標高を cube-sphere の標高タイル（129×129 点）と全球 2048×1024 にした。高さは EGM2008 ジオイドから・誇張なし・海は 0 m）",
+   "license": "CC0-1.0（米国で著作権の対象外・NOAA は権利を放棄）",
+   "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model"
+  }
+ ],
+ "info": {
+  "titleEasy": "地球の山や谷を立体にする",
+  "description": "地球に近づいたとき、山や高原を実際の高さ（誇張なし）で立体に描きます",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-04"
+ }
+}

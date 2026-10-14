@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "packId": "mercury-textures-4k",
+ "version": 1,
+ "title": "水星（4K・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:199"
+ ],
+ "sizeBytes": 2057596,
+ "installedBytes": 2057596,
+ "assets": [
+  {
+   "id": "tex:199:albedo:4k",
+   "kind": "image",
+   "target": "naif:199",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 4096,
+   "height": 2048,
+   "files": [
+    "mercury_albedo_4k.webp"
+   ],
+   "credits": [
+    "usgs-mercury-messenger-color-665m"
+   ],
+   "surface": {
+    "observed": "2011〜2015年",
+    "instrument": "メッセンジャー（MDIS）",
+    "colorType": "approx-natural",
+    "note": "色合いは地上からの測光の色にそろえた"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "mercury_albedo_4k.webp",
+   "bytes": 2057596,
+   "sha256": "dc280a0fe27d781a335f88ef88c9ef3da802a17996e4e033d34d5e8cb3a74c0a"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-mercury-messenger-color-665m",
+   "title": "Mercury MESSENGER MDIS Global Color Mosaic 665m（v3・2011〜2015）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／MESSENGER Team（NASA/JHUAPL/ASU/Carnegie）。R/G/B＝1000/750/430 nm の近似自然色。アプリ用に色合いを Mallama et al. 2017 の色指数にそろえ、極の近くの継ぎ目の彩度を下げた",
+   "license": "Public domain（USGS・著者の表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_color_mosaic_665m"
+  }
+ ],
+ "info": {
+  "titleEasy": "高精細な水星を追加する",
+  "description": "水星に近づいたときの地表（4K・メッセンジャー 2011〜2015年）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-05"
+ }
+}

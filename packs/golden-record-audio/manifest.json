@@ -1,0 +1,1438 @@
+{
+ "schema": 1,
+ "packId": "golden-record-audio",
+ "version": 1,
+ "title": "ゴールデンレコード：あいさつと地球の音（NASA の録音）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:golden-record-audio-index",
+  "use:golden-record-audio:216609560",
+  "use:golden-record-audio:216609829",
+  "use:golden-record-audio:216610040",
+  "use:golden-record-audio:216610224",
+  "use:golden-record-audio:216610385",
+  "use:golden-record-audio:216610603",
+  "use:golden-record-audio:216610998",
+  "use:golden-record-audio:216611149",
+  "use:golden-record-audio:216611439",
+  "use:golden-record-audio:216611625",
+  "use:golden-record-audio:216612323",
+  "use:golden-record-audio:216612490",
+  "use:golden-record-audio:216612685",
+  "use:golden-record-audio:216612857",
+  "use:golden-record-audio:216613161",
+  "use:golden-record-audio:216613307",
+  "use:golden-record-audio:216613528",
+  "use:golden-record-audio:216613746",
+  "use:golden-record-audio:216614129",
+  "use:golden-record-audio:216614320",
+  "use:golden-record-audio:216614476",
+  "use:golden-record-audio:216614626",
+  "use:golden-record-audio:216614835",
+  "use:golden-record-audio:216615041",
+  "use:golden-record-audio:216615209",
+  "use:golden-record-audio:216615364",
+  "use:golden-record-audio:216615554",
+  "use:golden-record-audio:216616088",
+  "use:golden-record-audio:216616253",
+  "use:golden-record-audio:216616597",
+  "use:golden-record-audio:216616894",
+  "use:golden-record-audio:216617048",
+  "use:golden-record-audio:216617231",
+  "use:golden-record-audio:216617563",
+  "use:golden-record-audio:216617997",
+  "use:golden-record-audio:216618176",
+  "use:golden-record-audio:216618620",
+  "use:golden-record-audio:216618762",
+  "use:golden-record-audio:216618901",
+  "use:golden-record-audio:216619045",
+  "use:golden-record-audio:216619305",
+  "use:golden-record-audio:216619564",
+  "use:golden-record-audio:216605748",
+  "use:golden-record-audio:216605594",
+  "use:golden-record-audio:216605244",
+  "use:golden-record-audio:216605092",
+  "use:golden-record-audio:216604954",
+  "use:golden-record-audio:216604827",
+  "use:golden-record-audio:216604691",
+  "use:golden-record-audio:216604323",
+  "use:golden-record-audio:216603087",
+  "use:golden-record-audio:216603252",
+  "use:golden-record-audio:216603492",
+  "use:golden-record-audio:216603695",
+  "use:golden-record-audio:216603833",
+  "use:golden-record-audio:216603951",
+  "use:golden-record-audio:216604184",
+  "use:golden-record-audio:216615720",
+  "use:golden-record-audio:216615908",
+  "use:golden-record-audio:216616421",
+  "use:golden-record-audio:216616754",
+  "use:golden-record-audio:216617429",
+  "use:golden-record-audio:216617700",
+  "use:golden-record-audio:216617858",
+  "use:golden-record-audio:216618340",
+  "use:golden-record-audio:216618479",
+  "use:golden-record-audio:216619446",
+  "use:golden-record-audio:216619687",
+  "use:golden-record-audio:216619791",
+  "use:golden-record-audio:216604447",
+  "use:golden-record-audio:216602946",
+  "use:golden-record-audio:216604033",
+  "use:golden-record-audio:216619175"
+ ],
+ "sizeBytes": 8926142,
+ "installedBytes": 8926142,
+ "assets": [
+  {
+   "id": "golden-record-audio-index",
+   "kind": "data",
+   "target": "use:golden-record-audio-index",
+   "slot": "history",
+   "format": "json",
+   "files": [
+    "index.json"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216609560",
+   "kind": "data",
+   "target": "use:golden-record-audio:216609560",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216609560.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216609829",
+   "kind": "data",
+   "target": "use:golden-record-audio:216609829",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216609829.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216610040",
+   "kind": "data",
+   "target": "use:golden-record-audio:216610040",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216610040.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216610224",
+   "kind": "data",
+   "target": "use:golden-record-audio:216610224",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216610224.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216610385",
+   "kind": "data",
+   "target": "use:golden-record-audio:216610385",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216610385.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216610603",
+   "kind": "data",
+   "target": "use:golden-record-audio:216610603",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216610603.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216610998",
+   "kind": "data",
+   "target": "use:golden-record-audio:216610998",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216610998.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216611149",
+   "kind": "data",
+   "target": "use:golden-record-audio:216611149",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216611149.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216611439",
+   "kind": "data",
+   "target": "use:golden-record-audio:216611439",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216611439.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216611625",
+   "kind": "data",
+   "target": "use:golden-record-audio:216611625",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216611625.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216612323",
+   "kind": "data",
+   "target": "use:golden-record-audio:216612323",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216612323.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216612490",
+   "kind": "data",
+   "target": "use:golden-record-audio:216612490",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216612490.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216612685",
+   "kind": "data",
+   "target": "use:golden-record-audio:216612685",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216612685.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216612857",
+   "kind": "data",
+   "target": "use:golden-record-audio:216612857",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216612857.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216613161",
+   "kind": "data",
+   "target": "use:golden-record-audio:216613161",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216613161.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216613307",
+   "kind": "data",
+   "target": "use:golden-record-audio:216613307",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216613307.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216613528",
+   "kind": "data",
+   "target": "use:golden-record-audio:216613528",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216613528.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216613746",
+   "kind": "data",
+   "target": "use:golden-record-audio:216613746",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216613746.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216614129",
+   "kind": "data",
+   "target": "use:golden-record-audio:216614129",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216614129.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216614320",
+   "kind": "data",
+   "target": "use:golden-record-audio:216614320",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216614320.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216614476",
+   "kind": "data",
+   "target": "use:golden-record-audio:216614476",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216614476.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216614626",
+   "kind": "data",
+   "target": "use:golden-record-audio:216614626",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216614626.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216614835",
+   "kind": "data",
+   "target": "use:golden-record-audio:216614835",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216614835.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216615041",
+   "kind": "data",
+   "target": "use:golden-record-audio:216615041",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216615041.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216615209",
+   "kind": "data",
+   "target": "use:golden-record-audio:216615209",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216615209.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216615364",
+   "kind": "data",
+   "target": "use:golden-record-audio:216615364",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216615364.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216615554",
+   "kind": "data",
+   "target": "use:golden-record-audio:216615554",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216615554.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216616088",
+   "kind": "data",
+   "target": "use:golden-record-audio:216616088",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216616088.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216616253",
+   "kind": "data",
+   "target": "use:golden-record-audio:216616253",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216616253.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216616597",
+   "kind": "data",
+   "target": "use:golden-record-audio:216616597",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216616597.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216616894",
+   "kind": "data",
+   "target": "use:golden-record-audio:216616894",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216616894.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617048",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617048",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617048.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617231",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617231",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617231.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617563",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617563",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617563.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617997",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617997",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617997.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216618176",
+   "kind": "data",
+   "target": "use:golden-record-audio:216618176",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216618176.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216618620",
+   "kind": "data",
+   "target": "use:golden-record-audio:216618620",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216618620.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216618762",
+   "kind": "data",
+   "target": "use:golden-record-audio:216618762",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216618762.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216618901",
+   "kind": "data",
+   "target": "use:golden-record-audio:216618901",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216618901.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619045",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619045",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619045.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619305",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619305",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619305.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619564",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619564",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619564.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216605748",
+   "kind": "data",
+   "target": "use:golden-record-audio:216605748",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216605748.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216605594",
+   "kind": "data",
+   "target": "use:golden-record-audio:216605594",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216605594.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216605244",
+   "kind": "data",
+   "target": "use:golden-record-audio:216605244",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216605244.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216605092",
+   "kind": "data",
+   "target": "use:golden-record-audio:216605092",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216605092.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604954",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604954",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604954.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604827",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604827",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604827.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604691",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604691",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604691.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604323",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604323",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604323.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216603087",
+   "kind": "data",
+   "target": "use:golden-record-audio:216603087",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216603087.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216603252",
+   "kind": "data",
+   "target": "use:golden-record-audio:216603252",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216603252.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216603492",
+   "kind": "data",
+   "target": "use:golden-record-audio:216603492",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216603492.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216603695",
+   "kind": "data",
+   "target": "use:golden-record-audio:216603695",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216603695.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216603833",
+   "kind": "data",
+   "target": "use:golden-record-audio:216603833",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216603833.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216603951",
+   "kind": "data",
+   "target": "use:golden-record-audio:216603951",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216603951.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604184",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604184",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604184.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216615720",
+   "kind": "data",
+   "target": "use:golden-record-audio:216615720",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216615720.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216615908",
+   "kind": "data",
+   "target": "use:golden-record-audio:216615908",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216615908.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216616421",
+   "kind": "data",
+   "target": "use:golden-record-audio:216616421",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216616421.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216616754",
+   "kind": "data",
+   "target": "use:golden-record-audio:216616754",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216616754.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617429",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617429",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617429.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617700",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617700",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617700.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216617858",
+   "kind": "data",
+   "target": "use:golden-record-audio:216617858",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216617858.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216618340",
+   "kind": "data",
+   "target": "use:golden-record-audio:216618340",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216618340.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216618479",
+   "kind": "data",
+   "target": "use:golden-record-audio:216618479",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216618479.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619446",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619446",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619446.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619687",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619687",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619687.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619791",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619791",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619791.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604447",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604447",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604447.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216602946",
+   "kind": "data",
+   "target": "use:golden-record-audio:216602946",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216602946.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216604033",
+   "kind": "data",
+   "target": "use:golden-record-audio:216604033",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216604033.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  },
+  {
+   "id": "golden-record-audio-216619175",
+   "kind": "data",
+   "target": "use:golden-record-audio:216619175",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "216619175.m4a"
+   ],
+   "credits": [
+    "nasa-golden-record-audio"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "index.json",
+   "bytes": 23998,
+   "sha256": "c84fa8f27d3a9886a949122a13b1cdb9ce2c5772f30683cec59ecf75ee674b76"
+  },
+  {
+   "path": "216609560.m4a",
+   "bytes": 19674,
+   "sha256": "b452f1d6173d1d6a9f543d26715d9c72bd92741351b13a63e2b1a5f9a48fc02b"
+  },
+  {
+   "path": "216609829.m4a",
+   "bytes": 66364,
+   "sha256": "c284fe0cbdd7446159e737476d35b06266d513696b5dca6d13e0fe24eca0dc4a"
+  },
+  {
+   "path": "216610040.m4a",
+   "bytes": 50772,
+   "sha256": "b02bbb6293e7f6854d13251fda33f00fd09de109f73376031dd551d3ec38c3df"
+  },
+  {
+   "path": "216610224.m4a",
+   "bytes": 14395,
+   "sha256": "7538655a42e79bcc607068cde81d8e9e3db16fb5c7fedad70c2f224468813e7a"
+  },
+  {
+   "path": "216610385.m4a",
+   "bytes": 72317,
+   "sha256": "c36c4696152e6a298c0cf4633c4377201c97c14ce0fc8673f0fc132beefd7e53"
+  },
+  {
+   "path": "216610603.m4a",
+   "bytes": 24218,
+   "sha256": "5fabd6071ef9ba6aeca13287fd2f5fb6c8b3bbfaee1ca9ce4d9005e6b257b2b8"
+  },
+  {
+   "path": "216610998.m4a",
+   "bytes": 29418,
+   "sha256": "1099705d36cda448b485da570ef0533598c07d7dc50e0f86269fa781999b94f4"
+  },
+  {
+   "path": "216611149.m4a",
+   "bytes": 46517,
+   "sha256": "26aeefe3cbfbdd6bdd20f04f6ca4ee7750c71dc6d88262cf0e2560f30e98b7af"
+  },
+  {
+   "path": "216611439.m4a",
+   "bytes": 29293,
+   "sha256": "c63272dadfc24afb58db742225e73418d2f2fbac951d84452c9c9431af9a9551"
+  },
+  {
+   "path": "216611625.m4a",
+   "bytes": 17344,
+   "sha256": "3512f2c809a6673c418a7568bc16c43e1e4b80838e699539552b78c907d292ff"
+  },
+  {
+   "path": "216612323.m4a",
+   "bytes": 36295,
+   "sha256": "5f057f8ed523af9bd5371f0726b61cbf33ee7c5f520c6316de326c606a430a42"
+  },
+  {
+   "path": "216612490.m4a",
+   "bytes": 27512,
+   "sha256": "f071ac900707a3624c0efe581f59447a6d9003a0559e56d46d8a35eaa16889a6"
+  },
+  {
+   "path": "216612685.m4a",
+   "bytes": 16630,
+   "sha256": "86e53cc3e162de346d891051cd9ee430550a883980cac98640eb1e66235f3937"
+  },
+  {
+   "path": "216612857.m4a",
+   "bytes": 65978,
+   "sha256": "9cdc8416f560e3af93d51450e19e01b385011b17ae6844d6dd35d003545e9811"
+  },
+  {
+   "path": "216613161.m4a",
+   "bytes": 127021,
+   "sha256": "16ec0faf28be3ec7bba9d73cd98092a9b556e4acd9f81ab39b0a133d1c8450bc"
+  },
+  {
+   "path": "216613307.m4a",
+   "bytes": 24554,
+   "sha256": "61641892ccdbf8b3aa34f89ce2423caa8dac0508630b9750d1a4b0ee67f7e982"
+  },
+  {
+   "path": "216613528.m4a",
+   "bytes": 33611,
+   "sha256": "b8b6a982020aaa476f1da409aae47c9460cdc61192fecdb55d102950c5bcd43c"
+  },
+  {
+   "path": "216613746.m4a",
+   "bytes": 20367,
+   "sha256": "782a722f366462cd388b5799ed63d78337f706459cd07c1d177f1314f7f4d537"
+  },
+  {
+   "path": "216614129.m4a",
+   "bytes": 51369,
+   "sha256": "d217d630221f688e4ff6b0b56ff54efec45f91957e237ce12c08687569b574f3"
+  },
+  {
+   "path": "216614320.m4a",
+   "bytes": 16190,
+   "sha256": "57e2e2b1e1757795b345823187036d92184056a28c4d4d524ec74614f5386686"
+  },
+  {
+   "path": "216614476.m4a",
+   "bytes": 54663,
+   "sha256": "5d245faa307c15d90a10a83e52658b655245f1df8622269655d94ca065d05a7f"
+  },
+  {
+   "path": "216614626.m4a",
+   "bytes": 19611,
+   "sha256": "4b955390f750e0dd01d8b2080ce9335bdc5ad138d5c425449e307f66b9cae87b"
+  },
+  {
+   "path": "216614835.m4a",
+   "bytes": 16825,
+   "sha256": "2c2ac93aaeaeff8a15179ff763451892448db7aaf00ce629f242c67a1a3c2494"
+  },
+  {
+   "path": "216615041.m4a",
+   "bytes": 30582,
+   "sha256": "793b51de8681525be206efd37fb4179e1c526b07ca5fa0a6c4a8b19de53ac182"
+  },
+  {
+   "path": "216615209.m4a",
+   "bytes": 43623,
+   "sha256": "7d6a60e3ffc91b06d340993552c6b09bcbb08c98b87cb4d6bbcd0a04e76eb31f"
+  },
+  {
+   "path": "216615364.m4a",
+   "bytes": 14289,
+   "sha256": "ca8271aff300ce9b1e160db5f051e621b389756bbfda6dc14ad80bec83162b26"
+  },
+  {
+   "path": "216615554.m4a",
+   "bytes": 70008,
+   "sha256": "c8a1103778866db4ba9259759b0c7b4fe32b4c58fc1c60796150805d5c085b99"
+  },
+  {
+   "path": "216616088.m4a",
+   "bytes": 69288,
+   "sha256": "2fe42d51cd00b1cfb129d3d20714d1573417887ff60e5dc3a346900354f08123"
+  },
+  {
+   "path": "216616253.m4a",
+   "bytes": 35504,
+   "sha256": "89830620a6ba9d1d47235a8ef3203bc8cbceb81bd3ab8ee263e85bd069580201"
+  },
+  {
+   "path": "216616597.m4a",
+   "bytes": 23766,
+   "sha256": "c19f8cac333fc0ae5712a678fb8f82b60f081e424c3eb029cec71cf231cff9fa"
+  },
+  {
+   "path": "216616894.m4a",
+   "bytes": 105967,
+   "sha256": "fe9541978ac4969e0f6ffa8e816dc433b574303e055345d6028bb012f93c98ee"
+  },
+  {
+   "path": "216617048.m4a",
+   "bytes": 38586,
+   "sha256": "3ada28bf8888dad50df9f1bf2d8d436d0b93bcfdac042eff582324a0c4ec6649"
+  },
+  {
+   "path": "216617231.m4a",
+   "bytes": 26006,
+   "sha256": "310a459615ed4156e60b5c908a2ab4f46e2bc5516e9db95bed745d0ee3251195"
+  },
+  {
+   "path": "216617563.m4a",
+   "bytes": 55735,
+   "sha256": "c88839c3598502c31a2f719778975b36f0ede26ab43a8a437adf381c0e011f09"
+  },
+  {
+   "path": "216617997.m4a",
+   "bytes": 27284,
+   "sha256": "0a7fbf6df3fed8e2b41d4f135650d8d413dd677ce108046641eac5e5233e5065"
+  },
+  {
+   "path": "216618176.m4a",
+   "bytes": 19035,
+   "sha256": "6a1e907a4e3a2b86a09d2814ade459079f0ec4beeeea677352d6fa1dda03cc15"
+  },
+  {
+   "path": "216618620.m4a",
+   "bytes": 17186,
+   "sha256": "41b49e3e57109eac3434929acfe54857ba2373dfa5f36b380e626e4775d75475"
+  },
+  {
+   "path": "216618762.m4a",
+   "bytes": 71089,
+   "sha256": "dbc8ca70a02c193cfe9e4e1cd50ba8172d3f4e78e9afd0110e3bef321c2f3a7c"
+  },
+  {
+   "path": "216618901.m4a",
+   "bytes": 33129,
+   "sha256": "638f6ce9879809712a10a77afdf5b3278b3d8048caa9a4f444844b185fdbecaa"
+  },
+  {
+   "path": "216619045.m4a",
+   "bytes": 60027,
+   "sha256": "faf425c4b064ddf9fd5f792ef1b52337c4bce2ad2d7a0fc35e5124bc28a2f04a"
+  },
+  {
+   "path": "216619305.m4a",
+   "bytes": 53941,
+   "sha256": "13e5639eb9c536a002890601408d78816b3a1066529faff30850af03ca0dfe59"
+  },
+  {
+   "path": "216619564.m4a",
+   "bytes": 25533,
+   "sha256": "c32d0125add91614ff4d3fa8f4f85ca85cdb0c710322af0ddb559228c133c0c2"
+  },
+  {
+   "path": "216605748.m4a",
+   "bytes": 632427,
+   "sha256": "ed8d1ca69ae77123630a92c5ba8929d010edee0e85925c616f05186ab8a35c53"
+  },
+  {
+   "path": "216605594.m4a",
+   "bytes": 304462,
+   "sha256": "7fb3bf6a4469539615d54a186ac47bcfa229b4cd22e732bada8301851a26ee98"
+  },
+  {
+   "path": "216605244.m4a",
+   "bytes": 496027,
+   "sha256": "3a9aafb3c9de4ffc3942c1391e8d9964cd565c6290f5514de7bd6662656767d2"
+  },
+  {
+   "path": "216605092.m4a",
+   "bytes": 263787,
+   "sha256": "7505d5cb0f0f3316514f654b416183950cac6f9f125df9dc042e58191e6e7ecd"
+  },
+  {
+   "path": "216604954.m4a",
+   "bytes": 253069,
+   "sha256": "0484e21c96e211b9407859aae42266b618c456e259cc5e1e99f5edfde9cbc825"
+  },
+  {
+   "path": "216604827.m4a",
+   "bytes": 383891,
+   "sha256": "7d665f5c52e56f77bdad4098e6ccd356d7e5e6f60af81e2c52fa7d393d832d77"
+  },
+  {
+   "path": "216604691.m4a",
+   "bytes": 165350,
+   "sha256": "3cb7534eed19a8eb82c00210196c7393cb84d5d3c8a4334c2a9d1f40a8a511de"
+  },
+  {
+   "path": "216604323.m4a",
+   "bytes": 61602,
+   "sha256": "f0f93fb1355c64b591ee3b51ec66603a39d3127a61d772bce4ee41abc1107de2"
+  },
+  {
+   "path": "216603087.m4a",
+   "bytes": 1205385,
+   "sha256": "4c1dfce818bdc5a031cf2e1073dd6f33b53df81b324add79e775c6a37b28fc8c"
+  },
+  {
+   "path": "216603252.m4a",
+   "bytes": 303308,
+   "sha256": "1c83991261d87599af6fd4233e29ff989f59dd873435ddaacafe90ac6a3217c6"
+  },
+  {
+   "path": "216603492.m4a",
+   "bytes": 711279,
+   "sha256": "65f1fa467127369e6f3517dce37634d6ef389264f796a3e463451ae4434f315f"
+  },
+  {
+   "path": "216603695.m4a",
+   "bytes": 99171,
+   "sha256": "f3da2ef9964ec62cfccc22277951acdd509b9cf183f860d11fc16a7b19708de9"
+  },
+  {
+   "path": "216603833.m4a",
+   "bytes": 313719,
+   "sha256": "8867580f691e015f9d0e66460cb35fb389cfde870b4d517d2b9b0615155c0df4"
+  },
+  {
+   "path": "216603951.m4a",
+   "bytes": 405699,
+   "sha256": "584a26b7a0dfe8eff1ce1e77f4f17afa58d6b54c6e1d97ad9927d2adc5b8308b"
+  },
+  {
+   "path": "216604184.m4a",
+   "bytes": 196271,
+   "sha256": "70429af466571cf2e236086a5c4b73f94706683cde4ee4fa1a540bbf936a92d1"
+  },
+  {
+   "path": "216615720.m4a",
+   "bytes": 39779,
+   "sha256": "f36d91af2540b55d69dc9559fa3b727a4ae3ac2b11d6a0e440ce2428032d9e25"
+  },
+  {
+   "path": "216615908.m4a",
+   "bytes": 44597,
+   "sha256": "637d34788cdc1981327a4cfc5c7cd32b118f59a6c0f36c2664deda16f15cd82a"
+  },
+  {
+   "path": "216616421.m4a",
+   "bytes": 39932,
+   "sha256": "fa451a1691e7273be68ceb7c68c4b64ec83117c9b1efda94453e82907b67b62f"
+  },
+  {
+   "path": "216616754.m4a",
+   "bytes": 72576,
+   "sha256": "38e256f5675a3859110e4600e9540a04223a565a6c29b7fc4d8bdddb0dcfe266"
+  },
+  {
+   "path": "216617429.m4a",
+   "bytes": 15039,
+   "sha256": "a0bcc86ede5112322f23905b5a03add45a267e964f71b6eb4eec6bcd2d1f880c"
+  },
+  {
+   "path": "216617700.m4a",
+   "bytes": 19563,
+   "sha256": "b5f1ab3b606b55746630f45210da9280f471ec80129781c6b6bfd23389f689ad"
+  },
+  {
+   "path": "216617858.m4a",
+   "bytes": 33121,
+   "sha256": "78131e0a5bd7956dd953bb59c0609408711e6fdae18210d81abb20635a236606"
+  },
+  {
+   "path": "216618340.m4a",
+   "bytes": 21808,
+   "sha256": "89d582468640e7092698019c23916e4ca42b727ccfa30e5b578addd9874e503b"
+  },
+  {
+   "path": "216618479.m4a",
+   "bytes": 26510,
+   "sha256": "94638614e6f25d971c022d96e2fea7cbe05a659ef7a01de917ae26f5308f1587"
+  },
+  {
+   "path": "216619446.m4a",
+   "bytes": 74390,
+   "sha256": "f89afc21ec6f7e00e3203f1e158854a5f5cef2b5e9a11ebb483769f2fd8df8d9"
+  },
+  {
+   "path": "216619687.m4a",
+   "bytes": 27486,
+   "sha256": "5a4172460d9da847884ef0355419e4e73cb688d6679972fb6573aee775d861e4"
+  },
+  {
+   "path": "216619791.m4a",
+   "bytes": 24702,
+   "sha256": "c706cc86620d77f9c3c2e6d27585a7d03e2bd957502c74ffa04f4fde255807c0"
+  },
+  {
+   "path": "216604447.m4a",
+   "bytes": 719634,
+   "sha256": "94248c718a9c87afa304679667fc43b7786d62170128733caac9efadcbc9a2a2"
+  },
+  {
+   "path": "216602946.m4a",
+   "bytes": 80703,
+   "sha256": "53c941b3d62c08bae818626e883dc7aa66fd4e7f6d3882cc7d5cd398a4dd49be"
+  },
+  {
+   "path": "216604033.m4a",
+   "bytes": 119364,
+   "sha256": "5fea09262d8ee33a8fd233290601064f1a84db4d9e57d1510f67c610c7244bc8"
+  },
+  {
+   "path": "216619175.m4a",
+   "bytes": 45977,
+   "sha256": "6abc534726e062cd021a48986bdb883f179d82cb6f5b383cebead68e9c6d1444"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-golden-record-audio",
+   "title": "Voyager Golden Record: Greetings to the Universe / Sounds of Earth",
+   "source": "NASA（公式 SoundCloud の公開・2015）。形式を AAC に変換（SOLARIS）",
+   "license": "CC BY-NC（SoundCloud のトラックの表示・版の記載なし・非営利でのみ利用）",
+   "url": "https://soundcloud.com/nasa/sets/golden-record-greetings-to-the ・ https://soundcloud.com/nasa/sets/golden-record-sounds-of"
+  }
+ ],
+ "info": {
+  "titleEasy": "ゴールデンレコードの音を追加する",
+  "description": "55 の言葉のあいさつと、地球の音 18 項目（NASA が公開した録音）。音楽と「Music of the Spheres」は入っていません",
+  "category": "other",
+  "updatedUtc": "2026-10-13"
+ }
+}

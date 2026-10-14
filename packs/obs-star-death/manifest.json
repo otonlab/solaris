@@ -1,0 +1,344 @@
+{
+ "schema": 1,
+ "packId": "obs-star-death",
+ "version": 1,
+ "title": "観測画像（星の一生の終わり）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:heic1310a:std",
+  "use:obs-img:weic2320b:std",
+  "use:obs-img:opo0432d:std",
+  "use:obs-img:eso1205a:std",
+  "use:obs-img:eso1731a:std",
+  "use:obs-img:heic0515a:std",
+  "use:obs-img:weic2326a:std",
+  "use:obs-img:cxc-2008-crab:std",
+  "use:obs-img:weic2311a:std",
+  "use:obs-img:heic0609a:std",
+  "use:obs-img:cxc-2013-casa:std"
+ ],
+ "sizeBytes": 2259720,
+ "installedBytes": 2259720,
+ "assets": [
+  {
+   "id": "std:heic1310a",
+   "kind": "image",
+   "target": "use:obs-img:heic1310a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/heic1310a_std.webp"
+   ],
+   "credits": [
+    "heic1310a"
+   ]
+  },
+  {
+   "id": "std:weic2320b",
+   "kind": "image",
+   "target": "use:obs-img:weic2320b:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1577,
+   "height": 1600,
+   "files": [
+    "images/weic2320b_std.webp"
+   ],
+   "credits": [
+    "weic2320b"
+   ]
+  },
+  {
+   "id": "std:opo0432d",
+   "kind": "image",
+   "target": "use:obs-img:opo0432d:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1484,
+   "height": 1600,
+   "files": [
+    "images/opo0432d_std.webp"
+   ],
+   "credits": [
+    "opo0432d"
+   ]
+  },
+  {
+   "id": "std:eso1205a",
+   "kind": "image",
+   "target": "use:obs-img:eso1205a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/eso1205a_std.webp"
+   ],
+   "credits": [
+    "eso1205a"
+   ]
+  },
+  {
+   "id": "std:eso1731a",
+   "kind": "image",
+   "target": "use:obs-img:eso1731a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 735,
+   "height": 746,
+   "files": [
+    "images/eso1731a_std.webp"
+   ],
+   "credits": [
+    "eso1731a"
+   ]
+  },
+  {
+   "id": "std:heic0515a",
+   "kind": "image",
+   "target": "use:obs-img:heic0515a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/heic0515a_std.webp"
+   ],
+   "credits": [
+    "heic0515a"
+   ]
+  },
+  {
+   "id": "std:weic2326a",
+   "kind": "image",
+   "target": "use:obs-img:weic2326a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1393,
+   "files": [
+    "images/weic2326a_std.webp"
+   ],
+   "credits": [
+    "weic2326a"
+   ]
+  },
+  {
+   "id": "std:cxc-2008-crab",
+   "kind": "image",
+   "target": "use:obs-img:cxc-2008-crab:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/cxc-2008-crab_std.webp"
+   ],
+   "credits": [
+    "cxc-2008-crab"
+   ]
+  },
+  {
+   "id": "std:weic2311a",
+   "kind": "image",
+   "target": "use:obs-img:weic2311a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/weic2311a_std.webp"
+   ],
+   "credits": [
+    "weic2311a"
+   ]
+  },
+  {
+   "id": "std:heic0609a",
+   "kind": "image",
+   "target": "use:obs-img:heic0609a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1152,
+   "files": [
+    "images/heic0609a_std.webp"
+   ],
+   "credits": [
+    "heic0609a"
+   ]
+  },
+  {
+   "id": "std:cxc-2013-casa",
+   "kind": "image",
+   "target": "use:obs-img:cxc-2013-casa:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 844,
+   "files": [
+    "images/cxc-2013-casa_std.webp"
+   ],
+   "credits": [
+    "cxc-2013-casa"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/heic1310a_std.webp",
+   "bytes": 70802,
+   "sha256": "392585b7d5970956f5b839d614bac7ca5e83831096d335576ffcfe74a53def1d"
+  },
+  {
+   "path": "images/weic2320b_std.webp",
+   "bytes": 208524,
+   "sha256": "51e0c49b67454f69b2e556c9ddf45cce394972bde9ea920fccbadd4093c09c46"
+  },
+  {
+   "path": "images/opo0432d_std.webp",
+   "bytes": 64792,
+   "sha256": "a2bf16af151e97cbf2e218442c7b735d46718c147384704471490240f18b8087"
+  },
+  {
+   "path": "images/eso1205a_std.webp",
+   "bytes": 554346,
+   "sha256": "a39a6d3e8365e0a80441378ef82ba7542fab746630a3f83e2d2433b2feab6b43"
+  },
+  {
+   "path": "images/eso1731a_std.webp",
+   "bytes": 8678,
+   "sha256": "6c59ca08628c0780acaa89e037795e06fdf1a1b2e67216716266cca727745afb"
+  },
+  {
+   "path": "images/heic0515a_std.webp",
+   "bytes": 373048,
+   "sha256": "ceb06f043c54eacb0afa27dcc60be3220879219ab6466714d629d820f0bc1bfd"
+  },
+  {
+   "path": "images/weic2326a_std.webp",
+   "bytes": 259068,
+   "sha256": "3a1b9d40bb035da05deeca48aad31c2b80b19eaf7d7218d546de95c6af8698ee"
+  },
+  {
+   "path": "images/cxc-2008-crab_std.webp",
+   "bytes": 244000,
+   "sha256": "6d5e2c8c1e99887e1fef43786c17161faf89c3dce92e4cb8080c926f51fdb780"
+  },
+  {
+   "path": "images/weic2311a_std.webp",
+   "bytes": 177292,
+   "sha256": "1118e3a8592341634d2a6c13996352129f29af5a6a064eb8aeb67476056b012c"
+  },
+  {
+   "path": "images/heic0609a_std.webp",
+   "bytes": 195092,
+   "sha256": "712d5b69d9afaefb84cd6b0307eba253e638d7ca1c32e77b5aa58ba3f86661c1"
+  },
+  {
+   "path": "images/cxc-2013-casa_std.webp",
+   "bytes": 104078,
+   "sha256": "5152d150305b71c28841363f8bde7847591082aaf28fda4c11fa7739e4e6f1f0"
+  }
+ ],
+ "credits": [
+  {
+   "id": "heic1310a",
+   "title": "Hubble image of the Ring Nebula (Messier 57)",
+   "source": "ESA/Hubble：NASA, ESA, and C. Robert O’Dell (Vanderbilt University).",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1310a/"
+  },
+  {
+   "id": "weic2320b",
+   "title": "Webb captures detailed beauty of Ring Nebula (NIRCam image)",
+   "source": "ESA/Webb：ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2320b/"
+  },
+  {
+   "id": "opo0432d",
+   "title": "A new view of the Helix Nebula",
+   "source": "ESA/Hubble：NASA, ESA, C.R. O'Dell (Vanderbilt University), and M. Meixner, P. McCullough, and G. Bacon (Space Telescope Science Institute)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0432d/"
+  },
+  {
+   "id": "eso1205a",
+   "title": "VISTA’s look at the Helix Nebula",
+   "source": "ESO：ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1205a/"
+  },
+  {
+   "id": "eso1731a",
+   "title": "MUSE image of the Saturn Nebula",
+   "source": "ESO：ESO/J. Walsh",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1731a/"
+  },
+  {
+   "id": "heic0515a",
+   "title": "Most detailed image of the Crab Nebula",
+   "source": "ESA/Hubble：NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA / Hubble)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0515a/"
+  },
+  {
+   "id": "weic2326a",
+   "title": "The Crab Nebula",
+   "source": "ESA/Webb：NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2326a/"
+  },
+  {
+   "id": "cxc-2008-crab",
+   "title": "Crab Nebula",
+   "source": "NASA/Chandra：NASA/CXC/SAO/F.Seward et al",
+   "license": "NASA/CXC（著作権を主張しない）",
+   "url": "https://chandra.harvard.edu/photo/2008/crab/"
+  },
+  {
+   "id": "weic2311a",
+   "title": "Cassiopeia A (MIRI Image)",
+   "source": "ESA/Webb：NASA, ESA, CSA, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (UGent), J. DePasquale (STScI)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2311a/"
+  },
+  {
+   "id": "heic0609a",
+   "title": "Cassiopeia A - The colourful aftermath of a violent stellar death",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage (STScI / AURA)- ESA / Hubble Collaboration. Acknowledgement: Robert A. Fesen (Dartmouth College, USA) and James Long (ESA/Hubble)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0609a/"
+  },
+  {
+   "id": "cxc-2013-casa",
+   "title": "Cassiopeia A",
+   "source": "NASA/Chandra：NASA/CXC/SAO",
+   "license": "NASA/CXC（著作権を主張しない）",
+   "url": "https://chandra.harvard.edu/photo/2013/casa/"
+  }
+ ],
+ "info": {
+  "titleEasy": "星の一生の終わりの観測画像を追加する",
+  "description": "環状星雲・らせん星雲・土星状星雲・かに星雲・カシオペヤ座A（可視光・赤外線・X線でくらべる）",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-04"
+ }
+}

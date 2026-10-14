@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "packId": "mars-textures-4k",
+ "version": 2,
+ "title": "火星（4K・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:499"
+ ],
+ "sizeBytes": 547626,
+ "installedBytes": 547626,
+ "assets": [
+  {
+   "id": "tex:499:albedo:4k",
+   "kind": "image",
+   "target": "naif:499",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 4096,
+   "height": 2048,
+   "files": [
+    "mars_albedo_4k.webp"
+   ],
+   "credits": [
+    "usgs-mars-viking-color-925m"
+   ],
+   "surface": {
+    "observed": "1976〜1980年",
+    "instrument": "バイキング1号・2号 周回機",
+    "colorType": "approx-natural",
+    "note": "いくつもの季節の合成（極冠の大きさは固定）"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "mars_albedo_4k.webp",
+   "bytes": 547626,
+   "sha256": "8584652e1c9c9adb9c809a284115bf375136b12d56bfc624b51264e06c8fc999"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-mars-viking-color-925m",
+   "title": "Mars Viking Global Color Mosaic 925m（Viking Orbiter 1976–1980・約1000枚）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／Planetary Data System（赤・紫のフィルターは実測、緑は2つの平均から合成＝近似自然色）。アプリ用に化成緯度へ並べ直し・極（|緯度|>78°）の継ぎ目の彩度を下げた（tools/textures/planet_pipeline.py）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/mars_viking_global_color_mosaic_925m"
+  }
+ ],
+ "info": {
+  "titleEasy": "高精細な火星を追加する",
+  "description": "火星に近づいたときの地表（4K・バイキングの観測 1976〜1980年）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-05"
+ }
+}

@@ -1,0 +1,2581 @@
+{
+ "schema": 1,
+ "packId": "voyager",
+ "version": 1,
+ "title": "ボイジャー1号・2号（1977年からの航路・惑星と衛星の位置・3Dモデル）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:10",
+  "naif:399",
+  "naif:599",
+  "naif:199",
+  "naif:299",
+  "naif:499",
+  "naif:699",
+  "naif:799",
+  "naif:899",
+  "naif:301",
+  "naif:501",
+  "naif:502",
+  "naif:503",
+  "naif:504",
+  "naif:601",
+  "naif:602",
+  "naif:603",
+  "naif:604",
+  "naif:605",
+  "naif:606",
+  "naif:608",
+  "naif:701",
+  "naif:702",
+  "naif:703",
+  "naif:704",
+  "naif:705",
+  "naif:801",
+  "naif:-31",
+  "naif:-32",
+  "use:voyager-segments",
+  "use:voyager-model",
+  "use:voyager-model-lo",
+  "use:golden-record-view"
+ ],
+ "sizeBytes": 6483278,
+ "installedBytes": 6483278,
+ "assets": [
+  {
+   "id": "ephem:10:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:10",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/10.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2763450.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0011,
+     "holdoutMaxKm": 0.0012,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:399:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:399",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/399.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2763450.0,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0332,
+     "holdoutMaxKm": 0.032,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:599:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:599",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/599.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0129,
+     "holdoutMaxKm": 0.0122,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:199:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:199",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/199.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1381725.0,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 0.0008,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:299:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:299",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/299.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2763450.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0059,
+     "holdoutMaxKm": 0.0038,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:499:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:499",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/499.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2763450.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0023,
+     "holdoutMaxKm": 0.0016,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:699:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:699",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/699.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 690862.5,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.1205,
+     "holdoutMaxKm": 0.0845,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:799:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:799",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/799.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0642,
+     "holdoutMaxKm": 0.0864,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:899:0:1977-2000",
+   "kind": "ephem",
+   "target": "naif:899",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/899.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1381725.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか・既存 ephem-2000-2050 と同じ天体・刻み・区間・次数) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0722,
+     "holdoutMaxKm": 0.0627,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:301:399:1977-2000",
+   "kind": "ephem",
+   "target": "naif:301",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "earth/301.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -707486400.0,
+    "endTdb": -43200.0,
+    "center": "naif:399",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1381725.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0167,
+     "holdoutMaxKm": 0.0129,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:501:599:voyager-jupiter",
+   "kind": "ephem",
+   "target": "naif:501",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/501.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -662731200.0,
+    "endTdb": -641822400.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API (jup365) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0174,
+     "holdoutMaxKm": 0.0125,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:502:599:voyager-jupiter",
+   "kind": "ephem",
+   "target": "naif:502",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/502.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -662731200.0,
+    "endTdb": -641822400.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API (jup365) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0412,
+     "holdoutMaxKm": 0.0321,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:503:599:voyager-jupiter",
+   "kind": "ephem",
+   "target": "naif:503",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/503.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -662731200.0,
+    "endTdb": -641822400.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 342767.2131147541,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API (jup365) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0465,
+     "holdoutMaxKm": 0.0362,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:504:599:voyager-jupiter",
+   "kind": "ephem",
+   "target": "naif:504",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/504.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -662731200.0,
+    "endTdb": -641822400.0,
+    "center": "naif:599",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 342767.2131147541,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API (jup365) — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0346,
+     "holdoutMaxKm": 0.0223,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:601:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:601",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/601.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 86400.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0389,
+     "holdoutMaxKm": 0.0296,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:602:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:602",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/602.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172378.53658536586,
+    "degree": 20,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0154,
+     "holdoutMaxKm": 0.0118,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:603:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:603",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/603.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172378.53658536586,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0209,
+     "holdoutMaxKm": 0.0106,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:604:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:604",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/604.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 343083.4951456311,
+    "degree": 20,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0288,
+     "holdoutMaxKm": 0.016,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:605:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:605",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/605.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 343083.4951456311,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.043,
+     "holdoutMaxKm": 0.0284,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:606:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:606",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/606.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 679569.2307692308,
+    "degree": 18,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0387,
+     "holdoutMaxKm": 0.0327,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:608:699:voyager-saturn",
+   "kind": "ephem",
+   "target": "naif:608",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/608.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612187200.0,
+    "endTdb": -576849600.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 679569.2307692308,
+    "degree": 18,
+    "accuracy": {
+     "reference": "NAIF sat337.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0371,
+     "holdoutMaxKm": 0.0345,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:701:799:voyager-uranus",
+   "kind": "ephem",
+   "target": "naif:701",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/701.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -453124800.0,
+    "endTdb": -438091200.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 341672.7272727273,
+    "degree": 20,
+    "accuracy": {
+     "reference": "NAIF vgr2.ura182.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.042,
+     "holdoutMaxKm": 0.0417,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:702:799:voyager-uranus",
+   "kind": "ephem",
+   "target": "naif:702",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/702.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -453124800.0,
+    "endTdb": -438091200.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 341672.7272727273,
+    "degree": 18,
+    "accuracy": {
+     "reference": "NAIF vgr2.ura182.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0416,
+     "holdoutMaxKm": 0.0348,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:703:799:voyager-uranus",
+   "kind": "ephem",
+   "target": "naif:703",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/703.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -453124800.0,
+    "endTdb": -438091200.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 683345.4545454546,
+    "degree": 20,
+    "accuracy": {
+     "reference": "NAIF vgr2.ura182.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0327,
+     "holdoutMaxKm": 0.0325,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:704:799:voyager-uranus",
+   "kind": "ephem",
+   "target": "naif:704",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/704.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -453124800.0,
+    "endTdb": -438091200.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 683345.4545454546,
+    "degree": 20,
+    "accuracy": {
+     "reference": "NAIF vgr2.ura182.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0212,
+     "holdoutMaxKm": 0.0205,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:705:799:voyager-uranus",
+   "kind": "ephem",
+   "target": "naif:705",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/705.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -453124800.0,
+    "endTdb": -438091200.0,
+    "center": "naif:799",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "NAIF vgr2.ura182.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0224,
+     "holdoutMaxKm": 0.0156,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:801:899:voyager-neptune",
+   "kind": "ephem",
+   "target": "naif:801",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "moons/801.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -351259200.0,
+    "endTdb": -323611200.0,
+    "center": "naif:899",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "NAIF vgr2_nep097.bsp（Voyager の再構成と同じ解析の衛星暦） — voyager_prep/tools/make_era_ephem.py",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0421,
+     "holdoutMaxKm": 0.0278,
+     "holdoutN": 200
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:00",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_00.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -704412035.617,
+    "endTdb": -660052800.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 57534.67654604408,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0001,
+     "holdoutMaxKm": 0.2025,
+     "holdoutN": 900
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:01",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_01.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -660052800.0,
+    "endTdb": -657502681.7408705,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 28653.014147522743,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0088,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:02",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_02.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -657502681.7408705,
+    "endTdb": -657286681.7408705,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 108000.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0056,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:03",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_03.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -657286681.7408705,
+    "endTdb": -657200281.7408705,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7200.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0155,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:04",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_04.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -657200281.7408705,
+    "endTdb": -656984281.7408705,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 54000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0202,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:05",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_05.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -656984281.7408705,
+    "endTdb": -656078400.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 905881.7408704758,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0128,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:06",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_06.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -656078400.0,
+    "endTdb": -612273600.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 114973.22834645669,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0002,
+     "holdoutMaxKm": 0.2025,
+     "holdoutN": 900
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:07",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_07.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -612273600.0,
+    "endTdb": -604064389.7948974,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 14376.900534330232,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0011,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:08",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_08.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -604064389.7948974,
+    "endTdb": -603848389.7948974,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1800.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0232,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:09",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_09.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -603848389.7948974,
+    "endTdb": -603761989.7948974,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 14400.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.015,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:10",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_10.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -603761989.7948974,
+    "endTdb": -603545989.7948974,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0266,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:11",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_11.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -603545989.7948974,
+    "endTdb": -603201600.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 344389.7948974371,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0257,
+     "holdoutMaxKm": 0.0207,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:12",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_12.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -603201600.0,
+    "endTdb": -599572800.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1814400.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.2254,
+     "holdoutMaxKm": 0.2025,
+     "holdoutN": 900
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:13",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_13.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -599572800.0,
+    "endTdb": -242603701.81445253,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 920023.4489318234,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（tracking・X1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.3937,
+     "holdoutMaxKm": 0.549,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:-31:10:14",
+   "kind": "ephem",
+   "target": "naif:-31",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/31_14.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -242603701.8144525,
+    "endTdb": 1609329669.183877,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2764079.658206462,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（predicted・X1）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0007,
+     "holdoutMaxKm": 0.0007,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:00",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_00.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -705788847.817,
+    "endTdb": -649364400.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 115151.93432040823,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.1923,
+     "holdoutMaxKm": 0.4415,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:01",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_01.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -649364400.0,
+    "endTdb": -646580382.5912956,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 56816.68181029388,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0257,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:02",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_02.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -646580382.5912956,
+    "endTdb": -646364382.5912956,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 27000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0146,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:03",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_03.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -646364382.5912956,
+    "endTdb": -646277982.5912956,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7200.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0137,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:04",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_04.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -646277982.5912956,
+    "endTdb": -646061982.5912956,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0245,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:05",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_05.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -646061982.5912956,
+    "endTdb": -645364800.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 697182.5912955999,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・J2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0082,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:06",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_06.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -645364800.0,
+    "endTdb": -585921600.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2701963.6363636362,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0613,
+     "holdoutMaxKm": 0.4415,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:07",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_07.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -585921600.0,
+    "endTdb": -579340634.3171586,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 14368.92070489393,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0269,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:08",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_08.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -579340634.3171586,
+    "endTdb": -579124634.3171586,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 108000.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0151,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:09",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_09.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -579124634.3171586,
+    "endTdb": -579038234.3171586,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 14400.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.007,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:10",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_10.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -579038234.3171586,
+    "endTdb": -578822234.3171586,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0276,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:11",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_11.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -578822234.3171586,
+    "endTdb": -576763200.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 228781.59079539776,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・S2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0255,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:12",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_12.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -576763200.0,
+    "endTdb": -453211200.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 230078.2122905028,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 0.4415,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:13",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_13.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -453211200.0,
+    "endTdb": -440013610.8054027,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 28752.917635288242,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・U2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0126,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:14",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_14.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -440013610.8054027,
+    "endTdb": -439797610.8054027,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・U2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0202,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:15",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_15.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -439797610.8054027,
+    "endTdb": -439711210.8054027,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 14400.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・U2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.029,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:16",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_16.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -439711210.8054027,
+    "endTdb": -439495210.8054027,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・U2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0148,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:17",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_17.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -439495210.8054027,
+    "endTdb": -438004800.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 372602.70135067403,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・U2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.01,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:18",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_18.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -438004800.0,
+    "endTdb": -351345600.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 229865.25198938992,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（design・ST2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0001,
+     "holdoutMaxKm": 0.4415,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:19",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_19.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -351345600.0,
+    "endTdb": -326969058.12906456,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 57491.84403522509,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・N2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0179,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:20",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_20.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -326969058.12906456,
+    "endTdb": -326753058.12906456,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・N2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0062,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:21",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_21.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -326753058.12906456,
+    "endTdb": -326666658.12906456,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3600.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・N2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0237,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:22",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_22.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -326666658.12906456,
+    "endTdb": -326450658.12906456,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 216000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・N2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0143,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:23",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_23.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -326450658.12906456,
+    "endTdb": -326347200.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 103458.12906455994,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（reconstructed・N2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0257,
+     "holdoutMaxKm": 0.0493,
+     "holdoutN": 1200
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:24",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_24.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -326347200.0,
+    "endTdb": -323482200.0,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1432500.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（tracking・N2+X2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.4552,
+     "holdoutMaxKm": 0.7824,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:25",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_25.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -323482200.0,
+    "endTdb": -226259640.81749395,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2700626.6439585015,
+    "degree": 12,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（tracking・X2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.4296,
+     "holdoutMaxKm": 0.7824,
+     "holdoutN": 600
+    }
+   }
+  },
+  {
+   "id": "ephem:-32:10:26",
+   "kind": "ephem",
+   "target": "naif:-32",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/32_26.bin"
+   ],
+   "credits": [
+    "naif-voyager"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -226259640.81749395,
+    "endTdb": 1609329669.183877,
+    "center": "naif:10",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2764441.7319297753,
+    "degree": 8,
+    "accuracy": {
+     "reference": "NAIF Voyager SPK 合成（predicted・X2）— voyager_prep/tools/build_track.py・VOYAGER_EPHEMERIS.md",
+     "retrievedUtc": "2026-10-13T00:00:00+00:00",
+     "fitMaxKm": 0.0478,
+     "holdoutMaxKm": 0.0007,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "voyager-segments",
+   "kind": "data",
+   "target": "use:voyager-segments",
+   "slot": "history",
+   "format": "json",
+   "files": [
+    "segments.json"
+   ],
+   "credits": [
+    "naif-voyager"
+   ]
+  },
+  {
+   "id": "voyager-model",
+   "kind": "model",
+   "target": "use:voyager-model",
+   "slot": "model",
+   "format": "glb",
+   "files": [
+    "voyager_hi.glb"
+   ],
+   "credits": [
+    "voyager-model",
+    "nasa-refs"
+   ]
+  },
+  {
+   "id": "voyager-model-lo",
+   "kind": "model",
+   "target": "use:voyager-model-lo",
+   "slot": "model",
+   "format": "glb",
+   "files": [
+    "voyager_lo.glb"
+   ],
+   "credits": [
+    "voyager-model",
+    "nasa-refs"
+   ]
+  },
+  {
+   "id": "golden-record-view",
+   "kind": "model",
+   "target": "use:golden-record-view",
+   "slot": "model",
+   "format": "glb",
+   "files": [
+    "golden_record.glb"
+   ],
+   "credits": [
+    "voyager-model",
+    "nasa-refs"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "planets/10.bin",
+   "bytes": 55360,
+   "sha256": "44dd71540abaacdfe5fa5a9157c27f02838d3b566eba8cdd2e113470bf3420d4"
+  },
+  {
+   "path": "planets/399.bin",
+   "bytes": 129088,
+   "sha256": "aae7c070bf14e1e5c299e0eac6a794104f45a061818276945347206937f2ad78"
+  },
+  {
+   "path": "planets/599.bin",
+   "bytes": 835240,
+   "sha256": "cd2ba38dd98b3229044a4505b9ba0cce756bdd5c760962fb0f956c48847f65f0"
+  },
+  {
+   "path": "planets/199.bin",
+   "bytes": 258112,
+   "sha256": "895333b7e04f544ac7c237796357dce3558911502cee71d4ef970762422f6536"
+  },
+  {
+   "path": "planets/299.bin",
+   "bytes": 55360,
+   "sha256": "02a47fa7e06d0d8ea6d2093d45edc085579d94d79811c72d7cba6fc98f543c61"
+  },
+  {
+   "path": "planets/499.bin",
+   "bytes": 55360,
+   "sha256": "419c13e3fa1b7f6b87882ac05b3014c6d1c02c122558807c60ceab1cd914a10e"
+  },
+  {
+   "path": "planets/699.bin",
+   "bytes": 516160,
+   "sha256": "5cc88e3691a9b54558d2ed5da08b55eb7137c412281d0e041b14fd7befc350af"
+  },
+  {
+   "path": "planets/799.bin",
+   "bytes": 540472,
+   "sha256": "0a4db3ca1a262554a0968204f71fe067cade50ab5f3dbb3342449dd68dd01eb3"
+  },
+  {
+   "path": "planets/899.bin",
+   "bytes": 208960,
+   "sha256": "2494269df3cb1ac6690d7ce2aa1cbf7d47adc09d3393a2a2f29107aff151d280"
+  },
+  {
+   "path": "earth/301.bin",
+   "bytes": 208960,
+   "sha256": "99faa67ee2c884426de79bc8b24c9d0990ab4be9f14c1d5b16d2c5971942b141"
+  },
+  {
+   "path": "moons/501.bin",
+   "bytes": 55240,
+   "sha256": "8222fdcd95823e2337966e5886b35fe9abb08a96361388366c835bffd7d44e72"
+  },
+  {
+   "path": "moons/502.bin",
+   "bytes": 49432,
+   "sha256": "2e88f6739a1b7b5e20af723714f8178daada781a2dfdfaa5fe2911c676a6dd9a"
+  },
+  {
+   "path": "moons/503.bin",
+   "bytes": 27880,
+   "sha256": "d7fad4b575ced76442978305a8691516f86ced8558a3863ac6e403744f8d89ab"
+  },
+  {
+   "path": "moons/504.bin",
+   "bytes": 22024,
+   "sha256": "de3c43fb1d62428559b3a4f80374b35fe24f1d7d4b52fa32b451510cb2124843"
+  },
+  {
+   "path": "moons/601.bin",
+   "bytes": 186568,
+   "sha256": "37608ab43576b4c7b9cec5019f1d7e7f77ace74d0829f0eb50f56baee9d687c1"
+  },
+  {
+   "path": "moons/602.bin",
+   "bytes": 103384,
+   "sha256": "8571cd55adc83717b55204a2d7327560f4109f8e2eff76c36172fc0741992606"
+  },
+  {
+   "path": "moons/603.bin",
+   "bytes": 73864,
+   "sha256": "82aa88fb9b96450f857930d81a5f0eae69d00add76c71c551136c7884f3c7e29"
+  },
+  {
+   "path": "moons/604.bin",
+   "bytes": 51976,
+   "sha256": "e204ea24b2fbc205b647a2720894b2806f3bad6c39008ef7360c552f1e4655c2"
+  },
+  {
+   "path": "moons/605.bin",
+   "bytes": 37144,
+   "sha256": "c38bee1888b0035025fc2924346d8f3ce6378142124c1b3314167d4dc8a5e68c"
+  },
+  {
+   "path": "moons/606.bin",
+   "bytes": 23776,
+   "sha256": "53b3407d64614765c1b58cf5f2803ea179266d075e9150eeda927d4297dfbc8a"
+  },
+  {
+   "path": "moons/608.bin",
+   "bytes": 23776,
+   "sha256": "9249bfdb0b5853605da579117585ce350577fc1269917def11166aa227becfee"
+  },
+  {
+   "path": "moons/701.bin",
+   "bytes": 22240,
+   "sha256": "4b286694d80dc9a27d0a84f039d4f8b5a803051fc2f979e0b873051b986f363f"
+  },
+  {
+   "path": "moons/702.bin",
+   "bytes": 20128,
+   "sha256": "18b992fc4f2ba3dd19099aa9dbb017840ce0d1364f5e66bf72825e97f6968c45"
+  },
+  {
+   "path": "moons/703.bin",
+   "bytes": 11152,
+   "sha256": "17377d13677097d277cf524243231d65a25cc272af321d69d034c0a09eb19fd2"
+  },
+  {
+   "path": "moons/704.bin",
+   "bytes": 11152,
+   "sha256": "7a3d9fada530e9f32fb87a1d4a0667bfa3a4fcec1563190c8c07c9001c16362e"
+  },
+  {
+   "path": "moons/705.bin",
+   "bytes": 39736,
+   "sha256": "b28a921567773d55d535fa68cd6fea96753b4c8ad2e2038733a0cf7d87acfcd2"
+  },
+  {
+   "path": "moons/801.bin",
+   "bytes": 16384,
+   "sha256": "8cb02c487b833c6f07736e789bc139a077fd3465061ae8b9c7ed2642f7908180"
+  },
+  {
+   "path": "track/31_00.bin",
+   "bytes": 166600,
+   "sha256": "d1af0e3bca390a3a89595683fe48c7cabd91f7523c3a35016fa2c4dbaaa2a9c2"
+  },
+  {
+   "path": "track/31_01.bin",
+   "bytes": 27832,
+   "sha256": "2d451b5f6d24e94b7775ef91094187d7861db07562982f14998bba65d43e383a"
+  },
+  {
+   "path": "track/31_02.bin",
+   "bytes": 688,
+   "sha256": "91694136123d74d912e7ce80900cf839ebec8cb0dd816d7296c53a2014de73b5"
+  },
+  {
+   "path": "track/31_03.bin",
+   "bytes": 3808,
+   "sha256": "a0330edce6c561514109565c438e7ea38c6af37aaf9e4480e6ca15e9336e67be"
+  },
+  {
+   "path": "track/31_04.bin",
+   "bytes": 1504,
+   "sha256": "79a4765280dc3ae1c132827fd6bf7752101250e902ca6d0cbb8c839d0460dcee"
+  },
+  {
+   "path": "track/31_05.bin",
+   "bytes": 424,
+   "sha256": "f27e73ddd81a1e90ee56235a6c17eefc0adb4fff53e9572953913155dbf7057d"
+  },
+  {
+   "path": "track/31_06.bin",
+   "bytes": 82360,
+   "sha256": "ec6d76a01fa6d310bd19bdd73e0febd30d40997cb0bee005d65260d46aa1fd2c"
+  },
+  {
+   "path": "track/31_07.bin",
+   "bytes": 150808,
+   "sha256": "2db87ccce697fa227a6bf967e2ddac6c836e8ee8e1c602eab0343d77b3a66441"
+  },
+  {
+   "path": "track/31_08.bin",
+   "bytes": 31744,
+   "sha256": "0f3215f3710914140e126281ddeaccb5d41e75b09af48173eee1188e855f9201"
+  },
+  {
+   "path": "track/31_09.bin",
+   "bytes": 1936,
+   "sha256": "1cc402374a0ed337a73d197ddde68d6983fb0fb845c4ead492497e14df3fea1d"
+  },
+  {
+   "path": "track/31_10.bin",
+   "bytes": 424,
+   "sha256": "6e0bf1765740794c5febcadb19156a4761dadf61234b3c663f330f2bff9f6725"
+  },
+  {
+   "path": "track/31_11.bin",
+   "bytes": 280,
+   "sha256": "a1ccd077adac4325b417edc6ebfa680bc64bd11d3754a2bbabb3bd32d70a7ac4"
+  },
+  {
+   "path": "track/31_12.bin",
+   "bytes": 592,
+   "sha256": "f0f08cf6125812d7320bfa165b8c840c901e9aa000efa844395a8845b48a6373"
+  },
+  {
+   "path": "track/31_13.bin",
+   "bytes": 102496,
+   "sha256": "c5e16cd122eeb43f0325f3d321ca591050bedad32e4ed69c6f7138400b0ff487"
+  },
+  {
+   "path": "track/31_14.bin",
+   "bytes": 144784,
+   "sha256": "f3f018d2e2ec2075b1ceae7370118bae276441a43ec9ad4070e0c0c50a3813eb"
+  },
+  {
+   "path": "track/32_00.bin",
+   "bytes": 152944,
+   "sha256": "f29dd5a9f907656c6afca8f22956d15345a6af6557596e7a23e38bae18b2bae2"
+  },
+  {
+   "path": "track/32_01.bin",
+   "bytes": 13000,
+   "sha256": "4a6324bc493a1099da2749bd3d65798322836800a6fc525986a2f424b6c2ef68"
+  },
+  {
+   "path": "track/32_02.bin",
+   "bytes": 2944,
+   "sha256": "7bc317571885a0786ae89477ed1a5447bc29db1651d9540f0ab7c0a4c063ac6e"
+  },
+  {
+   "path": "track/32_03.bin",
+   "bytes": 3808,
+   "sha256": "9eb52582de3bce1d0ca1a017cacbb6fa3d0a2ed04503510262f817bc7f8f5a24"
+  },
+  {
+   "path": "track/32_04.bin",
+   "bytes": 424,
+   "sha256": "58eeda48645f33e84ce36ec95701363f6ef460410155acfb297d137fe2648919"
+  },
+  {
+   "path": "track/32_05.bin",
+   "bytes": 424,
+   "sha256": "0cd4096c389d6159e07a2c50dd8ed114d413145b1f55a8fc11f58bb17690d0fb"
+  },
+  {
+   "path": "track/32_06.bin",
+   "bytes": 6928,
+   "sha256": "4790263dde16612809db9b7c2ea9f44aa944720c3bf2ff0e1300a2b651343be2"
+  },
+  {
+   "path": "track/32_07.bin",
+   "bytes": 120976,
+   "sha256": "65786ea32e8cf01dcc6bc5fd23a71d1ca293538c5eeadf6f4627e9223c2ac160"
+  },
+  {
+   "path": "track/32_08.bin",
+   "bytes": 688,
+   "sha256": "1fcf6df27791b3c5432bb4035be38debd24dc2d67ec209adb925c3b1ea6a2856"
+  },
+  {
+   "path": "track/32_09.bin",
+   "bytes": 1936,
+   "sha256": "29bc4e0c1284421376d7a8941f3eb40a67ee38f3108f25ff98b7b4e9c17b78a5"
+  },
+  {
+   "path": "track/32_10.bin",
+   "bytes": 424,
+   "sha256": "747d09604b4de5e2bcd98e8b0b4a5b420121ba40f28e58d772b298612d33477a"
+  },
+  {
+   "path": "track/32_11.bin",
+   "bytes": 2440,
+   "sha256": "ff2132701ab3d0a2c83fc5c0917ab3444bf2ad2648e9f3660e2496821f983a5c"
+  },
+  {
+   "path": "track/32_12.bin",
+   "bytes": 193384,
+   "sha256": "709c0db85660540103490d3859cf791e5b0afcdb6abfdd47e5dc34e28960cf8e"
+  },
+  {
+   "path": "track/32_13.bin",
+   "bytes": 121240,
+   "sha256": "e43d06b8d50b04b5afab524c59403431b2ed24349d5a11ad57e919b897b723b2"
+  },
+  {
+   "path": "track/32_14.bin",
+   "bytes": 424,
+   "sha256": "858776611be6ee2a91bf2bd58f5a9c384d98158cb5a5dfbe3db0d1fed5978c4f"
+  },
+  {
+   "path": "track/32_15.bin",
+   "bytes": 1648,
+   "sha256": "0db9b3d7eeeb3dae6faae5165c02cd235e73e4936b6ffeb18f57a6e1584c75b1"
+  },
+  {
+   "path": "track/32_16.bin",
+   "bytes": 424,
+   "sha256": "569c6749c7b6b6b68d16a03fed2d828480707d661dfc8280daa5e5e6703c1024"
+  },
+  {
+   "path": "track/32_17.bin",
+   "bytes": 1312,
+   "sha256": "8984cd9ff28d13a7345dc3e147236b0a15862e2d1a2ab3ac4d7b5da724efd035"
+  },
+  {
+   "path": "track/32_18.bin",
+   "bytes": 99592,
+   "sha256": "35e17d6f553647cb1cfd56d252d737825283053535aea18da0734d273db02749"
+  },
+  {
+   "path": "track/32_19.bin",
+   "bytes": 91648,
+   "sha256": "1e312377fd4fe79918270faaa9b5ebfc941414602f2256570e2cd3660bf53298"
+  },
+  {
+   "path": "track/32_20.bin",
+   "bytes": 424,
+   "sha256": "f2a0b724ac9766c1d992b58fd7709b70e94f410bc182dcac7d9f6a612be251d9"
+  },
+  {
+   "path": "track/32_21.bin",
+   "bytes": 8704,
+   "sha256": "b7e557980abd617211fbe0dd60d08d1c9d6211a221f1989318052a1bd1f395c5"
+  },
+  {
+   "path": "track/32_22.bin",
+   "bytes": 424,
+   "sha256": "0b55946568d515e93b63de98a316e72422d5adbaaafd2e688e5aa80145e3a140"
+  },
+  {
+   "path": "track/32_23.bin",
+   "bytes": 280,
+   "sha256": "6951ff85879022b77d189a75de15970462f72953b2d7d01f003038ea9034f230"
+  },
+  {
+   "path": "track/32_24.bin",
+   "bytes": 592,
+   "sha256": "ee26c9e5ed34b23193df89bcdf8ae2b548a3036a766fee80e593efbea63a53b4"
+  },
+  {
+   "path": "track/32_25.bin",
+   "bytes": 11296,
+   "sha256": "acde0e6af5ee1bfdd7185e9719a7f378a50f910a97eb10b974dc538584ef5c0e"
+  },
+  {
+   "path": "track/32_26.bin",
+   "bytes": 143488,
+   "sha256": "a11e542ac5dcac418d6292db8f77e203d79c17f90e1f306851f5900a0fbe72dc"
+  },
+  {
+   "path": "segments.json",
+   "bytes": 4034,
+   "sha256": "1ad6366b674568c17f6866c9f9937180e32e04f67b0e8d8c3d1816773d8056aa"
+  },
+  {
+   "path": "voyager_hi.glb",
+   "bytes": 493976,
+   "sha256": "fa8266c625a24b28016460cc92aa4daa12820f4c0193aee168d05489f8df0824"
+  },
+  {
+   "path": "voyager_lo.glb",
+   "bytes": 113504,
+   "sha256": "6412534ee6ad5fb9d4f59705f22278cb97c519c67d660320f9ac47d25b7c52fd"
+  },
+  {
+   "path": "golden_record.glb",
+   "bytes": 534740,
+   "sha256": "d97b71f9e307f61f9b89982f36cd9777ac667df9cc5fda769d72248b37b5f28b"
+  }
+ ],
+ "credits": [
+  {
+   "id": "naif-voyager",
+   "title": "Voyager trajectories — NAIF SPK（再構成 jup230・sat337・ura182・nep097、2022 再フィット x2100、supertrajectory）",
+   "source": "NASA/JPL NAIF・R. A. Jacobson (JPL SSD)",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/"
+  },
+  {
+   "id": "jpl-horizons",
+   "title": "JPL Horizons On-Line Ephemeris System からのチェビシェフ当てはめ",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  },
+  {
+   "id": "voyager-model",
+   "title": "Voyager / Golden Record 3D model",
+   "source": "SOLARIS（NASA の写真・1980 Voyager Backgrounder・装置論文の寸法から作った再現 CG。細部は推定。カバーの図は NASA 公式写真の実測）",
+   "license": "NASA Media Usage Guidelines（参照）",
+   "url": "https://science.nasa.gov/mission/voyager/"
+  },
+  {
+   "id": "nasa-refs",
+   "title": "NASA/JPL photos used as references (PIA21733, PIA21734, PIA21740, PIA21743 ほか)",
+   "source": "NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/photojournal/"
+  }
+ ],
+ "info": {
+  "titleEasy": "ボイジャーの旅を追加する",
+  "description": "1977 年からのボイジャー 1 号・2 号の航路（NASA/JPL のデータ）、その時代の惑星と衛星の位置、機体とゴールデンレコードの 3D モデル",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-13"
+ }
+}

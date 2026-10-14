@@ -1,0 +1,18 @@
+{
+ "banner": {
+  "source": "CA17B43A-E4FF-44DF-A85B-AAF1E4AE98BF.PNG",
+  "sourceSha256": "e1c8d79078d078ee3fca021366ac4eeca6f8f901e02443aac6e1018aa3023c68",
+  "files": {
+   "solaris_800.webp": "ccfea15da934d952c5e56b41eaf43df060468fe49e632ed79aed9a37b55e4f0d",
+   "solaris_1280.webp": "cf9c2df4e4284187f07bd60a7bd2dcfc0dc8a6f4242a78253828b001efe8f773"
+  }
+ },
+ "bgm": {
+  "file": "bgm_title.m4a",
+  "sha256": "589762233a93d94a1d373cc950fb2148ae7ef05ca563f7a6e2291168eefcb719",
+  "loopPad": 0.5,
+  "loopSec": 64.0,
+  "sampleRate": 32000,
+  "note": "仮の音源：tools/title/make_title_assets.py で合成（外の音源なし）。本番の曲に差しかえるときは file・loopPad・loopSec を変える"
+ }
+}

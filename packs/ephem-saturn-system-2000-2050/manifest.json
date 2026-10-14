@@ -1,0 +1,310 @@
+{
+ "schema": 1,
+ "packId": "ephem-saturn-system-2000-2050",
+ "version": 1,
+ "title": "土星系の暦 2000〜2050年（ミマス・エンケラドゥス・テティス・ディオネ・レア・タイタン・イアペトゥス／土星中心）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:601",
+  "naif:602",
+  "naif:603",
+  "naif:604",
+  "naif:605",
+  "naif:606",
+  "naif:608"
+ ],
+ "sizeBytes": 21862000,
+ "installedBytes": 21862000,
+ "assets": [
+  {
+   "id": "ephem:601:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:601",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "601.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 86400.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API — Mimas (601)                     {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:56:24+00:00",
+     "fitMaxKm": 0.089264,
+     "holdoutMaxKm": 0.077307,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 3.48e-08,
+     "boundaryJumpMaxKmS": 1.51e-11,
+     "sampleStep": "1h"
+    }
+   }
+  },
+  {
+   "id": "ephem:602:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:602",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "602.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 172800.0,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API — Enceladus (602)                 {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:57:44+00:00",
+     "fitMaxKm": 0.036022,
+     "holdoutMaxKm": 0.026201,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 8.54e-09,
+     "boundaryJumpMaxKmS": 8.97e-13,
+     "sampleStep": "1h"
+    }
+   }
+  },
+  {
+   "id": "ephem:603:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:603",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "603.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 24,
+    "accuracy": {
+     "reference": "JPL Horizons API — Tethys (603)                    {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:26:46+00:00",
+     "fitMaxKm": 0.084361,
+     "holdoutMaxKm": 0.046361,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 3.31e-08,
+     "boundaryJumpMaxKmS": 8.94e-13,
+     "sampleStep": "3h"
+    }
+   }
+  },
+  {
+   "id": "ephem:604:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:604",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "604.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345600.0,
+    "degree": 22,
+    "accuracy": {
+     "reference": "JPL Horizons API — Dione (604)                     {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:27:08+00:00",
+     "fitMaxKm": 0.071902,
+     "holdoutMaxKm": 0.04695,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 1.85e-08,
+     "boundaryJumpMaxKmS": 1.44e-12,
+     "sampleStep": "3h"
+    }
+   }
+  },
+  {
+   "id": "ephem:605:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:605",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "605.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 24,
+    "accuracy": {
+     "reference": "JPL Horizons API — Rhea (605)                      {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:11:19+00:00",
+     "fitMaxKm": 0.158317,
+     "holdoutMaxKm": 0.100162,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 5.46e-08,
+     "boundaryJumpMaxKmS": 7.1e-13,
+     "sampleStep": "6h"
+    }
+   }
+  },
+  {
+   "id": "ephem:606:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:606",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "606.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API — Titan (606)                     {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:11:35+00:00",
+     "fitMaxKm": 0.10546,
+     "holdoutMaxKm": 0.085735,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 3.82e-08,
+     "boundaryJumpMaxKmS": 1.01e-12,
+     "sampleStep": "6h"
+    }
+   }
+  },
+  {
+   "id": "ephem:608:699:2000-2050",
+   "kind": "ephem",
+   "target": "naif:608",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "608.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:699",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API — Iapetus (608)                   {source: sat441l} / Saturn (699)                    {source: sat441l}",
+     "retrievedUtc": "2026-10-01T06:11:51+00:00",
+     "fitMaxKm": 0.095078,
+     "holdoutMaxKm": 0.094371,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 3.08e-08,
+     "boundaryJumpMaxKmS": 7.37e-12,
+     "sampleStep": "6h"
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "601.bin",
+   "bytes": 8327992,
+   "sha256": "6ba334850e99933271dde9047edb5d1359491a7e03fe77f0299ad147926ca6b2"
+  },
+  {
+   "path": "602.bin",
+   "bytes": 4602592,
+   "sha256": "334e81444c37337370e67235c0056ab9c8b475bfa3f375cdcf031d6d1dab5138"
+  },
+  {
+   "path": "603.bin",
+   "bytes": 2739664,
+   "sha256": "56e89e402f710d050cc8054f5d8ab0fabee365f225586d1f7a52957ff27d7737"
+  },
+  {
+   "path": "604.bin",
+   "bytes": 2520496,
+   "sha256": "969e9d337535e594005ab8800322f0b095c7b25ee5ef22c98772bc5b0c9ab6a6"
+  },
+  {
+   "path": "605.bin",
+   "bytes": 1369864,
+   "sha256": "40246945e0af0f1aa7057be970cbdc0a3ce4a2c9a62b74aab1a3e45bccb4bc7a"
+  },
+  {
+   "path": "606.bin",
+   "bytes": 1150696,
+   "sha256": "0962a6db14e5376042951b984961ddd90ce6184e651625e63de3033ea6ba24f8"
+  },
+  {
+   "path": "608.bin",
+   "bytes": 1150696,
+   "sha256": "89e935e3557c27897b7d66aa27fb823e60ea6790533e4c1bf3db1bee7ea5efaa"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons-sat",
+   "title": "JPL Horizons On-Line Ephemeris System（土星系の衛星暦）からのチェビシェフ当てはめ（原点：土星の中心）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ],
+ "info": {
+  "titleEasy": "土星の衛星を追加する",
+  "description": "土星の主な7衛星（タイタンなど）の暦（2000〜2050年）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-01"
+ }
+}

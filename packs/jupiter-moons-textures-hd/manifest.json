@@ -1,0 +1,163 @@
+{
+ "schema": 1,
+ "packId": "jupiter-moons-textures-hd",
+ "version": 1,
+ "title": "木星の衛星（2K・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:501",
+  "naif:502",
+  "naif:503",
+  "naif:504"
+ ],
+ "sizeBytes": 1303666,
+ "installedBytes": 1303666,
+ "assets": [
+  {
+   "id": "tex:501:albedo:2k",
+   "kind": "image",
+   "target": "naif:501",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "io_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-io-clrmerge-1km"
+   ],
+   "surface": {
+    "observed": "1979年（ボイジャー）・1996〜2001年（ガリレオ）",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "enhanced",
+    "note": "火山の噴火で模様は変わる。今のイオとは違う所がある"
+   }
+  },
+  {
+   "id": "tex:502:albedo:2k",
+   "kind": "image",
+   "target": "naif:502",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "europa_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-europa-500m"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome",
+    "note": "南極のまわり（南緯83°より南）は写っていないので灰色"
+   }
+  },
+  {
+   "id": "tex:503:albedo:2k",
+   "kind": "image",
+   "target": "naif:503",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "ganymede_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-ganymede-1km"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:504:albedo:2k",
+   "kind": "image",
+   "target": "naif:504",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "callisto_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-callisto-1km"
+   ],
+   "surface": {
+    "observed": "1979年・1996〜2003年",
+    "instrument": "ボイジャー・ガリレオ探査機",
+    "colorType": "monochrome"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "io_albedo_2k.webp",
+   "bytes": 210866,
+   "sha256": "6fc6d9035c8a136f06616f480b96c68ddacfda75db7af927985ec26d53766afb"
+  },
+  {
+   "path": "europa_albedo_2k.webp",
+   "bytes": 444808,
+   "sha256": "abf92a627a30abe34160efa953d155e345b436d718fb95325f0962ea5c80b82b"
+  },
+  {
+   "path": "ganymede_albedo_2k.webp",
+   "bytes": 310722,
+   "sha256": "22012808d5e6c328b775a345a0f62ed63109a94250c3020fc0fcb99933e0b23f"
+  },
+  {
+   "path": "callisto_albedo_2k.webp",
+   "bytes": 337270,
+   "sha256": "6bef8b2cff8821cee142447ed8e40306f3a7f055e8d657775bcf164c18638548"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-io-clrmerge-1km",
+   "title": "Io Galileo SSI / Voyager Color Merged Global Mosaic 1km",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL（ボイジャー 1979 年とガリレオ 1996〜2001 年の画像の合成。色はガリレオの色の比を白黒のモザイクに重ねた強調色）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km"
+  },
+  {
+   "id": "usgs-europa-500m",
+   "title": "Europa Voyager - Galileo SSI Global Mosaic 500m",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL（T. Becker ほか）。南緯 83° より南は写っていない（アプリでは灰色で埋めた）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/europa_voyager_galileo_ssi_global_mosaic_500m"
+  },
+  {
+   "id": "usgs-ganymede-1km",
+   "title": "Ganymede Voyager - Galileo SSI Global Mosaic 1km",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_global_mosaic_1km"
+  },
+  {
+   "id": "usgs-callisto-1km",
+   "title": "Callisto Voyager - Galileo SSI Global Mosaic 1km",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/callisto_voyager_galileo_ssi_global_mosaic_1km"
+  }
+ ],
+ "info": {
+  "titleEasy": "木星の衛星を高精細にする",
+  "description": "イオ・エウロパ・ガニメデ・カリストに近づいたときの表面（2048×1024・ボイジャーとガリレオの観測）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-06"
+ }
+}

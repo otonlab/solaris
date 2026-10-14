@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "packId": "moon-apollo-lm-interior",
+ "version": 6,
+ "title": "Apollo 月着陸船の中（Apollo 11〜17）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:moon-apollo:lm-interior"
+ ],
+ "sizeBytes": 1849868,
+ "installedBytes": 1849868,
+ "assets": [
+  {
+   "id": "moon-apollo-lm-interior-cabin",
+   "kind": "model",
+   "target": "use:moon-apollo:lm-interior",
+   "slot": "model",
+   "files": [
+    "lm_cabin.glb"
+   ],
+   "credits": [
+    "lm-interior"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "lm_cabin.glb",
+   "bytes": 1849868,
+   "sha256": "a4bea00c4e4b635cafd85f8caaabab51456fc841a2af308c87958d92c1b65b85"
+  }
+ ],
+ "credits": [
+  {
+   "id": "lm-interior",
+   "title": "Apollo Lunar Module crew compartment (reconstruction)",
+   "source": "SOLARIS（Grumman Apollo News Reference: LM、LM Systems Handbook LM-5〜9、NASA TN D-6722、NASA 写真 AS11-36-5389/5392・AS11-37-5528 を参考にした CG）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/"
+  }
+ ],
+ "info": {
+  "titleEasy": "Apollo の月着陸船の操縦室（6 機共通）",
+  "description": "2 人が立って操縦した狭い操縦室（計器盤・DSKY・三角窓・前ハッチ）。Apollo 11 イーグルの NASA・Grumman の資料と写真から作った再現 CG を 6 機で共有（光は焼き込み）。",
+  "category": "other",
+  "updatedUtc": "2026-10-12"
+ }
+}

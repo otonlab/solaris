@@ -1,0 +1,212 @@
+{
+ "schema": 1,
+ "packId": "saturn-moons-textures-hd",
+ "version": 1,
+ "title": "土星の衛星（2K・高精細）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:601",
+  "naif:602",
+  "naif:603",
+  "naif:604",
+  "naif:605",
+  "naif:608"
+ ],
+ "sizeBytes": 3527832,
+ "installedBytes": 3527832,
+ "assets": [
+  {
+   "id": "tex:601:albedo:2k",
+   "kind": "image",
+   "target": "naif:601",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "mimas_albedo_2k.webp"
+   ],
+   "credits": [
+    "nasa-pia17214"
+   ],
+   "surface": {
+    "observed": "2004〜2017年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:602:albedo:2k",
+   "kind": "image",
+   "target": "naif:602",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "enceladus_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-enceladus-110m"
+   ],
+   "surface": {
+    "observed": "2005〜2010年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome"
+   }
+  },
+  {
+   "id": "tex:603:albedo:2k",
+   "kind": "image",
+   "target": "naif:603",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "tethys_albedo_2k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:604:albedo:2k",
+   "kind": "image",
+   "target": "naif:604",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "dione_albedo_2k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:605:albedo:2k",
+   "kind": "image",
+   "target": "naif:605",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "rhea_albedo_2k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  },
+  {
+   "id": "tex:608:albedo:2k",
+   "kind": "image",
+   "target": "naif:608",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "iapetus_albedo_2k.webp"
+   ],
+   "credits": [
+    "nasa-schenk-2014-saturn-moons"
+   ],
+   "surface": {
+    "observed": "2004〜2014年",
+    "instrument": "カッシーニ（ISS）",
+    "colorType": "monochrome",
+    "note": "色地図の明るさだけ"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "mimas_albedo_2k.webp",
+   "bytes": 397174,
+   "sha256": "625ee960bf65a3cdf812def59b9201d33dcfca5e6917dde291adbbe228f3bef8"
+  },
+  {
+   "path": "enceladus_albedo_2k.webp",
+   "bytes": 731838,
+   "sha256": "8614cdba25c46d471533beaa113a211d663d717f19d5a41bfb25488d03506062"
+  },
+  {
+   "path": "tethys_albedo_2k.webp",
+   "bytes": 707990,
+   "sha256": "12332e4fbc905fbb88d6fad5930801eaf19294e5895d3d9376f8c9b273477329"
+  },
+  {
+   "path": "dione_albedo_2k.webp",
+   "bytes": 584504,
+   "sha256": "e199432a250822685e87daa268cefbff56cfb9cf76656523fa3ee2107f490f61"
+  },
+  {
+   "path": "rhea_albedo_2k.webp",
+   "bytes": 746874,
+   "sha256": "3aedd3e72a7811651e155bce86989d2cb306eca19ffcc45fbaf59de74fec564b"
+  },
+  {
+   "path": "iapetus_albedo_2k.webp",
+   "bytes": 359452,
+   "sha256": "fb7ad7f2bfa5a6fa4d3d66512a0585157f2e3ba032f8ac87f06ced788ef84ff1"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-pia17214",
+   "title": "Mimas Global Map - June 2017（PIA17214）",
+   "source": "NASA/JPL-Caltech/Space Science Institute/Lunar and Planetary Institute（カッシーニ ISS）",
+   "license": "Public domain（NASA Photojournal・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/mimas-global-map-june-2017/"
+  },
+  {
+   "id": "usgs-enceladus-110m",
+   "title": "Enceladus Cassini Global Mosaic 110m",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA/JPL/Space Science Institute（カッシーニ ISS 2005〜2010）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/enceladus_cassini_global_mosaic_110m"
+  },
+  {
+   "id": "nasa-schenk-2014-saturn-moons",
+   "title": "Color Maps of Tethys / Dione / Rhea / Iapetus - 2014（PIA18439・PIA18434・PIA18438・PIA18436・P. Schenk）",
+   "source": "NASA/JPL-Caltech/Space Science Institute/Lunar and Planetary Institute（カッシーニ ISS）。アプリでは色を使わず明るさ（リニアの輝度）だけを白黒で使う（色地図は紫外〜赤外の強調色のため）",
+   "license": "Public domain（NASA Photojournal・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/color-maps-of-iapetus-2014/"
+  }
+ ],
+ "info": {
+  "titleEasy": "土星の衛星を高精細にする",
+  "description": "ミマス・エンケラドゥス・テティス・ディオネ・レア・イアペトゥスに近づいたときの表面（2048×1024・カッシーニの観測）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-06"
+ }
+}

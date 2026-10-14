@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "packId": "moon-artemis-base",
+ "version": 6,
+ "title": "月の南極：基地の 3 段階",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:moon-site:south-connecting-ridge-base"
+ ],
+ "sizeBytes": 1324776,
+ "installedBytes": 1324776,
+ "assets": [
+  {
+   "id": "moon-artemis-base-model",
+   "kind": "model",
+   "target": "use:moon-site:south-connecting-ridge-base",
+   "slot": "model",
+   "files": [
+    "base.glb"
+   ],
+   "credits": [
+    "base-model"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "base.glb",
+   "bytes": 1324776,
+   "sha256": "136f989d69e15ad635140f2760ff11156161b966a035fb46b48a92a90212afc6"
+  }
+ ],
+ "credits": [
+  {
+   "id": "base-model",
+   "title": "Lunar south pole base (3 stages) reconstruction and future concept",
+   "source": "SOLARIS（NASA Moon Base などの公開資料を参考にした CG・段階 3 は架空）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/moonbase/"
+  }
+ ],
+ "info": {
+  "titleEasy": "月の南極の基地（初期拠点・滞在型基地・未来基地）",
+  "description": "段階 1・2 は NASA などの計画・構想を参考にした再現、段階 3 は SOLARIS の未来予想（架空）。形はすべて SOLARIS が作った CG。",
+  "category": "other",
+  "updatedUtc": "2026-10-11"
+ }
+}

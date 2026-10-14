@@ -1,0 +1,257 @@
+{
+ "schema": 1,
+ "packId": "obs-stars-clusters",
+ "version": 1,
+ "title": "観測画像（恒星と星団）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:eso1726a:std",
+  "use:obs-img:potw1635a:std",
+  "use:obs-img:opo0602d:std",
+  "use:obs-img:heic2409a:std",
+  "use:obs-img:eso1119b:std",
+  "use:obs-img:heic1510a:std",
+  "use:obs-img:eso1302a:std",
+  "use:obs-img:opo0840a:std"
+ ],
+ "sizeBytes": 4102426,
+ "installedBytes": 4102426,
+ "assets": [
+  {
+   "id": "std:eso1726a",
+   "kind": "image",
+   "target": "use:obs-img:eso1726a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 600,
+   "height": 600,
+   "files": [
+    "images/eso1726a_std.webp"
+   ],
+   "credits": [
+    "eso1726a"
+   ]
+  },
+  {
+   "id": "std:potw1635a",
+   "kind": "image",
+   "target": "use:obs-img:potw1635a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1026,
+   "height": 670,
+   "files": [
+    "images/potw1635a_std.webp"
+   ],
+   "credits": [
+    "potw1635a"
+   ]
+  },
+  {
+   "id": "std:opo0602d",
+   "kind": "image",
+   "target": "use:obs-img:opo0602d:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 550,
+   "height": 550,
+   "files": [
+    "images/opo0602d_std.webp"
+   ],
+   "credits": [
+    "opo0602d"
+   ]
+  },
+  {
+   "id": "std:heic2409a",
+   "kind": "image",
+   "target": "use:obs-img:heic2409a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/heic2409a_std.webp"
+   ],
+   "credits": [
+    "heic2409a"
+   ]
+  },
+  {
+   "id": "std:eso1119b",
+   "kind": "image",
+   "target": "use:obs-img:eso1119b:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/eso1119b_std.webp"
+   ],
+   "credits": [
+    "eso1119b"
+   ]
+  },
+  {
+   "id": "std:heic1510a",
+   "kind": "image",
+   "target": "use:obs-img:heic1510a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1566,
+   "files": [
+    "images/heic1510a_std.webp"
+   ],
+   "credits": [
+    "heic1510a"
+   ]
+  },
+  {
+   "id": "std:eso1302a",
+   "kind": "image",
+   "target": "use:obs-img:eso1302a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/eso1302a_std.webp"
+   ],
+   "credits": [
+    "eso1302a"
+   ]
+  },
+  {
+   "id": "std:opo0840a",
+   "kind": "image",
+   "target": "use:obs-img:opo0840a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/opo0840a_std.webp"
+   ],
+   "credits": [
+    "opo0840a"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/eso1726a_std.webp",
+   "bytes": 5982,
+   "sha256": "85f8c082841defa2e367006666585593eadc978199bf425a7ad51467af20f96a"
+  },
+  {
+   "path": "images/potw1635a_std.webp",
+   "bytes": 20208,
+   "sha256": "5f6009b1f56c0b54fb8a2573920ab37d80a600a02ef492f2d6edcf0700ef595e"
+  },
+  {
+   "path": "images/opo0602d_std.webp",
+   "bytes": 27888,
+   "sha256": "b749cb881204364b6ac8dce93e63d822e3e8db89e2cc3c5300238336a809873e"
+  },
+  {
+   "path": "images/heic2409a_std.webp",
+   "bytes": 1182438,
+   "sha256": "956e292395e94068ab173dbb6d2be7281a40812734b189abc93a99635ba1c0eb"
+  },
+  {
+   "path": "images/eso1119b_std.webp",
+   "bytes": 715676,
+   "sha256": "8ce1b46bee4087fc95deb19185717bf70132390b10bd28dbe5e0177cb5b24829"
+  },
+  {
+   "path": "images/heic1510a_std.webp",
+   "bytes": 1009958,
+   "sha256": "f2885f71f57d6584971b9e6cb113a80b4d8ff3824c5493a1522c5509ce1cfb55"
+  },
+  {
+   "path": "images/eso1302a_std.webp",
+   "bytes": 516056,
+   "sha256": "c052ac86665f6f32568f934e943872476815902c39de591276ae2a3b60edb295"
+  },
+  {
+   "path": "images/opo0840a_std.webp",
+   "bytes": 624220,
+   "sha256": "223c945d3026d0a355755ce722b5dcc104cd577f2c17bb94a7ad217d45455a1b"
+  }
+ ],
+ "credits": [
+  {
+   "id": "eso1726a",
+   "title": "VLTI reconstructed view of the surface of Antares",
+   "source": "ESO：ESO/K. Ohnaka",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1726a/"
+  },
+  {
+   "id": "potw1635a",
+   "title": "Best image of Alpha Centauri A and B",
+   "source": "ESA/Hubble：ESA/Hubble & NASA",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/potw1635a/"
+  },
+  {
+   "id": "opo0602d",
+   "title": "Polaris A and Polaris Ab",
+   "source": "ESA/Hubble：NASA, ESA, N. Evans (Harvard-Smithsonian CfA), and H. Bond (STScI)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0602d/"
+  },
+  {
+   "id": "heic2409a",
+   "title": "Omega Centauri",
+   "source": "ESA/Hubble：ESA/Hubble & NASA, M. Häberle (MPIA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic2409a/"
+  },
+  {
+   "id": "eso1119b",
+   "title": "VST image of the giant globular cluster Omega Centauri*",
+   "source": "ESO：ESO/INAF-VST/OmegaCAM. Acknowledgement: A. Grado, L. Limatola /INAF-Capodimonte Observatory",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1119b/"
+  },
+  {
+   "id": "heic1510a",
+   "title": "Globular cluster 47 Tucanae",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration Acknowledgment: J. Mack (STScI) and G. Piotto (University of Padova, Italy)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1510a/"
+  },
+  {
+   "id": "eso1302a",
+   "title": "The globular star cluster 47 Tucanae",
+   "source": "ESO：ESO/M.-R. Cioni/VISTA Magellanic Cloud survey. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1302a/"
+  },
+  {
+   "id": "opo0840a",
+   "title": "Hubble image of globular cluster M13",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0840a/"
+  }
+ ],
+ "info": {
+  "titleEasy": "恒星と星団の観測画像を追加する",
+  "description": "アンタレス・アルファケンタウリ・ベガ・北極星・オメガ星団・きょしちょう座47・M13",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-04"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "packId": "ephem-neptune-system-2000-2050",
+ "version": 1,
+ "title": "海王星系の暦 2000〜2050年（トリトン／海王星中心）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:801"
+ ],
+ "sizeBytes": 931528,
+ "installedBytes": 931528,
+ "assets": [
+  {
+   "id": "ephem:801:899:2000-2050",
+   "kind": "ephem",
+   "target": "naif:801",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "801.bin"
+   ],
+   "credits": [
+    "jpl-horizons-sat"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:899",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691200.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — Triton (801)                    {source: nep098_merged} / Neptune (899)                   {source: nep098_merged}",
+     "retrievedUtc": "2026-10-05T14:11:47+00:00",
+     "fitMaxKm": 0.111521,
+     "holdoutMaxKm": 0.094259,
+     "holdoutN": 300,
+     "boundaryJumpMaxKm": 2.96e-08,
+     "boundaryJumpMaxKmS": 2.01e-13,
+     "sampleStep": "6h"
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "801.bin",
+   "bytes": 931528,
+   "sha256": "08e77d6d7a67a4897b992c5a2bbf540f5528aa21c398d74151e6f5bec07f347b"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons-sat",
+   "title": "JPL Horizons On-Line Ephemeris System（海王星系の衛星暦）からのチェビシェフ当てはめ（原点：海王星の中心）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "Public domain (NASA/JPL)",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ]
+}

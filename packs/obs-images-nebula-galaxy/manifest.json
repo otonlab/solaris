@@ -1,0 +1,315 @@
+{
+ "schema": 1,
+ "packId": "obs-images-nebula-galaxy",
+ "version": 2,
+ "title": "観測画像（銀河）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:heic0506a:std",
+  "use:obs-img:potm2308a:std",
+  "use:obs-img:opo0328a:std",
+  "use:obs-img:weic2427a:std",
+  "use:obs-img:heic0604a:std",
+  "use:obs-img:opo0020a:std",
+  "use:obs-img:eso1907a:std",
+  "use:obs-img:weic2208a:std",
+  "use:obs-img:heic0910i:std",
+  "use:obs-img:heic1502a:std"
+ ],
+ "sizeBytes": 1430244,
+ "installedBytes": 1430244,
+ "assets": [
+  {
+   "id": "std:heic0506a",
+   "kind": "image",
+   "target": "use:obs-img:heic0506a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1110,
+   "files": [
+    "images/heic0506a_std.webp"
+   ],
+   "credits": [
+    "heic0506a"
+   ]
+  },
+  {
+   "id": "std:potm2308a",
+   "kind": "image",
+   "target": "use:obs-img:potm2308a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 542,
+   "files": [
+    "images/potm2308a_std.webp"
+   ],
+   "credits": [
+    "potm2308a"
+   ]
+  },
+  {
+   "id": "std:opo0328a",
+   "kind": "image",
+   "target": "use:obs-img:opo0328a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 897,
+   "files": [
+    "images/opo0328a_std.webp"
+   ],
+   "credits": [
+    "opo0328a"
+   ]
+  },
+  {
+   "id": "std:weic2427a",
+   "kind": "image",
+   "target": "use:obs-img:weic2427a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 535,
+   "files": [
+    "images/weic2427a_std.webp"
+   ],
+   "credits": [
+    "weic2427a"
+   ]
+  },
+  {
+   "id": "std:heic0604a",
+   "kind": "image",
+   "target": "use:obs-img:heic0604a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1246,
+   "files": [
+    "images/heic0604a_std.webp"
+   ],
+   "credits": [
+    "heic0604a"
+   ]
+  },
+  {
+   "id": "std:opo0020a",
+   "kind": "image",
+   "target": "use:obs-img:opo0020a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1222,
+   "height": 1276,
+   "files": [
+    "images/opo0020a_std.webp"
+   ],
+   "credits": [
+    "opo0020a"
+   ]
+  },
+  {
+   "id": "std:eso1907a",
+   "kind": "image",
+   "target": "use:obs-img:eso1907a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 932,
+   "files": [
+    "images/eso1907a_std.webp"
+   ],
+   "credits": [
+    "eso1907a"
+   ]
+  },
+  {
+   "id": "std:weic2208a",
+   "kind": "image",
+   "target": "use:obs-img:weic2208a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1534,
+   "files": [
+    "images/weic2208a_std.webp"
+   ],
+   "credits": [
+    "weic2208a"
+   ]
+  },
+  {
+   "id": "std:heic0910i",
+   "kind": "image",
+   "target": "use:obs-img:heic0910i:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1435,
+   "height": 1600,
+   "files": [
+    "images/heic0910i_std.webp"
+   ],
+   "credits": [
+    "heic0910i"
+   ]
+  },
+  {
+   "id": "std:heic1502a",
+   "kind": "image",
+   "target": "use:obs-img:heic1502a:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 512,
+   "files": [
+    "images/heic1502a_std.webp"
+   ],
+   "credits": [
+    "heic1502a"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/heic0506a_std.webp",
+   "bytes": 171832,
+   "sha256": "8a36acf451ca02f6ccbde59c383f29f675a58e2dc57dda663b805dfad56db7c0"
+  },
+  {
+   "path": "images/potm2308a_std.webp",
+   "bytes": 317038,
+   "sha256": "7c50944e4dc0d0a3596038dcbc19ef8e0e080d3ddca1cedd1664eec4b9a3b857"
+  },
+  {
+   "path": "images/opo0328a_std.webp",
+   "bytes": 56076,
+   "sha256": "b7a90059af03d1cb8bcdb266ec79bd9b0e43a6d83c73647bd9975f711125e522"
+  },
+  {
+   "path": "images/weic2427a_std.webp",
+   "bytes": 64590,
+   "sha256": "d94a1e731d3bb71da71a9e0c432ff5b4e55f205c2fbbe300ab4bb9b1c58ca704"
+  },
+  {
+   "path": "images/heic0604a_std.webp",
+   "bytes": 178706,
+   "sha256": "ebade13083941cd172963013494d11e239d13aa940911124540ef49b1e5ab5d7"
+  },
+  {
+   "path": "images/opo0020a_std.webp",
+   "bytes": 125086,
+   "sha256": "0366d7ee4fb8aebeffc161c5faf600b8f06572cd669f4acaed7b2b0d0afa5736"
+  },
+  {
+   "path": "images/eso1907a_std.webp",
+   "bytes": 10400,
+   "sha256": "5771ad5325049efa34045238f0006f46d332d054e7dce6520a9b0841b284b21c"
+  },
+  {
+   "path": "images/weic2208a_std.webp",
+   "bytes": 182540,
+   "sha256": "237d4f6e460845d0afd41f78399cf8fb56bdc468bb16018724c4636b43cd7ba4"
+  },
+  {
+   "path": "images/heic0910i_std.webp",
+   "bytes": 167054,
+   "sha256": "a5d62b766131d4a1adc82b4dc9dcad52c4c7158f3291795b0dfd092c97fdb991"
+  },
+  {
+   "path": "images/heic1502a_std.webp",
+   "bytes": 156922,
+   "sha256": "2bed781b4b6761829293ee681f09b634f9619c30ddac392449e6aa2f59986746"
+  }
+ ],
+ "credits": [
+  {
+   "id": "heic0506a",
+   "title": "Out of this whirl: The Whirlpool Galaxy (M51) and companion galaxy",
+   "source": "ESA/Hubble：NASA, ESA, S. Beckwith (STScI), and The Hubble Heritage Team (STScI / AURA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0506a/"
+  },
+  {
+   "id": "potm2308a",
+   "title": "A FEAST for the eyes",
+   "source": "ESA/Webb：ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/potm2308a/"
+  },
+  {
+   "id": "opo0328a",
+   "title": "Hubble mosaic of the majestic Sombrero Galaxy",
+   "source": "ESA/Hubble：NASA / ESA and The Hubble Heritage Team (STScI / AURA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0328a/"
+  },
+  {
+   "id": "weic2427a",
+   "title": "Sombrero galaxy (MIRI)",
+   "source": "ESA/Webb：NASA, ESA, CSA, STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2427a/"
+  },
+  {
+   "id": "heic0604a",
+   "title": "The magnificent starburst galaxy Messier 82",
+   "source": "ESA/Hubble：NASA, ESA and the Hubble Heritage Team (STScI / AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF).",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0604a/"
+  },
+  {
+   "id": "opo0020a",
+   "title": "A cosmic searchlight",
+   "source": "ESA/Hubble：The Hubble Heritage Team (STScI / AURA) and NASA / ESA",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0020a/"
+  },
+  {
+   "id": "eso1907a",
+   "title": "First Image of a Black Hole",
+   "source": "ESO：EHT Collaboration",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1907a/"
+  },
+  {
+   "id": "weic2208a",
+   "title": "Stephan’s Quintet (NIRCam + MIRI Imaging)",
+   "source": "ESA/Webb：NASA, ESA, CSA, and STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2208a/"
+  },
+  {
+   "id": "heic0910i",
+   "title": "Galactic wreckage in Stephan's Quintet",
+   "source": "ESA/Hubble：NASA, ESA and the Hubble SM4 ERO Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0910i/"
+  },
+  {
+   "id": "heic1502a",
+   "title": "Sharpest ever view of the Andromeda Galaxy",
+   "source": "ESA/Hubble：NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1502a/"
+  }
+ ],
+ "info": {
+  "titleEasy": "銀河の観測画像を追加する",
+  "description": "アンドロメダ銀河・子持ち銀河・ソンブレロ銀河・葉巻銀河・M87・ステファンの五つ子",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-04"
+ }
+}

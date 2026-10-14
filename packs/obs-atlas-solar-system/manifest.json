@@ -1,0 +1,546 @@
+{
+ "schema": 1,
+ "packId": "obs-atlas-solar-system",
+ "version": 1,
+ "title": "観測図鑑（太陽・惑星）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:nasa-gsfc-20171208-archive-e002168:std",
+  "use:obs-img:nasa-pia18142:std",
+  "use:obs-img:nasa-pia21905:std",
+  "use:obs-img:nasa-pia22645:std",
+  "use:obs-img:nasa-pia11372:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e001922:std",
+  "use:obs-img:nasa-pia00248:std",
+  "use:obs-img:nasa-pia00207:std",
+  "use:obs-img:nasa-pia00008:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000522:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000678:std",
+  "use:obs-img:nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o:std",
+  "use:obs-img:nasa-pia22433:std",
+  "use:obs-img:nasa-pia22435:std",
+  "use:obs-img:nasa-pia22437:std",
+  "use:obs-img:nasa-pia22963:std",
+  "use:obs-img:nasa-pia20707:std",
+  "use:obs-img:nasa-pia08901:std"
+ ],
+ "sizeBytes": 3273486,
+ "installedBytes": 3273486,
+ "assets": [
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002168",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002168:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1016,
+   "height": 1017,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002168_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002168"
+   ]
+  },
+  {
+   "id": "std:nasa-pia18142",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia18142:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1560,
+   "files": [
+    "images/nasa-pia18142_std.webp"
+   ],
+   "credits": [
+    "nasa-pia18142"
+   ]
+  },
+  {
+   "id": "std:nasa-pia21905",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia21905:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1500,
+   "height": 1414,
+   "files": [
+    "images/nasa-pia21905_std.webp"
+   ],
+   "credits": [
+    "nasa-pia21905"
+   ]
+  },
+  {
+   "id": "std:nasa-pia22645",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia22645:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia22645_std.webp"
+   ],
+   "credits": [
+    "nasa-pia22645"
+   ]
+  },
+  {
+   "id": "std:nasa-pia11372",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia11372:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1018,
+   "height": 1024,
+   "files": [
+    "images/nasa-pia11372_std.webp"
+   ],
+   "credits": [
+    "nasa-pia11372"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e001922",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e001922:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1019,
+   "height": 1019,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e001922_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e001922"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00248",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00248:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1024,
+   "files": [
+    "images/nasa-pia00248_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00248"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00207",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00207:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1354,
+   "files": [
+    "images/nasa-pia00207_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00207"
+   ]
+  },
+  {
+   "id": "std:nasa-pia00008",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia00008:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia00008_std.webp"
+   ],
+   "credits": [
+    "nasa-pia00008"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000522",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000522:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000522_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000522"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000678",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000678:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000678_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000678"
+   ]
+  },
+  {
+   "id": "std:nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o_std.webp"
+   ],
+   "credits": [
+    "nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o"
+   ]
+  },
+  {
+   "id": "std:nasa-pia22433",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia22433:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1000,
+   "files": [
+    "images/nasa-pia22433_std.webp"
+   ],
+   "credits": [
+    "nasa-pia22433"
+   ]
+  },
+  {
+   "id": "std:nasa-pia22435",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia22435:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1000,
+   "files": [
+    "images/nasa-pia22435_std.webp"
+   ],
+   "credits": [
+    "nasa-pia22435"
+   ]
+  },
+  {
+   "id": "std:nasa-pia22437",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia22437:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1030,
+   "files": [
+    "images/nasa-pia22437_std.webp"
+   ],
+   "credits": [
+    "nasa-pia22437"
+   ]
+  },
+  {
+   "id": "std:nasa-pia22963",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia22963:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 512,
+   "height": 512,
+   "files": [
+    "images/nasa-pia22963_std.webp"
+   ],
+   "credits": [
+    "nasa-pia22963"
+   ]
+  },
+  {
+   "id": "std:nasa-pia20707",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia20707:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1045,
+   "height": 555,
+   "files": [
+    "images/nasa-pia20707_std.webp"
+   ],
+   "credits": [
+    "nasa-pia20707"
+   ]
+  },
+  {
+   "id": "std:nasa-pia08901",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08901:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1016,
+   "height": 1016,
+   "files": [
+    "images/nasa-pia08901_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08901"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002168_std.webp",
+   "bytes": 62426,
+   "sha256": "2b296d84b8499c373dd63b8242026a97f22e27805a49408e4fce467aa66e2f6c"
+  },
+  {
+   "path": "images/nasa-pia18142_std.webp",
+   "bytes": 66884,
+   "sha256": "52302f92d0e740704bb0d079092e827f9ccd13f58af5281d6ab0ff70fbb99e2a"
+  },
+  {
+   "path": "images/nasa-pia21905_std.webp",
+   "bytes": 44832,
+   "sha256": "6e7ac667fca63f8da713bed305bb92279224dc27c792c85cb156727e94613cfe"
+  },
+  {
+   "path": "images/nasa-pia22645_std.webp",
+   "bytes": 92980,
+   "sha256": "ab1a5cb613e7e5d9e4354d9e339c90ab8a6dc72d01b25a3efd1d046336577de0"
+  },
+  {
+   "path": "images/nasa-pia11372_std.webp",
+   "bytes": 79784,
+   "sha256": "26ad60e8ae2724d2c3010c1545de0dc971e9a1d076c85ffb216b358fb542cd6b"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e001922_std.webp",
+   "bytes": 148766,
+   "sha256": "e72bfa18b96f6d5649312b62403fefd3ba0b941cc444fa1763e682780903e640"
+  },
+  {
+   "path": "images/nasa-pia00248_std.webp",
+   "bytes": 260452,
+   "sha256": "20f7c37df3595402f93fd334e16f26c6c322d3c82586bd4b5a63085060edfef1"
+  },
+  {
+   "path": "images/nasa-pia00207_std.webp",
+   "bytes": 285090,
+   "sha256": "f56f9fe9596039e41b352d8d3d0776d6475a1380efd00158f089e528e927bd43"
+  },
+  {
+   "path": "images/nasa-pia00008_std.webp",
+   "bytes": 606626,
+   "sha256": "8e435cb5d62f11ee9d8fe6b6907145b497f1d854a02d9bc22d2000733c054979"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000522_std.webp",
+   "bytes": 139122,
+   "sha256": "7982ce57cea4a0ef9787dd17826093ca54de666529f4c05608f2d8ad4c5aa2d5"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000678_std.webp",
+   "bytes": 154564,
+   "sha256": "9d08e07b91d6cbc24bb1f9ec9aca272aecff3db675dc83eab71511a59edff148"
+  },
+  {
+   "path": "images/nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o_std.webp",
+   "bytes": 137910,
+   "sha256": "2aa2189a21f44a0177e88d62cbd06485322df25645d2e92d3b675b9e8fd3c506"
+  },
+  {
+   "path": "images/nasa-pia22433_std.webp",
+   "bytes": 653356,
+   "sha256": "2d687cb3bef0b388a530cdd64b9d5010b6b70666454d6032fe569c4aafdcae77"
+  },
+  {
+   "path": "images/nasa-pia22435_std.webp",
+   "bytes": 315674,
+   "sha256": "c3cc20133c561a965413199ec237fa47ea8cf21edcb6b017641ea79b88e74cb2"
+  },
+  {
+   "path": "images/nasa-pia22437_std.webp",
+   "bytes": 138900,
+   "sha256": "c3a275314a50f34fc446d61e5e54124e3d964c8fa87e526dbab817e7993ee3d8"
+  },
+  {
+   "path": "images/nasa-pia22963_std.webp",
+   "bytes": 63050,
+   "sha256": "f0933d6219b71907089f72e18a864acc5cc9ea88058aa97df9f925e1ed451f7a"
+  },
+  {
+   "path": "images/nasa-pia20707_std.webp",
+   "bytes": 2598,
+   "sha256": "994508b8a54cd1eaadacc2789a5c84f9fc2fab54ce5fbe2f944bc10dec84f712"
+  },
+  {
+   "path": "images/nasa-pia08901_std.webp",
+   "bytes": 20472,
+   "sha256": "fa3ee258de7ae17da6fefa91e05fb578d6e4ddb0a1636c5d15dfe6f302a3126c"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-gsfc-20171208-archive-e002168",
+   "title": "Erupting Prominence Observed by SDO on March 30, 2010",
+   "source": "NASA Image and Video Library：NASA/GSFC/SDO",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002168"
+  },
+  {
+   "id": "nasa-pia18142",
+   "title": "SDO Observes a Partial Lunar Eclipse",
+   "source": "NASA Image and Video Library：NASA/GSFC/Solar Dynamics Observatory",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA18142"
+  },
+  {
+   "id": "nasa-pia21905",
+   "title": "Criss-Crossing Lunar Transit",
+   "source": "NASA Image and Video Library：NASA/GSFC/Solar Dynamics Observatory",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA21905"
+  },
+  {
+   "id": "nasa-pia22645",
+   "title": "Detailed Loops Above an Active Region",
+   "source": "NASA Image and Video Library：NASA/GSFC/Solar Dynamics Observatory",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA22645"
+  },
+  {
+   "id": "nasa-pia11372",
+   "title": "The Highest-resolution Image from MESSENGER Second Mercury Flyby",
+   "source": "NASA Image and Video Library：NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA11372"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e001922",
+   "title": "NASA Captures First Color Image of Mercury from Orbit",
+   "source": "NASA Image and Video Library：NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001922"
+  },
+  {
+   "id": "nasa-pia00248",
+   "title": "Venus - Aphrodite Terra",
+   "source": "NASA Image and Video Library：NASA/JPL",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00248"
+  },
+  {
+   "id": "nasa-pia00207",
+   "title": "Venus - Magellan and Arecibo Comparison",
+   "source": "NASA Image and Video Library：NASA/JPL",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00207"
+  },
+  {
+   "id": "nasa-pia00008",
+   "title": "Hemispheric View of Venus Centered at the South Pole",
+   "source": "NASA Image and Video Library：NASA/JPL/USGS",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA00008"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000522",
+   "title": "epic_1b_20151022190018_00",
+   "source": "NASA Image and Video Library：NASA image from the DSCOVR EPIC team",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000522"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000678",
+   "title": "NASA Captures 'EPIC' Earth Image",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000678"
+  },
+  {
+   "id": "nasa-epic-view-of-africa-and-europe-from-a-million-miles-away-19927967400-o",
+   "title": "'EPIC' View of Africa and Europe from a Million Miles Away",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/epic-view-of-africa-and-europe-from-a-million-miles-away_19927967400_o"
+  },
+  {
+   "id": "nasa-pia22433",
+   "title": "Bouldery Plains",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ. of Arizona",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA22433"
+  },
+  {
+   "id": "nasa-pia22435",
+   "title": "Chaos Terrain",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ. of Arizona",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA22435"
+  },
+  {
+   "id": "nasa-pia22437",
+   "title": "Colorful Layers in Ariadnes Colles",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ. of Arizona",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA22437"
+  },
+  {
+   "id": "nasa-pia22963",
+   "title": "Jupiter's Ring",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/SwRI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA22963"
+  },
+  {
+   "id": "nasa-pia20707",
+   "title": "Juno Post-arrival View",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/SwRI/MSSS",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA20707"
+  },
+  {
+   "id": "nasa-pia08901",
+   "title": "The Familiar Division",
+   "source": "NASA Image and Video Library：NASA/JPL/Space Science Institute",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08901"
+  }
+ ],
+ "info": {
+  "category": "observation-images",
+  "titleEasy": "観測図鑑（太陽・惑星）",
+  "description": "公式アーカイブで権利と出典を確認した実観測画像"
+ }
+}

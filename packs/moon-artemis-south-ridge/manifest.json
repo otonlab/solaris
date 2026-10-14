@@ -1,0 +1,211 @@
+{
+ "schema": 1,
+ "packId": "moon-artemis-south-ridge",
+ "version": 1,
+ "title": "月の南極：シャクルトンの縁",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:moon-surface:south-connecting-ridge-dtm",
+  "use:moon-site:south-connecting-ridge-mid",
+  "use:moon-site:south-connecting-ridge-far",
+  "use:moon-site:south-connecting-ridge-horizon-near",
+  "use:moon-site:south-connecting-ridge-horizon-mid",
+  "use:moon-site:south-connecting-ridge-horizon-far",
+  "use:moon-site:south-connecting-ridge-psr"
+ ],
+ "sizeBytes": 2722734,
+ "installedBytes": 2722734,
+ "assets": [
+  {
+   "id": "moon-artemis-south-ridge-near",
+   "kind": "image",
+   "target": "use:moon-surface:south-connecting-ridge-dtm",
+   "slot": "height",
+   "files": [
+    "near_dtm.png"
+   ],
+   "credits": [
+    "pgda-5m"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 513,
+   "height": 513
+  },
+  {
+   "id": "moon-artemis-south-ridge-mid",
+   "kind": "image",
+   "target": "use:moon-site:south-connecting-ridge-mid",
+   "slot": "height",
+   "files": [
+    "mid.png"
+   ],
+   "credits": [
+    "pgda-20m"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 769,
+   "height": 769
+  },
+  {
+   "id": "moon-artemis-south-ridge-far",
+   "kind": "image",
+   "target": "use:moon-site:south-connecting-ridge-far",
+   "slot": "height",
+   "files": [
+    "far.png"
+   ],
+   "credits": [
+    "pgda-20m"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 257,
+   "height": 257
+  },
+  {
+   "id": "moon-artemis-south-ridge-horizon-near",
+   "kind": "image",
+   "target": "use:moon-site:south-connecting-ridge-horizon-near",
+   "slot": "horizon",
+   "files": [
+    "horizon_near.png"
+   ],
+   "credits": [
+    "solaris-horizon",
+    "pgda-5m",
+    "pgda-20m"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 1032,
+   "height": 1032
+  },
+  {
+   "id": "moon-artemis-south-ridge-horizon-mid",
+   "kind": "image",
+   "target": "use:moon-site:south-connecting-ridge-horizon-mid",
+   "slot": "horizon",
+   "files": [
+    "horizon_mid.png"
+   ],
+   "credits": [
+    "solaris-horizon",
+    "pgda-20m"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 1032,
+   "height": 1032
+  },
+  {
+   "id": "moon-artemis-south-ridge-horizon-far",
+   "kind": "image",
+   "target": "use:moon-site:south-connecting-ridge-horizon-far",
+   "slot": "horizon",
+   "files": [
+    "horizon_far.png"
+   ],
+   "credits": [
+    "solaris-horizon",
+    "pgda-20m"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 1032,
+   "height": 1032
+  },
+  {
+   "id": "moon-artemis-south-ridge-psr",
+   "kind": "image",
+   "target": "use:moon-site:south-connecting-ridge-psr",
+   "slot": "mask",
+   "files": [
+    "psr_mid.png"
+   ],
+   "credits": [
+    "pgda-illum"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 769,
+   "height": 769
+  }
+ ],
+ "files": [
+  {
+   "path": "near_dtm.png",
+   "bytes": 280630,
+   "sha256": "3a96df90a99ae08b93c39658e1afd5eb64303623da15c82b2451cccfa0dc33b1"
+  },
+  {
+   "path": "mid.png",
+   "bytes": 605246,
+   "sha256": "76200ce536676842420aeae04b76889f55e9dbd6302c2d7f7237c5b296c4794a"
+  },
+  {
+   "path": "far.png",
+   "bytes": 105240,
+   "sha256": "964974c2b270e199478541d6b0a88ecc53ae045b15251c95431a56294e04d844"
+  },
+  {
+   "path": "horizon_near.png",
+   "bytes": 427756,
+   "sha256": "dbc571638787a9b4c191ac017b2b58ea91911276942597d73edaf6e16ce0a663"
+  },
+  {
+   "path": "horizon_mid.png",
+   "bytes": 501607,
+   "sha256": "c2c46608cca573f357e2b39521c3d84e58940ebc33dea0256f9ba30dcbd2ec2a"
+  },
+  {
+   "path": "horizon_far.png",
+   "bytes": 790015,
+   "sha256": "cef490a767f161d2e504ee02c7d9ed2f0fb9fd19d34facfba8404492d4eeed93"
+  },
+  {
+   "path": "psr_mid.png",
+   "bytes": 12240,
+   "sha256": "b842824e26e33aab324ff383ea6675d6816082465adeeb717d0eab6c9a813a93"
+  }
+ ],
+ "credits": [
+  {
+   "id": "pgda-5m",
+   "title": "High-Resolution LOLA Topography for Lunar South Pole Sites (5 m/px)",
+   "source": "NASA GSFC PGDA（Barker et al. 2021, PSS 203:105119）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pgda.gsfc.nasa.gov/products/78"
+  },
+  {
+   "id": "pgda-20m",
+   "title": "A New View of the Lunar South Pole from LOLA (20 m/px)",
+   "source": "NASA GSFC PGDA（Barker et al. 2023, PSJ 4:183）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pgda.gsfc.nasa.gov/products/90"
+  },
+  {
+   "id": "pgda-illum",
+   "title": "Lunar polar illumination / permanently shadowed regions",
+   "source": "NASA GSFC PGDA（Mazarico et al. 2011, Icarus 211:1066）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pgda.gsfc.nasa.gov/products/69"
+  },
+  {
+   "id": "solaris-horizon",
+   "title": "Horizon elevation tables computed by SOLARIS from the LOLA DEMs",
+   "source": "SOLARIS（tools/artemis/make_horizons.py）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pgda.gsfc.nasa.gov/products/90"
+  }
+ ],
+ "info": {
+  "titleEasy": "月の南極の地形（シャクルトンの縁）",
+  "description": "NASA LRO/LOLA の実測地形（近く 2 km は 5 m、30 km は 20 m、遠くの山まで）と、地形から計算した南極の光（地平線の表）・永久影の範囲（推定）。地点 -89.68486°, 196.70929°E（着陸地点ではない）。",
+  "category": "other",
+  "updatedUtc": "2026-10-11"
+ }
+}

@@ -1,0 +1,1127 @@
+{
+ "schema": 1,
+ "packId": "obs-images-high",
+ "version": 1,
+ "title": "観測画像（高解像度）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:heic0601a:high",
+  "use:obs-img:potw1726a:high",
+  "use:obs-img:heic1501a:high",
+  "use:obs-img:weic2205a:high",
+  "use:obs-img:eso1250a:high",
+  "use:obs-img:heic1808a:high",
+  "use:obs-img:heic1808b:high",
+  "use:obs-img:eso0930a:high",
+  "use:obs-img:eso1504a:high",
+  "use:obs-img:eso0202a:high",
+  "use:obs-img:heic1307a:high",
+  "use:obs-img:weic2411a:high",
+  "use:obs-img:eso0102a:high",
+  "use:obs-img:eso0102b:high",
+  "use:obs-img:heic1310a:high",
+  "use:obs-img:weic2320b:high",
+  "use:obs-img:opo0432d:high",
+  "use:obs-img:eso1205a:high",
+  "use:obs-img:heic0515a:high",
+  "use:obs-img:weic2326a:high",
+  "use:obs-img:cxc-2008-crab:high",
+  "use:obs-img:weic2311a:high",
+  "use:obs-img:heic0609a:high",
+  "use:obs-img:cxc-2013-casa:high",
+  "use:obs-img:heic0506a:high",
+  "use:obs-img:potm2308a:high",
+  "use:obs-img:opo0328a:high",
+  "use:obs-img:weic2427a:high",
+  "use:obs-img:heic0604a:high",
+  "use:obs-img:eso1907a:high",
+  "use:obs-img:weic2208a:high",
+  "use:obs-img:heic0910i:high",
+  "use:obs-img:heic2409a:high",
+  "use:obs-img:eso1119b:high",
+  "use:obs-img:heic1510a:high",
+  "use:obs-img:eso1302a:high",
+  "use:obs-img:opo0840a:high",
+  "use:obs-img:heic1502a:high"
+ ],
+ "sizeBytes": 41643992,
+ "installedBytes": 41643992,
+ "assets": [
+  {
+   "id": "high:heic0601a",
+   "kind": "image",
+   "target": "use:obs-img:heic0601a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/heic0601a_high.webp"
+   ],
+   "credits": [
+    "heic0601a"
+   ]
+  },
+  {
+   "id": "high:potw1726a",
+   "kind": "image",
+   "target": "use:obs-img:potw1726a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/potw1726a_high.webp"
+   ],
+   "credits": [
+    "potw1726a"
+   ]
+  },
+  {
+   "id": "high:heic1501a",
+   "kind": "image",
+   "target": "use:obs-img:heic1501a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3068,
+   "height": 3200,
+   "files": [
+    "images/heic1501a_high.webp"
+   ],
+   "credits": [
+    "heic1501a"
+   ]
+  },
+  {
+   "id": "high:weic2205a",
+   "kind": "image",
+   "target": "use:obs-img:weic2205a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1854,
+   "files": [
+    "images/weic2205a_high.webp"
+   ],
+   "credits": [
+    "weic2205a"
+   ]
+  },
+  {
+   "id": "high:eso1250a",
+   "kind": "image",
+   "target": "use:obs-img:eso1250a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2982,
+   "height": 3200,
+   "files": [
+    "images/eso1250a_high.webp"
+   ],
+   "credits": [
+    "eso1250a"
+   ]
+  },
+  {
+   "id": "high:heic1808a",
+   "kind": "image",
+   "target": "use:obs-img:heic1808a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2538,
+   "height": 3200,
+   "files": [
+    "images/heic1808a_high.webp"
+   ],
+   "credits": [
+    "heic1808a"
+   ]
+  },
+  {
+   "id": "high:heic1808b",
+   "kind": "image",
+   "target": "use:obs-img:heic1808b:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2538,
+   "height": 3200,
+   "files": [
+    "images/heic1808b_high.webp"
+   ],
+   "credits": [
+    "heic1808b"
+   ]
+  },
+  {
+   "id": "high:eso0930a",
+   "kind": "image",
+   "target": "use:obs-img:eso0930a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1946,
+   "height": 3200,
+   "files": [
+    "images/eso0930a_high.webp"
+   ],
+   "credits": [
+    "eso0930a"
+   ]
+  },
+  {
+   "id": "high:eso1504a",
+   "kind": "image",
+   "target": "use:obs-img:eso1504a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2255,
+   "files": [
+    "images/eso1504a_high.webp"
+   ],
+   "credits": [
+    "eso1504a"
+   ]
+  },
+  {
+   "id": "high:eso0202a",
+   "kind": "image",
+   "target": "use:obs-img:eso0202a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3110,
+   "height": 3200,
+   "files": [
+    "images/eso0202a_high.webp"
+   ],
+   "credits": [
+    "eso0202a"
+   ]
+  },
+  {
+   "id": "high:heic1307a",
+   "kind": "image",
+   "target": "use:obs-img:heic1307a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2704,
+   "height": 2826,
+   "files": [
+    "images/heic1307a_high.webp"
+   ],
+   "credits": [
+    "heic1307a"
+   ]
+  },
+  {
+   "id": "high:weic2411a",
+   "kind": "image",
+   "target": "use:obs-img:weic2411a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3178,
+   "height": 3200,
+   "files": [
+    "images/weic2411a_high.webp"
+   ],
+   "credits": [
+    "weic2411a"
+   ]
+  },
+  {
+   "id": "high:eso0102a",
+   "kind": "image",
+   "target": "use:obs-img:eso0102a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/eso0102a_high.webp"
+   ],
+   "credits": [
+    "eso0102a"
+   ]
+  },
+  {
+   "id": "high:eso0102b",
+   "kind": "image",
+   "target": "use:obs-img:eso0102b:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2301,
+   "height": 2286,
+   "files": [
+    "images/eso0102b_high.webp"
+   ],
+   "credits": [
+    "eso0102b"
+   ]
+  },
+  {
+   "id": "high:heic1310a",
+   "kind": "image",
+   "target": "use:obs-img:heic1310a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3179,
+   "height": 3179,
+   "files": [
+    "images/heic1310a_high.webp"
+   ],
+   "credits": [
+    "heic1310a"
+   ]
+  },
+  {
+   "id": "high:weic2320b",
+   "kind": "image",
+   "target": "use:obs-img:weic2320b:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3154,
+   "height": 3200,
+   "files": [
+    "images/weic2320b_high.webp"
+   ],
+   "credits": [
+    "weic2320b"
+   ]
+  },
+  {
+   "id": "high:opo0432d",
+   "kind": "image",
+   "target": "use:obs-img:opo0432d:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2969,
+   "height": 3200,
+   "files": [
+    "images/opo0432d_high.webp"
+   ],
+   "credits": [
+    "opo0432d"
+   ]
+  },
+  {
+   "id": "high:eso1205a",
+   "kind": "image",
+   "target": "use:obs-img:eso1205a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/eso1205a_high.webp"
+   ],
+   "credits": [
+    "eso1205a"
+   ]
+  },
+  {
+   "id": "high:heic0515a",
+   "kind": "image",
+   "target": "use:obs-img:heic0515a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/heic0515a_high.webp"
+   ],
+   "credits": [
+    "heic0515a"
+   ]
+  },
+  {
+   "id": "high:weic2326a",
+   "kind": "image",
+   "target": "use:obs-img:weic2326a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2786,
+   "files": [
+    "images/weic2326a_high.webp"
+   ],
+   "credits": [
+    "weic2326a"
+   ]
+  },
+  {
+   "id": "high:cxc-2008-crab",
+   "kind": "image",
+   "target": "use:obs-img:cxc-2008-crab:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/cxc-2008-crab_high.webp"
+   ],
+   "credits": [
+    "cxc-2008-crab"
+   ]
+  },
+  {
+   "id": "high:weic2311a",
+   "kind": "image",
+   "target": "use:obs-img:weic2311a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3199,
+   "height": 3200,
+   "files": [
+    "images/weic2311a_high.webp"
+   ],
+   "credits": [
+    "weic2311a"
+   ]
+  },
+  {
+   "id": "high:heic0609a",
+   "kind": "image",
+   "target": "use:obs-img:heic0609a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2303,
+   "files": [
+    "images/heic0609a_high.webp"
+   ],
+   "credits": [
+    "heic0609a"
+   ]
+  },
+  {
+   "id": "high:cxc-2013-casa",
+   "kind": "image",
+   "target": "use:obs-img:cxc-2013-casa:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1688,
+   "files": [
+    "images/cxc-2013-casa_high.webp"
+   ],
+   "credits": [
+    "cxc-2013-casa"
+   ]
+  },
+  {
+   "id": "high:heic0506a",
+   "kind": "image",
+   "target": "use:obs-img:heic0506a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2221,
+   "files": [
+    "images/heic0506a_high.webp"
+   ],
+   "credits": [
+    "heic0506a"
+   ]
+  },
+  {
+   "id": "high:potm2308a",
+   "kind": "image",
+   "target": "use:obs-img:potm2308a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1084,
+   "files": [
+    "images/potm2308a_high.webp"
+   ],
+   "credits": [
+    "potm2308a"
+   ]
+  },
+  {
+   "id": "high:opo0328a",
+   "kind": "image",
+   "target": "use:obs-img:opo0328a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1794,
+   "files": [
+    "images/opo0328a_high.webp"
+   ],
+   "credits": [
+    "opo0328a"
+   ]
+  },
+  {
+   "id": "high:weic2427a",
+   "kind": "image",
+   "target": "use:obs-img:weic2427a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1070,
+   "files": [
+    "images/weic2427a_high.webp"
+   ],
+   "credits": [
+    "weic2427a"
+   ]
+  },
+  {
+   "id": "high:heic0604a",
+   "kind": "image",
+   "target": "use:obs-img:heic0604a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2493,
+   "files": [
+    "images/heic0604a_high.webp"
+   ],
+   "credits": [
+    "heic0604a"
+   ]
+  },
+  {
+   "id": "high:eso1907a",
+   "kind": "image",
+   "target": "use:obs-img:eso1907a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1864,
+   "files": [
+    "images/eso1907a_high.webp"
+   ],
+   "credits": [
+    "eso1907a"
+   ]
+  },
+  {
+   "id": "high:weic2208a",
+   "kind": "image",
+   "target": "use:obs-img:weic2208a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3068,
+   "files": [
+    "images/weic2208a_high.webp"
+   ],
+   "credits": [
+    "weic2208a"
+   ]
+  },
+  {
+   "id": "high:heic0910i",
+   "kind": "image",
+   "target": "use:obs-img:heic0910i:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2870,
+   "height": 3200,
+   "files": [
+    "images/heic0910i_high.webp"
+   ],
+   "credits": [
+    "heic0910i"
+   ]
+  },
+  {
+   "id": "high:heic2409a",
+   "kind": "image",
+   "target": "use:obs-img:heic2409a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/heic2409a_high.webp"
+   ],
+   "credits": [
+    "heic2409a"
+   ]
+  },
+  {
+   "id": "high:eso1119b",
+   "kind": "image",
+   "target": "use:obs-img:eso1119b:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/eso1119b_high.webp"
+   ],
+   "credits": [
+    "eso1119b"
+   ]
+  },
+  {
+   "id": "high:heic1510a",
+   "kind": "image",
+   "target": "use:obs-img:heic1510a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3132,
+   "files": [
+    "images/heic1510a_high.webp"
+   ],
+   "credits": [
+    "heic1510a"
+   ]
+  },
+  {
+   "id": "high:eso1302a",
+   "kind": "image",
+   "target": "use:obs-img:eso1302a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/eso1302a_high.webp"
+   ],
+   "credits": [
+    "eso1302a"
+   ]
+  },
+  {
+   "id": "high:opo0840a",
+   "kind": "image",
+   "target": "use:obs-img:opo0840a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/opo0840a_high.webp"
+   ],
+   "credits": [
+    "opo0840a"
+   ]
+  },
+  {
+   "id": "high:heic1502a",
+   "kind": "image",
+   "target": "use:obs-img:heic1502a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1023,
+   "files": [
+    "images/heic1502a_high.webp"
+   ],
+   "credits": [
+    "heic1502a"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/heic0601a_high.webp",
+   "bytes": 281164,
+   "sha256": "be21552fc29a6246e1173654acd6a81f1e3a2eaa50c43b5e71cfd0ec3ebc9ff7"
+  },
+  {
+   "path": "images/potw1726a_high.webp",
+   "bytes": 53750,
+   "sha256": "b246a65c33e28bec18c02d1cd3e20071b654edb049b9293fe28cc2310ed1e29f"
+  },
+  {
+   "path": "images/heic1501a_high.webp",
+   "bytes": 1017170,
+   "sha256": "d6ca4d48d393435d87b3481add63d7690e7e331716db22571f216a05bead6ebc"
+  },
+  {
+   "path": "images/weic2205a_high.webp",
+   "bytes": 603666,
+   "sha256": "fb64723dce974e073c26039d813bedcf7a5c6ba6ffd5b82a403277bbb9b92f09"
+  },
+  {
+   "path": "images/eso1250a_high.webp",
+   "bytes": 1469338,
+   "sha256": "db3b180d344e2bb6a875d12dc0fe5dcd1ecb1ffea2144d0b8a5387a89d9ad4f3"
+  },
+  {
+   "path": "images/heic1808a_high.webp",
+   "bytes": 261610,
+   "sha256": "ce286e539c8e3dc3ac4c949ad460e6b11f7b1a9ff0939b679beeaf3a5c21d005"
+  },
+  {
+   "path": "images/heic1808b_high.webp",
+   "bytes": 779330,
+   "sha256": "1fdf2cb8f7acc1f2e20f4833ee47b5b20adb38f1e5266a1dee19f6afc1adcfc4"
+  },
+  {
+   "path": "images/eso0930a_high.webp",
+   "bytes": 271484,
+   "sha256": "2fc8c152f0d9c12cdd1a896daa446f72c3d81d72e574f77aa01b76bac92e2bcf"
+  },
+  {
+   "path": "images/eso1504a_high.webp",
+   "bytes": 3236246,
+   "sha256": "7a8c3ab276982d30a4575fbdb118625b1ea6399278efc884f2ec4c9c6b9b6598"
+  },
+  {
+   "path": "images/eso0202a_high.webp",
+   "bytes": 2116062,
+   "sha256": "09a5661002f1cc2860ed5e56cc461f9571fc823d4083893e26eb2ff5c85a59f1"
+  },
+  {
+   "path": "images/heic1307a_high.webp",
+   "bytes": 641458,
+   "sha256": "0927b586e61b620550b7ef55c9cc458e3bd62f713ee8a081a243a5196dc5ab07"
+  },
+  {
+   "path": "images/weic2411a_high.webp",
+   "bytes": 308080,
+   "sha256": "de80ae11f3789ca5b7c003a50b7faaf479204a344e366f1c5ca1a82bbe2c5339"
+  },
+  {
+   "path": "images/eso0102a_high.webp",
+   "bytes": 2343304,
+   "sha256": "7299b62a819d1ca2b1a514a5bf1af494c5119980ee3937a00eb4fc6380cc5084"
+  },
+  {
+   "path": "images/eso0102b_high.webp",
+   "bytes": 966032,
+   "sha256": "3bf336bbae85607c6924215ba0fb009191b4dc061aafb3632483cc0bee03c073"
+  },
+  {
+   "path": "images/heic1310a_high.webp",
+   "bytes": 518608,
+   "sha256": "aa8892690cbb0961987591f10444ece04f17b40a7730ebb9cee0c3c112ecab17"
+  },
+  {
+   "path": "images/weic2320b_high.webp",
+   "bytes": 601778,
+   "sha256": "b456d2f87a56b47f3edb785a9379bfbfbd048198a1bf435fa60d7b183ad70bd6"
+  },
+  {
+   "path": "images/opo0432d_high.webp",
+   "bytes": 208518,
+   "sha256": "5a61e25f240f3b5e172206217c6cf0066cbbdd23c3f93c0769b2ddc10f504a65"
+  },
+  {
+   "path": "images/eso1205a_high.webp",
+   "bytes": 2526720,
+   "sha256": "2c2c99c6680094a3ef10aabeacf4773a735ba9fb125799802faf4e7236a3ab9a"
+  },
+  {
+   "path": "images/heic0515a_high.webp",
+   "bytes": 1283718,
+   "sha256": "22235b56120e03c6f3a47c2657688d90ebc6426632e1b395cf83d03c3d700770"
+  },
+  {
+   "path": "images/weic2326a_high.webp",
+   "bytes": 889846,
+   "sha256": "39f18ffd3cec325f94e2c8b695160f44542cf2bcbf71c99f05261a96e9a5fd2c"
+  },
+  {
+   "path": "images/cxc-2008-crab_high.webp",
+   "bytes": 840070,
+   "sha256": "bffe007e6964a93f7bbd3c5cdd1339552c7f9a40fa241cdb90e4f63634c956e6"
+  },
+  {
+   "path": "images/weic2311a_high.webp",
+   "bytes": 445066,
+   "sha256": "2a38d74259eb80e1157c13dcd42dfdaa2d93122d1b75d88be743ac2a49c5af36"
+  },
+  {
+   "path": "images/heic0609a_high.webp",
+   "bytes": 838172,
+   "sha256": "82536bcabf2cd73d92204743fbd86893b5264a3233c6de9741b7b98acad3520b"
+  },
+  {
+   "path": "images/cxc-2013-casa_high.webp",
+   "bytes": 314228,
+   "sha256": "7b0844f1a369f0b321dbc59d00f2805ec2a1407d34f663b62b1092b66dba381a"
+  },
+  {
+   "path": "images/heic0506a_high.webp",
+   "bytes": 840752,
+   "sha256": "cbd2ab5e853a2499582fd173e8713f6d58a00d74a1640a62f4ef953f5f1bc9d8"
+  },
+  {
+   "path": "images/potm2308a_high.webp",
+   "bytes": 1394634,
+   "sha256": "d4d26f13df24787b908bf710724ab13773f33bde5a73d76589b9136d5bc7b967"
+  },
+  {
+   "path": "images/opo0328a_high.webp",
+   "bytes": 385054,
+   "sha256": "105199f2f4a8b1b2f5e8cc4431e5cd84d371ead40515a5885c5e9509ba2718f1"
+  },
+  {
+   "path": "images/weic2427a_high.webp",
+   "bytes": 216712,
+   "sha256": "b9719cee20fa74351a84d2bb21e360022f2e3997c00de986d795740f96115a56"
+  },
+  {
+   "path": "images/heic0604a_high.webp",
+   "bytes": 1059670,
+   "sha256": "7a290fe0c3dce8ddffb8dbb73d1776cb2000563ec6deffd603ed6493141f9675"
+  },
+  {
+   "path": "images/eso1907a_high.webp",
+   "bytes": 31986,
+   "sha256": "e0b452280737c6718a66c485123c85e7fcde74ab863b047e085b89e27b226229"
+  },
+  {
+   "path": "images/weic2208a_high.webp",
+   "bytes": 580136,
+   "sha256": "2eeb616ba5b01fa548325a70b142b743bbd0d61840f38dea5301eefa20fa6658"
+  },
+  {
+   "path": "images/heic0910i_high.webp",
+   "bytes": 815972,
+   "sha256": "7c55368b19de1ff545c2aee808e7d987e357d748d213f833d78d2c4fd840809a"
+  },
+  {
+   "path": "images/heic2409a_high.webp",
+   "bytes": 4516090,
+   "sha256": "3cca3aa4b10e4fc293247a79de19599bc4ef4b42d894a49e08ed5d20e80c135e"
+  },
+  {
+   "path": "images/eso1119b_high.webp",
+   "bytes": 2283040,
+   "sha256": "ba3815ab913152e2c4817742601a90e5db2686b0281e29f2f016096adc72073f"
+  },
+  {
+   "path": "images/heic1510a_high.webp",
+   "bytes": 2571862,
+   "sha256": "c162abf62f90108532aa7c428683bdde1887fd9683d24649e263116bac11d77e"
+  },
+  {
+   "path": "images/eso1302a_high.webp",
+   "bytes": 1583132,
+   "sha256": "3f97fe7eed210694db167d3c74b2e3d1596bc063d2a53ee8968c4048556cf779"
+  },
+  {
+   "path": "images/opo0840a_high.webp",
+   "bytes": 1625934,
+   "sha256": "4c8f36280af4d97a8445b5f654deaa093c1e79d7202b558862be693e4e2f819e"
+  },
+  {
+   "path": "images/heic1502a_high.webp",
+   "bytes": 923600,
+   "sha256": "f9650716f6329578b95e34d0d8abb78057ab467a35f4c4328da4a13b2a312e0a"
+  }
+ ],
+ "credits": [
+  {
+   "id": "heic0601a",
+   "title": "Hubble's sharpest view of the Orion Nebula",
+   "source": "ESA/Hubble：NASA, ESA, M. Robberto (Space Telescope Science Institute / ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0601a/"
+  },
+  {
+   "id": "potw1726a",
+   "title": "Betelgeuse captured by ALMA",
+   "source": "ESO：ALMA (ESO/NAOJ/NRAO)/E. O’Gorman/P. Kervella",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/potw1726a/"
+  },
+  {
+   "id": "heic1501a",
+   "title": "New view of the Pillars of Creation — visible",
+   "source": "ESA/Hubble：NASA, ESA/Hubble and the Hubble Heritage Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1501a/"
+  },
+  {
+   "id": "weic2205a",
+   "title": "NIRCam Image of the “Cosmic Cliffs” in Carina",
+   "source": "ESA/Webb：NASA, ESA, CSA, and STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2205a/"
+  },
+  {
+   "id": "eso1250a",
+   "title": "The Carina Nebula imaged by the VLT Survey Telescope",
+   "source": "ESO：ESO. Acknowledgement: VPHAS+ Consortium/Cambridge Astronomical Survey Unit",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1250a/"
+  },
+  {
+   "id": "heic1808a",
+   "title": "Hubble's 28th birthday picture: The Lagoon Nebula",
+   "source": "ESA/Hubble：NASA, ESA, STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1808a/"
+  },
+  {
+   "id": "heic1808b",
+   "title": "Infrared view of the Lagoon Nebula",
+   "source": "ESA/Hubble：NASA, ESA, STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1808b/"
+  },
+  {
+   "id": "eso0930a",
+   "title": "The Trifid Nebula",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0930a/"
+  },
+  {
+   "id": "eso1504a",
+   "title": "VISTA views the Trifid Nebula and reveals hidden variable stars",
+   "source": "ESO：ESO/VVV consortium/D. Minniti",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1504a/"
+  },
+  {
+   "id": "eso0202a",
+   "title": "The Horsehead Nebula*",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0202a/"
+  },
+  {
+   "id": "heic1307a",
+   "title": "New infrared view of the Horsehead Nebula — Hubble’s 23rd anniversary image",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage Team (AURA / STScI)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1307a/"
+  },
+  {
+   "id": "weic2411a",
+   "title": "Horsehead Nebula (NIRCam image)",
+   "source": "ESA/Webb：ESA/Webb, NASA, CSA, K. Misselt (University of Arizona) and A. Abergel (IAS/University Paris-Saclay, CNRS)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2411a/"
+  },
+  {
+   "id": "eso0102a",
+   "title": "How to become a star",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0102a/"
+  },
+  {
+   "id": "eso0102b",
+   "title": "Bok globule B68",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0102b/"
+  },
+  {
+   "id": "heic1310a",
+   "title": "Hubble image of the Ring Nebula (Messier 57)",
+   "source": "ESA/Hubble：NASA, ESA, and C. Robert O’Dell (Vanderbilt University).",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1310a/"
+  },
+  {
+   "id": "weic2320b",
+   "title": "Webb captures detailed beauty of Ring Nebula (NIRCam image)",
+   "source": "ESA/Webb：ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2320b/"
+  },
+  {
+   "id": "opo0432d",
+   "title": "A new view of the Helix Nebula",
+   "source": "ESA/Hubble：NASA, ESA, C.R. O'Dell (Vanderbilt University), and M. Meixner, P. McCullough, and G. Bacon (Space Telescope Science Institute)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0432d/"
+  },
+  {
+   "id": "eso1205a",
+   "title": "VISTA’s look at the Helix Nebula",
+   "source": "ESO：ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1205a/"
+  },
+  {
+   "id": "heic0515a",
+   "title": "Most detailed image of the Crab Nebula",
+   "source": "ESA/Hubble：NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA / Hubble)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0515a/"
+  },
+  {
+   "id": "weic2326a",
+   "title": "The Crab Nebula",
+   "source": "ESA/Webb：NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2326a/"
+  },
+  {
+   "id": "cxc-2008-crab",
+   "title": "Crab Nebula",
+   "source": "NASA/Chandra：NASA/CXC/SAO/F.Seward et al",
+   "license": "NASA/CXC（著作権を主張しない）",
+   "url": "https://chandra.harvard.edu/photo/2008/crab/"
+  },
+  {
+   "id": "weic2311a",
+   "title": "Cassiopeia A (MIRI Image)",
+   "source": "ESA/Webb：NASA, ESA, CSA, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (UGent), J. DePasquale (STScI)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2311a/"
+  },
+  {
+   "id": "heic0609a",
+   "title": "Cassiopeia A - The colourful aftermath of a violent stellar death",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage (STScI / AURA)- ESA / Hubble Collaboration. Acknowledgement: Robert A. Fesen (Dartmouth College, USA) and James Long (ESA/Hubble)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0609a/"
+  },
+  {
+   "id": "cxc-2013-casa",
+   "title": "Cassiopeia A",
+   "source": "NASA/Chandra：NASA/CXC/SAO",
+   "license": "NASA/CXC（著作権を主張しない）",
+   "url": "https://chandra.harvard.edu/photo/2013/casa/"
+  },
+  {
+   "id": "heic0506a",
+   "title": "Out of this whirl: The Whirlpool Galaxy (M51) and companion galaxy",
+   "source": "ESA/Hubble：NASA, ESA, S. Beckwith (STScI), and The Hubble Heritage Team (STScI / AURA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0506a/"
+  },
+  {
+   "id": "potm2308a",
+   "title": "A FEAST for the eyes",
+   "source": "ESA/Webb：ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/potm2308a/"
+  },
+  {
+   "id": "opo0328a",
+   "title": "Hubble mosaic of the majestic Sombrero Galaxy",
+   "source": "ESA/Hubble：NASA / ESA and The Hubble Heritage Team (STScI / AURA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0328a/"
+  },
+  {
+   "id": "weic2427a",
+   "title": "Sombrero galaxy (MIRI)",
+   "source": "ESA/Webb：NASA, ESA, CSA, STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2427a/"
+  },
+  {
+   "id": "heic0604a",
+   "title": "The magnificent starburst galaxy Messier 82",
+   "source": "ESA/Hubble：NASA, ESA and the Hubble Heritage Team (STScI / AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF).",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0604a/"
+  },
+  {
+   "id": "eso1907a",
+   "title": "First Image of a Black Hole",
+   "source": "ESO：EHT Collaboration",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1907a/"
+  },
+  {
+   "id": "weic2208a",
+   "title": "Stephan’s Quintet (NIRCam + MIRI Imaging)",
+   "source": "ESA/Webb：NASA, ESA, CSA, and STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2208a/"
+  },
+  {
+   "id": "heic0910i",
+   "title": "Galactic wreckage in Stephan's Quintet",
+   "source": "ESA/Hubble：NASA, ESA and the Hubble SM4 ERO Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic0910i/"
+  },
+  {
+   "id": "heic2409a",
+   "title": "Omega Centauri",
+   "source": "ESA/Hubble：ESA/Hubble & NASA, M. Häberle (MPIA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic2409a/"
+  },
+  {
+   "id": "eso1119b",
+   "title": "VST image of the giant globular cluster Omega Centauri*",
+   "source": "ESO：ESO/INAF-VST/OmegaCAM. Acknowledgement: A. Grado, L. Limatola /INAF-Capodimonte Observatory",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1119b/"
+  },
+  {
+   "id": "heic1510a",
+   "title": "Globular cluster 47 Tucanae",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration Acknowledgment: J. Mack (STScI) and G. Piotto (University of Padova, Italy)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1510a/"
+  },
+  {
+   "id": "eso1302a",
+   "title": "The globular star cluster 47 Tucanae",
+   "source": "ESO：ESO/M.-R. Cioni/VISTA Magellanic Cloud survey. Acknowledgment: Cambridge Astronomical Survey Unit",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1302a/"
+  },
+  {
+   "id": "opo0840a",
+   "title": "Hubble image of globular cluster M13",
+   "source": "ESA/Hubble：NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/opo0840a/"
+  },
+  {
+   "id": "heic1502a",
+   "title": "Sharpest ever view of the Andromeda Galaxy",
+   "source": "ESA/Hubble：NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1502a/"
+  }
+ ],
+ "info": {
+  "titleEasy": "観測画像を大きく見る（高解像度）",
+  "description": "すべての観測画像の高解像度版（長い辺 最大 3200 px）",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-04"
+ }
+}

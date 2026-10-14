@@ -1,0 +1,69 @@
+{
+ "schema": 1,
+ "packId": "artificial-satellite-models",
+ "version": 1,
+ "title": "人工衛星の公式3Dモデル（Hubble／TDRS）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:artificial-satellite-hubble",
+  "use:artificial-satellite-tdrs"
+ ],
+ "sizeBytes": 287516,
+ "installedBytes": 287516,
+ "assets": [
+  {
+   "id": "model:artificial-satellite:hubble:nasa",
+   "kind": "model",
+   "target": "use:artificial-satellite-hubble",
+   "slot": "model",
+   "format": "glb",
+   "files": ["hubble_nasa.glb"],
+   "credits": ["nasa-hubble-3d"]
+  },
+  {
+   "id": "model:artificial-satellite:tdrs:nasa-mobile",
+   "kind": "model",
+   "target": "use:artificial-satellite-tdrs",
+   "slot": "model",
+   "format": "glb",
+   "files": ["tdrs_nasa_mobile.glb"],
+   "credits": ["nasa-tdrs-3d"]
+  }
+ ],
+ "files": [
+  {
+   "path": "hubble_nasa.glb",
+   "bytes": 189428,
+   "sha256": "c063d216a32dd0298c4332567f698f2c6bb8bab507ab1edd04ef6a1ecdf799f6"
+  },
+  {
+   "path": "tdrs_nasa_mobile.glb",
+   "bytes": 98088,
+   "sha256": "6fe701d145448e41fca253ce0090c2672a5d4d7b80eb434f17a8b6d04b5da74a"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-hubble-3d",
+   "title": "Hubble Space Telescope (A)",
+   "source": "NASA Science 3D Resources",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/3d-resources/hubble-space-telescope-a/"
+  },
+  {
+   "id": "nasa-tdrs-3d",
+   "title": "Tracking and Data Relay Satellites (TDRS) (D) — SOLARIS mobile derivative",
+   "source": "NASA Science 3D Resources",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://science.nasa.gov/3d-resources/tracking-and-data-relay-satellites-tdrs-d/"
+  }
+ ],
+ "info": {
+  "category": "other",
+  "titleEasy": "HubbleとTDRSの公式モデル",
+  "description": "選択した衛星だけ読み込む公式3Dモデル。TDRSはNASA配布形状をスマホ向けに軽量化。",
+  "updatedUtc": "2026-10-07T00:00:00Z"
+ }
+}

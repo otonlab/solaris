@@ -1,0 +1,390 @@
+{
+ "schema": 1,
+ "packs": [
+  {
+   "packId": "artemis2-orion",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "artemis2-orion/manifest.json",
+   "sizeBytes": 1674468
+  },
+  {
+   "packId": "artificial-satellite-models",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "artificial-satellite-models/manifest.json",
+   "sizeBytes": 287516
+  },
+  {
+   "packId": "base-textures",
+   "version": 3,
+   "distribution": "bundled",
+   "manifest": "base-textures/manifest.json",
+   "sizeBytes": 1027589
+  },
+  {
+   "packId": "earth-relief",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "earth-relief/manifest.json",
+   "sizeBytes": 14346058
+  },
+  {
+   "packId": "earth-terrain",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "earth-terrain/manifest.json",
+   "sizeBytes": 1759110
+  },
+  {
+   "packId": "earth-textures-4k",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "earth-textures-4k/manifest.json",
+   "sizeBytes": 3574524
+  },
+  {
+   "packId": "earth-tiles",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "earth-tiles/manifest.json",
+   "sizeBytes": 31399623
+  },
+  {
+   "packId": "earth-tiles-japan",
+   "version": 2,
+   "distribution": "download",
+   "manifest": "earth-tiles-japan/manifest.json",
+   "sizeBytes": 5463956
+  },
+  {
+   "packId": "ephem-1610",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "ephem-1610/manifest.json",
+   "sizeBytes": 66856
+  },
+  {
+   "packId": "ephem-2000-2050",
+   "version": 2,
+   "distribution": "bundled",
+   "manifest": "ephem-2000-2050/manifest.json",
+   "sizeBytes": 5631072
+  },
+  {
+   "packId": "ephem-earth-system-2000-2050",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "ephem-earth-system-2000-2050/manifest.json",
+   "sizeBytes": 602776
+  },
+  {
+   "packId": "ephem-jupiter-system-2000-2050",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "ephem-jupiter-system-2000-2050/manifest.json",
+   "sizeBytes": 10684696
+  },
+  {
+   "packId": "ephem-mars-system-2020-2040",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "ephem-mars-system-2020-2040/manifest.json",
+   "sizeBytes": 8152712
+  },
+  {
+   "packId": "ephem-neptune-system-2000-2050",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "ephem-neptune-system-2000-2050/manifest.json",
+   "sizeBytes": 931528
+  },
+  {
+   "packId": "ephem-saturn-system-2000-2050",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "ephem-saturn-system-2000-2050/manifest.json",
+   "sizeBytes": 21862000
+  },
+  {
+   "packId": "ephem-uranus-system-2000-2050",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "ephem-uranus-system-2000-2050/manifest.json",
+   "sizeBytes": 10958720
+  },
+  {
+   "packId": "golden-record-audio",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "golden-record-audio/manifest.json",
+   "sizeBytes": 8926142
+  },
+  {
+   "packId": "jupiter-moons-textures-hd",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "jupiter-moons-textures-hd/manifest.json",
+   "sizeBytes": 1303666
+  },
+  {
+   "packId": "jupiter-textures-hd",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "jupiter-textures-hd/manifest.json",
+   "sizeBytes": 362934
+  },
+  {
+   "packId": "mars-moons-textures-hd",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "mars-moons-textures-hd/manifest.json",
+   "sizeBytes": 392244
+  },
+  {
+   "packId": "mars-textures-4k",
+   "version": 2,
+   "distribution": "download",
+   "manifest": "mars-textures-4k/manifest.json",
+   "sizeBytes": 547626
+  },
+  {
+   "packId": "mercury-textures-4k",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "mercury-textures-4k/manifest.json",
+   "sizeBytes": 2057596
+  },
+  {
+   "packId": "moon-apollo-a11",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-apollo-a11/manifest.json",
+   "sizeBytes": 1294670
+  },
+  {
+   "packId": "moon-apollo-a12",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-apollo-a12/manifest.json",
+   "sizeBytes": 1353351
+  },
+  {
+   "packId": "moon-apollo-a14",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-apollo-a14/manifest.json",
+   "sizeBytes": 1355165
+  },
+  {
+   "packId": "moon-apollo-a15",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-apollo-a15/manifest.json",
+   "sizeBytes": 1459495
+  },
+  {
+   "packId": "moon-apollo-a16",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-apollo-a16/manifest.json",
+   "sizeBytes": 1440327
+  },
+  {
+   "packId": "moon-apollo-a17",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-apollo-a17/manifest.json",
+   "sizeBytes": 1444242
+  },
+  {
+   "packId": "moon-apollo-lm-interior",
+   "version": 6,
+   "distribution": "download",
+   "manifest": "moon-apollo-lm-interior/manifest.json",
+   "sizeBytes": 1849868
+  },
+  {
+   "packId": "moon-artemis-base",
+   "version": 6,
+   "distribution": "download",
+   "manifest": "moon-artemis-base/manifest.json",
+   "sizeBytes": 1324776
+  },
+  {
+   "packId": "moon-artemis-habitat",
+   "version": 3,
+   "distribution": "download",
+   "manifest": "moon-artemis-habitat/manifest.json",
+   "sizeBytes": 3074048
+  },
+  {
+   "packId": "moon-artemis-south-ridge",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-artemis-south-ridge/manifest.json",
+   "sizeBytes": 2722734
+  },
+  {
+   "packId": "moon-surface-basic",
+   "version": 2,
+   "distribution": "download",
+   "manifest": "moon-surface-basic/manifest.json",
+   "sizeBytes": 1149076
+  },
+  {
+   "packId": "moon-textures-2k",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "moon-textures-2k/manifest.json",
+   "sizeBytes": 1050611
+  },
+  {
+   "packId": "moon-textures-4k",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "moon-textures-4k/manifest.json",
+   "sizeBytes": 4280409
+  },
+  {
+   "packId": "obs-atlas-clusters",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-atlas-clusters/manifest.json",
+   "sizeBytes": 6787078
+  },
+  {
+   "packId": "obs-atlas-galaxies",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-atlas-galaxies/manifest.json",
+   "sizeBytes": 6881508
+  },
+  {
+   "packId": "obs-atlas-moons",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-atlas-moons/manifest.json",
+   "sizeBytes": 2799758
+  },
+  {
+   "packId": "obs-atlas-nebulae",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-atlas-nebulae/manifest.json",
+   "sizeBytes": 6718976
+  },
+  {
+   "packId": "obs-atlas-phenomena",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-atlas-phenomena/manifest.json",
+   "sizeBytes": 2246454
+  },
+  {
+   "packId": "obs-atlas-solar-system",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-atlas-solar-system/manifest.json",
+   "sizeBytes": 3273486
+  },
+  {
+   "packId": "obs-atlas-thumbs",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "obs-atlas-thumbs/manifest.json",
+   "sizeBytes": 1743226
+  },
+  {
+   "packId": "obs-images-basic",
+   "version": 2,
+   "distribution": "bundled",
+   "manifest": "obs-images-basic/manifest.json",
+   "sizeBytes": 133474
+  },
+  {
+   "packId": "obs-images-high",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-images-high/manifest.json",
+   "sizeBytes": 41643992
+  },
+  {
+   "packId": "obs-images-hubble-jwst",
+   "version": 2,
+   "distribution": "download",
+   "manifest": "obs-images-hubble-jwst/manifest.json",
+   "sizeBytes": 4744838
+  },
+  {
+   "packId": "obs-images-nebula-galaxy",
+   "version": 2,
+   "distribution": "download",
+   "manifest": "obs-images-nebula-galaxy/manifest.json",
+   "sizeBytes": 1430244
+  },
+  {
+   "packId": "obs-star-death",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-star-death/manifest.json",
+   "sizeBytes": 2259720
+  },
+  {
+   "packId": "obs-stars-clusters",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-stars-clusters/manifest.json",
+   "sizeBytes": 4102426
+  },
+  {
+   "packId": "obs-thumbs",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "obs-thumbs/manifest.json",
+   "sizeBytes": 575458
+  },
+  {
+   "packId": "planet-textures",
+   "version": 2,
+   "distribution": "bundled",
+   "manifest": "planet-textures/manifest.json",
+   "sizeBytes": 1315528
+  },
+  {
+   "packId": "satellite-textures",
+   "version": 2,
+   "distribution": "bundled",
+   "manifest": "satellite-textures/manifest.json",
+   "sizeBytes": 2042194
+  },
+  {
+   "packId": "saturn-moons-textures-hd",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "saturn-moons-textures-hd/manifest.json",
+   "sizeBytes": 3527832
+  },
+  {
+   "packId": "sky-starmap-2020",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "sky-starmap-2020/manifest.json",
+   "sizeBytes": 2338010
+  },
+  {
+   "packId": "triton-textures-hd",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "triton-textures-hd/manifest.json",
+   "sizeBytes": 153510
+  },
+  {
+   "packId": "voyager",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "voyager/manifest.json",
+   "sizeBytes": 6483278
+  }
+ ]
+}

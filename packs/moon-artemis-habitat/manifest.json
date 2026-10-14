@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "packId": "moon-artemis-habitat",
+ "version": 3,
+ "title": "月の南極：居住区の中（エアロック・居住区）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:moon-site:south-connecting-ridge-habitat",
+  "use:moon-site:south-connecting-ridge-habitat-living"
+ ],
+ "sizeBytes": 3074048,
+ "installedBytes": 3074048,
+ "assets": [
+  {
+   "id": "moon-artemis-habitat-model",
+   "kind": "model",
+   "target": "use:moon-site:south-connecting-ridge-habitat",
+   "slot": "model",
+   "files": [
+    "airlock.glb"
+   ],
+   "credits": [
+    "hab-model"
+   ],
+   "format": "glb"
+  },
+  {
+   "id": "moon-artemis-habitat-living",
+   "kind": "model",
+   "target": "use:moon-site:south-connecting-ridge-habitat-living",
+   "slot": "model",
+   "files": [
+    "living.glb"
+   ],
+   "credits": [
+    "hab-model"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "airlock.glb",
+   "bytes": 1321156,
+   "sha256": "768443c18658dcf3dbc6957b370426b9c6f441787d0b99bc6860f0e40e8bb73d"
+  },
+  {
+   "path": "living.glb",
+   "bytes": 1752892,
+   "sha256": "f599b66b1efd68a3a9001af56e41940a226bcecec01ee88de97ee0d0cc97ab56"
+  }
+ ],
+ "credits": [
+  {
+   "id": "hab-model",
+   "title": "Habitat airlock interior (reconstruction / concept)",
+   "source": "SOLARIS（ISS のエアロック・ハッチ・NASA の月面居住の公開資料を参考にした CG）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/international-space-station/"
+  }
+ ],
+ "info": {
+  "titleEasy": "月の基地の居住区の中（エアロック・生活・研究・生命維持）",
+  "description": "外扉・エアロック・前室と、居住区（生命維持・トイレ・食事・寝室・研究台）。ISS の実際の仕組みを参考にした再現と、SOLARIS の推定。形はすべて SOLARIS が作った CG（光は焼き込み）。",
+  "category": "other",
+  "updatedUtc": "2026-10-12"
+ }
+}

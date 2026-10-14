@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "packId": "earth-terrain",
+ "version": 1,
+ "title": "地球の地形（ETOPO 2022 の標高から作った法線・2K と 4K）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:399"
+ ],
+ "sizeBytes": 1759110,
+ "installedBytes": 1759110,
+ "assets": [
+  {
+   "id": "tex:399:normal:2k",
+   "kind": "image",
+   "target": "naif:399",
+   "slot": "normal",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "earth_normal_2k.jpg"
+   ],
+   "credits": [
+    "noaa-etopo2022"
+   ]
+  },
+  {
+   "id": "tex:399:normal:4k",
+   "kind": "image",
+   "target": "naif:399",
+   "slot": "normal",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 4096,
+   "height": 2048,
+   "files": [
+    "earth_normal_4k.jpg"
+   ],
+   "credits": [
+    "noaa-etopo2022"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "earth_normal_2k.jpg",
+   "bytes": 329485,
+   "sha256": "5636934c48cdd6fd2aed4e399e6d8664b54e85fcf5d8c2588f974902663af650"
+  },
+  {
+   "path": "earth_normal_4k.jpg",
+   "bytes": 1429625,
+   "sha256": "d13e7728b20adc5968f8fa12c123b5fbf0296411c8d4f9947d90aa3a6772a5af"
+  }
+ ],
+ "credits": [
+  {
+   "id": "noaa-etopo2022",
+   "title": "ETOPO 2022 Global Relief Model (60 arc-second, surface)",
+   "source": "NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74（60″の地表面の標高から傾きを計算した法線マップ。海は 0 m・誇張なし）",
+   "license": "CC0-1.0（米国で著作権の対象外・NOAA は権利を放棄）",
+   "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model"
+  }
+ ],
+ "info": {
+  "titleEasy": "地球の地形の陰影を追加する",
+  "description": "山や谷に太陽の向きどおりの陰影が付きます（高さは誇張しません）",
+  "category": "hires-bodies",
+  "updatedUtc": "2026-10-03"
+ }
+}

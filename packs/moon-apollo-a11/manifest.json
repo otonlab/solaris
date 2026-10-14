@@ -1,0 +1,134 @@
+{
+ "schema": 1,
+ "packId": "moon-apollo-a11",
+ "version": 1,
+ "title": "月面探検：アポロ11号",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:moon-surface:apollo11-dtm",
+  "use:moon-history:apollo11",
+  "use:moon-apollo:apollo11-lm",
+  "use:moon-apollo:apollo11-items"
+ ],
+ "sizeBytes": 1294670,
+ "installedBytes": 1294670,
+ "assets": [
+  {
+   "id": "moon-apollo-a11-dtm",
+   "kind": "image",
+   "target": "use:moon-surface:apollo11-dtm",
+   "slot": "height",
+   "files": [
+    "dtm.png"
+   ],
+   "credits": [
+    "lroc-dtm",
+    "wagner"
+   ],
+   "format": "png",
+   "projection": "local-tangent",
+   "width": 513,
+   "height": 513
+  },
+  {
+   "id": "moon-apollo-a11-history",
+   "kind": "data",
+   "target": "use:moon-history:apollo11",
+   "slot": "history",
+   "files": [
+    "history.json"
+   ],
+   "credits": [
+    "horizons"
+   ],
+   "format": "json"
+  },
+  {
+   "id": "moon-apollo-a11-lm",
+   "kind": "model",
+   "target": "use:moon-apollo:apollo11-lm",
+   "slot": "model",
+   "files": [
+    "lm.glb"
+   ],
+   "credits": [
+    "model"
+   ],
+   "format": "glb"
+  },
+  {
+   "id": "moon-apollo-a11-items",
+   "kind": "model",
+   "target": "use:moon-apollo:apollo11-items",
+   "slot": "model",
+   "files": [
+    "items.glb"
+   ],
+   "credits": [
+    "model",
+    "wagner"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "dtm.png",
+   "bytes": 200776,
+   "sha256": "61be54dd6cf4f2234d18491646b094d30bcf6ade3f3b388b50dc4ddffbf8eca5"
+  },
+  {
+   "path": "history.json",
+   "bytes": 5370,
+   "sha256": "a48144b304cf6552aeebcee10b7a57788745d74a18fbbd7fba2d9eb90ddb917b"
+  },
+  {
+   "path": "lm.glb",
+   "bytes": 941668,
+   "sha256": "8ec6ca5fec157d054fd7f9a15173f712c0e365e5c9fa98aa1cb4453c316ecf4a"
+  },
+  {
+   "path": "items.glb",
+   "bytes": 146856,
+   "sha256": "21ef6e3aefb344726193c39b6260572ab55f8e20453b0e9e08613abaccd7b99a"
+  }
+ ],
+ "credits": [
+  {
+   "id": "lroc-dtm",
+   "title": "LROC NAC Digital Terrain Model",
+   "source": "NASA/GSFC/Arizona State University (Henriksen et al. 2017)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/"
+  },
+  {
+   "id": "wagner",
+   "title": "Coordinates of anthropogenic features on the Moon (Wagner et al. 2017)",
+   "source": "LROC / Icarus 283",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://doi.org/10.1016/j.icarus.2016.05.011"
+  },
+  {
+   "id": "horizons",
+   "title": "JPL Horizons (DE441) topocentric Sun/Earth directions",
+   "source": "NASA/JPL Solar System Dynamics",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  },
+  {
+   "id": "model",
+   "title": "SOLARIS reconstruction from NASA Apollo photographs and LM-5 drawings",
+   "source": "SOLARIS（NASA 写真・図面に基づく再現CG）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/"
+  }
+ ],
+ "info": {
+  "titleEasy": "アポロ11号の着陸船・まわりの地形・当時の空",
+  "description": "LROC NAC の実測地形（NAC_DTM_APOLLO11・2 km 四方）、NASA 写真に合わせた着陸船と装置の再現CG、JPL Horizons による着陸時と離陸時の太陽・地球の方向。",
+  "category": "other",
+  "updatedUtc": "2026-10-10"
+ }
+}

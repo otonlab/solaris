@@ -1,0 +1,489 @@
+{
+ "schema": 1,
+ "packId": "planet-textures",
+ "version": 2,
+ "title": "惑星の標準テクスチャ（各天体の LOW・MEDIUM）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:499",
+  "naif:301",
+  "naif:599",
+  "naif:699",
+  "naif:799",
+  "naif:899",
+  "naif:199",
+  "naif:299"
+ ],
+ "sizeBytes": 1315528,
+ "installedBytes": 1315528,
+ "assets": [
+  {
+   "id": "tex:499:albedo:1k",
+   "kind": "image",
+   "target": "naif:499",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "mars_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-mars-viking-color-925m"
+   ],
+   "surface": {
+    "observed": "1976〜1980年",
+    "instrument": "バイキング1号・2号 周回機",
+    "colorType": "approx-natural",
+    "note": "いくつもの季節の合成（極冠の大きさは固定）"
+   }
+  },
+  {
+   "id": "tex:499:albedo:2k",
+   "kind": "image",
+   "target": "naif:499",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "mars_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-mars-viking-color-925m"
+   ],
+   "surface": {
+    "observed": "1976〜1980年",
+    "instrument": "バイキング1号・2号 周回機",
+    "colorType": "approx-natural",
+    "note": "いくつもの季節の合成（極冠の大きさは固定）"
+   }
+  },
+  {
+   "id": "tex:301:albedo:1k",
+   "kind": "image",
+   "target": "naif:301",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "moon_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-svs-4720"
+   ],
+   "surface": {
+    "observed": "2009年〜",
+    "instrument": "ルナー・リコネサンス・オービター（LROC 広角カメラ）",
+    "colorType": "approx-natural",
+    "note": "影を取り除いたモザイク"
+   }
+  },
+  {
+   "id": "tex:599:albedo:1k",
+   "kind": "image",
+   "target": "naif:599",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "jupiter_albedo_1k.webp"
+   ],
+   "credits": [
+    "nasa-pia07782"
+   ],
+   "surface": {
+    "observed": "2000年12月",
+    "instrument": "カッシーニ（狭角カメラ）",
+    "colorType": "approx-natural",
+    "note": "雲の模様と大赤斑の位置は撮影したときのまま（今の木星とは違う）"
+   }
+  },
+  {
+   "id": "tex:599:albedo:2k",
+   "kind": "image",
+   "target": "naif:599",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "jupiter_albedo_2k.webp"
+   ],
+   "credits": [
+    "nasa-pia07782"
+   ],
+   "surface": {
+    "observed": "2000年12月",
+    "instrument": "カッシーニ（狭角カメラ）",
+    "colorType": "approx-natural",
+    "note": "雲の模様と大赤斑の位置は撮影したときのまま（今の木星とは違う）"
+   }
+  },
+  {
+   "id": "tex:699:albedo:1k",
+   "kind": "image",
+   "target": "naif:699",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "saturn_albedo_1024.webp"
+   ],
+   "credits": [
+    "hst-opal-saturn-2025"
+   ],
+   "surface": {
+    "observed": "2025年8月29日",
+    "instrument": "ハッブル宇宙望遠鏡（OPAL）",
+    "colorType": "approx-natural",
+    "note": "帯の模様は撮影したときのまま・色合いは測光の色にそろえた"
+   }
+  },
+  {
+   "id": "tex:699:albedo:1800",
+   "kind": "image",
+   "target": "naif:699",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1800,
+   "height": 900,
+   "files": [
+    "saturn_albedo_1800.webp"
+   ],
+   "credits": [
+    "hst-opal-saturn-2025"
+   ],
+   "surface": {
+    "observed": "2025年8月29日",
+    "instrument": "ハッブル宇宙望遠鏡（OPAL）",
+    "colorType": "approx-natural",
+    "note": "帯の模様は撮影したときのまま・色合いは測光の色にそろえた"
+   }
+  },
+  {
+   "id": "tex:799:albedo:512",
+   "kind": "image",
+   "target": "naif:799",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "uranus_albedo_512.webp"
+   ],
+   "credits": [
+    "hst-opal-uranus-2025"
+   ],
+   "surface": {
+    "observed": "2025年10月",
+    "instrument": "ハッブル宇宙望遠鏡（OPAL）",
+    "colorType": "approx-natural",
+    "note": "緯度ごとの帯の明るさだけ。南緯20°より南は2025年に見えず平均の色"
+   }
+  },
+  {
+   "id": "tex:799:albedo:720",
+   "kind": "image",
+   "target": "naif:799",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 720,
+   "height": 360,
+   "files": [
+    "uranus_albedo_720.webp"
+   ],
+   "credits": [
+    "hst-opal-uranus-2025"
+   ],
+   "surface": {
+    "observed": "2025年10月",
+    "instrument": "ハッブル宇宙望遠鏡（OPAL）",
+    "colorType": "approx-natural",
+    "note": "緯度ごとの帯の明るさだけ。南緯20°より南は2025年に見えず平均の色"
+   }
+  },
+  {
+   "id": "tex:899:albedo:512",
+   "kind": "image",
+   "target": "naif:899",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 512,
+   "height": 256,
+   "files": [
+    "neptune_albedo_512.webp"
+   ],
+   "credits": [
+    "hst-opal-neptune-2025"
+   ],
+   "surface": {
+    "observed": "2025年8月",
+    "instrument": "ハッブル宇宙望遠鏡（OPAL）",
+    "colorType": "approx-natural",
+    "note": "緯度ごとの帯の明るさだけ（暗斑など時期で変わる模様は省いた）"
+   }
+  },
+  {
+   "id": "tex:899:albedo:720",
+   "kind": "image",
+   "target": "naif:899",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 720,
+   "height": 360,
+   "files": [
+    "neptune_albedo_720.webp"
+   ],
+   "credits": [
+    "hst-opal-neptune-2025"
+   ],
+   "surface": {
+    "observed": "2025年8月",
+    "instrument": "ハッブル宇宙望遠鏡（OPAL）",
+    "colorType": "approx-natural",
+    "note": "緯度ごとの帯の明るさだけ（暗斑など時期で変わる模様は省いた）"
+   }
+  },
+  {
+   "id": "tex:199:albedo:1k",
+   "kind": "image",
+   "target": "naif:199",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "mercury_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-mercury-messenger-color-665m"
+   ],
+   "surface": {
+    "observed": "2011〜2015年",
+    "instrument": "メッセンジャー（MDIS）",
+    "colorType": "approx-natural",
+    "note": "色合いは地上からの測光の色にそろえた"
+   }
+  },
+  {
+   "id": "tex:199:albedo:2k",
+   "kind": "image",
+   "target": "naif:199",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "mercury_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-mercury-messenger-color-665m"
+   ],
+   "surface": {
+    "observed": "2011〜2015年",
+    "instrument": "メッセンジャー（MDIS）",
+    "colorType": "approx-natural",
+    "note": "色合いは地上からの測光の色にそろえた"
+   }
+  },
+  {
+   "id": "tex:299:albedo:256",
+   "kind": "image",
+   "target": "naif:299",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 256,
+   "height": 128,
+   "files": [
+    "venus_albedo_256.webp"
+   ],
+   "credits": [
+    "mallama-2017"
+   ],
+   "surface": {
+    "observed": "地上からの測光の集成",
+    "instrument": "望遠鏡（Mallama 2017）",
+    "colorType": "uniform",
+    "note": "可視光の雲頂にはほとんど模様が無い。レーダーで見た地表（マゼラン）は標準では使わない"
+   }
+  },
+  {
+   "id": "ring:699:profile",
+   "kind": "image",
+   "target": "naif:699",
+   "slot": "ring",
+   "format": "png",
+   "projection": "radial",
+   "width": 2048,
+   "height": 1,
+   "files": [
+    "saturn_rings_2048.png"
+   ],
+   "credits": [
+    "pds-vg2801-pps"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "mars_albedo_1k.webp",
+   "bytes": 60254,
+   "sha256": "d735212a854764d82ed86b94e5212d9e60acf12d1a3cfc5a2c081d1c1f2560db"
+  },
+  {
+   "path": "mars_albedo_2k.webp",
+   "bytes": 189096,
+   "sha256": "909cda672006482ec3ed272afe70cb101e1114c6c6e8fa35ed76d11d8701d65a"
+  },
+  {
+   "path": "moon_albedo_1k.webp",
+   "bytes": 94624,
+   "sha256": "e5fa6a3ef47b30f25d59efb1bcce567fb29e6b989a7754f79fc110a5369baba4"
+  },
+  {
+   "path": "jupiter_albedo_1k.webp",
+   "bytes": 66178,
+   "sha256": "3f9ed562299a47a03d6f97c34496f0ae8755662b22312b68a02b1e94c904947d"
+  },
+  {
+   "path": "jupiter_albedo_2k.webp",
+   "bytes": 171850,
+   "sha256": "82eaaa64aa05236c2be78fc0ce8bacc323b003cd8dee0f3b1c8892af9fec1aa2"
+  },
+  {
+   "path": "saturn_albedo_1024.webp",
+   "bytes": 12630,
+   "sha256": "6f7c1922543dabab1bff0882d7d2cdef1566c96b2ab2a70d89caf841fe9f5ddb"
+  },
+  {
+   "path": "saturn_albedo_1800.webp",
+   "bytes": 30862,
+   "sha256": "0473ac9726ad1c92e4750accd8f1b504467b73caf50f472fceec75ffdcd43fc8"
+  },
+  {
+   "path": "uranus_albedo_512.webp",
+   "bytes": 1020,
+   "sha256": "4a693fa60b85d52456f50fd44e127f49c751750bb700d12a3bbd8392b32c3e69"
+  },
+  {
+   "path": "uranus_albedo_720.webp",
+   "bytes": 1998,
+   "sha256": "b8dc00c9955045707459cd0358b90f498e5f783410bb0457e7fe9e17a151d489"
+  },
+  {
+   "path": "neptune_albedo_512.webp",
+   "bytes": 1130,
+   "sha256": "7003ee3a682e98b141dd4e15794af9c0ea53a1d22ee5bc6ba06d0d11851d5c11"
+  },
+  {
+   "path": "neptune_albedo_720.webp",
+   "bytes": 1908,
+   "sha256": "8eba8c13eb603c6a53cdf5e9f950bc5a0b5e319dcbf065fc3abfdc628c7ac180"
+  },
+  {
+   "path": "mercury_albedo_1k.webp",
+   "bytes": 136862,
+   "sha256": "0386b2b223d2fe2f0cf009ccf6743e8e0c2f71962fe9bd1b2a77f7c772f971b6"
+  },
+  {
+   "path": "mercury_albedo_2k.webp",
+   "bytes": 544668,
+   "sha256": "fbce00879a5abe65eae491c8bb1dcc5a956cde00a5ba8a97b9345d84722cd3dd"
+  },
+  {
+   "path": "venus_albedo_256.webp",
+   "bytes": 124,
+   "sha256": "44c07e1999242bcf49c0f6d863103c17dee17e7d4966f5346618d2dfbe880178"
+  },
+  {
+   "path": "saturn_rings_2048.png",
+   "bytes": 2324,
+   "sha256": "97ccad7c4728a8cf427b00c91bc6c13c2af8b458d3432351d54584ac5c4a5b25"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-mars-viking-color-925m",
+   "title": "Mars Viking Global Color Mosaic 925m（Viking Orbiter 1976–1980・約1000枚）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／Planetary Data System（赤・紫のフィルターは実測、緑は2つの平均から合成＝近似自然色）。アプリ用に化成緯度へ並べ直し・極（|緯度|>78°）の継ぎ目の彩度を下げた（tools/textures/planet_pipeline.py）",
+   "license": "Public domain（USGS・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/mars_viking_global_color_mosaic_925m"
+  },
+  {
+   "id": "nasa-svs-4720",
+   "title": "CGI Moon Kit（lroc_color_poles_4k）",
+   "source": "NASA's Scientific Visualization Studio（LRO LROC WAC モザイク）",
+   "license": "Public domain（NASA SVS・クレジット表示）",
+   "url": "https://svs.gsfc.nasa.gov/4720"
+  },
+  {
+   "id": "nasa-pia07782",
+   "title": "Cassini's Best Maps of Jupiter (Cylindrical Map) PIA07782",
+   "source": "NASA/JPL/Space Science Institute（2000-12-11〜12・狭角カメラ 36 枚・751/451 nm の2色の近似自然色）。アプリ用に化成緯度へ並べ直した",
+   "license": "Public domain（NASA・出典を表記・NASA の公認と誤解させない）",
+   "url": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map"
+  },
+  {
+   "id": "hst-opal-saturn-2025",
+   "title": "Hubble OPAL Saturn 2025a global map（WFC3/UVIS F631N・F502N・F395N の色の合成・2025-08-29）",
+   "source": "NASA, ESA, A. Simon (GSFC), M.H. Wong (UC Berkeley)・MAST HLSP OPAL（doi:10.17909/T9G593）。アプリ用に惑星面緯度→化成緯度・西経→東経に並べ直し、環の影の写りこみ（赤道±1°）と極の縁を除き、色合いを Mallama 2017 にそろえた",
+   "license": "CC BY 4.0（NASA, ESA, A. Simon, M.H. Wong）",
+   "url": "https://archive.stsci.edu/hlsp/opal"
+  },
+  {
+   "id": "hst-opal-uranus-2025",
+   "title": "Hubble OPAL Uranus 2025a global map（F657N・F547M・F467M の色の合成・2025-10）",
+   "source": "NASA, ESA, A. Simon (GSFC), M.H. Wong (UC Berkeley)・MAST HLSP OPAL（doi:10.17909/T9G593）。アプリ用に緯度ごとの明るさだけを使い（経度方向の模様は省いた）、見えていない南半球は平均の色、色合いは Mallama 2017 にそろえた",
+   "license": "CC BY 4.0（NASA, ESA, A. Simon, M.H. Wong）",
+   "url": "https://archive.stsci.edu/hlsp/opal"
+  },
+  {
+   "id": "hst-opal-neptune-2025",
+   "title": "Hubble OPAL Neptune 2025b global map（F657N・F547M・F467M の色の合成・2025-08）",
+   "source": "NASA, ESA, A. Simon (GSFC), M.H. Wong (UC Berkeley)・MAST HLSP OPAL（doi:10.17909/T9G593）。アプリ用に緯度ごとの明るさだけを使い（暗斑など経度方向の模様は省いた）、色合いは Mallama 2017 にそろえた（Voyager の画像のような濃い青にしない）",
+   "license": "CC BY 4.0（NASA, ESA, A. Simon, M.H. Wong）",
+   "url": "https://archive.stsci.edu/hlsp/opal"
+  },
+  {
+   "id": "usgs-mercury-messenger-color-665m",
+   "title": "Mercury MESSENGER MDIS Global Color Mosaic 665m（v3・2011〜2015）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／MESSENGER Team（NASA/JHUAPL/ASU/Carnegie）。R/G/B＝1000/750/430 nm の近似自然色。アプリ用に色合いを Mallama et al. 2017 の色指数にそろえ、極の近くの継ぎ目の彩度を下げた",
+   "license": "Public domain（USGS・著者の表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_color_mosaic_665m"
+  },
+  {
+   "id": "mallama-2017",
+   "title": "Mallama, Krobusek & Pavlov 2017「Comprehensive wide-band magnitudes and albedos for the planets」Icarus 282, 19（Table 3・6 の色指数）",
+   "source": "地上と宇宙からの測光の集成。金星の雲頂の色（一様）と、水星・土星・天王星・海王星の色合いの基準に使った（数値の引用）",
+   "license": "数値の引用（論文）",
+   "url": "https://arxiv.org/abs/1609.05048"
+  },
+  {
+   "id": "pds-vg2801-pps",
+   "title": "Voyager 2 PPS δ Scorpii ring occultation（PDS VG_2801・EASYDATA KM010 PS1P01・1981-08-26）",
+   "source": "NASA PDS Ring-Moon Systems Node。半径 10 km ごとの垂直の光学的厚さ τ を 1 px（約 32 km）ごとに透過で平均した。反射率は NASA NSSDC Saturnian Rings Fact Sheet の帯の値",
+   "license": "Public domain（NASA PDS）",
+   "url": "https://pds-rings.seti.org/holdings/volumes/VG_28xx/VG_2801/"
+  }
+ ]
+}

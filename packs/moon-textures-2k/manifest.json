@@ -1,0 +1,69 @@
+{
+ "schema": 1,
+ "packId": "moon-textures-2k",
+ "version": 1,
+ "title": "月面（2K・色と凹凸）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:301"
+ ],
+ "sizeBytes": 1050611,
+ "installedBytes": 1050611,
+ "assets": [
+  {
+   "id": "tex:301:albedo:2k",
+   "kind": "image",
+   "target": "naif:301",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "moon_albedo_2k.jpg"
+   ],
+   "credits": [
+    "nasa-svs-4720"
+   ]
+  },
+  {
+   "id": "tex:301:normal:2k",
+   "kind": "image",
+   "target": "naif:301",
+   "slot": "normal",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "moon_normal_2k.jpg"
+   ],
+   "credits": [
+    "nasa-svs-4720"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "moon_albedo_2k.jpg",
+   "bytes": 441254,
+   "sha256": "52cff5d78d2c5ef39b1b11271c927c918a44210230f9b85ca51b5dc2bde28bf2"
+  },
+  {
+   "path": "moon_normal_2k.jpg",
+   "bytes": 609357,
+   "sha256": "4bde73b751ed41d314654e99054081e9aaa29b9cb7217e6f9ddd25fa5f6a7482"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-svs-4720",
+   "title": "CGI Moon Kit（lroc_color_poles_4k・ldem_16_uint）",
+   "source": "NASA's Scientific Visualization Studio（LRO LROC WAC モザイク・LOLA 高さ）。凹凸の画像は高さから作った法線（tools/pipeline/make_moon_textures.py）",
+   "license": "Public domain（NASA SVS・クレジット表示）",
+   "url": "https://svs.gsfc.nasa.gov/4720"
+  }
+ ]
+}

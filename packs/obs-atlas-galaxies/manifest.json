@@ -1,0 +1,865 @@
+{
+ "schema": 1,
+ "packId": "obs-atlas-galaxies",
+ "version": 1,
+ "title": "観測図鑑（銀河）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:nasa-pia08787:std",
+  "use:obs-img:nasa-pia03031:std",
+  "use:obs-img:nasa-pia08506:std",
+  "use:obs-img:nasa-pia26276:std",
+  "use:obs-img:nasa-pia04230:std",
+  "use:obs-img:nasa-hubble-sees-a-galactic-sunflower-21136469209-o:std",
+  "use:obs-img:nasa-pia23128:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000117:std",
+  "use:obs-img:nasa-pia15427:std",
+  "use:obs-img:nasa-pia15426:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000794:std",
+  "use:obs-img:nasa-pia18841:std",
+  "use:obs-img:nasa-pia17847:std",
+  "use:obs-img:nasa-pia23010:std",
+  "use:obs-img:nasa-pia10968:std",
+  "use:obs-img:nasa-pia10967:std",
+  "use:obs-img:nasa-pia15630:std",
+  "use:obs-img:nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o:std",
+  "use:obs-img:nasa-pia09071:std",
+  "use:obs-img:nasa-pia04609:std",
+  "use:obs-img:nasa-pia18009:std",
+  "use:obs-img:nasa-pia07136:std",
+  "use:obs-img:nasa-pia08516:std",
+  "use:obs-img:nasa-pia15255:std",
+  "use:obs-img:nasa-pia12485:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e002039:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e002154:std",
+  "use:obs-img:nasa-gsfc-20171208-archive-e000151:std",
+  "use:obs-img:nasa-pia04201:std"
+ ],
+ "sizeBytes": 6881508,
+ "installedBytes": 6881508,
+ "assets": [
+  {
+   "id": "std:nasa-pia08787",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08787:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 519,
+   "files": [
+    "images/nasa-pia08787_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08787"
+   ]
+  },
+  {
+   "id": "std:nasa-pia03031",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia03031:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 471,
+   "files": [
+    "images/nasa-pia03031_std.webp"
+   ],
+   "credits": [
+    "nasa-pia03031"
+   ]
+  },
+  {
+   "id": "std:nasa-pia08506",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08506:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 536,
+   "files": [
+    "images/nasa-pia08506_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08506"
+   ]
+  },
+  {
+   "id": "std:nasa-pia26276",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia26276:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 691,
+   "files": [
+    "images/nasa-pia26276_std.webp"
+   ],
+   "credits": [
+    "nasa-pia26276"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04230",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04230:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 648,
+   "height": 809,
+   "files": [
+    "images/nasa-pia04230_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04230"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-sees-a-galactic-sunflower-21136469209-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-sees-a-galactic-sunflower-21136469209-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1200,
+   "files": [
+    "images/nasa-hubble-sees-a-galactic-sunflower-21136469209-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-sees-a-galactic-sunflower-21136469209-o"
+   ]
+  },
+  {
+   "id": "std:nasa-pia23128",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia23128:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 900,
+   "files": [
+    "images/nasa-pia23128_std.webp"
+   ],
+   "credits": [
+    "nasa-pia23128"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000117",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000117:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1417,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000117_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000117"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15427",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15427:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1313,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia15427_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15427"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15426",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15426:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1313,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia15426_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15426"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000794",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000794:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 636,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000794_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000794"
+   ]
+  },
+  {
+   "id": "std:nasa-pia18841",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia18841:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1347,
+   "files": [
+    "images/nasa-pia18841_std.webp"
+   ],
+   "credits": [
+    "nasa-pia18841"
+   ]
+  },
+  {
+   "id": "std:nasa-pia17847",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia17847:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 985,
+   "files": [
+    "images/nasa-pia17847_std.webp"
+   ],
+   "credits": [
+    "nasa-pia17847"
+   ]
+  },
+  {
+   "id": "std:nasa-pia23010",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia23010:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1136,
+   "files": [
+    "images/nasa-pia23010_std.webp"
+   ],
+   "credits": [
+    "nasa-pia23010"
+   ]
+  },
+  {
+   "id": "std:nasa-pia10968",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia10968:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia10968_std.webp"
+   ],
+   "credits": [
+    "nasa-pia10968"
+   ]
+  },
+  {
+   "id": "std:nasa-pia10967",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia10967:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia10967_std.webp"
+   ],
+   "credits": [
+    "nasa-pia10967"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15630",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15630:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia15630_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15630"
+   ]
+  },
+  {
+   "id": "std:nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o",
+   "kind": "image",
+   "target": "use:obs-img:nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 926,
+   "files": [
+    "images/nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o_std.webp"
+   ],
+   "credits": [
+    "nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o"
+   ]
+  },
+  {
+   "id": "std:nasa-pia09071",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia09071:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1534,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia09071_std.webp"
+   ],
+   "credits": [
+    "nasa-pia09071"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04609",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04609:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1497,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia04609_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04609"
+   ]
+  },
+  {
+   "id": "std:nasa-pia18009",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia18009:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 986,
+   "height": 1135,
+   "files": [
+    "images/nasa-pia18009_std.webp"
+   ],
+   "credits": [
+    "nasa-pia18009"
+   ]
+  },
+  {
+   "id": "std:nasa-pia07136",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia07136:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia07136_std.webp"
+   ],
+   "credits": [
+    "nasa-pia07136"
+   ]
+  },
+  {
+   "id": "std:nasa-pia08516",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia08516:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia08516_std.webp"
+   ],
+   "credits": [
+    "nasa-pia08516"
+   ]
+  },
+  {
+   "id": "std:nasa-pia15255",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia15255:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 800,
+   "files": [
+    "images/nasa-pia15255_std.webp"
+   ],
+   "credits": [
+    "nasa-pia15255"
+   ]
+  },
+  {
+   "id": "std:nasa-pia12485",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia12485:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1440,
+   "files": [
+    "images/nasa-pia12485_std.webp"
+   ],
+   "credits": [
+    "nasa-pia12485"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002039",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002039:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 1573,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002039_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002039"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e002154",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e002154:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1600,
+   "height": 913,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e002154_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e002154"
+   ]
+  },
+  {
+   "id": "std:nasa-gsfc-20171208-archive-e000151",
+   "kind": "image",
+   "target": "use:obs-img:nasa-gsfc-20171208-archive-e000151:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 901,
+   "files": [
+    "images/nasa-gsfc-20171208-archive-e000151_std.webp"
+   ],
+   "credits": [
+    "nasa-gsfc-20171208-archive-e000151"
+   ]
+  },
+  {
+   "id": "std:nasa-pia04201",
+   "kind": "image",
+   "target": "use:obs-img:nasa-pia04201:std",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 1280,
+   "height": 1600,
+   "files": [
+    "images/nasa-pia04201_std.webp"
+   ],
+   "credits": [
+    "nasa-pia04201"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/nasa-pia08787_std.webp",
+   "bytes": 228044,
+   "sha256": "b5f1b239a52532cb60e765f741c849f01196d6a90787b04407f8f83ade68dcb2"
+  },
+  {
+   "path": "images/nasa-pia03031_std.webp",
+   "bytes": 164544,
+   "sha256": "d84a764fd45a3c87f2f943b2fd5022083fec6a1823369156f56411533e2c4ac7"
+  },
+  {
+   "path": "images/nasa-pia08506_std.webp",
+   "bytes": 120118,
+   "sha256": "81ac2da6d709dbe953518c9454365c9d4eefdedbf56dbf69f9b0c0e88b4b51a2"
+  },
+  {
+   "path": "images/nasa-pia26276_std.webp",
+   "bytes": 148902,
+   "sha256": "0784bd321d3aa48a8b8fdfd058305474c4b723eb6f5365c87085962aca4270d5"
+  },
+  {
+   "path": "images/nasa-pia04230_std.webp",
+   "bytes": 71228,
+   "sha256": "448988146ff5c396bcc76fdc381059bc6d71dbf6c1bb093d13d748d25d9d3569"
+  },
+  {
+   "path": "images/nasa-hubble-sees-a-galactic-sunflower-21136469209-o_std.webp",
+   "bytes": 405160,
+   "sha256": "2ad1ff6f22c28b373fc8aad8189fcd61aaacafe6556f8cb210ef6772469e4389"
+  },
+  {
+   "path": "images/nasa-pia23128_std.webp",
+   "bytes": 96872,
+   "sha256": "7fe8d7215c49d25dc11202a6c6e6da07a663cf450be4e8c107e9c63e92f588f3"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000117_std.webp",
+   "bytes": 384034,
+   "sha256": "eb584f037da999de9d3742bb28bd609d20fdac2c80eb3e7d5a957eee3b6c8087"
+  },
+  {
+   "path": "images/nasa-pia15427_std.webp",
+   "bytes": 100464,
+   "sha256": "75df78924c02d30c2a748af489e0c6f79cac2ebd253720b8f7342b26f44855a5"
+  },
+  {
+   "path": "images/nasa-pia15426_std.webp",
+   "bytes": 173024,
+   "sha256": "b381c8fbc7433584764bbb39e2ba08b6a29edd406023ea4efc5fbdd71f99b72b"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000794_std.webp",
+   "bytes": 50848,
+   "sha256": "1aaeb750013813e0be188aa94facd7fc08cfc466eac38c7fc52a9cbe7b7f3b4a"
+  },
+  {
+   "path": "images/nasa-pia18841_std.webp",
+   "bytes": 33264,
+   "sha256": "32e31ac9fab18b78a89ef77ae538dad7f7f8ec6254f99f3f573688012bd383c8"
+  },
+  {
+   "path": "images/nasa-pia17847_std.webp",
+   "bytes": 56286,
+   "sha256": "f7023cd07acf65fbccde9f7528d7f5af8847d721655f1cb2b0f2b9afdc6467f4"
+  },
+  {
+   "path": "images/nasa-pia23010_std.webp",
+   "bytes": 28360,
+   "sha256": "d8071779b311a96fc62761c68ddfd662d12061a001026047db7fe0d29255fe0f"
+  },
+  {
+   "path": "images/nasa-pia10968_std.webp",
+   "bytes": 464382,
+   "sha256": "2576973440f912f8b567b036230eba81dbc1eb07bf400c4789fd3a49e56496fb"
+  },
+  {
+   "path": "images/nasa-pia10967_std.webp",
+   "bytes": 589068,
+   "sha256": "97077f7f152e1593bee10d717278d445dd358377e0f6c97867388845a026f85b"
+  },
+  {
+   "path": "images/nasa-pia15630_std.webp",
+   "bytes": 159066,
+   "sha256": "c58aa054aaef3a419ef447432e1b1fcab27f118c120a1dab8be2c65ad194dc67"
+  },
+  {
+   "path": "images/nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o_std.webp",
+   "bytes": 330256,
+   "sha256": "d0cdc13f59b2682eea37fbad5a13ff860de3d7d899390ff6b0b114133865f355"
+  },
+  {
+   "path": "images/nasa-pia09071_std.webp",
+   "bytes": 139914,
+   "sha256": "92287e5ed9a38547a70c50f0cd545364a95f11dcf69d7df9b53705366ac271a3"
+  },
+  {
+   "path": "images/nasa-pia04609_std.webp",
+   "bytes": 254026,
+   "sha256": "aa0029c72e7771d15e6805f0b669887cc8d94e22f2ffd5e4247ccfa11dcfd9fb"
+  },
+  {
+   "path": "images/nasa-pia18009_std.webp",
+   "bytes": 77498,
+   "sha256": "30d4bcd6214ed8063f4ccef2e690dff943f416b997fcc5a631c65e37b74a23f1"
+  },
+  {
+   "path": "images/nasa-pia07136_std.webp",
+   "bytes": 770458,
+   "sha256": "e3db416a4dae17dda038a36003893b064de7130cbc566ce6643c12442bd4023f"
+  },
+  {
+   "path": "images/nasa-pia08516_std.webp",
+   "bytes": 413746,
+   "sha256": "5aa0f34b46f829d708db3648a0d65fd1cc284742aa46d5291da487489adb4c87"
+  },
+  {
+   "path": "images/nasa-pia15255_std.webp",
+   "bytes": 162704,
+   "sha256": "83f6c0b137ba2b16d9b0965c93b88696130b14a85ce28c794343c6abe5ba2b2a"
+  },
+  {
+   "path": "images/nasa-pia12485_std.webp",
+   "bytes": 787944,
+   "sha256": "207c07f807cd239db671b3a150007e0ab379373938c719ea6cee15eb9a18fbac"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002039_std.webp",
+   "bytes": 357182,
+   "sha256": "261074cd1b42366f80e6b7b85b451598a81033b26e8b112acb55a6cc3f5af15f"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e002154_std.webp",
+   "bytes": 124922,
+   "sha256": "801ff1c06e365f9d70fb36b7ac4ad8dbd879286f241cc04f42b3e0e37b1012d3"
+  },
+  {
+   "path": "images/nasa-gsfc-20171208-archive-e000151_std.webp",
+   "bytes": 69848,
+   "sha256": "19cecd84fa7ad0f9bf504babb9fce383e66a63e649c2a6ea475fbd7e18e04cd0"
+  },
+  {
+   "path": "images/nasa-pia04201_std.webp",
+   "bytes": 119346,
+   "sha256": "e93329e478f2c0c3f7968aecb5b3cb837259b54da4b87ccdff68d874fbbc4ba3"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-pia08787",
+   "title": "Amazing Andromeda Galaxy",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08787"
+  },
+  {
+   "id": "nasa-pia03031",
+   "title": "Amazing Andromeda in Red",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Univ. of Ariz.<br />Figure 3: NOAO/AURA/NSF",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA03031"
+  },
+  {
+   "id": "nasa-pia08506",
+   "title": "Fade to Red",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Harvard-Smithsonian CfA/NOAO",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08506"
+  },
+  {
+   "id": "nasa-pia26276",
+   "title": "The Infrared Face of the Andromeda Galaxy",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA26276"
+  },
+  {
+   "id": "nasa-pia04230",
+   "title": "Whirlpool Galaxy",
+   "source": "NASA Image and Video Library：NASA and The Hubble Heritage Team STScI/AURA Acknowledgement: N. Scoville Caltech and T. Rector NOAO",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04230"
+  },
+  {
+   "id": "nasa-hubble-sees-a-galactic-sunflower-21136469209-o",
+   "title": "A galactic sunflower",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-sees-a-galactic-sunflower_21136469209_o"
+  },
+  {
+   "id": "nasa-pia23128",
+   "title": "A Whirlpool 'Warhol' Shows Galaxy in Different Light",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA23128"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000117",
+   "title": "Hubble's Glittering Frisbee Galaxy",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA #nasagoddard #space #science #Hubble #star",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000117"
+  },
+  {
+   "id": "nasa-pia15427",
+   "title": "Sombrero Galaxy Not So Flat After All",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15427"
+  },
+  {
+   "id": "nasa-pia15426",
+   "title": "The Sombrero Galaxy Split Personality",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15426"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000794",
+   "title": "Hubble's Little Sombrero",
+   "source": "NASA Image and Video Library：ESA/Hubble & NASA Acknowledgement: Josh Barrington",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000794"
+  },
+  {
+   "id": "nasa-pia18841",
+   "title": "NuSTAR Finds a Pulse in Cigar Galaxy",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/SAO/NOAO",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA18841"
+  },
+  {
+   "id": "nasa-pia17847",
+   "title": "Seeing Through a Veil of Dust",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Carnegie Institution for Science",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA17847"
+  },
+  {
+   "id": "nasa-pia23010",
+   "title": "The Cigar Galaxy's Magnetic Field",
+   "source": "NASA Image and Video Library：NASA/SOFIA/E. Lopez-Rodiguez; NASA/Spitzer/J. Moustakas et al.",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA23010"
+  },
+  {
+   "id": "nasa-pia10968",
+   "title": "No",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA10968"
+  },
+  {
+   "id": "nasa-pia10967",
+   "title": "Pinwheel Looks Fab in Infrared",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA10967"
+  },
+  {
+   "id": "nasa-pia15630",
+   "title": "Pinwheel Galaxy Rainbow",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ESA/STScI/CXC",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15630"
+  },
+  {
+   "id": "nasa-hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy-25568403123-o",
+   "title": "A distinctly disorganised dwarf ",
+   "source": "NASA Image and Video Library：NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/hubble-peers-at-a-distinctly-disorganized-dwarf-galaxy_25568403123_o"
+  },
+  {
+   "id": "nasa-pia09071",
+   "title": "Stellar Debris in the Large Magellanic Cloud",
+   "source": "NASA Image and Video Library：NASA/CXC/STScI/JPL-Caltech/UIUC/Univ. of Minn.",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA09071"
+  },
+  {
+   "id": "nasa-pia04609",
+   "title": "Celestial Fireworks",
+   "source": "NASA Image and Video Library：NASA/JPL/Hubble Heritage Team STScI/AURA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04609"
+  },
+  {
+   "id": "nasa-pia18009",
+   "title": "Dissecting Dust from Detonation of Dead Star",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/Goddard",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA18009"
+  },
+  {
+   "id": "nasa-pia07136",
+   "title": "Our Chaotic Neighbor",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA07136"
+  },
+  {
+   "id": "nasa-pia08516",
+   "title": "Dusty Death of a Massive Star",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/ UC Berkeley",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA08516"
+  },
+  {
+   "id": "nasa-pia15255",
+   "title": "A Dwarf Galaxy Star Bar and Dusty Wing",
+   "source": "NASA Image and Video Library：ESA/NASA/JPL-Caltech/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA15255"
+  },
+  {
+   "id": "nasa-pia12485",
+   "title": "Little Galaxy Explored",
+   "source": "NASA Image and Video Library：NASA/JPL-Caltech/STScI",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA12485"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e002039",
+   "title": "Hubble Captures Bubbles And Baby Stars",
+   "source": "NASA Image and Video Library：NASA, ESA and Jesús Maíz Apellániz (Instituto de Astrofísica de Andalucía, Spain)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002039"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e002154",
+   "title": "Barred Spiral Galaxy",
+   "source": "NASA Image and Video Library：NASA, ESA, and The Hubble Heritage Team (STScI/AURA) Acknowledgment: P. Knezek (WIYN)",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002154"
+  },
+  {
+   "id": "nasa-gsfc-20171208-archive-e000151",
+   "title": "Hubble Catches a Transformation in the Virgo Constellation",
+   "source": "NASA Image and Video Library：ESA/NASA",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000151"
+  },
+  {
+   "id": "nasa-pia04201",
+   "title": "Stephan Quintet",
+   "source": "NASA Image and Video Library：NASA, Jayanne English University of Manitoba, Sally Hunsberger Pennsylvania State University, Zolt Levay Space Telescope Science Institute, Sarah Gallagher Pennsylvania State University, and Jane Charlton",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://images.nasa.gov/details/PIA04201"
+  }
+ ],
+ "info": {
+  "category": "observation-images",
+  "titleEasy": "観測図鑑（銀河）",
+  "description": "公式アーカイブで権利と出典を確認した実観測画像"
+ }
+}
