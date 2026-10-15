@@ -1,0 +1,182 @@
+{
+ "schema": 1,
+ "packId": "apollo-landing-a11",
+ "version": 1,
+ "title": "アポロ11号の着陸",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:apollo-landing:apollo11-track",
+  "use:apollo-landing:apollo11-site",
+  "use:apollo-landing:apollo11-near",
+  "use:apollo-landing:apollo11-approach",
+  "use:apollo-landing:apollo11-items"
+ ],
+ "sizeBytes": 3460615,
+ "installedBytes": 3460615,
+ "assets": [
+  {
+   "id": "apollo-landing-a11-track",
+   "kind": "image",
+   "target": "use:apollo-landing:apollo11-track",
+   "slot": "albedo",
+   "files": [
+    "tc_track.jpg"
+   ],
+   "credits": [
+    "kaguya-tc"
+   ],
+   "format": "jpg",
+   "width": 4096,
+   "height": 593,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-landing-a11-site",
+   "kind": "image",
+   "target": "use:apollo-landing:apollo11-site",
+   "slot": "albedo",
+   "files": [
+    "tc_site.jpg"
+   ],
+   "credits": [
+    "kaguya-tc"
+   ],
+   "format": "jpg",
+   "width": 2048,
+   "height": 2048,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-landing-a11-near",
+   "kind": "image",
+   "target": "use:apollo-landing:apollo11-near",
+   "slot": "albedo",
+   "files": [
+    "tc_near.jpg"
+   ],
+   "credits": [
+    "kaguya-tc"
+   ],
+   "format": "jpg",
+   "width": 1024,
+   "height": 922,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-landing-a11-dtm",
+   "kind": "image",
+   "target": "use:apollo-landing:apollo11-approach",
+   "slot": "height",
+   "files": [
+    "approach.png"
+   ],
+   "credits": [
+    "lroc-dtm"
+   ],
+   "format": "png",
+   "width": 1026,
+   "height": 1001,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-landing-a11-tex",
+   "kind": "image",
+   "target": "use:apollo-landing:apollo11-approach",
+   "slot": "albedo",
+   "files": [
+    "approach_tex.jpg"
+   ],
+   "credits": [
+    "lroc-dtm"
+   ],
+   "format": "jpg",
+   "width": 2051,
+   "height": 2001,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-landing-a11-items",
+   "kind": "model",
+   "target": "use:apollo-landing:apollo11-items",
+   "slot": "model",
+   "files": [
+    "items.glb"
+   ],
+   "credits": [
+    "model",
+    "wagner"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "tc_track.jpg",
+   "bytes": 680140,
+   "sha256": "8806d5ccaab56215d5866a03b2df03501365dcba89e063e3636716aeab3753e3"
+  },
+  {
+   "path": "tc_site.jpg",
+   "bytes": 822111,
+   "sha256": "d5bc17279a69d1a865bd15614c8e633c6ebcc419dabd510aa5497032d07b833d"
+  },
+  {
+   "path": "tc_near.jpg",
+   "bytes": 159842,
+   "sha256": "350e71398ddeda18267283e44dbf08471755b52dd7df18d7e624188038ef6f8a"
+  },
+  {
+   "path": "approach.png",
+   "bytes": 755750,
+   "sha256": "f837cd22da671d25fe01f3cce51b8d969b71135ea9a782e9a7a24d8f9a3fdb3d"
+  },
+  {
+   "path": "approach_tex.jpg",
+   "bytes": 895916,
+   "sha256": "6d760d6846f94e1f5ce794a9fb75a9ce06f48f9a23831b918bca0b5b0abf08fc"
+  },
+  {
+   "path": "items.glb",
+   "bytes": 146856,
+   "sha256": "21ef6e3aefb344726193c39b6260572ab55f8e20453b0e9e08613abaccd7b99a"
+  }
+ ],
+ "credits": [
+  {
+   "id": "kaguya-tc",
+   "title": "SELENE (Kaguya) Terrain Camera 2008-05 morning strips (uncontrolled, map-projected)",
+   "source": "JAXA/SELENE（ISAS/JAXA）・USGS Astrogeology（Analysis Ready Data）。位置は LROC NAC DTM に合わせて SOLARIS が補正",
+   "license": "ISAS/JAXA データポリシー（出典と加工の明示）／USGS Astrogeology ARD（CC0-1.0）",
+   "url": "https://stac.astrogeology.usgs.gov/"
+  },
+  {
+   "id": "lroc-dtm",
+   "title": "LROC NAC Digital Terrain Model NAC_DTM_APOLLO11（DTM・正射写真 M150361817）",
+   "source": "NASA/GSFC/Arizona State University (Henriksen et al. 2017)。1969 年の太陽の陰影は SOLARIS が計算",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/APOLLO11/"
+  },
+  {
+   "id": "model",
+   "title": "SOLARIS reconstruction from NASA Apollo photographs and LM-5 drawings",
+   "source": "SOLARIS（NASA 写真・図面に基づく再現CG）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/"
+  },
+  {
+   "id": "wagner",
+   "title": "Coordinates of anthropogenic features on the Moon (Wagner et al. 2017)",
+   "source": "LROC / Icarus 283",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://doi.org/10.1016/j.icarus.2016.05.011"
+  }
+ ],
+ "info": {
+  "titleEasy": "アポロ11号：降下と着陸の月面",
+  "description": "降下の道すじの月面写真（かぐや 地形カメラ・1969 年に近い低い東の太陽で撮影）と、最後の進入の実測地形（LROC NAC DTM）・1969 年の太陽で計算した陰影。",
+  "category": "other",
+  "updatedUtc": "2026-10-14"
+ }
+}

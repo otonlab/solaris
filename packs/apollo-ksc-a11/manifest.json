@@ -1,0 +1,120 @@
+{
+ "schema": 1,
+ "packId": "apollo-ksc-a11",
+ "version": 1,
+ "title": "アポロ11号の発射基地",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:apollo-ksc:l0",
+  "use:apollo-ksc:l1",
+  "use:apollo-ksc:l2",
+  "use:apollo-ksc:l3"
+ ],
+ "sizeBytes": 1249650,
+ "installedBytes": 1249650,
+ "assets": [
+  {
+   "id": "apollo-ksc-a11-l0",
+   "kind": "image",
+   "target": "use:apollo-ksc:l0",
+   "slot": "albedo",
+   "files": [
+    "ksc_l0.webp"
+   ],
+   "credits": [
+    "usgs-naip"
+   ],
+   "format": "webp",
+   "width": 2048,
+   "height": 2048,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-ksc-a11-l1",
+   "kind": "image",
+   "target": "use:apollo-ksc:l1",
+   "slot": "albedo",
+   "files": [
+    "ksc_l1.webp"
+   ],
+   "credits": [
+    "usgs-naip"
+   ],
+   "format": "webp",
+   "width": 2048,
+   "height": 2048,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-ksc-a11-l2",
+   "kind": "image",
+   "target": "use:apollo-ksc:l2",
+   "slot": "albedo",
+   "files": [
+    "ksc_l2.webp"
+   ],
+   "credits": [
+    "usgs-naip"
+   ],
+   "format": "webp",
+   "width": 1536,
+   "height": 1536,
+   "projection": "equirect"
+  },
+  {
+   "id": "apollo-ksc-a11-l3",
+   "kind": "image",
+   "target": "use:apollo-ksc:l3",
+   "slot": "albedo",
+   "files": [
+    "ksc_l3.webp"
+   ],
+   "credits": [
+    "usgs-naip"
+   ],
+   "format": "webp",
+   "width": 1024,
+   "height": 1024,
+   "projection": "equirect"
+  }
+ ],
+ "files": [
+  {
+   "path": "ksc_l0.webp",
+   "bytes": 432978,
+   "sha256": "57a4f960028ba0a3e01d572e3e6840f404a8f8167f7630a5421edd70e79d7f4b"
+  },
+  {
+   "path": "ksc_l1.webp",
+   "bytes": 489404,
+   "sha256": "0d700bed3971cfb8bcea0d7544650449f4d6df6ca5c34b7b08982fbef3ba10b4"
+  },
+  {
+   "path": "ksc_l2.webp",
+   "bytes": 223226,
+   "sha256": "639cce069b509ad1f0a12cce2d743e219dc1b83d6125d913bb71d57de181d1f5"
+  },
+  {
+   "path": "ksc_l3.webp",
+   "bytes": 104042,
+   "sha256": "412f60795dbfe37f26427f2114374af9f483dfea531e6306bd8e13c4fcd63350"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-naip",
+   "title": "USGS The National Map: Orthoimagery (USDA NAIP ほか)",
+   "source": "USGS / USDA FSA。発射台の接平面への貼り直し・1969 年の修正（推定）は SOLARIS",
+   "license": "public domain (U.S. Government)",
+   "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"
+  }
+ ],
+ "info": {
+  "titleEasy": "アポロ11号：ケネディ宇宙センターの地面",
+  "description": "第39発射台Aのまわり 300 km 四方の航空写真（USGS・NAIP）。1969 年より後の施設（シャトル着陸施設など）は消してある（推定）。",
+  "category": "other",
+  "updatedUtc": "2026-10-14"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "schema": 1,
+ "packId": "apollo-eva-j",
+ "version": 2,
+ "title": "アポロの月面車と宇宙服",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:apollo-eva:lrv",
+  "use:apollo-eva:suit-a7lb",
+  "use:apollo-eva:suit-a7l"
+ ],
+ "sizeBytes": 2977440,
+ "installedBytes": 2977440,
+ "assets": [
+  {
+   "id": "apollo-eva-j-lrv",
+   "kind": "model",
+   "target": "use:apollo-eva:lrv",
+   "slot": "model",
+   "files": [
+    "lrv.glb"
+   ],
+   "credits": [
+    "model"
+   ],
+   "format": "glb"
+  },
+  {
+   "id": "apollo-eva-j-suit-a7lb",
+   "kind": "model",
+   "target": "use:apollo-eva:suit-a7lb",
+   "slot": "model",
+   "files": [
+    "suit_a7lb.glb"
+   ],
+   "credits": [
+    "model"
+   ],
+   "format": "glb"
+  },
+  {
+   "id": "apollo-eva-j-suit-a7l",
+   "kind": "model",
+   "target": "use:apollo-eva:suit-a7l",
+   "slot": "model",
+   "files": [
+    "suit_a7l.glb"
+   ],
+   "credits": [
+    "model"
+   ],
+   "format": "glb"
+  }
+ ],
+ "files": [
+  {
+   "path": "lrv.glb",
+   "bytes": 819696,
+   "sha256": "e291f7a07663563d723da307a1291d8d7b9f6aceac9bf38cecd2e41edb824680"
+  },
+  {
+   "path": "suit_a7lb.glb",
+   "bytes": 1078872,
+   "sha256": "1b1281612c1f86b88fc9140aec302a242c2acc85eda471ed25679fc9a3e84768"
+  },
+  {
+   "path": "suit_a7l.glb",
+   "bytes": 1078872,
+   "sha256": "20d659b3aec34abf2cb16a65a5dc26804d2d0e62118f73d9020ae7cdf0df925f"
+  }
+ ],
+ "credits": [
+  {
+   "id": "model",
+   "title": "SOLARIS reconstruction from NASA Apollo photographs, the LRV Operations Handbook and A7LB suit references",
+   "source": "SOLARIS（NASA 写真・LRV 取扱説明書・A7LB 宇宙服の資料に基づく再現CG）",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://www.nasa.gov/history/alsj/"
+  }
+ ],
+ "info": {
+  "titleEasy": "アポロ：月面車と宇宙服",
+  "description": "NASA の写真と資料から作り直した月面車（金網の車輪・かじ取り・サスペンションが動く）と、月面用の宇宙服 A7L（11〜14 号）・A7LB（15〜17 号：関節が曲がる・船長の赤い帯）。",
+  "category": "other",
+  "updatedUtc": "2026-10-15"
+ }
+}

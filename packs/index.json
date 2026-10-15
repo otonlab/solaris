@@ -2,6 +2,69 @@
  "schema": 1,
  "packs": [
   {
+   "packId": "apollo-eva-j",
+   "version": 2,
+   "distribution": "download",
+   "manifest": "apollo-eva-j/manifest.json",
+   "sizeBytes": 2977440
+  },
+  {
+   "packId": "apollo-flight-a11",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-flight-a11/manifest.json",
+   "sizeBytes": 940152
+  },
+  {
+   "packId": "apollo-ksc-a11",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-ksc-a11/manifest.json",
+   "sizeBytes": 1249650
+  },
+  {
+   "packId": "apollo-landing-a11",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-landing-a11/manifest.json",
+   "sizeBytes": 3460615
+  },
+  {
+   "packId": "apollo-landing-a14",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-landing-a14/manifest.json",
+   "sizeBytes": 308313
+  },
+  {
+   "packId": "apollo-landing-a15",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-landing-a15/manifest.json",
+   "sizeBytes": 358141
+  },
+  {
+   "packId": "apollo-landing-a16",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-landing-a16/manifest.json",
+   "sizeBytes": 326524
+  },
+  {
+   "packId": "apollo-landing-a17",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-landing-a17/manifest.json",
+   "sizeBytes": 358241
+  },
+  {
+   "packId": "apollo-sound-launch",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "apollo-sound-launch/manifest.json",
+   "sizeBytes": 335953
+  },
+  {
    "packId": "artemis2-orion",
    "version": 1,
    "distribution": "download",
@@ -21,6 +84,13 @@
    "distribution": "bundled",
    "manifest": "base-textures/manifest.json",
    "sizeBytes": 1027589
+  },
+  {
+   "packId": "cosmic-tour-audio",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "cosmic-tour-audio/manifest.json",
+   "sizeBytes": 8726872
   },
   {
    "packId": "earth-relief",

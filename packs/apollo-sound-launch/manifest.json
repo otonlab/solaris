@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "packId": "apollo-sound-launch",
+ "version": 1,
+ "title": "アポロの旅：打ち上げの音（NASA の録音）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:apollo-sound:rumble",
+  "use:apollo-sound:crackle"
+ ],
+ "sizeBytes": 335953,
+ "installedBytes": 335953,
+ "assets": [
+  {
+   "id": "apollo-sound-launch-rumble",
+   "kind": "data",
+   "target": "use:apollo-sound:rumble",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "rumble.m4a"
+   ],
+   "credits": [
+    "nasa-ap10"
+   ]
+  },
+  {
+   "id": "apollo-sound-launch-crackle",
+   "kind": "data",
+   "target": "use:apollo-sound:crackle",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "crackle.m4a"
+   ],
+   "credits": [
+    "nasa-sts131"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "rumble.m4a",
+   "bytes": 198839,
+   "sha256": "d6f8829bc11019f6ea482164abaaece9e3c38d4a090fcd3eb13eed9c0d3d9b46"
+  },
+  {
+   "path": "crackle.m4a",
+   "bytes": 137114,
+   "sha256": "ad7da0a32261244e7abf58ee21f7886306361e82fcbfd7ea9f12e00fa15fe9d1"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-ap10",
+   "title": "Liftoff of Apollo 10 (Saturn V F-1 engines)",
+   "source": "NASA History Office「Remembering Apollo 11」CD-ROM の音声。低い成分（380 Hz 以下）だけを使い、ループに加工（SOLARIS）",
+   "license": "NASA の制作物（一般に米国で著作権の対象外・NASA Images and Media Guidelines）",
+   "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  },
+  {
+   "id": "nasa-sts131",
+   "title": "STS-131: Sound of Launch",
+   "source": "NASA Historical Sounds。高い成分（380 Hz 以上）だけを使い、ループに加工（SOLARIS）・サターン V の高い音の代わり（演出）",
+   "license": "NASA の制作物（一般に米国で著作権の対象外・NASA Images and Media Guidelines）",
+   "url": "https://www.nasa.gov/historical-sounds/"
+  }
+ ],
+ "info": {
+  "titleEasy": "打ち上げの音を追加する",
+  "description": "サターン V の打ち上げの低い轟音（アポロ10号の NASA の録音）と、ばりばりという高い音（スペースシャトルの打ち上げの NASA の録音で補った演出）。",
+  "category": "other",
+  "updatedUtc": "2026-10-15"
+ }
+}

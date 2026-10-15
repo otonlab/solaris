@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "packId": "cosmic-tour-audio",
+ "version": 1,
+ "title": "宇宙の旅の音声パック（BGM・ナレーション 男性／女性）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:cosmic-tour-audio:bgm",
+  "use:cosmic-tour-audio:narration-male",
+  "use:cosmic-tour-audio:narration-female"
+ ],
+ "sizeBytes": 8726872,
+ "installedBytes": 8726872,
+ "assets": [
+  {
+   "id": "cosmic-tour-bgm",
+   "kind": "data",
+   "target": "use:cosmic-tour-audio:bgm",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "bgm.m4a"
+   ],
+   "credits": [
+    "solaris-tour-bgm"
+   ]
+  },
+  {
+   "id": "cosmic-tour-narration-male",
+   "kind": "data",
+   "target": "use:cosmic-tour-audio:narration-male",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "narration_male.m4a"
+   ],
+   "credits": [
+    "aivisspeech-aida-shigeru"
+   ]
+  },
+  {
+   "id": "cosmic-tour-narration-female",
+   "kind": "data",
+   "target": "use:cosmic-tour-audio:narration-female",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "narration_female.m4a"
+   ],
+   "credits": [
+    "aivisspeech-morioki"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "bgm.m4a",
+   "bytes": 6813156,
+   "sha256": "e8c212876e1a96dc24e82f5fc42b31e23733a77fd345db67f48cc88ce8a65efc"
+  },
+  {
+   "path": "narration_male.m4a",
+   "bytes": 930473,
+   "sha256": "67e10b7375c40eb8c789f5f70f0ba0425021abcfe6c8646a9180842712fcf433"
+  },
+  {
+   "path": "narration_female.m4a",
+   "bytes": 983243,
+   "sha256": "77ce420f40b6230e4bb13094fc29e855c90a371f524f6508c1516438752769b6"
+  }
+ ],
+ "credits": [
+  {
+   "id": "solaris-tour-bgm",
+   "title": "宇宙の旅 BGM",
+   "source": "SOLARIS で合成（tools/tour_audio/make_bgm_tour.py・外の音源・既存の楽曲なし）",
+   "license": "SOLARIS の著作物",
+   "url": "-"
+  },
+  {
+   "id": "aivisspeech-aida-shigeru",
+   "title": "ナレーション（男性）：AivisSpeech：阿井田 茂（合成音声）",
+   "source": "AivisSpeech Engine 1.2.0（LGPL-3.0）・音声合成モデル「阿井田 茂」（CV・作成：古山キリヲ）",
+   "license": "Aivis Common Model License (ACML) 1.0",
+   "url": "https://hub.aivis-project.com/aivm-models/47e53151-a378-46f3-abee-ce13aa07feb1"
+  },
+  {
+   "id": "aivisspeech-morioki",
+   "title": "ナレーション（女性）：AivisSpeech：morioki（合成音声）",
+   "source": "AivisSpeech Engine 1.2.0（LGPL-3.0）・音声合成モデル「morioki」（ボイス提供：もりおき・モデル作成：yuki）。実在の方の声をもとにした合成音声で、ご本人の発言ではありません",
+   "license": "Aivis Common Model License (ACML) 1.0",
+   "url": "https://hub.aivis-project.com/aivm-models/baaae3c0-7b22-4605-8ba5-80c959b41a48"
+  }
+ ],
+ "info": {
+  "titleEasy": "宇宙の旅の音楽とナレーションを追加する",
+  "description": "7 分の宇宙の旅の BGM と、ナレーション（男性・女性の 2 種類）。入れなくても、字幕だけで旅ができます",
+  "category": "other",
+  "updatedUtc": "2026-10-15"
+ }
+}

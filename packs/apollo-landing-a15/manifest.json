@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "packId": "apollo-landing-a15",
+ "version": 1,
+ "title": "アポロ15号の着陸地点のまわりの地形",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:apollo-landing:apollo15-region"
+ ],
+ "sizeBytes": 358141,
+ "installedBytes": 358141,
+ "assets": [
+  {
+   "id": "apollo-landing-a15-region",
+   "kind": "image",
+   "target": "use:apollo-landing:apollo15-region",
+   "slot": "height",
+   "files": [
+    "region.png"
+   ],
+   "credits": [
+    "sldem2015"
+   ],
+   "format": "png",
+   "width": 513,
+   "height": 513,
+   "projection": "equirect"
+  }
+ ],
+ "files": [
+  {
+   "path": "region.png",
+   "bytes": 358141,
+   "sha256": "93612c4defca41f599e3de3f91c02e0a940c17119aab41cfffc426b6e3f43642"
+  }
+ ],
+ "credits": [
+  {
+   "id": "sldem2015",
+   "title": "SLDEM2015（LRO LOLA ＋ SELENE TC 合成の月の地形・512 画素/度）",
+   "source": "NASA/GSFC・JAXA（Barker et al. 2016）・NASA PDS Geosciences Node",
+   "license": "NASA Media Usage Guidelines",
+   "url": "https://pds-geosciences.wustl.edu/missions/lro/lola.htm"
+  }
+ ],
+ "info": {
+  "titleEasy": "アポロ15号：まわり 40 km の山と谷",
+  "description": "LRO（LOLA）とかぐや（地形カメラ）を合わせた月の地形 SLDEM2015（約 59 m）を着陸船のまわり 40 km 四方・78 m 間隔に。明るさは描画で着陸のときの太陽で計算する。",
+  "category": "other",
+  "updatedUtc": "2026-10-14"
+ }
+}

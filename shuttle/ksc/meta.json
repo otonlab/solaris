@@ -181,7 +181,7 @@
   },
   "sentinel2": {
    "name": "Copernicus Sentinel-2 L2A (B04/B03/B02, B08)",
-   "license": "Copernicus Sentinel data terms (free; attribution: Contains modified Copernicus Sentinel data 2026)",
+   "license": "Copernicus Sentinel data terms (free; attribution: Contains modified Copernicus Sentinel data 2025–2026)",
    "via": "Microsoft Planetary Computer"
   },
   "dem": {
