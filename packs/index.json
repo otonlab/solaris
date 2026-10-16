@@ -86,6 +86,27 @@
    "sizeBytes": 1027589
   },
   {
+   "packId": "comets-interstellar",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "comets-interstellar/manifest.json",
+   "sizeBytes": 104472
+  },
+  {
+   "packId": "comets-sf-ship-1i",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "comets-sf-ship-1i/manifest.json",
+   "sizeBytes": 760440
+  },
+  {
+   "packId": "comets-sf-ship-3i",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "comets-sf-ship-3i/manifest.json",
+   "sizeBytes": 2273660
+  },
+  {
    "packId": "cosmic-tour-audio",
    "version": 1,
    "distribution": "download",
@@ -135,11 +156,25 @@
    "sizeBytes": 66856
   },
   {
+   "packId": "ephem-1981-2000",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "ephem-1981-2000/manifest.json",
+   "sizeBytes": 2334304
+  },
+  {
    "packId": "ephem-2000-2050",
    "version": 2,
    "distribution": "bundled",
    "manifest": "ephem-2000-2050/manifest.json",
    "sizeBytes": 5631072
+  },
+  {
+   "packId": "ephem-2050-2065",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "ephem-2050-2065/manifest.json",
+   "sizeBytes": 1945912
   },
   {
    "packId": "ephem-earth-system-2000-2050",

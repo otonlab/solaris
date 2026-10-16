@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "packId": "comets-sf-ship-3i",
+ "version": 1,
+ "title": "もしも宇宙船だったら？（3I（アトラス）の SF の船のモデル）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:comet-sf-ship:3i"
+ ],
+ "sizeBytes": 2273660,
+ "installedBytes": 2273660,
+ "assets": [
+  {
+   "id": "model:comet-sf-ship:3i",
+   "kind": "model",
+   "target": "use:comet-sf-ship:3i",
+   "slot": "model",
+   "format": "glb",
+   "files": [
+    "ship_3i.glb"
+   ],
+   "credits": [
+    "solaris-sf-ships"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "ship_3i.glb",
+   "bytes": 2273660,
+   "sha256": "a96473a9c96313526e19779f7f44ed1c8b31a6f8c715ebcf46d62abb533fb58d"
+  }
+ ],
+ "credits": [
+  {
+   "id": "solaris-sf-ships",
+   "title": "SF の船のモデル（3I（アトラス）「三重環の天体儀」）",
+   "source": "SOLARIS（Blender のスクリプトで作った架空の SF モデル：tools/comets/ships）。観測データではない",
+   "license": "SOLARIS original (fiction)",
+   "url": "https://otonlab.github.io/credits.html"
+  }
+ ],
+ "info": {
+  "titleEasy": "3I（アトラス）のSFの宇宙船",
+  "description": "3I（アトラス）を「もしも宇宙船だったら？」で見るときの 3D モデル「三重環の天体儀」（想像の SF・観測ではありません）",
+  "category": "other",
+  "updatedUtc": "2026-10-16"
+ }
+}

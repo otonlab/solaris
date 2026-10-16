@@ -1,0 +1,392 @@
+{
+ "schema": 1,
+ "packId": "ephem-2050-2065",
+ "version": 1,
+ "title": "太陽・惑星・月の位置（2050〜2065 年）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:10",
+  "naif:399",
+  "naif:599",
+  "naif:199",
+  "naif:299",
+  "naif:499",
+  "naif:699",
+  "naif:799",
+  "naif:899",
+  "naif:301"
+ ],
+ "sizeBytes": 1945912,
+ "installedBytes": 1945912,
+ "assets": [
+  {
+   "id": "ephem:10:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:10",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/10.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2752241.8604651163,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00124,
+     "holdoutMaxKm": 0.00106,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:399:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:399",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/399.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2752241.8604651163,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.03608,
+     "holdoutMaxKm": 0.02737,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:599:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:599",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/599.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345536.93430656934,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02623,
+     "holdoutMaxKm": 0.02036,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:199:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:199",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/199.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2752241.8604651163,
+    "degree": 20,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01692,
+     "holdoutMaxKm": 0.0101,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:299:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:299",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/299.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2752241.8604651163,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00675,
+     "holdoutMaxKm": 0.0034,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:499:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:499",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/499.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2752241.8604651163,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00228,
+     "holdoutMaxKm": 0.0016,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:699:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:699",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/699.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691073.8686131387,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.04192,
+     "holdoutMaxKm": 0.0327,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:799:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:799",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/799.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691073.8686131387,
+    "degree": 18,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.04611,
+     "holdoutMaxKm": 0.03853,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:899:0:2050-2065",
+   "kind": "ephem",
+   "target": "naif:899",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "planets/899.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 345536.93430656934,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.04403,
+     "holdoutMaxKm": 0.03567,
+     "holdoutN": 100
+    }
+   }
+  },
+  {
+   "id": "ephem:301:399:2050-2065",
+   "kind": "ephem",
+   "target": "naif:301",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "earth/301.bin"
+   ],
+   "credits": [
+    "jpl-horizons"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1577880000.0,
+    "endTdb": 2051265600.0,
+    "center": "naif:399",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 691073.8686131387,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API (DE441 ほか) — tools/comets/build_era.py",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01787,
+     "holdoutMaxKm": 0.0128,
+     "holdoutN": 100
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "planets/10.bin",
+   "bytes": 37216,
+   "sha256": "86100ce64e4a2c58d9641933aad7f3142db2aeb2e5627b2c40229da004bf2054"
+  },
+  {
+   "path": "planets/399.bin",
+   "bytes": 86752,
+   "sha256": "6c91b75e53874c908db73e008157dfe452fe64b6c2f86194d70e990fb4def5ad"
+  },
+  {
+   "path": "planets/599.bin",
+   "bytes": 493264,
+   "sha256": "0f503db9c20748981427f770975667c64f6afa9d7675e2ddef2fede373c6825a"
+  },
+  {
+   "path": "planets/199.bin",
+   "bytes": 86752,
+   "sha256": "14b01d92c1cc69c6a8bdb555bd00f68a8531f47681280df6b521d3b1cd426de2"
+  },
+  {
+   "path": "planets/299.bin",
+   "bytes": 37216,
+   "sha256": "d5ff387a93c5b941da8582675a8a0daaf55422386879a34de34f8e514c35b558"
+  },
+  {
+   "path": "planets/499.bin",
+   "bytes": 37216,
+   "sha256": "0a83c7c098ec1139177ec2b9266165a4eba4ac24665627c94372aff1cb8a3039"
+  },
+  {
+   "path": "planets/699.bin",
+   "bytes": 312424,
+   "sha256": "1dc8299dc7d4ff00ad0cc73fe3ef2b8a28e6b3c4a6b4ce282cef69246c481c87"
+  },
+  {
+   "path": "planets/799.bin",
+   "bytes": 312424,
+   "sha256": "f6c11dc254b0f4f310a94d59a89bc5731bfddb7f211c35349872295239f2d0a8"
+  },
+  {
+   "path": "planets/899.bin",
+   "bytes": 361744,
+   "sha256": "ecd127f63aec4ebfbec1dc173781038c73bc4df4ec7c14e8213f055c2aa52f65"
+  },
+  {
+   "path": "earth/301.bin",
+   "bytes": 180904,
+   "sha256": "3d6b7f40ba8879140595a8a992f11108e754b1f55a05b3ddf1774229ca3a6962"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons",
+   "title": "JPL Horizons On-Line Ephemeris System からのチェビシェフ当てはめ",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ],
+ "info": {
+  "titleEasy": "2050〜2065 年の惑星の位置",
+  "description": "ハレー彗星の 2061 年の回帰を、その時代の惑星と一緒に見るための暦（NASA/JPL）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-16"
+ }
+}

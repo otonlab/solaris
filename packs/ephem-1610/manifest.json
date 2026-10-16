@@ -513,7 +513,7 @@
    "id": "jpl-horizons",
    "title": "JPL Horizons On-Line Ephemeris System（DE441・jup365）からのチェビシェフ当てはめ。土星・海王星は1749年より前の本体の暦が無いため系の重心で代用",
    "source": "NASA/JPL Solar System Dynamics Group",
-   "license": "Public domain (NASA/JPL)",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
    "url": "https://ssd.jpl.nasa.gov/horizons/"
   }
  ]

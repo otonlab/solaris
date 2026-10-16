@@ -1,0 +1,3398 @@
+{
+ "schema": 1,
+ "packId": "comets-interstellar",
+ "version": 1,
+ "title": "彗星・恒星間天体の軌道（ハレー・67P・ヘール・ボップ・1I・2I・3I）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [
+  {
+   "packId": "ephem-2000-2050",
+   "minVersion": 2
+  }
+ ],
+ "targets": [
+  "naif:50788063",
+  "naif:1004083",
+  "naif:1000036",
+  "naif:1000012",
+  "naif:1000132",
+  "naif:1003639"
+ ],
+ "sizeBytes": 104472,
+ "installedBytes": 104472,
+ "assets": [
+  {
+   "id": "ephem:50788063:0:1i_00",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_00.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 378648000.0,
+    "endTdb": 397051200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9201600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_01",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_01.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 397051200.0,
+    "endTdb": 483192000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10767600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_02",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_02.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 483192000.0,
+    "endTdb": 524318400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10281600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00101,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_03",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_03.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 524318400.0,
+    "endTdb": 543348000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9514800.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00199,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_04",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_04.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 543348000.0,
+    "endTdb": 551872800.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8524800.000026822,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.03627,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_05",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_05.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 551872800.0000268,
+    "endTdb": 555537599.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3664799.999946356,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01618,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_06",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_06.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 555537599.9999732,
+    "endTdb": 556304399.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 766800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00434,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_07",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_07.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 556304399.9999732,
+    "endTdb": 557528400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1224000.000026822,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01771,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_08",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_08.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 557528400.0,
+    "endTdb": 558900000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 685800.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00456,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_09",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_09.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 558900000.0,
+    "endTdb": 560124000.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1224000.000026822,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02276,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_10",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_10.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 560124000.0000268,
+    "endTdb": 560890800.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 766800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00464,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_11",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_11.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 560890800.0000268,
+    "endTdb": 564555599.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3664799.999946356,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0656,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_12",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_12.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 564555599.9999732,
+    "endTdb": 573069600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8514000.000026822,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.03784,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_13",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_13.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 573069600.0,
+    "endTdb": 592077600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9504000.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00223,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_14",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_14.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 592077600.0,
+    "endTdb": 633204000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10281600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00103,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_15",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_15.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 633204000.0,
+    "endTdb": 719366400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10770300.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00162,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:50788063:0:1i_16",
+   "kind": "ephem",
+   "target": "naif:50788063",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1i_16.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 719366400.0,
+    "endTdb": 725803200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 6436800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1I/'Oumuamua (A/2017 U1) Rec #:50323640 (+COV) Soln.date: 2018-Ju 1: soln ref.= JPL#16（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 0.03603,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_00",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_00.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 694267200.0,
+    "endTdb": 734356800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10022400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_01",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_01.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 734356800.0,
+    "endTdb": 775310400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10238400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00013,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_02",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_02.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 775310400.0,
+    "endTdb": 795700800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10195200.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.03162,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_03",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_03.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 795700800.0,
+    "endTdb": 805723200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10022400.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00102,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_04",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_04.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 805723200.0,
+    "endTdb": 811425600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 5702400.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0058,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_05",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_05.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 811425600.0,
+    "endTdb": 818503200.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3538800.000013411,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.03246,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_06",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_06.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 818503200.0000268,
+    "endTdb": 824126400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 5623199.999973178,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0073,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_07",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_07.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 824126400.0,
+    "endTdb": 834321600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2548800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01717,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_08",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_08.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 834321600.0,
+    "endTdb": 854733600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10206000.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.04135,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_09",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_09.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 854733600.0,
+    "endTdb": 895687200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10238400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00013,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1004083:0:3i_10",
+   "kind": "ephem",
+   "target": "naif:1004083",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/3i_10.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 895687200.0,
+    "endTdb": 946728000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10208160.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 3I/ATLAS (C/2025 N1) Rec #:90004937 (+COV) Soln.date: 2026-Fe 1: soln ref.= JPL#54, data arc: 2025-05-15 to 2026-02-19（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.04205,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_00",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_00.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -568036800.0,
+    "endTdb": -502372800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10944000.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 6e-05,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_01",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_01.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -502372800.0,
+    "endTdb": -461937600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10108800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02434,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_02",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_02.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -461937600.0,
+    "endTdb": -447526799.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7205400.000013411,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02515,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_03",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_03.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -447526799.9999732,
+    "endTdb": -445949999.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1576800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00166,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_04",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_04.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -445949999.9999732,
+    "endTdb": -441759599.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4190400.0,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00528,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_05",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_05.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -441759599.9999732,
+    "endTdb": -441018000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 741599.9999731779,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00222,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_06",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_06.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -441018000.0,
+    "endTdb": -435751200.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 2633399.999986589,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00798,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_07",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_07.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -435751200.0000268,
+    "endTdb": -435009599.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 741600.0000536442,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00237,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_08",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_08.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -435009599.9999732,
+    "endTdb": -430815600.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4193999.999946356,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02372,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_09",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_09.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -430815600.0000268,
+    "endTdb": -429238800.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1576800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00166,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_10",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_10.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -429238800.0000268,
+    "endTdb": -414849600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7194600.000013411,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01991,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_11",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_11.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -414849600.0,
+    "endTdb": -374306400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10135800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02341,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_12",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_12.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -374306400.0,
+    "endTdb": -248572800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10477800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 3e-05,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_13",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_13.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -248572800.0,
+    "endTdb": 309031200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10933411.764705881,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_14",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_14.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 309031200.0,
+    "endTdb": 1195452000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10943466.666666666,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_15",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_15.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1195452000.0,
+    "endTdb": 1752969600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10931717.647058824,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_16",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_16.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1752969600.0,
+    "endTdb": 1878876000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10492200.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 3e-05,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_17",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_17.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1878876000.0,
+    "endTdb": 1919311200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10108800.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01084,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_18",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_18.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1919311200.0,
+    "endTdb": 1933837200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7263000.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02134,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_19",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_19.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1933837200.0,
+    "endTdb": 1935428400.0000267,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1591200.0000267029,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00163,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_20",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_20.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1935428400.0000267,
+    "endTdb": 1939687199.9999733,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4258799.999946594,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00449,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_21",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_21.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1939687199.9999733,
+    "endTdb": 1940450400.0000267,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 763200.0000534058,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00235,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_22",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_22.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1940450400.0000267,
+    "endTdb": 1945641600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 648899.9999966621,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02352,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_23",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_23.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1945641600.0,
+    "endTdb": 1946408400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 766800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00125,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_24",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_24.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1946408400.0,
+    "endTdb": 1950667200.0000267,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4258800.000026703,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0053,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_25",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_25.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1950667200.0000267,
+    "endTdb": 1952258399.9999733,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1591199.9999465942,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00163,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_26",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_26.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1952258399.9999733,
+    "endTdb": 1966766400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7254000.000013351,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.02785,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_27",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_27.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 1966766400.0,
+    "endTdb": 2007460800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10173600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0217,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000036:0:1p_28",
+   "kind": "ephem",
+   "target": "naif:1000036",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/1p_28.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 2007460800.0,
+    "endTdb": 2019643200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 6091200.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 1P/Halley Rec #:90000030        Soln.date: 2025-No 1: soln ref.= JPL#75, data arc: 1835-08-21 to 1994-01-11（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 0.01885,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_00",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_00.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 378648000.0,
+    "endTdb": 454161600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10787657.142857144,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0014,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_01",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_01.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 454161600.0,
+    "endTdb": 458481600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4320000.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_02",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_02.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 458481600.0,
+    "endTdb": 480787200.0000268,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7435200.000008941,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00253,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_03",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_03.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 480787200.0000268,
+    "endTdb": 482274000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1486799.999973178,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00133,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_04",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_04.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 482274000.0,
+    "endTdb": 503193600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10459800.0,
+    "degree": 16,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00361,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_05",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_05.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 503193600.0,
+    "endTdb": 504680399.9999732,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1486799.999973178,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00133,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_06",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_06.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 504680399.9999732,
+    "endTdb": 526996800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7438800.000008941,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0058,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_07",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_07.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 526996800.0,
+    "endTdb": 531403200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4406400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000012:0:67p_08",
+   "kind": "ephem",
+   "target": "naif:1000012",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/67p_08.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 531403200.0,
+    "endTdb": 568036800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9158400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 67P/Churyumov-Gerasimenko Rec #:90000703 (+COV) Soln.date: 2026-Se 1: soln ref.= JPL#K284/1, data arc: 2008-06-01 to 2025-06-21（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00326,
+     "holdoutMaxKm": 0.00572,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_00",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_00.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -220881600.0,
+    "endTdb": -149256000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10232228.57142857,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 4e-05,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_01",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_01.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -149256000.0,
+    "endTdb": -111240000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9504000.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01527,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_02",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_02.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -111240000.0,
+    "endTdb": -101736000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9504000.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00392,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_03",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_03.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -101736000.0,
+    "endTdb": -96379200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 5356800.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00138,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_04",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_04.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -96379200.0,
+    "endTdb": -92073600.00002682,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4305599.999973178,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00457,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_05",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_05.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -92073600.00002682,
+    "endTdb": -88819200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3254400.000026822,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01763,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_06",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_06.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -88819200.0,
+    "endTdb": -84978000.00002682,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3841199.999973178,
+    "degree": 12,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.03715,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_07",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_07.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -84978000.00002682,
+    "endTdb": -81723600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 3254400.000026822,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01819,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_08",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_08.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -81723600.0,
+    "endTdb": -77418000.00002682,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4305599.999973178,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00552,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_09",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_09.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -77418000.00002682,
+    "endTdb": -72100800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 5317200.000026822,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00217,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_10",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_10.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -72100800.0,
+    "endTdb": -62488800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9612000.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00449,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_11",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_11.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -62488800.0,
+    "endTdb": -24472800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9504000.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.01314,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_12",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_12.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -24472800.0,
+    "endTdb": 79466400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10393920.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 2e-05,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1000132:0:hale-bopp_13",
+   "kind": "ephem",
+   "target": "naif:1000132",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/hale-bopp_13.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 79466400.0,
+    "endTdb": 94651200.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 7592400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — C/1995 O1 (Hale-Bopp) Rec #:90002258 (+COV) Soln.date: 2022-Au 1: soln ref.= JPL#226, data arc: 1993-04-27 to 2022-07-09（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00272,
+     "holdoutMaxKm": 0.03545,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_00",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_00.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 473342400.0,
+    "endTdb": 489844800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8251200.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_01",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_01.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 489844800.0,
+    "endTdb": 561816000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10281600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_02",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_02.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 561816000.0,
+    "endTdb": 597412800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8899200.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00048,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_03",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_03.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 597412800.0,
+    "endTdb": 606052800.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8640000.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00327,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_04",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_04.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 606052800.0,
+    "endTdb": 615384000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9331200.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00128,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_05",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_05.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 615384000.0,
+    "endTdb": 620222400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4838400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00903,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_06",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_06.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 620222400.0,
+    "endTdb": 637956000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8866800.0,
+    "degree": 14,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00405,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_07",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_07.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 637956000.0,
+    "endTdb": 642794400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 4838400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00896,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_08",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_08.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 642794400.0,
+    "endTdb": 652125600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 9331200.0,
+    "degree": 10,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00128,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_09",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_09.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 652125600.0,
+    "endTdb": 660852000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8726400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00355,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_10",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_10.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 660852000.0,
+    "endTdb": 696362400.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 8877600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.00041,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_11",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_11.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 696362400.0,
+    "endTdb": 768420000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10293942.857142856,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 1e-05,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  },
+  {
+   "id": "ephem:1003639:0:2i_12",
+   "kind": "ephem",
+   "target": "naif:1003639",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "track/2i_12.bin"
+   ],
+   "credits": [
+    "jpl-horizons",
+    "jpl-sbdb"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": 768420000.0,
+    "endTdb": 788961600.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 10270800.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 2I/Borisov (C/2019 Q4) Rec #:90004570 (+COV) Soln.date: 2024-Ju 1: soln ref.= JPL#54, data arc: 2019-02-24 to 2020-09-30（照合は天体ごと：全期間 200 点＋近日点 ±20 日 100 点）",
+     "retrievedUtc": "2026-10-15T22:58:33+00:00",
+     "fitMaxKm": 0.0014,
+     "holdoutMaxKm": 0.00894,
+     "holdoutN": 300
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "track/1i_00.bin",
+   "bytes": 496,
+   "sha256": "88ec81efdc36d6c31e2f0da39f242463ad134286e442f48a3d413dbc73615601"
+  },
+  {
+   "path": "track/1i_01.bin",
+   "bytes": 1792,
+   "sha256": "861b8a93681c749ca7638add07c8fb8ab854417c88ab378f3a77d25b35eb852e"
+  },
+  {
+   "path": "track/1i_02.bin",
+   "bytes": 928,
+   "sha256": "53c953c5ef674fb2ae2fe8c0d4a4868162623fdb4ff6a1e0c574d88e89bcb71a"
+  },
+  {
+   "path": "track/1i_03.bin",
+   "bytes": 592,
+   "sha256": "193f4cf67cf15a3bddd96a0d3b6c289b0d1153c3b865e3b544b8cbee5fe2cbaf"
+  },
+  {
+   "path": "track/1i_04.bin",
+   "bytes": 376,
+   "sha256": "9fc5928da5d1e9926a4686de6037ccf4664e2df7d1a619ff75829394aef2f266"
+  },
+  {
+   "path": "track/1i_05.bin",
+   "bytes": 376,
+   "sha256": "e721c6cb493faac14f44a7941c9b94f49160ceb0e072a3007ee64a093a9919e0"
+  },
+  {
+   "path": "track/1i_06.bin",
+   "bytes": 280,
+   "sha256": "a05c1af1e3bbf6c19c6d8ddc51ce2ad1e9f9366b3e7d2da063040fa1fcc7cb1e"
+  },
+  {
+   "path": "track/1i_07.bin",
+   "bytes": 376,
+   "sha256": "87dad956c48cb44bee035142957c2ecb8032339bdd3cd19ad02bd07e5e06b47c"
+  },
+  {
+   "path": "track/1i_08.bin",
+   "bytes": 784,
+   "sha256": "dc799f4268d0e24020d774089f898aa8bf60e7fb283c10e0edff3279f27cc16c"
+  },
+  {
+   "path": "track/1i_09.bin",
+   "bytes": 376,
+   "sha256": "3ac633b7b1632b8c3609762cb7f03b079bfbddfe05067725393f5d028bbf1ed9"
+  },
+  {
+   "path": "track/1i_10.bin",
+   "bytes": 280,
+   "sha256": "13f73e7b13af2b67fc1cb11cecfa67c79044752ddf87ca14a24e622aa2440b61"
+  },
+  {
+   "path": "track/1i_11.bin",
+   "bytes": 472,
+   "sha256": "731a679941fe08f1b044f5c386d2d9a9aa8bf157c94f8c2fd9aacbf71d722a38"
+  },
+  {
+   "path": "track/1i_12.bin",
+   "bytes": 376,
+   "sha256": "8c3d59c55be9f2e7f6dc7e4d044ef53e9721ef4049f9f1e0145453580c933738"
+  },
+  {
+   "path": "track/1i_13.bin",
+   "bytes": 592,
+   "sha256": "16f8fe55ec92af141c35edf2e544275da7e6f431461685cc40231a839c5dee91"
+  },
+  {
+   "path": "track/1i_14.bin",
+   "bytes": 928,
+   "sha256": "6ad11396078e70c4fb58f6d295d98cd46a8c0518a22f429e069318779102af1d"
+  },
+  {
+   "path": "track/1i_15.bin",
+   "bytes": 1792,
+   "sha256": "02be0ab3163b1d052f76c16c0eec9e0230cc0a062eed544be8518b8507546cc0"
+  },
+  {
+   "path": "track/1i_16.bin",
+   "bytes": 280,
+   "sha256": "0dcd5246f755876341f2ae294b1f430ca537e8c41b1463c545b30e4310f44aa0"
+  },
+  {
+   "path": "track/3i_00.bin",
+   "bytes": 928,
+   "sha256": "219129765f0ec8093216179e796e580315c3286894686b24574dd036283079a6"
+  },
+  {
+   "path": "track/3i_01.bin",
+   "bytes": 928,
+   "sha256": "c6caa9130061999e29c59078fb56fc6fecc817f1577c77e76d1344f0157671ab"
+  },
+  {
+   "path": "track/3i_02.bin",
+   "bytes": 496,
+   "sha256": "3fb2f98d2bfc48230f4d882e613998a335656212735f1a3d4336238ec5e8e4e6"
+  },
+  {
+   "path": "track/3i_03.bin",
+   "bytes": 376,
+   "sha256": "67e8ec994fcb1eb3cb75036d8debe87e232618511e69d766fbf26336138cfdd8"
+  },
+  {
+   "path": "track/3i_04.bin",
+   "bytes": 376,
+   "sha256": "5e65a5b8867b6d2cb2d99903ae38687909c5cb156e27952a52ec4eedade9b9ad"
+  },
+  {
+   "path": "track/3i_05.bin",
+   "bytes": 880,
+   "sha256": "ca8c784b07f463c39021eb0cfe7b587f1df3049e4a7ea9dd4c9fdc630f95e4d9"
+  },
+  {
+   "path": "track/3i_06.bin",
+   "bytes": 376,
+   "sha256": "07f0f89b6903e2819c757e61efddfeebc63dfbeabdfdc9fd68548b1e13bbcc72"
+  },
+  {
+   "path": "track/3i_07.bin",
+   "bytes": 1696,
+   "sha256": "7ffc97608c1285ac6414d34e4b1c0dc25cee2fa8e861d9bba07fb784b1cf9c1a"
+  },
+  {
+   "path": "track/3i_08.bin",
+   "bytes": 496,
+   "sha256": "fc7f1dbbca7faf30c43c6ad5614c25e288d8553b5a41e49ecd87dfdf350c9832"
+  },
+  {
+   "path": "track/3i_09.bin",
+   "bytes": 928,
+   "sha256": "4bd299824d803e71fcaec96089eb8d04a3ad931aaa927c9a34517d956a795d71"
+  },
+  {
+   "path": "track/3i_10.bin",
+   "bytes": 1144,
+   "sha256": "b6bef917468a782f025ff2590e3ffd0e8c33b19d4e93d78d286bc3b17a46e20f"
+  },
+  {
+   "path": "track/1p_00.bin",
+   "bytes": 1360,
+   "sha256": "ff58ed237ef6e59009f0e210d5a30f33a15245b226214390a653eb72aa0ba702"
+  },
+  {
+   "path": "track/1p_01.bin",
+   "bytes": 928,
+   "sha256": "0c874fefe5f5b6fe14928ab8dc035fb758158fcfe130288a30abc8b0dd384816"
+  },
+  {
+   "path": "track/1p_02.bin",
+   "bytes": 592,
+   "sha256": "16514aa570552803625fa99a3afaad3eab3de2ca5cf769cfb73b6b946c167f8e"
+  },
+  {
+   "path": "track/1p_03.bin",
+   "bytes": 280,
+   "sha256": "440c3f381cc856a500a15cb6d7d76635065be1b3140b849575f2b5190e7d930e"
+  },
+  {
+   "path": "track/1p_04.bin",
+   "bytes": 376,
+   "sha256": "d42b7dc007b827ea0bc80538aa8939f8cee864b9fe361c2e271ec2c248847a45"
+  },
+  {
+   "path": "track/1p_05.bin",
+   "bytes": 280,
+   "sha256": "16d89947193f5078988721fd6460ae3178d7066339db34a161e67a4b772f2284"
+  },
+  {
+   "path": "track/1p_06.bin",
+   "bytes": 784,
+   "sha256": "97bbf2a54b3eb090b593f504b18c311d4570c29bf071f89dceb0044d5bfed332"
+  },
+  {
+   "path": "track/1p_07.bin",
+   "bytes": 280,
+   "sha256": "b57d1805c9d751f0a74f3e3a6e77d5a5400fd1ef36da1f4f2d6400dbf1673fca"
+  },
+  {
+   "path": "track/1p_08.bin",
+   "bytes": 376,
+   "sha256": "6a768d98b9509801006cf2ec240eb8d74761cd965a65aaf14a1c43d00dae2943"
+  },
+  {
+   "path": "track/1p_09.bin",
+   "bytes": 280,
+   "sha256": "18fc3de56bfc2e7238d090af9db79831044d48d2ea5158c5f538b0b13d9ba3df"
+  },
+  {
+   "path": "track/1p_10.bin",
+   "bytes": 592,
+   "sha256": "bccd76362d66f9f4c644ccc6276e3b4d625cee43e9c407f7135b0c7709091afa"
+  },
+  {
+   "path": "track/1p_11.bin",
+   "bytes": 928,
+   "sha256": "8e0cea36a7a51c108b619b1f358fe8c208b2429da836f3f10e7d2cf6d12f334c"
+  },
+  {
+   "path": "track/1p_12.bin",
+   "bytes": 2656,
+   "sha256": "fe5c0241c4419f8443c07d7ffe16b528a9be061f65ac592a8dcdbefc65f28260"
+  },
+  {
+   "path": "track/1p_13.bin",
+   "bytes": 11080,
+   "sha256": "7ee94e6dc6435ca2b7c2e2bb9be247fa019b518765add81cfe165eb61c38f18c"
+  },
+  {
+   "path": "track/1p_14.bin",
+   "bytes": 17560,
+   "sha256": "c04e162b75850354bfc3f63bbd8af494eb0f4724ad757bf1118c415902c467d9"
+  },
+  {
+   "path": "track/1p_15.bin",
+   "bytes": 11080,
+   "sha256": "2a506c03745da192b68551558bfa16641963767712fecb9ba9c22e18490ad942"
+  },
+  {
+   "path": "track/1p_16.bin",
+   "bytes": 2656,
+   "sha256": "a4d170373730555ec963146e6d12d0c2ed3af88c8360564d675dc3d45147bce2"
+  },
+  {
+   "path": "track/1p_17.bin",
+   "bytes": 1504,
+   "sha256": "022c6819458054754b625b18c50d30f82743a30d9f865de133efc40a481ba1e9"
+  },
+  {
+   "path": "track/1p_18.bin",
+   "bytes": 592,
+   "sha256": "98bfe3a4efcdc9397c6df870bc2dce4a01152e72d9366a042b2f356ff78f23bd"
+  },
+  {
+   "path": "track/1p_19.bin",
+   "bytes": 280,
+   "sha256": "9353304cdd3ba3157e57129c31d8b997055bbc7e3464a7b9c449a5e302a9279d"
+  },
+  {
+   "path": "track/1p_20.bin",
+   "bytes": 376,
+   "sha256": "56b78b2857712ad52b8dd7ab481a79598a1ba58a7ec2ba55b52d363007487f36"
+  },
+  {
+   "path": "track/1p_21.bin",
+   "bytes": 280,
+   "sha256": "c26e496b00cab560c66ec60436aaea93151b737185cd214122d86037e7a0fba9"
+  },
+  {
+   "path": "track/1p_22.bin",
+   "bytes": 2176,
+   "sha256": "885c2464025d2a928fc2de106ea096da3819d378235987bbffa02c3c7756149b"
+  },
+  {
+   "path": "track/1p_23.bin",
+   "bytes": 280,
+   "sha256": "a88cfc0be9dd962da5047d0d624e61fde4d4f682a51db4b117ed4fa16a3804f3"
+  },
+  {
+   "path": "track/1p_24.bin",
+   "bytes": 376,
+   "sha256": "9537c306127f5e0b4e244573d94a5cf772980bb74ca55484f747b235ff64855a"
+  },
+  {
+   "path": "track/1p_25.bin",
+   "bytes": 280,
+   "sha256": "1279ba036dadbe62b4d785f6fd07d04ac10fd601abad1ec70aabeedc74594d6f"
+  },
+  {
+   "path": "track/1p_26.bin",
+   "bytes": 592,
+   "sha256": "871617f155d5f8359b9766a38a4b2834844bef37f1221873c7d3c0618b739066"
+  },
+  {
+   "path": "track/1p_27.bin",
+   "bytes": 928,
+   "sha256": "26bfd88945041794b08701fd13b2a2e5ce4f9a9e3ecfaa524d1b47c8281fd330"
+  },
+  {
+   "path": "track/1p_28.bin",
+   "bytes": 496,
+   "sha256": "16af6f9dc391ccdcde8a274514ee0cc6a62dbf3a80b46ceb521ccb1999879e35"
+  },
+  {
+   "path": "track/67p_00.bin",
+   "bytes": 1576,
+   "sha256": "212f32d63dc8bb85e1452521a9a8413054a3640adde1f7517d16c8fa4e2154a2"
+  },
+  {
+   "path": "track/67p_01.bin",
+   "bytes": 280,
+   "sha256": "eaa365ec890070e72c11511c8ae7b7aebb7a60d98957dfec90eb4a25ec4b3788"
+  },
+  {
+   "path": "track/67p_02.bin",
+   "bytes": 856,
+   "sha256": "0263ea664b605bdb3fe8c9f773e9ce2ef7fa472b853a2d87f5ff7b60d6a9237f"
+  },
+  {
+   "path": "track/67p_03.bin",
+   "bytes": 280,
+   "sha256": "66aafe5897d34043fe1a81b349814e5477ebbba94d8072711cbb1b0dfa316c35"
+  },
+  {
+   "path": "track/67p_04.bin",
+   "bytes": 880,
+   "sha256": "ed7997bc1451bec4281a587b73528b466a2a8996667082429eb5137e393ab845"
+  },
+  {
+   "path": "track/67p_05.bin",
+   "bytes": 280,
+   "sha256": "befb556e747c3fd4b593b03318a29eda9c22c5bfe85ee1faeca5198076bb7a05"
+  },
+  {
+   "path": "track/67p_06.bin",
+   "bytes": 856,
+   "sha256": "69e785b0a297400d6567b87d52ac56e5d89e81b0b0bce431b780bc14d68e05c7"
+  },
+  {
+   "path": "track/67p_07.bin",
+   "bytes": 280,
+   "sha256": "bc4de3e3ca8be6825898494c3286c45151c64ac1bb5d6fa9deea714a5ed2f527"
+  },
+  {
+   "path": "track/67p_08.bin",
+   "bytes": 928,
+   "sha256": "f36e7ac62f1e500466f4ba5747c28464dad16a346acdebb3890a9e148329dd10"
+  },
+  {
+   "path": "track/hale-bopp_00.bin",
+   "bytes": 1576,
+   "sha256": "ab72f99cbe60c9cd3bb60baabaf98e6726d24c7a9bcbd5e99024bd763f6fb053"
+  },
+  {
+   "path": "track/hale-bopp_01.bin",
+   "bytes": 1504,
+   "sha256": "f5d04a28faa5b89d113a904217083bf5ac408b9c2bea5c903591fdfd21c9f366"
+  },
+  {
+   "path": "track/hale-bopp_02.bin",
+   "bytes": 328,
+   "sha256": "fc7cb3e6b5df41ade4bd5f5fcf54ffeb84233cb575bbf20b7d43c62b9bbf317b"
+  },
+  {
+   "path": "track/hale-bopp_03.bin",
+   "bytes": 328,
+   "sha256": "ce9700639a0e46483c27abfd9865c281d61d7c3586c4a7b253ae08522fabe06b"
+  },
+  {
+   "path": "track/hale-bopp_04.bin",
+   "bytes": 328,
+   "sha256": "296e9b214d7a6327c57a240368586a5272a16b6d89c32eee33216c288c4c0297"
+  },
+  {
+   "path": "track/hale-bopp_05.bin",
+   "bytes": 328,
+   "sha256": "9d69a032df98131ade16e979ac89a691f9f693b60ef51badc02e5e5faf025082"
+  },
+  {
+   "path": "track/hale-bopp_06.bin",
+   "bytes": 376,
+   "sha256": "ba86d487fbb1c10fc77681a1a0343f9555ce4b1d1f3a60b9871ac3532f4d5da4"
+  },
+  {
+   "path": "track/hale-bopp_07.bin",
+   "bytes": 328,
+   "sha256": "ea875591a59cd195231533133cafa5cdb9cac4be6d8c8b97478816efb66eb416"
+  },
+  {
+   "path": "track/hale-bopp_08.bin",
+   "bytes": 328,
+   "sha256": "dad327ec862e6c791f49635bbeee056fc051f33c1df4aade9a0fb22435c704be"
+  },
+  {
+   "path": "track/hale-bopp_09.bin",
+   "bytes": 328,
+   "sha256": "6f368657534b19ddd2c64c70a00e5a7effaaf8ac8a584c9982ca9aa83d30f144"
+  },
+  {
+   "path": "track/hale-bopp_10.bin",
+   "bytes": 328,
+   "sha256": "f6d2c02561872d39a9b9b849cfac3e4a62ede290b88fa7e642d2ca61d1070bd6"
+  },
+  {
+   "path": "track/hale-bopp_11.bin",
+   "bytes": 928,
+   "sha256": "ca91fa92579312613f8e9f7a580cdeaba73d328e9f57421974b46b553b929396"
+  },
+  {
+   "path": "track/hale-bopp_12.bin",
+   "bytes": 2224,
+   "sha256": "dd888e992e0d3be33e5885e5bb1bbc9c917b959d0bbce1621fbf1a1e2a2eb931"
+  },
+  {
+   "path": "track/hale-bopp_13.bin",
+   "bytes": 496,
+   "sha256": "54b05035be525d3394036e06f9ebac1f97f0371c0761296fdb8974877de32cb6"
+  },
+  {
+   "path": "track/2i_00.bin",
+   "bytes": 496,
+   "sha256": "50c043d50bc0c2c40c8ade50226bd9b761c0be353062dd6cf88f5249dbc9553d"
+  },
+  {
+   "path": "track/2i_01.bin",
+   "bytes": 1576,
+   "sha256": "90846eb4f9ff60cab257834652f1a8a5f5239cd43fde1d7843d859a7093b011f"
+  },
+  {
+   "path": "track/2i_02.bin",
+   "bytes": 928,
+   "sha256": "19788dded46b2f34ce5b955619f042edd8f632b26093dbd6cc064b4f626b0948"
+  },
+  {
+   "path": "track/2i_03.bin",
+   "bytes": 280,
+   "sha256": "26c73cd5d9194e5d6f77e5825201d1d838eb283a328fc864e3454b885dfee2c3"
+  },
+  {
+   "path": "track/2i_04.bin",
+   "bytes": 328,
+   "sha256": "f9a2d9db306f0514370e5685067e03437e5f3ed7bc7cf0f832fa1443a768782b"
+  },
+  {
+   "path": "track/2i_05.bin",
+   "bytes": 280,
+   "sha256": "ff93986f2c23bdfaca03e2166e5cbe77d089fea563c79abc356601ec1f203a45"
+  },
+  {
+   "path": "track/2i_06.bin",
+   "bytes": 784,
+   "sha256": "bca1a0f0bc4a1f454304f1e74191591bb4691610cf58a6936ae51d81d75974e5"
+  },
+  {
+   "path": "track/2i_07.bin",
+   "bytes": 280,
+   "sha256": "7c3a73e117fd2b924635499e1a047dabada48de76d0d96fe2832a1f67eaa4988"
+  },
+  {
+   "path": "track/2i_08.bin",
+   "bytes": 328,
+   "sha256": "b13450e4ded3f2f05ffe8eafaf07dc280886601fd33b13ecda02f7f89fce9cd7"
+  },
+  {
+   "path": "track/2i_09.bin",
+   "bytes": 280,
+   "sha256": "d48bc9a49342f450885d1f2bf419fdb676f9e542d91f9c1236a98b34295790a2"
+  },
+  {
+   "path": "track/2i_10.bin",
+   "bytes": 928,
+   "sha256": "952f1e51ddb0de302a445c7195fe042f7ff15a02c93d6d1399040cb8b13a6828"
+  },
+  {
+   "path": "track/2i_11.bin",
+   "bytes": 1576,
+   "sha256": "426b88a329ef8d19550bc1537e5267a1539a6e543dae2debfa1c3bbc13c63f48"
+  },
+  {
+   "path": "track/2i_12.bin",
+   "bytes": 496,
+   "sha256": "5659bcb6aae0b9921e852d27bd4148ce8645b54f9220056ed8cee8b7aea00d53"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-horizons",
+   "title": "JPL Horizons On-Line Ephemeris System からのチェビシェフ当てはめ",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  },
+  {
+   "id": "jpl-sbdb",
+   "title": "JPL Small-Body Database（軌道解の番号・観測の期間・非重力パラメータ）",
+   "source": "NASA/JPL Solar System Dynamics Group",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
+   "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html"
+  }
+ ],
+ "info": {
+  "titleEasy": "彗星・恒星間天体の旅を追加する",
+  "description": "ハレー彗星・67P・ヘール・ボップ彗星と、太陽系の外から来た 3 天体の軌道（NASA/JPL の軌道解）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-16"
+ }
+}

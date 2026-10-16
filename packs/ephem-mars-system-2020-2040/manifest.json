@@ -102,7 +102,7 @@
    "id": "jpl-horizons-sat",
    "title": "JPL Horizons On-Line Ephemeris System（火星系の衛星暦 MAR099）からのチェビシェフ当てはめ（原点：火星の中心）。期間は 2020〜2040 年だけ（フォボスの公転が速く、50 年分は大きすぎるため・2026-10-06 オトン承認）",
    "source": "NASA/JPL Solar System Dynamics Group",
-   "license": "Public domain (NASA/JPL)",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
    "url": "https://ssd.jpl.nasa.gov/horizons/"
   }
  ],

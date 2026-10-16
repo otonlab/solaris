@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "packId": "comets-sf-ship-1i",
+ "version": 1,
+ "title": "もしも宇宙船だったら？（1I（オウムアムア）の SF の船のモデル）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:comet-sf-ship:1i"
+ ],
+ "sizeBytes": 760440,
+ "installedBytes": 760440,
+ "assets": [
+  {
+   "id": "model:comet-sf-ship:1i",
+   "kind": "model",
+   "target": "use:comet-sf-ship:1i",
+   "slot": "model",
+   "format": "glb",
+   "files": [
+    "ship_1i.glb"
+   ],
+   "credits": [
+    "solaris-sf-ships"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "ship_1i.glb",
+   "bytes": 760440,
+   "sha256": "143ca30cb3e498c6ffec2138f8310640cf92b35fff2a34ce79a2995497e682c0"
+  }
+ ],
+ "credits": [
+  {
+   "id": "solaris-sf-ships",
+   "title": "SF の船のモデル（1I（オウムアムア）「黒曜の双刃」）",
+   "source": "SOLARIS（Blender のスクリプトで作った架空の SF モデル：tools/comets/ships）。観測データではない",
+   "license": "SOLARIS original (fiction)",
+   "url": "https://otonlab.github.io/credits.html"
+  }
+ ],
+ "info": {
+  "titleEasy": "1I（オウムアムア）のSFの宇宙船",
+  "description": "1I（オウムアムア）を「もしも宇宙船だったら？」で見るときの 3D モデル「黒曜の双刃」（想像の SF・観測ではありません）",
+  "category": "other",
+  "updatedUtc": "2026-10-16"
+ }
+}

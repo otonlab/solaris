@@ -2547,14 +2547,14 @@
    "id": "naif-voyager",
    "title": "Voyager trajectories — NAIF SPK（再構成 jup230・sat337・ura182・nep097、2022 再フィット x2100、supertrajectory）",
    "source": "NASA/JPL NAIF・R. A. Jacobson (JPL SSD)",
-   "license": "Public domain (NASA/JPL)",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
    "url": "https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/"
   },
   {
    "id": "jpl-horizons",
    "title": "JPL Horizons On-Line Ephemeris System からのチェビシェフ当てはめ",
    "source": "NASA/JPL Solar System Dynamics Group",
-   "license": "Public domain (NASA/JPL)",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
    "url": "https://ssd.jpl.nasa.gov/horizons/"
   },
   {

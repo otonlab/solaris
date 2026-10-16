@@ -297,7 +297,7 @@
    "id": "jpl-horizons-sat",
    "title": "JPL Horizons On-Line Ephemeris System（土星系の衛星暦）からのチェビシェフ当てはめ（原点：土星の中心）",
    "source": "NASA/JPL Solar System Dynamics Group",
-   "license": "Public domain (NASA/JPL)",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
    "url": "https://ssd.jpl.nasa.gov/horizons/"
   }
  ],

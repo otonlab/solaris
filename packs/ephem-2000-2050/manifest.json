@@ -361,7 +361,7 @@
    "id": "jpl-horizons",
    "title": "JPL Horizons On-Line Ephemeris System（DE441・各惑星の衛星暦）からのチェビシェフ当てはめ",
    "source": "NASA/JPL Solar System Dynamics Group",
-   "license": "Public domain (NASA/JPL)",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
    "url": "https://ssd.jpl.nasa.gov/horizons/"
   }
  ]
