@@ -119,7 +119,8 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
 - SDSS DR17: Abdurro'uf et al. 2022, ApJS 259, 35. Funding for the Sloan Digital Sky Survey IV has been
   provided by the Alfred P. Sloan Foundation, the U.S. Department of Energy Office of Science, and the
   Participating Institutions. (SDSS public data: public domain)
-- SOLARIS Stellar Catalog (optional star table, ?stars=ssc): stars cross-matched and selected by SOLARIS
+- SOLARIS Stellar Catalog (optional star table, ?stars=ssc; optional high-density pack stars-ssc-991k:
+  991,294 stars, s1m / ssc-rules-0.2, no distance assigned to the 7,712 stars without one): stars cross-matched and selected by SOLARIS
   from Gaia DR3 (ESA/Gaia/DPAC, CC BY-NC 3.0 IGO), Bailer-Jones et al. 2021 distances,
   Hipparcos new reduction (ESA) and SDSS DR17 APOGEE effective temperatures
   (Majewski et al. 2017, AJ 154, 94; SDSS public data: public domain).

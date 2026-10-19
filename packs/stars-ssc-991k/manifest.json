@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "packId": "stars-ssc-991k",
+ "version": 3,
+ "title": "高密度の恒星 99 万星（SOLARIS Stellar Catalog）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:stars-ssc-991k:part0",
+  "use:stars-ssc-991k:part1",
+  "use:stars-ssc-991k:part2",
+  "use:stars-ssc-991k:part3"
+ ],
+ "sizeBytes": 12610115,
+ "installedBytes": 12610115,
+ "assets": [
+  {
+   "id": "stars-ssc-991k-0",
+   "kind": "data",
+   "target": "use:stars-ssc-991k:part0",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "part0.bin"
+   ],
+   "credits": [
+    "ssc-s1m"
+   ]
+  },
+  {
+   "id": "stars-ssc-991k-1",
+   "kind": "data",
+   "target": "use:stars-ssc-991k:part1",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "part1.bin"
+   ],
+   "credits": [
+    "ssc-s1m"
+   ]
+  },
+  {
+   "id": "stars-ssc-991k-2",
+   "kind": "data",
+   "target": "use:stars-ssc-991k:part2",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "part2.bin"
+   ],
+   "credits": [
+    "ssc-s1m"
+   ]
+  },
+  {
+   "id": "stars-ssc-991k-3",
+   "kind": "data",
+   "target": "use:stars-ssc-991k:part3",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "part3.bin"
+   ],
+   "credits": [
+    "ssc-s1m"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "part0.bin",
+   "bytes": 1288156,
+   "sha256": "328132746e45e83eec9eea140c564c5a2157436f01b4055928a32ec7acc84e1e"
+  },
+  {
+   "path": "part1.bin",
+   "bytes": 2565844,
+   "sha256": "2d73ba62aa77fc7135086d2570d3bf4a62198049874986d047eba9712fce96fa"
+  },
+  {
+   "path": "part2.bin",
+   "bytes": 3801934,
+   "sha256": "e6c160a242382f70d92c18b043ff886a71715234fd34749b3dbb75af1174d2aa"
+  },
+  {
+   "path": "part3.bin",
+   "bytes": 4954181,
+   "sha256": "b982c098018b01c480d31c7ed977644cd6e123e7b6640997214dd95451f1a523"
+  }
+ ],
+ "credits": [
+  {
+   "id": "ssc-s1m",
+   "title": "SOLARIS Stellar Catalog s1m（ssc-rules-0.2）",
+   "source": "SOLARIS が照合・選択。Gaia DR3（ESA/Gaia/DPAC）・Bailer-Jones et al. 2021 の距離・Hipparcos 新整約（ESA）・SDSS DR17 APOGEE の温度",
+   "license": "Gaia DR3：CC BY-NC 3.0 IGO（ESA/Gaia/DPAC）・Hipparcos：ESA・SDSS：public domain",
+   "url": "https://www.cosmos.esa.int/gaia"
+  }
+ ],
+ "info": {
+  "titleEasy": "星を 99 万こに増やす",
+  "description": "Gaia・Hipparcos の観測から作った 991,294 星。3D の位置は距離の分かる 983,582 星だけで、距離の分からない 7,712 星は太陽から見た向きだけで表示します",
+  "category": "starmap",
+  "updatedUtc": "2026-10-18"
+ }
+}

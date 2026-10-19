@@ -240,6 +240,13 @@
    "sizeBytes": 362934
   },
   {
+   "packId": "kids-cosmos-audio",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "kids-cosmos-audio/manifest.json",
+   "sizeBytes": 4061667
+  },
+  {
    "packId": "mars-moons-textures-hd",
    "version": 1,
    "distribution": "download",
@@ -476,6 +483,13 @@
    "distribution": "bundled",
    "manifest": "sky-starmap-2020/manifest.json",
    "sizeBytes": 2338010
+  },
+  {
+   "packId": "stars-ssc-991k",
+   "version": 3,
+   "distribution": "download",
+   "manifest": "stars-ssc-991k/manifest.json",
+   "sizeBytes": 12610115
   },
   {
    "packId": "triton-textures-hd",

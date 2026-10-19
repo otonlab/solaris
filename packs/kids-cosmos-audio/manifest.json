@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "packId": "kids-cosmos-audio",
+ "version": 1,
+ "title": "キッズ「うちゅうは どこまで ひろい？」の音声パック（BGM・ナレーション）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:kids-cosmos-audio:bgm",
+  "use:kids-cosmos-audio:narration"
+ ],
+ "sizeBytes": 4061667,
+ "installedBytes": 4061667,
+ "assets": [
+  {
+   "id": "kids-cosmos-bgm",
+   "kind": "data",
+   "target": "use:kids-cosmos-audio:bgm",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "bgm.m4a"
+   ],
+   "credits": [
+    "solaris-kids-cosmos-bgm"
+   ]
+  },
+  {
+   "id": "kids-cosmos-narration",
+   "kind": "data",
+   "target": "use:kids-cosmos-audio:narration",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "narration.m4a"
+   ],
+   "credits": [
+    "aivisspeech-mao"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "bgm.m4a",
+   "bytes": 3570498,
+   "sha256": "bddb7cff3ccd170cac1aa2debddc322c0a334c608c93c564baf7293b17e24208"
+  },
+  {
+   "path": "narration.m4a",
+   "bytes": 491169,
+   "sha256": "9922f1d292e48f11c3bdd0c9b5006e505efa6a7293857534ebf4c6bb7f7ac3b0"
+  }
+ ],
+ "credits": [
+  {
+   "id": "solaris-kids-cosmos-bgm",
+   "title": "うちゅうは どこまで ひろい？ BGM",
+   "source": "SOLARIS で合成（tools/tour_audio/make_bgm_kids_cosmos.py・楽器は宇宙の旅と同じ式・外の音源・既存の楽曲なし）",
+   "license": "SOLARIS の著作物",
+   "url": "-"
+  },
+  {
+   "id": "aivisspeech-mao",
+   "title": "ナレーション：AivisSpeech: まお（合成音声）",
+   "source": "AivisSpeech Engine 1.2.0（LGPL-3.0）・音声合成モデル「まお」（©Oz Chat/Trippy・CV：ねゆたろ）。SOLARIS の案内役として使っている合成音声で、公式のキャラクターや声の方の発言ではありません",
+   "license": "Aivis Common Model License (ACML) 1.0",
+   "url": "https://hub.aivis-project.com/aivm-models/a59cb814-0083-4369-8542-f51a29e72af7"
+  }
+ ],
+ "info": {
+  "titleEasy": "こえと おんがくを いれる（うちゅうは どこまで ひろい？）",
+  "description": "キッズの宇宙旅行（約 3 分 40 秒）の BGM と、案内役の女の子の声。入れなくても、字幕で見られます",
+  "category": "other",
+  "updatedUtc": "2026-10-18"
+ }
+}
