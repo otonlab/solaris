@@ -138,6 +138,20 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
   Planetary ephemeris DE441 (Park et al. 2021, AJ 161, 105). Positions were fitted with Chebyshev
   polynomials by SOLARIS. Includes the 1981-2000 and 2050-2065 era packs.
 
+[準惑星（ケレス・冥王星・ハウメア・マケマケ・エリス）・カイパーベルト]
+- Orbits: JPL Horizons, NAIF and the JPL Small-Body Database (NASA/JPL-Caltech Solar System Dynamics).
+- Pluto: Pluto New Horizons LORRI MVIC Global Mosaic 300m, USGS Astrogeology Science Center / NASA, JHUAPL, SwRI.
+  Colour scaled with HST photometry (Buie et al. 2010). Modified by SOLARIS.
+- Ceres: Ceres Dawn FC Global Mosaic 20ppd, USGS Astrogeology Science Center / NASA, JPL-Caltech, UCLA, MPS, DLR, IDA.
+  Modified by SOLARIS.
+- Haumea, Makemake, Eris: uniform colours from photometry (Alvarez-Candal et al. 2020; Hainaut et al. 2012;
+  solar colour: Ramírez et al. 2012). Surface patterns are unknown and not drawn.
+
+[検索の観測画像（追加パック obs-search-*）]
+- Images from ESO, ESA/Hubble and ESA/Webb, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+  The credit line of each image (e.g. "ESO/M. Kornmesser", "NASA, ESA, CSA, and STScI", "EHT Collaboration")
+  is shown with the image and in the pack's 出典・ライセンス. Resized and converted to WebP by SOLARIS.
+
 [彗星・恒星間天体]
 - Orbits of 1P/Halley, 67P/Churyumov-Gerasimenko, C/1995 O1 (Hale-Bopp), 1I/'Oumuamua, 2I/Borisov
   and 3I/ATLAS (C/2025 N1): JPL Horizons and the JPL Small-Body Database
@@ -160,3 +174,39 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
 - Kennedy Space Center imagery: USDA, USGS The National Map: Orthoimagery (USDA NAIP ほか).
 - Contains modified Copernicus Sentinel data 2025–2026.
 - Elevation: USGS 3DEP.
+
+[恒星の表面活動・🌋 フレア観察（太陽・プロキシマ：追加パック flare-mhd-cheung2019）]
+- Solar flare 3D radiative MHD simulation data: Cheung, M.C.M., Rempel, M., Chintzoglou, G. et al. 2019,
+  "A comprehensive three-dimensional radiative magnetohydrodynamic simulation of a solar flare",
+  Nature Astronomy 3, 160 (doi:10.1038/s41550-018-0629-3). Data: Stanford Digital Repository
+  (https://purl.stanford.edu/dv883vb9686), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/).
+  Subsampled, binned by temperature, field lines and streamlines traced, and drawn on the Sun and placed on
+  Proxima Centauri by SOLARIS (on Proxima: a solar simulation used as an analogue model; not an observation of Proxima Centauri).
+
+[代表的な恒星（太陽・シリウス・プロキシマ・ベテルギウス・ウォルフ359）の数値]
+各値の出典は、それぞれの星の画面（ℹ️・恒星のパネル）にも表示しています。数値と事実だけを使い、星の描画に観測画像は使っていません。
+表面・活動・フレア・脈動などの描画は、下記の値をもとに SOLARIS が計算して描いたもの（推定・可視化）です。
+- Star data: SIMBAD (CDS, Strasbourg; Wenger et al. 2000), Gaia DR3 (ESA/Gaia/DPAC, CC BY-NC 3.0 IGO),
+  IAU 2015 Resolution B3 (nominal solar values).
+- Limb darkening: Claret & Bloemen 2011, A&A 529, A75 (ATLAS; VizieR J/A+A/529/A75);
+  Claret, Hauschildt & Witte 2012, A&A 546, A14 (PHOENIX; VizieR J/A+A/546/A14).
+- Sun: Hirzberger et al. 1999; Mathew et al. 2007; Solanki 2003; Jha et al. 2018; Rincon & Rieutord 2018;
+  Mackay et al. 2010; Schmieder & Aulanier 2010; Wedemeyer-Böhm & Rouppe van der Voort 2009; DKIST first light (NSO);
+  NASA/SDO (reference for appearance; no SDO images used).
+- Sirius: Gray et al. 2003; Ducati 2002; Steffen, Freytag & Ludwig 2005.
+- Proxima Centauri: Ribas et al. 2017; Demory et al. 2009; Boyajian et al. 2012; Zurlo et al. 2018; Reid 1982;
+  Jao et al. 2014; Allard & Hauschildt 2002.
+- Betelgeuse: Haubois et al. 2009; Kervella et al. 2018; Ogane et al. 2022; Chiavassa et al. 2010; Perrin et al. 2004.
+- Wolf 359: Pineda et al. 2021; Schweitzer et al. 2019 (CARMENES); Landolt 1992, 2009; Kesseli et al. 2019;
+  Fuhrmeister et al. 2005; Sebastian et al. 2021.
+- Activity, flare, pulsation, dimming and mass-loss models (star engine): Alexeeva 2021; Alonso 2019; Asai 2004;
+  Barnes 2005; Baumann & Solanki 2005; Beeck 2015; Berdyugina 2005; Le Bertre 2012; Bessell 1998; Castelli & Plez 1998;
+  Chen 2015, 2025; Claret 2012; Davenport 2014; Decin 2012; Doyle 2018; van Driel-Gesztelyi 1997; Dupree 2020;
+  Fuhrmeister 2011; Gianninas 2013; Giles 2017; Goldberg 2024; Gopalswamy 2003; Guinan & Engle 2018; Guinan 2020;
+  Hao 2015; Harper 2001, 2017; Hathaway 2011, 2015; Haubois 2019, 2023; Howard 2018, 2020; Jiang 2011, 2014;
+  Joyce 2020; Kervella 2009; Klein 2021; Kowalski 2013; Kretzschmar 2011; Kupka 2009; Levesque & Massey 2020;
+  Lin 2021; Ludwig 2002; MacGregor 2021; MacLeod 2024; Mohamed 2012; Morin 2008; Nitta 2013; Panja 2020;
+  Pavlenko 2017; Pecaut & Mamajek 2013; Petit 2011; Qiu 2004; Reiners 2007, 2022; Reiners & Basri 2008; Saio 2023;
+  Sheeley 1999; Snodgrass & Ulrich 1990; Stenflo & Kosovichev 2012; Sun 2015; Taniguchi 2022; Tlatov & Pevtsov 2014;
+  Townes 2009; Upton & Hathaway 2023; Veronig 2002; Vida 2019; Wargelin 2017; Wedemeyer 2013; Xu 2018, 2021;
+  Yashiro 2005; Zhang 2001 (each with co-authors where applicable; full references in the source code and each star's screen).

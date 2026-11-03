@@ -1,0 +1,234 @@
+{
+ "schema": 1,
+ "packId": "dwarf-textures",
+ "version": 1,
+ "title": "準惑星の表面（冥王星・ケレス・エリス・ハウメア・マケマケ）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:999",
+  "naif:20000001",
+  "naif:20136199",
+  "naif:20136108",
+  "naif:20136472"
+ ],
+ "sizeBytes": 1189118,
+ "installedBytes": 1189118,
+ "assets": [
+  {
+   "id": "tex:999:albedo:1024",
+   "kind": "image",
+   "target": "naif:999",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "pluto_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-pluto-nh-300m"
+   ],
+   "surface": {
+    "observed": "2015年7月",
+    "instrument": "ニューホライズンズ（LORRI・MVIC）",
+    "colorType": "approx-natural",
+    "note": "明るさは観測。南緯約35°より南は通過のとき夜で写っていない（平均の明るさで塗った）。色は測光の B−V だけの近似"
+   }
+  },
+  {
+   "id": "tex:999:albedo:2048",
+   "kind": "image",
+   "target": "naif:999",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "pluto_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-pluto-nh-300m"
+   ],
+   "surface": {
+    "observed": "2015年7月",
+    "instrument": "ニューホライズンズ（LORRI・MVIC）",
+    "colorType": "approx-natural",
+    "note": "明るさは観測。南緯約35°より南は通過のとき夜で写っていない（平均の明るさで塗った）。色は測光の B−V だけの近似"
+   }
+  },
+  {
+   "id": "tex:20000001:albedo:1024",
+   "kind": "image",
+   "target": "naif:20000001",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 1024,
+   "height": 512,
+   "files": [
+    "ceres_albedo_1k.webp"
+   ],
+   "credits": [
+    "usgs-ceres-dawn-20ppd"
+   ],
+   "surface": {
+    "observed": "2015年",
+    "instrument": "ドーン（フレーミングカメラ）",
+    "colorType": "monochrome",
+    "note": "ほぼ灰色の天体。明るさの地図（白黒）"
+   }
+  },
+  {
+   "id": "tex:20000001:albedo:2048",
+   "kind": "image",
+   "target": "naif:20000001",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 2048,
+   "height": 1024,
+   "files": [
+    "ceres_albedo_2k.webp"
+   ],
+   "credits": [
+    "usgs-ceres-dawn-20ppd"
+   ],
+   "surface": {
+    "observed": "2015年",
+    "instrument": "ドーン（フレーミングカメラ）",
+    "colorType": "monochrome",
+    "note": "ほぼ灰色の天体。明るさの地図（白黒）"
+   }
+  },
+  {
+   "id": "tex:20136199:albedo:256",
+   "kind": "image",
+   "target": "naif:20136199",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 256,
+   "height": 128,
+   "files": [
+    "eris_albedo_256.webp"
+   ],
+   "credits": [
+    "tno-photometry"
+   ],
+   "surface": {
+    "observed": "地上からの測光",
+    "instrument": "望遠鏡（測光の色）",
+    "colorType": "uniform",
+    "note": "表面の地図は無い（推定モデル：一様な色の球）"
+   }
+  },
+  {
+   "id": "tex:20136108:albedo:256",
+   "kind": "image",
+   "target": "naif:20136108",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 256,
+   "height": 128,
+   "files": [
+    "haumea_albedo_256.webp"
+   ],
+   "credits": [
+    "tno-photometry"
+   ],
+   "surface": {
+    "observed": "地上からの測光",
+    "instrument": "望遠鏡（測光の色）",
+    "colorType": "uniform",
+    "note": "表面の地図は無い。形は掩蔽と光度曲線による3軸の楕円体。自転（約3.9時間）と極の向きは表示していない（推定モデル）"
+   }
+  },
+  {
+   "id": "tex:20136472:albedo:256",
+   "kind": "image",
+   "target": "naif:20136472",
+   "slot": "albedo",
+   "format": "webp",
+   "projection": "equirect",
+   "width": 256,
+   "height": 128,
+   "files": [
+    "makemake_albedo_256.webp"
+   ],
+   "credits": [
+    "tno-photometry"
+   ],
+   "surface": {
+    "observed": "地上からの測光",
+    "instrument": "望遠鏡（測光の色）",
+    "colorType": "uniform",
+    "note": "表面の地図は無い（推定モデル：一様な色の球）"
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "pluto_albedo_1k.webp",
+   "bytes": 82242,
+   "sha256": "14c36addf19fcd39d0ff7f193a47d35961a9e09a25b7936b0b8926e8e23486cd"
+  },
+  {
+   "path": "pluto_albedo_2k.webp",
+   "bytes": 278508,
+   "sha256": "3c9b8368d870d13a8c7fb0dea5523158915b87e5d678bfb377ea619ee8031432"
+  },
+  {
+   "path": "ceres_albedo_1k.webp",
+   "bytes": 180476,
+   "sha256": "612e8c8261b61de5fe185f94fa6a8c60bacab674863d5814ef056cba7535f707"
+  },
+  {
+   "path": "ceres_albedo_2k.webp",
+   "bytes": 647514,
+   "sha256": "50fc33b692154a68f719e695b2acde1b800837a08ec8afe9fd5c44abd7f837f8"
+  },
+  {
+   "path": "eris_albedo_256.webp",
+   "bytes": 126,
+   "sha256": "fcdcc641fab406066932fdb30a1ce3630e6e2d5b3948e5a1f80ddc40102e5854"
+  },
+  {
+   "path": "haumea_albedo_256.webp",
+   "bytes": 122,
+   "sha256": "99ae780e6b16df3608b7e47ac8cdaec6ebc62651c0e0384eeaef81cb41712ae9"
+  },
+  {
+   "path": "makemake_albedo_256.webp",
+   "bytes": 130,
+   "sha256": "9556f4bdf79ae83e502b7c77c94bd808f7c640ee96dc5b7b6ad8ab6760cf7a76"
+  }
+ ],
+ "credits": [
+  {
+   "id": "usgs-pluto-nh-300m",
+   "title": "Pluto New Horizons LORRI MVIC Global Mosaic 300m（2017-07）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA・JHUAPL・SwRI（New Horizons LORRI と MVIC のパンクロの画像のモザイク・2015-07）。アプリ用に経度をずらし、写っていない南（南緯約 35° より南）は平均の明るさで塗り、HST の測光 B−V（Buie et al. 2010）の色の比だけをかけた（tools/textures/dwarf_pipeline.py）",
+   "license": "Public domain（USGS／NASA・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/pluto_new_horizons_lorri_mvic_global_mosaic_300m"
+  },
+  {
+   "id": "usgs-ceres-dawn-20ppd",
+   "title": "Ceres Dawn FC Global Mosaic 20ppd（DLR・2015-10）",
+   "source": "U.S. Geological Survey Astrogeology Science Center／NASA・JPL-Caltech・UCLA・MPS・DLR・IDA（Dawn Framing Camera のモザイク）。アプリ用に経度をずらし、化成緯度へ並べ直した（白黒）",
+   "license": "Public domain（USGS／NASA・出典を表記）",
+   "url": "https://astrogeology.usgs.gov/search/map/ceres_dawn_fc_global_mosaic_20ppd"
+  },
+  {
+   "id": "tno-photometry",
+   "title": "エリス・マケマケ：Alvarez-Candal et al. 2020（X-Shooter・arXiv 2008.01472）／ハウメア：Hainaut et al. 2012（MBOSS・arXiv 1209.1896）／太陽の色：Ramírez et al. 2012",
+   "source": "地上の望遠鏡の測光（点としての明るさの色）。表面の模様は分からないので一様な色",
+   "license": "数値の引用（論文）",
+   "url": "https://arxiv.org/abs/2008.01472"
+  }
+ ]
+}

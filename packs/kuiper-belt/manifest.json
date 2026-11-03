@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "packId": "kuiper-belt",
+ "version": 1,
+ "title": "カイパーベルト（海王星の外側の小天体 JPL SBDB）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:kuiper-belt"
+ ],
+ "sizeBytes": 262560,
+ "installedBytes": 262560,
+ "assets": [
+  {
+   "id": "kuiper:tno",
+   "kind": "data",
+   "target": "use:kuiper-belt",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "tno.bin"
+   ],
+   "credits": [
+    "jpl-sbdb"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "tno.bin",
+   "bytes": 262560,
+   "sha256": "fbcfccf7c0c4902c722fe4f64f930bb868e4e1049ed809b033887783d5ea865d"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-sbdb",
+   "title": "JPL Small-Body Database",
+   "source": "NASA/JPL-Caltech Solar System Dynamics",
+   "license": "NASA の資料（米国で著作権の対象外）",
+   "url": "https://ssd.jpl.nasa.gov/tools/sbdb_query.html"
+  }
+ ],
+ "info": {
+  "titleEasy": "カイパーベルトの小天体",
+  "description": "海王星の外側で見つかっている小天体 8205 個の軌道（JPL）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-26"
+ }
+}

@@ -1,0 +1,982 @@
+{
+ "schema": 1,
+ "packId": "flare-mhd-cheung2019",
+ "version": 1,
+ "title": "フレアの 3D 計算データ（太陽の Cheung ほか 2019 の MHD 計算）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:flare-mhd-cheung2019:lines_0270000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0280000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0290000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0292000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0294000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0296000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0297000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0297500_jsongz",
+  "use:flare-mhd-cheung2019:lines_0298000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0299000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0300000_jsongz",
+  "use:flare-mhd-cheung2019:lines_0310000_jsongz",
+  "use:flare-mhd-cheung2019:meta_json",
+  "use:flare-mhd-cheung2019:p6_json",
+  "use:flare-mhd-cheung2019:phot_0270000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0280000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0290000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0292000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0294000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0296000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0297000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0297500_u8gz",
+  "use:flare-mhd-cheung2019:phot_0298000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0299000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0300000_u8gz",
+  "use:flare-mhd-cheung2019:phot_0310000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0270000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0280000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0290000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0292000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0294000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0296000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0297000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0297500_u8gz",
+  "use:flare-mhd-cheung2019:vel_0298000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0299000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0300000_u8gz",
+  "use:flare-mhd-cheung2019:vel_0310000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0270000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0280000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0290000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0292000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0294000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0296000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0297000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0297500_u8gz",
+  "use:flare-mhd-cheung2019:vol_0298000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0299000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0300000_u8gz",
+  "use:flare-mhd-cheung2019:vol_0310000_u8gz"
+ ],
+ "sizeBytes": 11984855,
+ "installedBytes": 11984855,
+ "assets": [
+  {
+   "id": "flare-mhd-lines-0270000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0270000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0270000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0280000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0280000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0280000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0290000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0290000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0290000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0292000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0292000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0292000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0294000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0294000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0294000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0296000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0296000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0296000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0297000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0297000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0297000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0297500-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0297500_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0297500.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0298000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0298000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0298000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0299000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0299000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0299000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0300000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0300000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0300000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-lines-0310000-jsongz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:lines_0310000_jsongz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "lines.0310000.jsongz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-meta-json",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:meta_json",
+   "slot": "history",
+   "format": "json",
+   "files": [
+    "meta.json"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-p6-json",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:p6_json",
+   "slot": "history",
+   "format": "json",
+   "files": [
+    "p6.json"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0270000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0270000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0270000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0280000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0280000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0280000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0290000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0290000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0290000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0292000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0292000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0292000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0294000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0294000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0294000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0296000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0296000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0296000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0297000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0297000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0297000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0297500-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0297500_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0297500.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0298000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0298000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0298000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0299000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0299000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0299000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0300000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0300000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0300000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-phot-0310000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:phot_0310000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "phot.0310000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0270000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0270000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0270000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0280000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0280000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0280000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0290000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0290000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0290000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0292000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0292000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0292000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0294000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0294000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0294000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0296000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0296000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0296000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0297000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0297000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0297000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0297500-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0297500_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0297500.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0298000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0298000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0298000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0299000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0299000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0299000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0300000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0300000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0300000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vel-0310000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vel_0310000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vel.0310000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0270000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0270000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0270000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0280000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0280000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0280000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0290000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0290000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0290000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0292000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0292000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0292000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0294000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0294000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0294000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0296000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0296000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0296000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0297000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0297000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0297000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0297500-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0297500_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0297500.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0298000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0298000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0298000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0299000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0299000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0299000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0300000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0300000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0300000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  },
+  {
+   "id": "flare-mhd-vol-0310000-u8gz",
+   "kind": "data",
+   "target": "use:flare-mhd-cheung2019:vol_0310000_u8gz",
+   "slot": "history",
+   "format": "bin",
+   "files": [
+    "vol.0310000.u8gz"
+   ],
+   "credits": [
+    "cheung2019"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "lines.0270000.jsongz",
+   "bytes": 238671,
+   "sha256": "478f95ff4dd0dafe59e340a35f7249a494e03392ce062063b187728992533f07"
+  },
+  {
+   "path": "lines.0280000.jsongz",
+   "bytes": 225046,
+   "sha256": "49c0e0289071a90cbbb76c214b758244d12b4d2906199de8bb3b836793323bdf"
+  },
+  {
+   "path": "lines.0290000.jsongz",
+   "bytes": 272746,
+   "sha256": "b89d43938ac240e7df85eea9e793fb0abe78bbde34a099e3fcec678815a5ccd4"
+  },
+  {
+   "path": "lines.0292000.jsongz",
+   "bytes": 263231,
+   "sha256": "89d916262ed14fb34dff19631045a5c7bcb8e807bf4f2255de74308696d3c26a"
+  },
+  {
+   "path": "lines.0294000.jsongz",
+   "bytes": 270445,
+   "sha256": "58a37e18cc91deabd6eb12fa4aa8a680c81da226a856739afe9ffddca1eb2953"
+  },
+  {
+   "path": "lines.0296000.jsongz",
+   "bytes": 267945,
+   "sha256": "026530c7b06c1fae4e6310270573ab2b2709acbc58435bbcb837853c96270d19"
+  },
+  {
+   "path": "lines.0297000.jsongz",
+   "bytes": 263339,
+   "sha256": "d732b4b5af179f06f4af4f8cf72a9acb0121e02b02024b8494c663c48c2c1754"
+  },
+  {
+   "path": "lines.0297500.jsongz",
+   "bytes": 266815,
+   "sha256": "0a40fea9ee0c3e22e7ea3abfb3d95b572dd1dbf0090b79eed753f13690662658"
+  },
+  {
+   "path": "lines.0298000.jsongz",
+   "bytes": 268647,
+   "sha256": "1b767a48c274b3751cbf27f9650249211de14700077122767db775e77eca2568"
+  },
+  {
+   "path": "lines.0299000.jsongz",
+   "bytes": 262520,
+   "sha256": "9e0f0947e5aab67b4222ed89b1a2e090d83105778f171041f8cd2110609dc9d7"
+  },
+  {
+   "path": "lines.0300000.jsongz",
+   "bytes": 243670,
+   "sha256": "7b96cb580ad69863be64bb46593d4a288fc16db1a0235ec08bc26c4dd036a0a6"
+  },
+  {
+   "path": "lines.0310000.jsongz",
+   "bytes": 252877,
+   "sha256": "74301ed5f13fdb40cb7a9ba59526eb6fda39fc18b97fc6b25a21f75d7accc02c"
+  },
+  {
+   "path": "meta.json",
+   "bytes": 3065,
+   "sha256": "23bc309d9bf127641010af11b2b527ecfd624378aad8db82b2560839dc0416fb"
+  },
+  {
+   "path": "p6.json",
+   "bytes": 529,
+   "sha256": "289d82955228d871da1d22e41eb1b36b9e37bc7682e6bcdbb59f4aef9df4b4fb"
+  },
+  {
+   "path": "phot.0270000.u8gz",
+   "bytes": 57417,
+   "sha256": "6c1c159389b774d8a5ddc065894fb480249ccd552b523c51685fa465bfd9e3af"
+  },
+  {
+   "path": "phot.0280000.u8gz",
+   "bytes": 57506,
+   "sha256": "632b9d3e733a7d00d78e55b5937022023339ec9c12f8e61d2d2cf6319a9c7370"
+  },
+  {
+   "path": "phot.0290000.u8gz",
+   "bytes": 57500,
+   "sha256": "7dc3fff8d3bebf143213ac5703624fe50c0b3e396fb986a6c35fbe11218ab608"
+  },
+  {
+   "path": "phot.0292000.u8gz",
+   "bytes": 57530,
+   "sha256": "f5f0d635fc315b4d0fbc6bdd6feac7f2b8ef48e2c0bcb7d16b622bcdbb96fa07"
+  },
+  {
+   "path": "phot.0294000.u8gz",
+   "bytes": 57558,
+   "sha256": "c08772f97a482fa56139709023969212b8bf6fa533a3279245fd5398fac3044c"
+  },
+  {
+   "path": "phot.0296000.u8gz",
+   "bytes": 57524,
+   "sha256": "0db1dfe967402cc154632ada35d474a8aa6baef7351918fa512254e0ebe27177"
+  },
+  {
+   "path": "phot.0297000.u8gz",
+   "bytes": 57533,
+   "sha256": "c4053878ee265ab5ee620cad6dee4f8259d4d32b7882d43fbde9a0f1ed08c438"
+  },
+  {
+   "path": "phot.0297500.u8gz",
+   "bytes": 57513,
+   "sha256": "c34cca64da4b0dfa466ff8140ab5b75f1c83671eddaabcd65140496b7741fce0"
+  },
+  {
+   "path": "phot.0298000.u8gz",
+   "bytes": 57513,
+   "sha256": "36889bdc5cb645d058c4e4f24886371699b8fa82eaac52badfcc8f9aec687c7f"
+  },
+  {
+   "path": "phot.0299000.u8gz",
+   "bytes": 57485,
+   "sha256": "8cc03a927c013a46896a1c41ff3c2a3b60e5a0c0cd2479354ba23c12cc962545"
+  },
+  {
+   "path": "phot.0300000.u8gz",
+   "bytes": 57488,
+   "sha256": "f5860b1fe0957230d513cff6b3116933128c967ecfc308b6fd9f4306862aac25"
+  },
+  {
+   "path": "phot.0310000.u8gz",
+   "bytes": 57481,
+   "sha256": "f35aeb4e9ded2871c832e0a2ca8ec21cccd51fa1e7ec1c7fcac9d72855ca7d9f"
+  },
+  {
+   "path": "vel.0270000.u8gz",
+   "bytes": 227898,
+   "sha256": "f2a42b08ed531a2b72cdcbaffff3b06a49af4e2d986472374c6b25360c737880"
+  },
+  {
+   "path": "vel.0280000.u8gz",
+   "bytes": 233196,
+   "sha256": "5791c525554045aaf1467e317ea2c4f638c83dd1ec556c2962392866c7859d3d"
+  },
+  {
+   "path": "vel.0290000.u8gz",
+   "bytes": 298616,
+   "sha256": "12b348540381c47cfc22212686b55c7e33133582d86df516666a87a47270555c"
+  },
+  {
+   "path": "vel.0292000.u8gz",
+   "bytes": 324846,
+   "sha256": "e687444548d677afe6fcedfce62e4107eb37421b9be8c95229617e1ba5ac9713"
+  },
+  {
+   "path": "vel.0294000.u8gz",
+   "bytes": 346811,
+   "sha256": "f42de78aadb7f2af671ab096b1b11961afd4ec425602adcb0733e07f25c14c24"
+  },
+  {
+   "path": "vel.0296000.u8gz",
+   "bytes": 363435,
+   "sha256": "c72afb0141f5c95b6ae3509c23d53ceb893ba927575873760b8663f007e30629"
+  },
+  {
+   "path": "vel.0297000.u8gz",
+   "bytes": 385399,
+   "sha256": "af6d199666f76b725a20b08ce58ffc7590db90c83f7f256ddbbe9541afbd9c0c"
+  },
+  {
+   "path": "vel.0297500.u8gz",
+   "bytes": 389984,
+   "sha256": "05772b4a7b56e7ef06628a1ed98f63e9cd09bab78fd6d7a9a1ab4af50d8028fe"
+  },
+  {
+   "path": "vel.0298000.u8gz",
+   "bytes": 401050,
+   "sha256": "6230675ffc568a2920b405c8dfcda5dbeca368b7ef17cb4958d9353245ae63d6"
+  },
+  {
+   "path": "vel.0299000.u8gz",
+   "bytes": 415825,
+   "sha256": "515719abe2ebe83bcdea1c579e7dc206913b1686d51670b55698d1c54971b745"
+  },
+  {
+   "path": "vel.0300000.u8gz",
+   "bytes": 424423,
+   "sha256": "18b7019c1d49282006541ae3ef6531233fbcd41fd22d280ced06250d2b9a8665"
+  },
+  {
+   "path": "vel.0310000.u8gz",
+   "bytes": 334070,
+   "sha256": "a7f00a55ef6f1685ed0c1d2d2baa8ad2398cf6a15629fee0755b5c3bf2d770e2"
+  },
+  {
+   "path": "vol.0270000.u8gz",
+   "bytes": 113877,
+   "sha256": "d678bc47dae07adb48ef5249c19bef64d612a0f6f793e35b5bc8c57298d076c4"
+  },
+  {
+   "path": "vol.0280000.u8gz",
+   "bytes": 143938,
+   "sha256": "0b409ee8da4d1b95a0fa1f1a72347634037fec53dfbaae8cee6ef2131a5bf53e"
+  },
+  {
+   "path": "vol.0290000.u8gz",
+   "bytes": 219749,
+   "sha256": "5bc3412e32b573fd1af01e6b8ac76cfedec833a39258ef083514de06a89d3e3e"
+  },
+  {
+   "path": "vol.0292000.u8gz",
+   "bytes": 246483,
+   "sha256": "375d6b2f0183ee5de106e33b55b3dab08d56a9b506b6015fe7352fd5cf2c9fd3"
+  },
+  {
+   "path": "vol.0294000.u8gz",
+   "bytes": 274230,
+   "sha256": "7183f367bff85060846ead519dada09fab3cc8739cde3a4da053361c7c76738a"
+  },
+  {
+   "path": "vol.0296000.u8gz",
+   "bytes": 330040,
+   "sha256": "2ee95d1c5f54338161f97d3c7652ea4105fb42566de9156ad412ebc37e51e7fd"
+  },
+  {
+   "path": "vol.0297000.u8gz",
+   "bytes": 370850,
+   "sha256": "61d34236366e8a5b37002edd61a2174226d9d83b068fde0490ad562c721db3e3"
+  },
+  {
+   "path": "vol.0297500.u8gz",
+   "bytes": 390835,
+   "sha256": "489b9d34e8ac0a87268f3010882b30ff9a45c65b65c39b61fa5a99a507a4f92d"
+  },
+  {
+   "path": "vol.0298000.u8gz",
+   "bytes": 417556,
+   "sha256": "04daea3d5ff49616ac6a161ecd3142ff93d3291f2b45dc85dd9fce835afb6a29"
+  },
+  {
+   "path": "vol.0299000.u8gz",
+   "bytes": 471175,
+   "sha256": "d76518118ff003d7ce3faf9c254a19ee088cfe8b8a81515a04776b5e0c0d5a04"
+  },
+  {
+   "path": "vol.0300000.u8gz",
+   "bytes": 508602,
+   "sha256": "5fc6d2e5d0b23818346b30f8a4a1529c2de3b4eac62a697d0f9506a04e49aad9"
+  },
+  {
+   "path": "vol.0310000.u8gz",
+   "bytes": 562373,
+   "sha256": "3862c58cf8fc3f169901789cef8eb340b32822c21e7fe0550f7ff0093c26cbdc"
+  }
+ ],
+ "credits": [
+  {
+   "id": "cheung2019",
+   "title": "Cheung et al. 2019 C4.3 フレアの 3D 放射 MHD 計算",
+   "source": "Cheung et al. 2019, Nature Astronomy 3, 160 (doi:10.1038/s41550-018-0629-3)・データ Stanford Digital Repository",
+   "license": "CC BY 3.0",
+   "url": "https://purl.stanford.edu/dv883vb9686"
+  }
+ ],
+ "info": {
+  "titleEasy": "フレアの 3D 計算データ",
+  "description": "太陽のフレアの 3D 磁気流体計算（Cheung ほか 2019）。［🌋 フレア観察］（太陽と、プロキシマの類推＝プロキシマの観測ではない）で使います。12 の時刻の密度・速度・光・磁力線",
+  "category": "other",
+  "updatedUtc": "2026-10-31"
+ }
+}

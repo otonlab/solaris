@@ -1,0 +1,431 @@
+{
+ "schema": 1,
+ "packId": "obs-search-high",
+ "version": 1,
+ "title": "観測画像（天体検索・高解像度）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:obs-img:eso2208-eht-mwa:high",
+  "use:obs-img:eso2105a:high",
+  "use:obs-img:weic2212a:high",
+  "use:obs-img:heic1206a:high",
+  "use:obs-img:eso0903a:high",
+  "use:obs-img:eso0902a:high",
+  "use:obs-img:heic1614a:high",
+  "use:obs-img:heic1520a:high",
+  "use:obs-img:eso9920f:high",
+  "use:obs-img:weic2306e:high",
+  "use:obs-img:eso1629a:high",
+  "use:obs-img:eso1706a:high",
+  "use:obs-img:eso1517a:high",
+  "use:obs-img:eso2408b:high"
+ ],
+ "sizeBytes": 6033214,
+ "installedBytes": 6033214,
+ "assets": [
+  {
+   "id": "high:eso2208-eht-mwa",
+   "kind": "image",
+   "target": "use:obs-img:eso2208-eht-mwa:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 3200,
+   "files": [
+    "images/eso2208-eht-mwa_high.webp"
+   ],
+   "credits": [
+    "eso2208-eht-mwa"
+   ]
+  },
+  {
+   "id": "high:eso2105a",
+   "kind": "image",
+   "target": "use:obs-img:eso2105a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3169,
+   "height": 3200,
+   "files": [
+    "images/eso2105a_high.webp"
+   ],
+   "credits": [
+    "eso2105a"
+   ]
+  },
+  {
+   "id": "high:weic2212a",
+   "kind": "image",
+   "target": "use:obs-img:weic2212a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1850,
+   "files": [
+    "images/weic2212a_high.webp"
+   ],
+   "credits": [
+    "weic2212a"
+   ]
+  },
+  {
+   "id": "high:heic1206a",
+   "kind": "image",
+   "target": "use:obs-img:heic1206a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2560,
+   "files": [
+    "images/heic1206a_high.webp"
+   ],
+   "credits": [
+    "heic1206a"
+   ]
+  },
+  {
+   "id": "high:eso0903a",
+   "kind": "image",
+   "target": "use:obs-img:eso0903a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2808,
+   "height": 2957,
+   "files": [
+    "images/eso0903a_high.webp"
+   ],
+   "credits": [
+    "eso0903a"
+   ]
+  },
+  {
+   "id": "high:eso0902a",
+   "kind": "image",
+   "target": "use:obs-img:eso0902a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2901,
+   "files": [
+    "images/eso0902a_high.webp"
+   ],
+   "credits": [
+    "eso0902a"
+   ]
+  },
+  {
+   "id": "high:heic1614a",
+   "kind": "image",
+   "target": "use:obs-img:heic1614a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2125,
+   "height": 2077,
+   "files": [
+    "images/heic1614a_high.webp"
+   ],
+   "credits": [
+    "heic1614a"
+   ]
+  },
+  {
+   "id": "high:heic1520a",
+   "kind": "image",
+   "target": "use:obs-img:heic1520a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2134,
+   "files": [
+    "images/heic1520a_high.webp"
+   ],
+   "credits": [
+    "heic1520a"
+   ]
+  },
+  {
+   "id": "high:eso9920f",
+   "kind": "image",
+   "target": "use:obs-img:eso9920f:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2039,
+   "height": 2037,
+   "files": [
+    "images/eso9920f_high.webp"
+   ],
+   "credits": [
+    "eso9920f"
+   ]
+  },
+  {
+   "id": "high:weic2306e",
+   "kind": "image",
+   "target": "use:obs-img:weic2306e:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 2026,
+   "height": 1343,
+   "files": [
+    "images/weic2306e_high.webp"
+   ],
+   "credits": [
+    "weic2306e"
+   ]
+  },
+  {
+   "id": "high:eso1629a",
+   "kind": "image",
+   "target": "use:obs-img:eso1629a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2078,
+   "files": [
+    "images/eso1629a_high.webp"
+   ],
+   "credits": [
+    "eso1629a"
+   ]
+  },
+  {
+   "id": "high:eso1706a",
+   "kind": "image",
+   "target": "use:obs-img:eso1706a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1829,
+   "files": [
+    "images/eso1706a_high.webp"
+   ],
+   "credits": [
+    "eso1706a"
+   ]
+  },
+  {
+   "id": "high:eso1517a",
+   "kind": "image",
+   "target": "use:obs-img:eso1517a:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 2012,
+   "files": [
+    "images/eso1517a_high.webp"
+   ],
+   "credits": [
+    "eso1517a"
+   ]
+  },
+  {
+   "id": "high:eso2408b",
+   "kind": "image",
+   "target": "use:obs-img:eso2408b:high",
+   "slot": "photo",
+   "format": "webp",
+   "projection": "flat",
+   "width": 3200,
+   "height": 1800,
+   "files": [
+    "images/eso2408b_high.webp"
+   ],
+   "credits": [
+    "eso2408b"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "images/eso2208-eht-mwa_high.webp",
+   "bytes": 67202,
+   "sha256": "cc13466683296709a9ab2275f43d4ce513c6f5521a09bb63552a9a0ad95c058f"
+  },
+  {
+   "path": "images/eso2105a_high.webp",
+   "bytes": 99846,
+   "sha256": "ea7fea491254f42435e9119b5f2af837aca78207d48acaf9041e6e3146f7639c"
+  },
+  {
+   "path": "images/weic2212a_high.webp",
+   "bytes": 683636,
+   "sha256": "3c3d8ee0daf78da000862a3b97a3995a465495c38799accb59be98a51122fa36"
+  },
+  {
+   "path": "images/heic1206a_high.webp",
+   "bytes": 1888400,
+   "sha256": "91f21d6497f9da5cb463e45f6f1aad9a9e4bd7e09249407339c515cb44bae08c"
+  },
+  {
+   "path": "images/eso0903a_high.webp",
+   "bytes": 417560,
+   "sha256": "8e3b628728869c5779cb904773a07fddb2aeefd501f09467363594f17038bb63"
+  },
+  {
+   "path": "images/eso0902a_high.webp",
+   "bytes": 188360,
+   "sha256": "dc80a9419cb44cd218b60142d2959adce10489e7893894001ed854fbf8da71a2"
+  },
+  {
+   "path": "images/heic1614a_high.webp",
+   "bytes": 308572,
+   "sha256": "26cdc407ff8baac96ab178581ae5438c58bae19c9feca279e17af6750f8bb69e"
+  },
+  {
+   "path": "images/heic1520a_high.webp",
+   "bytes": 693998,
+   "sha256": "94651ea301ff82055c27d4eabe97781f53ab99c76832d5e15597c5f85b3d1810"
+  },
+  {
+   "path": "images/eso9920f_high.webp",
+   "bytes": 415062,
+   "sha256": "080aaec9a290c055e6c3feae16cfa34e9079a4146beb26a33fc5d14f0a53f9a3"
+  },
+  {
+   "path": "images/weic2306e_high.webp",
+   "bytes": 145264,
+   "sha256": "058173ce5a57c119f2942b0276ee0b5030e18799134974932bb1a812ae8f3c19"
+  },
+  {
+   "path": "images/eso1629a_high.webp",
+   "bytes": 539724,
+   "sha256": "01a7b0b60559d728374c4216b1e6f6b99c656d5181ae34775295a3b5deae0d54"
+  },
+  {
+   "path": "images/eso1706a_high.webp",
+   "bytes": 174956,
+   "sha256": "e8dee92d3b0998070a56811bff9f83a1667a1956a2b91796d64b7684078277df"
+  },
+  {
+   "path": "images/eso1517a_high.webp",
+   "bytes": 313432,
+   "sha256": "b97ff3d721b4485cd13b462c7988c42f4eb188dfae17ee5378cb66714157a7d8"
+  },
+  {
+   "path": "images/eso2408b_high.webp",
+   "bytes": 97202,
+   "sha256": "a1ca807f2e1aec3c5340d65f93ed81ac00de108682352618c34f76b8eef55fdb"
+  }
+ ],
+ "credits": [
+  {
+   "id": "eso2208-eht-mwa",
+   "title": "First image of our black hole",
+   "source": "ESO：EHT Collaboration",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso2208-eht-mwa/"
+  },
+  {
+   "id": "eso2105a",
+   "title": "A view of the M87 supermassive black hole in polarised light",
+   "source": "ESO：EHT Collaboration",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso2105a/"
+  },
+  {
+   "id": "weic2212a",
+   "title": "Tarantula Nebula (NIRCam Image)",
+   "source": "ESA/Webb：NASA, ESA, CSA, and STScI",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2212a/"
+  },
+  {
+   "id": "heic1206a",
+   "title": "Hubble's panoramic view of a star-forming region",
+   "source": "ESA/Hubble：NASA, ESA, ESO, D. Lennon and E. Sabbi (ESA/STScI), J. Anderson, S. E. de Mink, R. van der Marel, T. Sohn, and N. Walborn (STScI), N. Bastian (Excellence Cluster, Munich), L. Bedin (INAF, Padua), E. Bressert (ESO), P. Crowther (Sheffield), A. de Koter (Amsterdam), C. Evans (UKATC/STFC, Edinburgh), A. Herrero (IAC, Tenerife), N. Langer (AifA, Bonn), I. Platais (JHU) and H. Sana (Amsterdam)",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1206a/"
+  },
+  {
+   "id": "eso0903a",
+   "title": "Centaurus A",
+   "source": "ESO：ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0903a/"
+  },
+  {
+   "id": "eso0902a",
+   "title": "The starburst galaxy NGC 253",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso0902a/"
+  },
+  {
+   "id": "heic1614a",
+   "title": "Moving heart of the Crab Nebula",
+   "source": "ESA/Hubble：ESA/Hubble & NASA Acknowledgement: Mahdi Zamani",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1614a/"
+  },
+  {
+   "id": "heic1520a",
+   "title": "Revisiting the Veil Nebula",
+   "source": "ESA/Hubble：NASA, ESA, Hubble Heritage Team",
+   "license": "CC BY 4.0",
+   "url": "https://esahubble.org/images/heic1520a/"
+  },
+  {
+   "id": "eso9920f",
+   "title": "Barred galaxy NGC 1365",
+   "source": "ESO：ESO",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso9920f/"
+  },
+  {
+   "id": "weic2306e",
+   "title": "NGC 1365 (MIRI Image)",
+   "source": "ESA/Webb：NASA, ESA, CSA, and J. Lee (NOIRLab), A. Pagan (STScI)",
+   "license": "CC BY 4.0",
+   "url": "https://esawebb.org/images/weic2306e/"
+  },
+  {
+   "id": "eso1629a",
+   "title": "Artist's impression of the planet orbiting Proxima Centauri",
+   "source": "ESO：ESO/M. Kornmesser",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1629a/"
+  },
+  {
+   "id": "eso1706a",
+   "title": "Artist’s impression of the TRAPPIST-1 planetary system",
+   "source": "ESO：ESO/N. Bartmann/ spaceengine.org",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1706a/"
+  },
+  {
+   "id": "eso1517a",
+   "title": "Artist’s impression of the exoplanet 51 Pegasi b",
+   "source": "ESO：ESO/M. Kornmesser/Nick Risinger (skysurvey.org)",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso1517a/"
+  },
+  {
+   "id": "eso2408b",
+   "title": "Comparison of several stellar black holes in our galaxy",
+   "source": "ESO：ESO/M. Kornmesser",
+   "license": "CC BY 4.0",
+   "url": "https://www.eso.org/public/images/eso2408b/"
+  }
+ ],
+ "info": {
+  "titleEasy": "天体検索の画像を大きく見る（高解像度）",
+  "description": "天体検索の観測画像・想像図の高解像度版（長い辺 最大 3200 px）",
+  "category": "observation-images",
+  "updatedUtc": "2026-10-26"
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "schema": 1,
+ "packId": "ephem-dwarf-2000-2050",
+ "version": 2,
+ "title": "暦 2000〜2050年（準惑星）",
+ "distribution": "bundled",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "naif:999",
+  "naif:20000001",
+  "naif:20136199",
+  "naif:20136108",
+  "naif:20136472"
+ ],
+ "sizeBytes": 629504,
+ "installedBytes": 629504,
+ "assets": [
+  {
+   "id": "ephem:999:2000-2050",
+   "kind": "ephem",
+   "target": "naif:999",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "999.bin"
+   ],
+   "credits": [
+    "jpl-ephem"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 1382400.0,
+    "degree": 18,
+    "accuracy": {
+     "reference": "NAIF plu060.bsp（JPL 冥王星系の暦：PLUTO 999 wrt PLUTO BARYCENTER 9・9 wrt SSB）",
+     "retrievedUtc": "2026-10-26T14:48:51+00:00",
+     "fitMaxKm": 0.027203,
+     "holdoutMaxKm": 0.026253,
+     "holdoutN": 200,
+     "boundaryJumpMaxKm": 2.36e-05,
+     "boundaryJumpMaxKmS": 2.66e-08
+    }
+   }
+  },
+  {
+   "id": "ephem:20000001:2000-2050",
+   "kind": "ephem",
+   "target": "naif:20000001",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "20000001.bin"
+   ],
+   "credits": [
+    "jpl-ephem"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 5529600.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL SSD sb441-n16.bsp（DE441 の小惑星 16 個の暦・中の番号 2000001 wrt 10）",
+     "retrievedUtc": "2026-10-26T14:48:51+00:00",
+     "fitMaxKm": 0.004725,
+     "holdoutMaxKm": 0.003649,
+     "holdoutN": 200,
+     "boundaryJumpMaxKm": 1.75e-06,
+     "boundaryJumpMaxKmS": 2.13e-12
+    }
+   }
+  },
+  {
+   "id": "ephem:20136199:2000-2050",
+   "kind": "ephem",
+   "target": "naif:20136199",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "20136199.bin"
+   ],
+   "credits": [
+    "jpl-ephem"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 22118400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 136199 Eris (2003 UB313) / Solar System Barycenter (0)・軌道解 JPL#103",
+     "retrievedUtc": "2026-10-26T15:53:27+00:00",
+     "fitMaxKm": 0.002154,
+     "holdoutMaxKm": 0.02041,
+     "holdoutN": 200,
+     "boundaryJumpMaxKm": 0.00167,
+     "boundaryJumpMaxKmS": 1.79e-11
+    }
+   }
+  },
+  {
+   "id": "ephem:20136108:2000-2050",
+   "kind": "ephem",
+   "target": "naif:20136108",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "20136108.bin"
+   ],
+   "credits": [
+    "jpl-ephem"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 22118400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 136108 Haumea (2003 EL61) / Solar System Barycenter (0)・軌道解 JPL#132",
+     "retrievedUtc": "2026-10-26T15:53:46+00:00",
+     "fitMaxKm": 0.003087,
+     "holdoutMaxKm": 0.027049,
+     "holdoutN": 200,
+     "boundaryJumpMaxKm": 0.00308,
+     "boundaryJumpMaxKmS": 2.5e-11
+    }
+   }
+  },
+  {
+   "id": "ephem:20136472:2000-2050",
+   "kind": "ephem",
+   "target": "naif:20136472",
+   "slot": "ephem",
+   "format": "cheb-v1",
+   "files": [
+    "20136472.bin"
+   ],
+   "credits": [
+    "jpl-ephem"
+   ],
+   "ephem": {
+    "timeScale": "TDB",
+    "startTdb": -43200.0,
+    "endTdb": 1577880000.0,
+    "center": "naif:0",
+    "frame": "ICRF",
+    "units": "km",
+    "segmentSec": 22118400.0,
+    "degree": 8,
+    "accuracy": {
+     "reference": "JPL Horizons API — 136472 Makemake (2005 FY9) / Solar System Barycenter (0)・軌道解 JPL#130",
+     "retrievedUtc": "2026-10-26T15:54:06+00:00",
+     "fitMaxKm": 0.003585,
+     "holdoutMaxKm": 0.020474,
+     "holdoutN": 200,
+     "boundaryJumpMaxKm": 0.00358,
+     "boundaryJumpMaxKmS": 2.12e-11
+    }
+   }
+  }
+ ],
+ "files": [
+  {
+   "path": "999.bin",
+   "bytes": 520816,
+   "sha256": "d9fc71fc84d86d00144ce9a501b6d9c33c032c34f0081dfa99e2ca3873856f16"
+  },
+  {
+   "path": "20000001.bin",
+   "bytes": 61840,
+   "sha256": "c739fb1805c1b268b91b8e614390aa8586c5872427b71e700303de6399686e46"
+  },
+  {
+   "path": "20136199.bin",
+   "bytes": 15616,
+   "sha256": "a1c9c53a7050fd7802ac4c6016e2ce586f61eda640de167f690d960ae359fbb8"
+  },
+  {
+   "path": "20136108.bin",
+   "bytes": 15616,
+   "sha256": "37b3a738612ab176209e08febfbb1499c6b9c909a1e16b0e59841bd918e8fb95"
+  },
+  {
+   "path": "20136472.bin",
+   "bytes": 15616,
+   "sha256": "7ffef77f65a9da737477b28dd7614b51f39d58979f93192b665d20071e608370"
+  }
+ ],
+ "credits": [
+  {
+   "id": "jpl-ephem",
+   "title": "JPL の暦（冥王星・ケレス：NAIF plu060・SSD sb441-n16／エリス・ハウメア・マケマケ：JPL Horizons）からのチェビシェフ当てはめ",
+   "source": "NASA/JPL Solar System Dynamics Group・NAIF",
+   "license": "NASA/JPL の公開データ（出典を表示して使用）",
+   "url": "https://ssd.jpl.nasa.gov/horizons/"
+  }
+ ],
+ "info": {
+  "titleEasy": "準惑星の動き（2000〜2050年）",
+  "description": "冥王星・ケレス・エリス・ハウメア・マケマケの位置（JPL の暦）",
+  "category": "ephemeris",
+  "updatedUtc": "2026-10-26"
+ }
+}

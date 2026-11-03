@@ -114,6 +114,13 @@
    "sizeBytes": 8726872
   },
   {
+   "packId": "dwarf-textures",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "dwarf-textures/manifest.json",
+   "sizeBytes": 1189118
+  },
+  {
    "packId": "earth-relief",
    "version": 1,
    "distribution": "download",
@@ -177,6 +184,13 @@
    "sizeBytes": 1945912
   },
   {
+   "packId": "ephem-dwarf-2000-2050",
+   "version": 2,
+   "distribution": "bundled",
+   "manifest": "ephem-dwarf-2000-2050/manifest.json",
+   "sizeBytes": 629504
+  },
+  {
    "packId": "ephem-earth-system-2000-2050",
    "version": 1,
    "distribution": "bundled",
@@ -219,6 +233,13 @@
    "sizeBytes": 10958720
   },
   {
+   "packId": "flare-mhd-cheung2019",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "flare-mhd-cheung2019/manifest.json",
+   "sizeBytes": 11984855
+  },
+  {
    "packId": "golden-record-audio",
    "version": 1,
    "distribution": "download",
@@ -245,6 +266,13 @@
    "distribution": "download",
    "manifest": "kids-cosmos-audio/manifest.json",
    "sizeBytes": 4061667
+  },
+  {
+   "packId": "kuiper-belt",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "kuiper-belt/manifest.json",
+   "sizeBytes": 262560
   },
   {
    "packId": "mars-moons-textures-hd",
@@ -434,6 +462,27 @@
    "distribution": "download",
    "manifest": "obs-images-nebula-galaxy/manifest.json",
    "sizeBytes": 1430244
+  },
+  {
+   "packId": "obs-search-high",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "obs-search-high/manifest.json",
+   "sizeBytes": 6033214
+  },
+  {
+   "packId": "obs-search-images",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "obs-search-images/manifest.json",
+   "sizeBytes": 2031198
+  },
+  {
+   "packId": "obs-search-thumbs",
+   "version": 1,
+   "distribution": "bundled",
+   "manifest": "obs-search-thumbs/manifest.json",
+   "sizeBytes": 113862
   },
   {
    "packId": "obs-star-death",
