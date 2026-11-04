@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "packId": "sky-starmap-2020-8k",
+ "version": 1,
+ "title": "背景の全天の星空（8K・高画質）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:sky"
+ ],
+ "sizeBytes": 6162616,
+ "installedBytes": 6162616,
+ "assets": [
+  {
+   "id": "sky:starmap2020:8k",
+   "kind": "image",
+   "target": "use:sky",
+   "slot": "albedo",
+   "format": "jpg",
+   "projection": "equirect",
+   "width": 8192,
+   "height": 4096,
+   "files": [
+    "starmap_2020_8k.jpg"
+   ],
+   "credits": [
+    "nasa-svs-4851"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "starmap_2020_8k.jpg",
+   "bytes": 6162616,
+   "sha256": "c48397b8708be40593efffb415dcbca637e15992dd617fc440edc089580400ad"
+  }
+ ],
+ "credits": [
+  {
+   "id": "nasa-svs-4851",
+   "title": "Deep Star Maps 2020（starmap_2020_8k）",
+   "source": "NASA/Goddard Space Flight Center Scientific Visualization Studio. Gaia DR2: ESA/Gaia/DPAC.",
+   "license": "NASA media usage guidelines（クレジット表示）・Gaia DR2: ESA/Gaia/DPAC",
+   "url": "https://svs.gsfc.nasa.gov/4851"
+  }
+ ],
+ "info": {
+  "titleEasy": "夜空を高画質（8K）にする",
+  "description": "天体観測の夜空と宇宙の背景を、同じ星空の 8K 版（8192×4096）にする。粒が細かくなり、星が小さくくっきり見える（端末のメモリを多く使う）",
+  "category": "starmap",
+  "updatedUtc": "2026-11-03"
+ }
+}

@@ -534,6 +534,13 @@
    "sizeBytes": 2338010
   },
   {
+   "packId": "sky-starmap-2020-8k",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "sky-starmap-2020-8k/manifest.json",
+   "sizeBytes": 6162616
+  },
+  {
    "packId": "stars-ssc-991k",
    "version": 3,
    "distribution": "download",

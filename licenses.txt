@@ -132,6 +132,11 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
   morioki は実在の方の声をもとにした合成音声で、ご本人が話したものではありません。
 - Tour music: synthesized by SOLARIS (no external audio).
 
+[天球・夜空の背景（sky-starmap-2020 4K／追加パック sky-starmap-2020-8k 8K）]
+- Deep Star Maps 2020 (starmap_2020_4k / starmap_2020_8k): NASA/Goddard Space Flight Center Scientific Visualization Studio
+  (https://svs.gsfc.nasa.gov/4851). Gaia DR2: ESA/Gaia/DPAC (CC BY-NC 3.0 IGO). Used under the NASA media usage guidelines
+  with credit; converted from the linear EXR originals to sRGB JPEG by SOLARIS.
+
 [暦（惑星・月・彗星の位置）]
 - Ephemerides: JPL Horizons On-Line Ephemeris System, NASA/JPL Solar System Dynamics Group
   (Giorgini, J.D. and JPL Solar System Dynamics Group; https://ssd.jpl.nasa.gov/horizons/).
@@ -183,7 +188,7 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
   Subsampled, binned by temperature, field lines and streamlines traced, and drawn on the Sun and placed on
   Proxima Centauri by SOLARIS (on Proxima: a solar simulation used as an analogue model; not an observation of Proxima Centauri).
 
-[代表的な恒星（太陽・シリウス・プロキシマ・ベテルギウス・ウォルフ359）の数値]
+[代表的な恒星（太陽・シリウス・プロキシマ・ベテルギウス・ウォルフ359・αケンタウリ A/B・アルタイル・ベガ・アンタレス・ミラ・北極星・TRAPPIST-1）の数値]
 各値の出典は、それぞれの星の画面（ℹ️・恒星のパネル）にも表示しています。数値と事実だけを使い、星の描画に観測画像は使っていません。
 表面・活動・フレア・脈動などの描画は、下記の値をもとに SOLARIS が計算して描いたもの（推定・可視化）です。
 - Star data: SIMBAD (CDS, Strasbourg; Wenger et al. 2000), Gaia DR3 (ESA/Gaia/DPAC, CC BY-NC 3.0 IGO),
@@ -197,6 +202,17 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
 - Proxima Centauri: Ribas et al. 2017; Demory et al. 2009; Boyajian et al. 2012; Zurlo et al. 2018; Reid 1982;
   Jao et al. 2014; Allard & Hauschildt 2002.
 - Betelgeuse: Haubois et al. 2009; Kervella et al. 2018; Ogane et al. 2022; Chiavassa et al. 2010; Perrin et al. 2004.
+- Alpha Centauri A/B: Akeson et al. 2021 (AJ 162, 14); Kervella et al. 2016, 2017; Boyajian et al. 2013;
+  Tremblay et al. 2013 (granulation scaling).
+- Altair, Vega (rapid rotation, gravity darkening): Monnier et al. 2007 (Science 317, 342); Monnier et al. 2012 (ApJL 761, L3).
+- Antares: Ohnaka et al. 2013, 2014; Cannon et al. 2021; Baade & Reimers 2007; Ducati 2002; van Leeuwen 2007.
+- Mira: GCVS 5.1 (Samus et al.); Martin et al. 2007 (Nature 448, 780; GALEX); Wareing 2012; Wittkowski et al. 2016;
+  Woodruff et al. 2004; Sokoloski & Bildsten 2010.
+- Polaris: Evans et al. 2008, 2018, 2024; Anderson 2019; Bond et al. 2018; Neilson 2012; Turner et al. 2013;
+  Usenko 2016; Torres 2023.
+- TRAPPIST-1: Agol et al. 2021; Ducrot et al. 2020 (A&A 640, A112); Gillon et al. 2017 (Nature 542, 456), 2024;
+  Burgasser & Mamajek 2017; Mann et al. 2019; Greene et al. 2023.
+- Faint sky glows (galaxy and cluster sizes in the sky view): SIMBAD (CDS); Dixon 1989; Harris 1996.
 - Wolf 359: Pineda et al. 2021; Schweitzer et al. 2019 (CARMENES); Landolt 1992, 2009; Kesseli et al. 2019;
   Fuhrmeister et al. 2005; Sebastian et al. 2021.
 - Activity, flare, pulsation, dimming and mass-loss models (star engine): Alexeeva 2021; Alonso 2019; Asai 2004;
