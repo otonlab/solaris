@@ -1,0 +1,127 @@
+{
+ "schema": 1,
+ "packId": "bh-music",
+ "version": 1,
+ "title": "ブラックホールの音楽（BGM）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:bh-music:drone",
+  "use:bh-music:organ",
+  "use:bh-music:choir",
+  "use:bh-music:strings",
+  "use:bh-music:bells"
+ ],
+ "sizeBytes": 5494172,
+ "installedBytes": 5494172,
+ "assets": [
+  {
+   "id": "bh-music-drone",
+   "kind": "data",
+   "target": "use:bh-music:drone",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "drone.m4a"
+   ],
+   "credits": [
+    "solaris-bh-bgm"
+   ]
+  },
+  {
+   "id": "bh-music-organ",
+   "kind": "data",
+   "target": "use:bh-music:organ",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "organ.m4a"
+   ],
+   "credits": [
+    "solaris-bh-bgm"
+   ]
+  },
+  {
+   "id": "bh-music-choir",
+   "kind": "data",
+   "target": "use:bh-music:choir",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "choir.m4a"
+   ],
+   "credits": [
+    "solaris-bh-bgm"
+   ]
+  },
+  {
+   "id": "bh-music-strings",
+   "kind": "data",
+   "target": "use:bh-music:strings",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "strings.m4a"
+   ],
+   "credits": [
+    "solaris-bh-bgm"
+   ]
+  },
+  {
+   "id": "bh-music-bells",
+   "kind": "data",
+   "target": "use:bh-music:bells",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "bells.m4a"
+   ],
+   "credits": [
+    "solaris-bh-bgm"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "drone.m4a",
+   "bytes": 1381095,
+   "sha256": "3a2345bf7c1b29ab373e55881b640fe32f949fd5b8d45ebd43da96b7f40116dd"
+  },
+  {
+   "path": "organ.m4a",
+   "bytes": 982977,
+   "sha256": "0e2be65d2a57c01747d31ab32368760f5a6e2c9f3b8d5a33564284cdb2212a3c"
+  },
+  {
+   "path": "choir.m4a",
+   "bytes": 753557,
+   "sha256": "1ad7aafe4cb179e09cc76337d24d282b9db5670c109245242fb99eb14d7a5e83"
+  },
+  {
+   "path": "strings.m4a",
+   "bytes": 988003,
+   "sha256": "f2bd2a5b6540f3909dbe197cb8dfab4c9422d49df1dd6622c8b682958f30e8d0"
+  },
+  {
+   "path": "bells.m4a",
+   "bytes": 1388540,
+   "sha256": "1a6ea60beb244321bfb6bdec47805cf3407d2b46bf68319051710bb52b3d0f1c"
+  }
+ ],
+ "credits": [
+  {
+   "id": "solaris-bh-bgm",
+   "title": "ブラックホールの BGM「時間の遅れ」",
+   "source": "SOLARIS で合成（tools/bh_audio/make_bgm_bh.py・外の音源・既存の楽曲なし）",
+   "license": "SOLARIS の著作物",
+   "url": "-"
+  }
+ ],
+ "info": {
+  "titleEasy": "ブラックホールの音楽を追加する",
+  "description": "ブラックホールのそばで流れる BGM（パイプオルガン・低い男声合唱・弦・鐘・持続音）。近づくほど楽器が増えます。入れなくても見られます",
+  "category": "other",
+  "updatedUtc": "2026-11-04"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "schema": 1,
+ "packId": "narration-en",
+ "version": 1,
+ "title": "英語のナレーション（宇宙の旅・キッズの旅）",
+ "distribution": "download",
+ "minAppVersion": "0.0.1",
+ "dependsOn": [],
+ "targets": [
+  "use:narration-en:narration-female",
+  "use:narration-en:narration-male",
+  "use:narration-en:kids"
+ ],
+ "sizeBytes": 2135532,
+ "installedBytes": 2135532,
+ "assets": [
+  {
+   "id": "narration-en-female",
+   "kind": "data",
+   "target": "use:narration-en:narration-female",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "narration_female.m4a"
+   ],
+   "credits": [
+    "kokoro-af-heart"
+   ]
+  },
+  {
+   "id": "narration-en-male",
+   "kind": "data",
+   "target": "use:narration-en:narration-male",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "narration_male.m4a"
+   ],
+   "credits": [
+    "kokoro-am-michael"
+   ]
+  },
+  {
+   "id": "narration-en-kids",
+   "kind": "data",
+   "target": "use:narration-en:kids",
+   "slot": "history",
+   "format": "m4a",
+   "files": [
+    "kids_narration.m4a"
+   ],
+   "credits": [
+    "kokoro-af-heart"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "narration_female.m4a",
+   "bytes": 821143,
+   "sha256": "6047a336806feedeacdf44f9d9d2f20dde11fa6b995a69114b44535d0b8c940c"
+  },
+  {
+   "path": "narration_male.m4a",
+   "bytes": 929111,
+   "sha256": "b586ce2525703d7c20939a4c76fe1fa9e50f62c7efb4c8f0b8dfb531605c3d13"
+  },
+  {
+   "path": "kids_narration.m4a",
+   "bytes": 385278,
+   "sha256": "436461952e95de477a4591b06f9c520c051c8f491eab984618659002db26c73b"
+  }
+ ],
+ "credits": [
+  {
+   "id": "kokoro-af-heart",
+   "title": "英語のナレーション（女性）：Kokoro af_heart（合成音声）",
+   "source": "Kokoro-82M（hexgrad）・声 af_heart・読みは misaki（MIT）",
+   "license": "Apache License 2.0",
+   "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+  },
+  {
+   "id": "kokoro-am-michael",
+   "title": "英語のナレーション（男性）：Kokoro am_michael（合成音声）",
+   "source": "Kokoro-82M（hexgrad）・声 am_michael・読みは misaki（MIT）",
+   "license": "Apache License 2.0",
+   "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+  }
+ ],
+ "info": {
+  "titleEasy": "英語のナレーションを追加する",
+  "description": "宇宙の旅とキッズの旅の英語のナレーション（女性・男性）。英語の画面のときに流れます（音楽は宇宙の旅の音声パック）。入れなくても、英語の字幕で旅ができます",
+  "category": "other",
+  "updatedUtc": "2026-11-05"
+ }
+}

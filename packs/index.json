@@ -86,6 +86,13 @@
    "sizeBytes": 1027589
   },
   {
+   "packId": "bh-music",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "bh-music/manifest.json",
+   "sizeBytes": 5494172
+  },
+  {
    "packId": "comets-interstellar",
    "version": 1,
    "distribution": "download",
@@ -385,6 +392,13 @@
    "distribution": "download",
    "manifest": "moon-textures-4k/manifest.json",
    "sizeBytes": 4280409
+  },
+  {
+   "packId": "narration-en",
+   "version": 1,
+   "distribution": "download",
+   "manifest": "narration-en/manifest.json",
+   "sizeBytes": 2135532
   },
   {
    "packId": "obs-atlas-clusters",

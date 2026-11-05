@@ -127,10 +127,14 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
   Colour-temperature relations: Mucciarelli & Bellazzini 2020, RNAAS 4, 52; Ballesteros 2012, EPL 97, 34008.
   Cross-match check: Brandt 2021, ApJS 254, 42 (Hipparcos-Gaia Catalog of Accelerations, CDS/VizieR).
 - Cosmological parameters: Planck Collaboration 2020, A&A 641, A6.
-- Narration: AivisSpeech (Aivis Project). Voices: 阿井田 茂 (CV/model: 古山キリヲ),
-  morioki (voice: もりおき / model: yuki). Aivis Common Model License (ACML) 1.0.
+- Narration: AivisSpeech (Aivis Project). Voices: Shigeru Aida (阿井田 茂) (CV/model: Kirio Koyama (古山キリヲ)),
+  morioki (voice: morioki (もりおき) / model: yuki). Aivis Common Model License (ACML) 1.0.
   morioki は実在の方の声をもとにした合成音声で、ご本人が話したものではありません。
 - Tour music: synthesized by SOLARIS (no external audio).
+- English narration (optional pack narration-en; space tour and kids tour): Kokoro-82M by hexgrad
+  (https://huggingface.co/hexgrad/Kokoro-82M), voices af_heart (female) and am_michael (male).
+  Apache License 2.0 (model weights and voice files; no separate terms are stated for these two voices in VOICES.md).
+  Pronunciation: misaki (MIT) with spaCy en_core_web_sm (MIT). Synthesized by SOLARIS (tools/tour_audio/make_narration_en.py).
 
 [天球・夜空の背景（sky-starmap-2020 4K／追加パック sky-starmap-2020-8k 8K）]
 - Deep Star Maps 2020 (starmap_2020_4k / starmap_2020_8k): NASA/Goddard Space Flight Center Scientific Visualization Studio
@@ -226,3 +230,27 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
   Sheeley 1999; Snodgrass & Ulrich 1990; Stenflo & Kosovichev 2012; Sun 2015; Taniguchi 2022; Tlatov & Pevtsov 2014;
   Townes 2009; Upton & Hathaway 2023; Veronig 2002; Vida 2019; Wargelin 2017; Wedemeyer 2013; Xu 2018, 2021;
   Yashiro 2005; Zhang 2001 (each with co-authors where applicable; full references in the source code and each star's screen).
+
+[⚫ いて座A*（銀河の中心のブラックホール）]
+  Mass 4.297 × 10^6 M☉ and distance 8,277 pc: GRAVITY Collaboration 2022 (A&A 657, L12); the galactic frame of SOLARIS uses 8,275 pc (GRAVITY Collaboration 2021, A&A 647, A59).
+  Ring diameter 51.8 ± 2.3 μas: Event Horizon Telescope Collaboration 2022 (ApJL 930, L12); model comparison (spin, inclination):
+  EHT Sgr A* Paper V (ApJL 930, L16). Hot spots near the ISCO: GRAVITY Collaboration 2018 (A&A 618, L10); Wielgus et al. 2022 (A&A 665, L6).
+  Light paths: Schwarzschild geodesics computed in this app; shadow edge Synge 1966 (MNRAS 131, 463).
+  Spinning black holes (Kerr): geodesics in Mino time (Mino 2003, Phys. Rev. D 67, 084027), computed in this app; ISCO Bardeen, Press & Teukolsky 1972 (ApJ 178, 347);
+  shadow edge Bardeen 1973 (in Black Holes, Les Houches 1972, eds. DeWitt & DeWitt). Spin values 0.5 and 0.94 are assumptions (models compared in EHT Paper V).
+  Accretion flow (model): radiatively inefficient flow after Broderick & Loeb 2006 (MNRAS 367, 905) and Yuan et al. 2003 (ApJ 598, 301), simplified.
+  S-stars: orbital elements from Gillessen et al. 2017 (ApJ 837, 30), Table 3 (S111 omitted). K-band extinction A_K = 2.46: Schödel et al. 2010 (A&A 511, A18).
+  Nuclear star cluster (estimated model, not real star positions): density slopes after Schödel et al. 2014 (A&A 566, A47) and 2018 (A&A 609, A27);
+  young massive stars after Paumard et al. 2006 (ApJ 643, 1011) and Lu et al. 2009 (ApJ 690, 1463).
+  Minispiral (Sgr A West): Keplerian orbits of the three streams, Zhao, Morris, Goss & An 2009 (ApJ 699, 186), Table 5. Circumnuclear disk (estimated model): Jackson et al. 1993 (ApJ 402, 173).
+  Reference for the film comparison: James, von Tunzelmann, Franklin & Thorne 2015 (Class. Quantum Grav. 32, 065001).
+
+[⚫ ブラックホールの一覧（M87*・はくちょう座X-1・Gaia BH1・Gaia BH3）]
+  M87*: mass 6.5 × 10^9 M☉ and distance 16.8 Mpc, EHT Collaboration 2019 (ApJL 875, L6); jet inclination 17° and position angle 288°, Walker et al. 2018 (ApJ 855, 128).
+  Cygnus X-1: mass 21.2 M☉, distance 2.22 kpc, orbital inclination 27.51°, companion HDE 226868 (22.3 R☉, 31,138 K, separation 0.244 au) and spin a > 0.9985,
+  Miller-Jones et al. 2021 (Science 371, 1046; spin analysis after Zhao et al. 2021, ApJ 908, 117). The companion's position along its orbit is not modeled (placeholder).
+  Thin accretion disk: Novikov & Thorne 1973; Page & Thorne 1974 (ApJ 191, 499) — flux computed in this app (peak at r = 9.55 GM/c² checked).
+  Gaia BH1: El-Badry et al. 2023 (MNRAS 518, 1057); mass 9.27 M☉, Nagarajan et al. 2024 (PASP 136, 014202). Gaia BH3: Gaia Collaboration, Panuzzo et al. 2024 (A&A 686, L2).
+
+[⚫ ブラックホールの BGM（追加パック bh-music）]
+  Original music synthesized for SOLARIS (tools/bh_audio/make_bgm_bh.py). No external recordings, samples or existing compositions.
