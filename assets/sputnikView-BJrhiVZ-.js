@@ -1,0 +1,1 @@
+import{t as e}from"./sputnikView-CI-qZarU.js";export{e as createSputnikView};

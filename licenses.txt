@@ -254,3 +254,13 @@ SOLARIS は下記のいずれの機関とも提携しておらず、後援・承
 
 [⚫ ブラックホールの BGM（追加パック bh-music）]
   Original music synthesized for SOLARIS (tools/bh_audio/make_bgm_bh.py). No external recordings, samples or existing compositions.
+
+[👨‍🚀 ボストーク1号のガガーリンの模型（public/vostok/gagarin.glb）]
+  3D model provided by the project owner (generated with Tripo AI, Mixamo-compatible rig). Textures downscaled by tools/vostok/prep_gagarin.py.
+
+[🌲 ボスホート2号のタイガのトウヒ（public/voskhod/spruce.glb）]
+  3D model provided by the project owner (generated with Tripo AI). Decimated to 20,000 and 6,000 triangles and textures downscaled/recolored by tools/voskhod/prep_spruce.py.
+
+[🪨 はやぶさの体験（public/hayabusa/）]
+  Itokawa shape: Gaskell, R. et al., Gaskell Itokawa Shape Model V1.0, HAY-A-AMICA-5-ITOKAWASHAPE-V1.0, NASA Planetary Data System, 2008 (from JAXA/ISAS Hayabusa AMICA images; obtained via JAXA DARTS). Converted by tools/hayabusa/prep_itokawa.py.
+  Trajectory (traj.json): Earth/Moon from JPL DE440 (NAIF); Itokawa from JAXA SPK itokawa_1989-2010 (DARTS); Hayabusa 2009-2010 from JPL Horizons (-130, ISAS orbit determination); earlier spacecraft positions are estimates computed by tools/hayabusa/build_traj.py.
