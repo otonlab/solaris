@@ -1,0 +1,15 @@
+{
+  "name": "SOLARIS｜オトン学園 宇宙探究",
+  "short_name": "SOLARIS",
+  "description": "本物の観測データと軌道の計算で、太陽系・星・銀河・宇宙開発の歴史を見て回れるアプリ",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#03050c",
+  "theme_color": "#03050c",
+  "icons": [
+    { "src": "icons/solaris-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/solaris-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
